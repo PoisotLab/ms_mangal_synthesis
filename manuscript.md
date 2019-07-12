@@ -13,17 +13,9 @@ in the current document is threefold:
 2. to demonstrate the kinds of analyses possible through worked examples
 3. to highlight the need for more empirical network data, especially in undersampled regions.
 
-Mangal is an actively developed project which has recently been expanded
-and improved.
+## Synthesis on ecological networks is rising
 
-* An earlier manuscript (Poisot et al 2015 [tk]) described Mangal as an online platform allowing ecologists to share data about ecological networks
-* New technical improvements include:
-* New data
-- number and amount of new information
-* web API for better data access, and two packages (one in Julia, the other in R) for accessing these data.
-* Mangal in its current form offers open network data that is ready to support synthesis at many scales.
-
-<!-- I don't think these would literally be a numbered list but it might be a start -->
+@BorrMood14
 
 Synthesizing ecological data presents important challenges and also some
 exciting opportunities. Mangal is well suited to offer such opportunities
@@ -36,13 +28,27 @@ in the study of ecological networks.
     - taxonomic resolution
     - sampling effort
 
+## The need for an integrated networks database
+
+Mangal is an actively developed project which has recently been expanded
+and improved.
+
+* An earlier manuscript (Poisot et al 2015 [tk]) described Mangal as an online platform allowing ecologists to share data about ecological networks
+* New technical improvements include:
+* New data
+- number and amount of new information
+* web API for better data access, and two packages (one in Julia, the other in R) for accessing these data.
+* Mangal in its current form offers open network data that is ready to support synthesis at many scales.
+
+<!-- I don't think these would literally be a numbered list but it might be a start -->
+* _Coverage in geographic space._ Mangal now contains information from all over the world, and from every continent except Antarctica. <!-- map from vignette -->
+
+* _Coverage in climate space_ Early ecologists identified the earth's biomes based on combinations of temperature and precipitation. Here we demonstrate that Mangal datasets have been sampled from across these different biomes. In doing so, we also demonstrate how climate data can be downloaded and combined with Mangal records. <!-- Whittaker biome plot -->
+
 This database documents the impressive efforts of (generations of?) ecologists
 who have sampled nearly every continent and climatic zone, as well as various
 taxonomic groups and interaction types.
 
-* _Coverage in geographic space._ Mangal now contains information from all over the world, and from every continent except Antarctica. <!-- map from vignette -->
-
-* _Coverage in climate space_ Early ecologists identified the earth's biomes based on combinations of temperature and precipitation. Here we demonstrate that Mangal datasets have been sampled from across these different biomes. In doing so, we also demonstrate how climate data can be downloaded and combined with Mangal records. <!-- Whittaker biome plot -->
 
 #### Data quality: sampling effort and taxonomy
 Sampling effort and taxonomic detail are two very challenging but important part of any ecological dataset. The datasets in Mangal represent some of the most detailed studies of ecological networks available.
@@ -53,7 +59,19 @@ Sampling effort and taxonomic detail are two very challenging but important part
 * Ecological networks occur in various kinds, but they are not all equally well sampled. We present a breakdown of the number of parasitic, mutualistic and predator-prey networks sampled in Mangal
 <!-- perhaps this could be a 3-panel figure -->
 
-#### reducing uncertainty through 'analogues'
+# Results and discussion
+
+## Network coverage is accelerating
+
+![fig1](figures/figure_01_a.png){#fig:temporal}
+
+## Analog climates
+
+## Eccentricity of climate 
+
+# Conclusions
+
+## reducing uncertainty through 'analogues'
 
 When we lack direct observation of a community, often we must resort to the
 use of 'analog' communities -- that is, communities which are similar in
@@ -64,25 +82,18 @@ space or environment which have been sampled.
 * Always some uncertainty in such comparisons
 * reflects the need for more data gathering, can be used to target efforts
 
-## Ecological analyses using Mangal
-
-Ecological networks can be analyzed with a host of different techniques
-(Delmas et al [tk]). Many (most? [tk]) of these can be calculated using
-`EcologicalNetworks.jl` (Poisot et al [tk]).
-
-### Link density
-
-### Connectance
 
 ## Future of network ecology
 
-### more complete analyses
+Use this spatial gaps for sampling recommendations
+
+## more complete analyses
 We have only shown some high-level summaries of the data here; many possibilities remain.
 
-### more data collection
+## more data collection
 We have demonstrated the considerable coverage of Mangal; however, our summary also highlights important data-collection needs. In particular, we need better information about (mutualists, desert food webs?)
 
-### Active development
+## Active development and data contribution
 This is an open-source project: all data and all code supporting this are available on the Mangal project GitHub organization. Our hope is that the success of this project will encourage similar efforts within other parts of the ecological community.
 In addition, we hope that this project will encourage the recognition of the contribution that software creators make to ecological research.
 
