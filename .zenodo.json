@@ -6,10 +6,16 @@
   "language": "en",
   "creators": [
     {
-      "affiliation": "Université de Montréal; QCBS",
+      "affiliation": "Université de Montréal",
       "familyname": "Poisot",
       "givennames": "Timothée",
       "orcid": "0000-0002-0735-5184"
+    },
+    {
+      "affiliation": "Université de Montréal",
+      "familyname": "MacDonald",
+      "givennames": "Andrew",
+      "orcid": "0000-0003-1162-169X"
     }
   ],
   "description": "TK",
