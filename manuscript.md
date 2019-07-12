@@ -64,6 +64,7 @@ Sampling effort and taxonomic detail are two very challenging but important part
 ## Network coverage is accelerating
 
 ![fig1](figures/figure_01_a.png){#fig:temporal}
+![fig1 @BrosOstl04 ref](figures/figure_01_b.png){#fig:lssl}
 
 ## Analog climates
 
