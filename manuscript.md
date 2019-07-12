@@ -1,8 +1,14 @@
 # Introduction
 
-Ecological networks are a useful way to think about ecological systems
-[@PoisStou16], and recently there has been an explosion of interest in
-them. This interest has motivated two efforts: an expansion of the tools
+Ecological networks are a useful way to think about ecological systems in which
+species or organism interact [@DelmBess18; @PoisStou16], and recently there has
+been an explosion of interest in their dynamics across large temporal scales
+[@BaisGrav19; @TyliMorr17], especially alongside environmental gradients
+[@PellAlbo17; @TrojOles16].
+
+@ThomGonz17 need movement + future climate for predictions, can't do with data scarcity
+
+This interest has motivated two efforts: an expansion of the tools
 used to investigate ecological networks, and an increase data collection
 efforts. In order for both of these efforts to progress, we need a means for
 ecologists to share and access high-quality network data. Mangal responds to
@@ -97,9 +103,6 @@ space or environment which have been sampled.
 
 ## Future of network ecology
 
-call for more spatial analyses @BaisGrav19 @TyliMorr17 and on gradients @PellAlbo17 @TrojOles16
-
-@ThomGonz17 need movement + future climate for predictions, can't do with data scarcity
 
 Use this spatial gaps for sampling recommendations
 
