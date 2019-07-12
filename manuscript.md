@@ -85,6 +85,10 @@ space or environment which have been sampled.
 
 ## Future of network ecology
 
+call for more spatial analyses @BaisGrav19 @TyliMorr17 and on gradients @PellAlbo17 @TrojOles16
+
+@ThomGonz17 need movement + future climate for predictions, can't do with data scarcity
+
 Use this spatial gaps for sampling recommendations
 
 ## more complete analyses
