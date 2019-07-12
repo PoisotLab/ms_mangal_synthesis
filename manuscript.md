@@ -57,13 +57,27 @@ taxonomic groups and interaction types.
 
 ## Networks follow the same scaling
 
-![fig1 @BrosOstl04 ref](figures/figure_01_b.png){#fig:lssl}
+@BrosOstl04 
+
+![fig1 ref](figures/figure_01_b.png){#fig:lssl}
 
 ## Different types of networks have been studied in different biomes
 
 ![List of networks across biomes](figures/figure_02.png){#fig:biomes}
 
 ## Eccentricity of climate 
+
+![tk](figures/figure_05_b.png){#fig:ecc}
+
+## NEED TO FIND A TITLE
+
+Distance issues
+
+![tk](figures/figure_03_a.png){#fig:distance}
+
+Climate analogue 
+
+![tk](figures/figure_03_b.png){#fig:analog}
 
 # Conclusions
 
