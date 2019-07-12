@@ -8,31 +8,23 @@ been an explosion of interest in their dynamics across large temporal scales
 
 @ThomGonz17 need movement + future climate for predictions, can't do with data scarcity
 
-This interest has motivated two efforts: an expansion of the tools
-used to investigate ecological networks, and an increase data collection
-efforts. In order for both of these efforts to progress, we need a means for
-ecologists to share and access high-quality network data. Mangal responds to
-this need, by providing an online database of open network data. Our purpose
-in the current document is threefold:
+This renewed interest in ecological network has prompted several
+efforts. First, an expansion of the analytical tools to study ecological
+networks and their variation in space (**REFS**). Second, improvements in
+large-scale data-collection, through increased adoption of molecular biology
+tools (**REFS**) and crowd-sourcing of data collection (**REFS**). Finally,
+a surge in the development of tools that allow to *infer* species interaction
+based on limited but complementary data on existing species interactions,
+species traits, network properties, and environmental conditions (**REFS**
+Stock, Desjardins-Proulx, Bartomeus, Pomeranz, Gravel allometric, Gravel
+salix).
 
-1. to describe updates and improvements to the Mangal project
-2. to demonstrate the kinds of analyses possible through worked examples
-3. to highlight the need for more empirical network data, especially in undersampled regions.
-
-## Synthesis on ecological networks is rising
-
-@BorrMood14
-
-Synthesizing ecological data presents important challenges and also some
-exciting opportunities. Mangal is well suited to offer such opportunities
-in the study of ecological networks.
-
-* A major challenge to ecological synthesis is generalizing from samples to the behaviour of ecological systems
-* two obstacles to such generalizing in ecological systems: data coverage and data quality
-  - data coverage: are data collected from every relevant system?
-  - data quality: are data fit-for-purpose? Two particular aspects of quality
-    - taxonomic resolution
-    - sampling effort
+All of these developments share a nexus on data management: novel quantitative
+tools demand a higher volume of network data; novel collection techniques
+demand powerful data repositories; novel inference tools demand easier
+integration between different types of data, including but not limited to
+interactions, species traits, taxonomy, occurrences, and local bioclimatic
+conditions.
 
 ## The need for an integrated networks database
 
@@ -54,6 +46,22 @@ and improved. @PoisBais16 -- original mangal paper
 This database documents the impressive efforts of (generations of?) ecologists
 who have sampled nearly every continent and climatic zone, as well as various
 taxonomic groups and interaction types.
+
+## Synthesis on ecological networks is rising
+
+@BorrMood14
+
+Synthesizing ecological data presents important challenges and also some
+exciting opportunities. Mangal is well suited to offer such opportunities
+in the study of ecological networks.
+
+* A major challenge to ecological synthesis is generalizing from samples to the behaviour of ecological systems
+* two obstacles to such generalizing in ecological systems: data coverage and data quality
+  - data coverage: are data collected from every relevant system?
+  - data quality: are data fit-for-purpose? Two particular aspects of quality
+    - taxonomic resolution
+    - sampling effort
+
 
 # Global trends in ecological networks description
 
