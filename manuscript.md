@@ -31,7 +31,7 @@ in the study of ecological networks.
 ## The need for an integrated networks database
 
 Mangal is an actively developed project which has recently been expanded
-and improved. @PoisBais14 -- original mangal paper
+and improved. @PoisBais16 -- original mangal paper
 
 * An earlier manuscript (Poisot et al 2015 [tk]) described Mangal as an online platform allowing ecologists to share data about ecological networks
 * New technical improvements include:
