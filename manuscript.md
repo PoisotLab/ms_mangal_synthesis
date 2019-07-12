@@ -31,7 +31,7 @@ in the study of ecological networks.
 ## The need for an integrated networks database
 
 Mangal is an actively developed project which has recently been expanded
-and improved.
+and improved. @PoisBais14 -- original mangal paper
 
 * An earlier manuscript (Poisot et al 2015 [tk]) described Mangal as an online platform allowing ecologists to share data about ecological networks
 * New technical improvements include:
@@ -49,24 +49,19 @@ This database documents the impressive efforts of (generations of?) ecologists
 who have sampled nearly every continent and climatic zone, as well as various
 taxonomic groups and interaction types.
 
-
-#### Data quality: sampling effort and taxonomy
-Sampling effort and taxonomic detail are two very challenging but important part of any ecological dataset. The datasets in Mangal represent some of the most detailed studies of ecological networks available.
-* measures of network structure may be particularly sensitive to the amount of sampling effort
-* repeat sampling may be necessary to capture a "saturation" of interactions.
-* we present some visualization of the sampling coverage of Mangal [tk]
-* High taxonomic resolution is difficult to achieve in ecology, especially depending on the sampling method used (e.g. gut contents vs observations). We present a breakdown of the taxonomic resolution of Mangal.
-* Ecological networks occur in various kinds, but they are not all equally well sampled. We present a breakdown of the number of parasitic, mutualistic and predator-prey networks sampled in Mangal
-<!-- perhaps this could be a 3-panel figure -->
-
-# Results and discussion
+# Global trends in ecological networks description
 
 ## Network coverage is accelerating
 
 ![fig1](figures/figure_01_a.png){#fig:temporal}
+
+## Networks follow the same scaling
+
 ![fig1 @BrosOstl04 ref](figures/figure_01_b.png){#fig:lssl}
 
-## Analog climates
+## Different types of networks have been studied in different biomes
+
+![List of networks across biomes](figures/figure_02.png){#fig:biomes}
 
 ## Eccentricity of climate 
 
@@ -101,5 +96,15 @@ We have demonstrated the considerable coverage of Mangal; however, our summary a
 ## Active development and data contribution
 This is an open-source project: all data and all code supporting this are available on the Mangal project GitHub organization. Our hope is that the success of this project will encourage similar efforts within other parts of the ecological community.
 In addition, we hope that this project will encourage the recognition of the contribution that software creators make to ecological research.
+
+## Data quality: sampling effort and taxonomy
+
+Sampling effort and taxonomic detail are two very challenging but important part of any ecological dataset. The datasets in Mangal represent some of the most detailed studies of ecological networks available.
+* measures of network structure may be particularly sensitive to the amount of sampling effort
+* repeat sampling may be necessary to capture a "saturation" of interactions.
+* we present some visualization of the sampling coverage of Mangal [tk]
+* High taxonomic resolution is difficult to achieve in ecology, especially depending on the sampling method used (e.g. gut contents vs observations). We present a breakdown of the taxonomic resolution of Mangal.
+* Ecological networks occur in various kinds, but they are not all equally well sampled. We present a breakdown of the number of parasitic, mutualistic and predator-prey networks sampled in Mangal
+<!-- perhaps this could be a 3-panel figure -->
 
 # References
