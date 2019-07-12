@@ -1,12 +1,20 @@
 # Introduction
 
-Ecological networks are a useful way to think about ecological systems, and recently there has been an explosion of interest in them. This interest has motivated two efforts: an expansion of the tools used to investigate ecological networks, and an increase data collection efforts. In order for both of these efforts to progress, we need a means for ecologists to share and access high-quality network data. Mangal responds to this need, by providing an online database of open network data. Our purpose in the current document is threefold:
+Ecological networks are a useful way to think about ecological systems,
+and recently there has been an explosion of interest in them. This interest
+has motivated two efforts: an expansion of the tools used to investigate
+ecological networks, and an increase data collection efforts. In order
+for both of these efforts to progress, we need a means for ecologists to
+share and access high-quality network data. Mangal responds to this need,
+by providing an online database of open network data. Our purpose in the
+current document is threefold:
 
 1. to describe updates and improvements to the Mangal project
 2. to demonstrate the kinds of analyses possible through worked examples
 3. to highlight the need for more empirical network data, especially in undersampled regions.
 
-Mangal is an actively developed project which has recently been expanded and improved.
+Mangal is an actively developed project which has recently been expanded
+and improved.
 
 * An earlier manuscript (Poisot et al 2015 [tk]) described Mangal as an online platform allowing ecologists to share data about ecological networks
 * New technical improvements include:
@@ -46,7 +54,11 @@ Sampling effort and taxonomic detail are two very challenging but important part
 <!-- perhaps this could be a 3-panel figure -->
 
 #### reducing uncertainty through 'analogues'
-When we lack direct observation of a community, often we must resort to the use of 'analog' communities -- that is, communities which are similar in space or environment which have been sampled.
+
+When we lack direct observation of a community, often we must resort to the
+use of 'analog' communities -- that is, communities which are similar in
+space or environment which have been sampled.
+
 * Communities may be similar in at least two ways -- close in space, or close in climate
 * similarity may result in some (?) similarity in network structure, even if species different.
 * Always some uncertainty in such comparisons
@@ -54,7 +66,9 @@ When we lack direct observation of a community, often we must resort to the use 
 
 ## Ecological analyses using Mangal
 
-Ecological networks can be analyzed with a host of different techniques (Delmas et al [tk]). Many (most? [tk]) of these can be calculated using `EcologicalNetworks.jl` (Poisot et al [tk]).
+Ecological networks can be analyzed with a host of different techniques
+(Delmas et al [tk]). Many (most? [tk]) of these can be calculated using
+`EcologicalNetworks.jl` (Poisot et al [tk]).
 
 ### Link density
 
