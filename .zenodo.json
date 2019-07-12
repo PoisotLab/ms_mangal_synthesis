@@ -1,5 +1,5 @@
 {
-  "title": "Some notes on population dynamics",
+  "title": "Environmental biases in the study of ecological networks at the planetary scale",
   "upload_type": "preprint",
   "access_right": "open",
   "license": "CC-BY",
@@ -12,6 +12,6 @@
       "orcid": "0000-0002-0735-5184"
     }
   ],
-  "description": "This document is intended purely as a demo for the manuscript building system.",
-  "keywords": ["population dynamics", "differential equations", "community ecology"]
+  "description": "TK",
+  "keywords": ["ecological networks", "macroecology", "ecological synthesis"]
 }

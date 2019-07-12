@@ -1,8 +1,3 @@
-
-# Global (macroecological?) analysis of ecological networks using open data
-
-## Abstract
-
 ## Introduction
 
 #### Networks are useful and important
