@@ -1,13 +1,13 @@
 # Introduction
 
-Ecological networks are a useful way to think about ecological systems,
-and recently there has been an explosion of interest in them. This interest
-has motivated two efforts: an expansion of the tools used to investigate
-ecological networks, and an increase data collection efforts. In order
-for both of these efforts to progress, we need a means for ecologists to
-share and access high-quality network data. Mangal responds to this need,
-by providing an online database of open network data. Our purpose in the
-current document is threefold:
+Ecological networks are a useful way to think about ecological systems
+[@PoisStou16], and recently there has been an explosion of interest in
+them. This interest has motivated two efforts: an expansion of the tools
+used to investigate ecological networks, and an increase data collection
+efforts. In order for both of these efforts to progress, we need a means for
+ecologists to share and access high-quality network data. Mangal responds to
+this need, by providing an online database of open network data. Our purpose
+in the current document is threefold:
 
 1. to describe updates and improvements to the Mangal project
 2. to demonstrate the kinds of analyses possible through worked examples
