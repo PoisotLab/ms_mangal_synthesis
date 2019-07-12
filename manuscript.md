@@ -63,6 +63,8 @@ taxonomic groups and interaction types.
 
 ## Different types of networks have been studied in different biomes
 
+@Whit62
+
 ![List of networks across biomes](figures/figure_02.png){#fig:biomes}
 
 ## Eccentricity of climate 
