@@ -25,35 +25,22 @@ existing network properties [@StocPois17], species traits [@GravGravPois13;
 [@BeauDesj16], and can be combined through ensemble modeling or model
 averaging to generate possibly more robust predictions [@PomeThom18].
 
-All of these developments share a nexus on data management: novel quantitative
-tools demand a higher volume of network data; novel collection techniques
-demand powerful data repositories; novel inference tools demand easier
-integration between different types of data, including but not limited to
-interactions, species traits, taxonomy, occurrences, and local bioclimatic
-conditions.
+The common goal to these efforts is to facilitate the prediction of
+network structure, both extant [@PoisGrav16; **MARINE FOODWEB**] and
+future [@AlboVele14], and to appraise its possible variation in response to
+changes. All of these developments also share the need to be supported by state
+of the art data management: novel quantitative tools demand a higher volume of
+network data; novel collection techniques demand powerful data repositories;
+novel inference tools demand easier integration between different types of
+data, including but not limited to interactions, species traits, taxonomy,
+occurrences, and local bioclimatic conditions.
 
-## The need for an integrated networks database
+@PoisBais16 -- overview of original DB + updates, **TODO** map of networks + networks over time
 
-Mangal is an actively developed project which has recently been expanded
-and improved. @PoisBais16 -- original mangal paper
-
-* An earlier manuscript (Poisot et al 2015 [tk]) described Mangal as an online platform allowing ecologists to share data about ecological networks
-* New technical improvements include:
 * New data
 - number and amount of new information
 * web API for better data access, and two packages (one in Julia, the other in R) for accessing these data.
 * Mangal in its current form offers open network data that is ready to support synthesis at many scales.
-
-<!-- I don't think these would literally be a numbered list but it might be a start -->
-* _Coverage in geographic space._ Mangal now contains information from all over the world, and from every continent except Antarctica. <!-- map from vignette -->
-
-* _Coverage in climate space_ Early ecologists identified the earth's biomes based on combinations of temperature and precipitation. Here we demonstrate that Mangal datasets have been sampled from across these different biomes. In doing so, we also demonstrate how climate data can be downloaded and combined with Mangal records. <!-- Whittaker biome plot -->
-
-This database documents the impressive efforts of (generations of?) ecologists
-who have sampled nearly every continent and climatic zone, as well as various
-taxonomic groups and interaction types.
-
-## Synthesis on ecological networks is rising
 
 @BorrMood14 identified network ecology as one of the fastest growing sub-field in the ecological sciences.
 
@@ -68,6 +55,7 @@ in the study of ecological networks.
     - taxonomic resolution
     - sampling effort
 
+**Main question**, is the data fit for purpose, what can we do and cannot do with it?
 
 # Global trends in ecological networks description
 
