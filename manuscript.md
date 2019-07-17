@@ -8,16 +8,18 @@ been an explosion of interest in their dynamics across large temporal scales
 
 @ThomGonz17 need movement + future climate for predictions, can't do with data scarcity
 
+[@HuiRich19; @GuidBart19]
+
 This renewed interest in ecological network has prompted several
 efforts. First, an expansion of the analytical tools to study ecological
 networks and their variation in space (**REFS**). Second, improvements in
 large-scale data-collection, through increased adoption of molecular biology
 tools (**REFS**) and crowd-sourcing of data collection (**REFS**). Finally,
 a surge in the development of tools that allow to *infer* species interaction
-based on limited but complementary data on existing species interactions,
-species traits, network properties, and environmental conditions (**REFS**
-Stock, Desjardins-Proulx, Bartomeus, Pomeranz, Gravel allometric, Gravel
-salix).
+[@MoraMati15] based on limited but complementary data on existing species
+interactions, species traits, network properties, and environmental conditions
+(**REFS** Stock, Desjardins-Proulx, Bartomeus, Pomeranz, Gravel allometric,
+Gravel salix).
 
 All of these developments share a nexus on data management: novel quantitative
 tools demand a higher volume of network data; novel collection techniques
@@ -49,7 +51,7 @@ taxonomic groups and interaction types.
 
 ## Synthesis on ecological networks is rising
 
-@BorrMood14
+@BorrMood14 identified network ecology as one of the fastest growing sub-field in the ecological sciences.
 
 Synthesizing ecological data presents important challenges and also some
 exciting opportunities. Mangal is well suited to offer such opportunities
