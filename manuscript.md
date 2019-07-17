@@ -1,27 +1,29 @@
 # Introduction
 
-Ecological networks are a useful way to think about ecological systems in
-which species or organism interact [@DelmBess18; @PoisStou16], and recently
-there has been an explosion of interest in their dynamics across large
-temporal scales [@BaisGrav19; @TyliMorr17], especially alongside environmental
-gradients [@PellAlbo17; @TrojOles16]. As ecosystems and climates are changing
-rapidly, ecologists realized that networks are at risk or unravelling, being
-invaded by exotic species that can destabilize them, or adopt entirely novel
-configurations [@HuiRich19; @GuidBart19]. Simulation studies seem to suggest
-that knowing the shape of the extant network is not sufficient [@ThomGonz17],
-and that it needs to be supplemented by additional data on species properties,
-climate, and climate projection.
+Ecological networks are a useful way to think about ecological systems in which
+species or organism interact [@DelmBess18; @PoisStou16], and recently there has
+been an explosion of interest in their dynamics across large temporal scales
+[@BaisGrav19; @TyliMorr17], especially alongside environmental gradients
+[@PellAlbo17; @TrojOles16]. As ecosystems and climates are changing rapidly,
+ecologists realized that networks are at risk or unravelling, being invaded
+by exotic species that can destabilize them [@MagrHolz17; @StroLero14], or
+adopt entirely novel configurations [@HuiRich19; @GuidBart19]. Simulation
+studies seem to suggest that knowing the shape of the extant network is not
+sufficient [@ThomGonz17], and that it needs to be supplemented by additional
+data on species properties, climate, and climate projection.
 
-This renewed interest in ecological network has prompted several
-efforts. First, an expansion of the analytical tools to study ecological
-networks and their variation in space (**REFS**). Second, improvements in
-large-scale data-collection, through increased adoption of molecular biology
-tools (**REFS**) and crowd-sourcing of data collection (**REFS**). Finally,
-a surge in the development of tools that allow to *infer* species interaction
-[@MoraMati15] based on limited but complementary data on existing species
-interactions, species traits, network properties, and environmental conditions
-(**REFS** Stock, Desjardins-Proulx, Bartomeus, Pomeranz, Gravel allometric,
-Gravel salix).
+This renewed interest in ecological networks has prompted several
+methodological efforts. First, an expansion of the analytical tools to
+study ecological networks and their variation in space (**REFS**). Second,
+improvements in large-scale data-collection, through increased adoption
+of molecular biology tools (**REFS**) and crowd-sourcing of data collection
+(**REFS**). Finally, a surge in the development of tools that allow to *infer*
+species interaction [@MoraMati15] based on limited but complementary data on
+existing network properties [@StocPois17], species traits [@GravGravPois13;
+@DesjLaig17; @BrouGrav17; @BartGrav16], and environmental conditions
+[@GravBais18]. These approaches tend to perform well in data-poor environments
+[@BeauDesj16], and can be combined through ensemble modeling or model
+averaging to generate possibly more robust predictions [@PomeThom18].
 
 All of these developments share a nexus on data management: novel quantitative
 tools demand a higher volume of network data; novel collection techniques
