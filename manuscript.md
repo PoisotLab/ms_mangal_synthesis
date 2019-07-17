@@ -18,8 +18,8 @@ study ecological networks and their variation in space (**REFS**). Second,
 improvements in large-scale data-collection, through increased adoption
 of molecular biology tools (**REFS**) and crowd-sourcing of data collection
 (**REFS**). Finally, a surge in the development of tools that allow to *infer*
-species interaction [@MoraMati15] based on limited but complementary data on
-existing network properties [@StocPois17], species traits [@GravGravPois13;
+species interaction [@MoraMati15] based on limited but complementary data
+on existing network properties [@StocPois17], species traits [@GravPois13;
 @DesjLaig17; @BrouGrav17; @BartGrav16], and environmental conditions
 [@GravBais18]. These approaches tend to perform well in data-poor environments
 [@BeauDesj16], and can be combined through ensemble modeling or model
