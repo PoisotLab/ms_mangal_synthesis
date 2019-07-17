@@ -81,7 +81,13 @@ in the study of ecological networks.
 
 ## Different types of networks have been studied in different biomes
 
-@Whit62
+@Whit62 suggested that natural communities can be partitioned across
+biomes, largely defined as a function of their relative precipitation and
+temperature; in @fig:biomes, we show that even though networks, overall,
+capture the diversity of the precipitation/temperature climate well, types
+of networks have been studied in sub-spaces only. Specifically, parasitism
+networks have been studied in colder and drier climates; mutualism networks
+in wetter climates; predation networks display less of a bias.
 
 ![List of networks across biomes](figures/figure_02.png){#fig:biomes}
 
