@@ -1,14 +1,16 @@
 # Introduction
 
-Ecological networks are a useful way to think about ecological systems in which
-species or organism interact [@DelmBess18; @PoisStou16], and recently there has
-been an explosion of interest in their dynamics across large temporal scales
-[@BaisGrav19; @TyliMorr17], especially alongside environmental gradients
-[@PellAlbo17; @TrojOles16].
-
-@ThomGonz17 need movement + future climate for predictions, can't do with data scarcity
-
-[@HuiRich19; @GuidBart19]
+Ecological networks are a useful way to think about ecological systems in
+which species or organism interact [@DelmBess18; @PoisStou16], and recently
+there has been an explosion of interest in their dynamics across large
+temporal scales [@BaisGrav19; @TyliMorr17], especially alongside environmental
+gradients [@PellAlbo17; @TrojOles16]. As ecosystems and climates are changing
+rapidly, ecologists realized that networks are at risk or unravelling, being
+invaded by exotic species that can destabilize them, or adopt entirely novel
+configurations [@HuiRich19; @GuidBart19]. Simulation studies seem to suggest
+that knowing the shape of the extant network is not sufficient [@ThomGonz17],
+and that it needs to be supplemented by additional data on species properties,
+climate, and climate projection.
 
 This renewed interest in ecological network has prompted several
 efforts. First, an expansion of the analytical tools to study ecological
