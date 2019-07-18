@@ -65,19 +65,29 @@ in the study of ecological networks.
 
 ## Different interaction types have been studied at different places
 
-![Each point on the map corresponds to a network with parasitic, mutualistic, and predatory interactions. It is noteworty that the spatial coverage of these types of interactions is uneven; the Americas have almost no parasitic network, for example. Some places have barely been studied at all, including Africa and Eastern Asia. This concentration of networks around rich countries speaks to an inadequate coverage of the diversity of landscapes on Earth.](figures/figure_01_c.png.png){#fig:spatial}
+Although the volume of available networks has increased over time, the
+sampling of these networks in space has been uneven. In +@fig:spatial,
+we show that globally, network collection is biased towards the Northern
+hemisphere, and than different types of interactions have been sampled in
+different places. As such, it is very difficult to find a spatial area of
+sufficiently large size in which we have networks of predation, parasitism,
+and mutualism. The inter-tropical zone is particularly data-poor, either
+because data producers from the global South correctly perceive massive re-use
+of their data by Western scientists as a form of scientific neo-colonialism
+[as advanced by @MautParr13], thereby providing a powerful incentive *against*
+their publication, or because ecological networks are subject to the same data
+deficit that is affecting all fields on ecology in the tropics [@CollRam08]. As
+@Brun10 identified almost ten years ago, improved data deposition requires
+an infrastructure to ensure they can be repurposed for future research,
+which we argue is provided by `mangal.io` for ecological interactions.
 
-## Networks follow the same scaling
+![Each point on the map corresponds to a network with parasitic, mutualistic, and predatory interactions. It is noteworty that the spatial coverage of these types of interactions is uneven; the Americas have almost no parasitic network, for example. Some places have barely been studied at all, including Africa and Eastern Asia. This concentration of networks around rich countries speaks to an inadequate coverage of the diversity of landscapes on Earth.](figures/figure_01_c.png){#fig:spatial}
 
-@BrosOstl04 
-
-![fig1 ref](figures/figure_01_b.png){#fig:lssl}
-
-## Different types of networks have been studied in different biomes
+## Different interaction types have been studied in different biomes
 
 @Whit62 suggested that natural communities can be partitioned across
 biomes, largely defined as a function of their relative precipitation and
-temperature; in @fig:biomes, we show that even though networks, overall,
+temperature; in +@fig:biomes, we show that even though networks, overall,
 capture the diversity of the precipitation/temperature climate well, types
 of networks have been studied in sub-spaces only. Specifically, parasitism
 networks have been studied in colder and drier climates; mutualism networks
@@ -85,19 +95,16 @@ in wetter climates; predation networks display less of a bias.
 
 ![List of networks across biomes](figures/figure_02.png){#fig:biomes}
 
-## Eccentricity of climate 
-
-![tk](figures/figure_05_b.png){#fig:ecc}
-
-## NEED TO FIND A TITLE
-
-Distance issues
-
-![tk](figures/figure_03_a.png){#fig:distance}
+## Some locations on Earth have no climate analogue
 
 Climate analogue 
 
 ![tk](figures/figure_03_b.png){#fig:analog}
+
+## Mutualistic networks are biased towards more unique environments
+
+![tk](figures/figure_05_b.png){#fig:ecc}
+
 
 # Conclusions
 
