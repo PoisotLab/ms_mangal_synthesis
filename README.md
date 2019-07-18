@@ -14,4 +14,4 @@ make comments using [hypothes.is](https://hypothes.is/).
 
 |                 |                                |            HTML            |             PDF            |        Word document        |
 |-----------------|--------------------------------|:--------------------------:|:--------------------------:|:---------------------------:|
-| `master` (main) | ![Build Status][master_travis] | [:blue_book:][master_html] | [:green_book:][master_pdf] | [:orange_book:][master_doc] |
+| `master` (main) | [![Build Status](https://travis-ci.org/PoisotLab/ms_mangal_synthesis.svg?branch=master)](https://travis-ci.org/PoisotLab/ms_mangal_synthesis) | [:blue_book:][master_html] | [:green_book:][master_pdf] | [:orange_book:][master_doc] |
