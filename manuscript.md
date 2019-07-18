@@ -63,6 +63,10 @@ in the study of ecological networks.
 
 ![fig1](figures/figure_01_a.png){#fig:temporal}
 
+## Different interaction types have been studied at different places
+
+![Each point on the map corresponds to a network with parasitic, mutualistic, and predatory interactions. It is noteworty that the spatial coverage of these types of interactions is uneven; the Americas have almost no parasitic network, for example. Some places have barely been studied at all, including Africa and Eastern Asia. This concentration of networks around rich countries speaks to an inadequate coverage of the diversity of landscapes on Earth.](figures/figure_01_c.png.png){#fig:spatial}
+
 ## Networks follow the same scaling
 
 @BrosOstl04 
