@@ -60,27 +60,28 @@ in the study of ecological networks.
 
 # Global trends in ecological networks description
 
-## Network coverage is accelerating
+## Network coverage is accelerating but spatially biased
 
-![fig1](figures/figure_01_a.png){#fig:temporal}
+![Cumulative number of ecological networks available in `mangal.io` as a function of the date of collection.](figures/figure_01_a.png){#fig:temporal}
 
-## Different interaction types have been studied at different places
-
-Although the volume of available networks has increased over time, the
-sampling of these networks in space has been uneven. In +@fig:spatial,
-we show that globally, network collection is biased towards the Northern
-hemisphere, and than different types of interactions have been sampled in
-different places. As such, it is very difficult to find a spatial area of
-sufficiently large size in which we have networks of predation, parasitism,
-and mutualism. The inter-tropical zone is particularly data-poor, either
-because data producers from the global South correctly perceive massive re-use
-of their data by Western scientists as a form of scientific neo-colonialism
-[as advanced by @MautParr13], thereby providing a powerful incentive *against*
-their publication, or because ecological networks are subject to the same data
-deficit that is affecting all fields on ecology in the tropics [@CollRam08]. As
-@Brun10 identified almost ten years ago, improved data deposition requires
-an infrastructure to ensure they can be repurposed for future research,
-which we argue is provided by `mangal.io` for ecological interactions.
+The earliest recorded ecological networks date back to the late nineteenth
+century, with a strong acceleration in the rate of collection around the 1980s
+[+@fig:temporal]. Although the volume of available networks has increased
+over time, the sampling of these networks in space has been uneven. In
++@fig:spatial, we show that globally, network collection is biased towards
+the Northern hemisphere, and than different types of interactions have been
+sampled in different places. As such, it is very difficult to find a spatial
+area of sufficiently large size in which we have networks of predation,
+parasitism, and mutualism. The inter-tropical zone is particularly data-poor,
+either because data producers from the global South correctly perceive
+massive re-use of their data by Western scientists as a form of scientific
+neo-colonialism [as advanced by @MautParr13], thereby providing a powerful
+incentive *against* their publication, or because ecological networks are
+subject to the same data deficit that is affecting all fields on ecology
+in the tropics [@CollRam08]. As @Brun10 identified almost ten years ago,
+improved data deposition requires an infrastructure to ensure they can be
+repurposed for future research, which we argue is provided by `mangal.io`
+for ecological interactions.
 
 ![Each point on the map corresponds to a network with parasitic, mutualistic, and predatory interactions. It is noteworty that the spatial coverage of these types of interactions is uneven; the Americas have almost no parasitic network, for example. Some places have barely been studied at all, including Africa and Eastern Asia. This concentration of networks around rich countries speaks to an inadequate coverage of the diversity of landscapes on Earth.](figures/figure_01_c.png){#fig:spatial}
 
