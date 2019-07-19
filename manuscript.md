@@ -1,7 +1,7 @@
 # Introduction
 
 Ecological networks are a useful way to think about ecological systems
-in which species or organisms interact [@HelHeleGarc14; @DelmBess18;
+in which species or organisms interact [@HeleGarc14; @DelmBess18;
 @PoisStou16], and recently there has been an explosion of interest in their
 dynamics across large temporal scales [@BaisGrav19; @TyliMorr17], especially
 alongside environmental gradients [@PellAlbo17; @TrojOles16]. As ecosystems
