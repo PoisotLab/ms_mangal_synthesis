@@ -1,16 +1,17 @@
 # Introduction
 
-Ecological networks are a useful way to think about ecological systems in which
-species or organism interact [@DelmBess18; @PoisStou16], and recently there has
-been an explosion of interest in their dynamics across large temporal scales
-[@BaisGrav19; @TyliMorr17], especially alongside environmental gradients
-[@PellAlbo17; @TrojOles16]. As ecosystems and climates are changing rapidly,
-ecologists realized that networks are at risk or unravelling, being invaded
-by exotic species that can destabilize them [@MagrHolz17; @StroLero14], or
-adopt entirely novel configurations [@HuiRich19; @GuidBart19]. Simulation
-studies seem to suggest that knowing the shape of the extant network is not
-sufficient [@ThomGonz17], and that it needs to be supplemented by additional
-data on species properties, climate, and climate projection.
+Ecological networks are a useful way to think about ecological systems
+in which species or organisms interact [@HelHeleGarc14; @DelmBess18;
+@PoisStou16], and recently there has been an explosion of interest in their
+dynamics across large temporal scales [@BaisGrav19; @TyliMorr17], especially
+alongside environmental gradients [@PellAlbo17; @TrojOles16]. As ecosystems
+and climates are changing rapidly, ecologists realized that networks are at
+risk or unravelling, being invaded by exotic species that can destabilize
+them [@MagrHolz17; @StroLero14], or adopt entirely novel configurations
+[@HuiRich19; @GuidBart19]. Simulation studies seem to suggest that knowing
+the shape of the extant network is not sufficient [@ThomGonz17], and that it
+needs to be supplemented by additional data on species properties, climate,
+and climate projection.
 
 This renewed interest in ecological networks has prompted several
 methodological efforts. First, an expansion of the analytical tools to study
@@ -24,7 +25,10 @@ on existing network properties [@StocPois17], species traits [@GravPois13;
 @DesjLaig17; @BrouGrav17; @BartGrav16], and environmental conditions
 [@GravBais18]. These approaches tend to perform well in data-poor environments
 [@BeauDesj16], and can be combined through ensemble modeling or model
-averaging to generate possibly more robust predictions [@PomeThom18].
+averaging to generate possibly more robust predictions [@PomeThom18]. The
+later task of inferring interactions is particularly important, knowing that
+ecological networks are difficult to adequately sample in nature [@Jord16;
+@BanaCatt04; @ChacVazq12; @GibsKnot11].
 
 The common goal to these efforts is to facilitate the prediction of
 network structure, both extant [@PoisGrav16; **MARINE FOODWEB**] and
@@ -111,6 +115,8 @@ Climate analogue
 # Conclusions
 
 ## Data quality: sampling effort and taxonomy
+
+@Jord16a -- importance of taxonomic resolution
 
 Sampling effort and taxonomic detail are two very challenging but important part of any ecological dataset. The datasets in Mangal represent some of the most detailed studies of ecological networks available.
 * measures of network structure may be particularly sensitive to the amount of sampling effort
