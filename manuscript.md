@@ -107,13 +107,19 @@ for ecological interactions.
 
 @Whit62 suggested that natural communities can be partitioned across
 biomes, largely defined as a function of their relative precipitation and
-temperature; in +@fig:biomes, we show that even though networks, overall,
-capture the diversity of the precipitation/temperature climate well, types
-of networks have been studied in sub-spaces only. Specifically, parasitism
-networks have been studied in colder and drier climates; mutualism networks
-in wetter climates; predation networks display less of a bias.
+temperature. For all networks for which the latitude and longitude was known,
+we extracted the value of the first (average temperature) and twelfth (annual
+precipitation) from the WorldClim 2 data [@FickHijm17]. This allows situating
+every network on the map of biomes according to @Whit62 (note that because
+the frontiers between biomes are not based on any empirical or systematic
+process, they have been omitted from this analysis). In +@fig:biomes,
+we show that even though networks, overall, capture the diversity of the
+precipitation/temperature climate well, types of networks have been studied
+in sub-spaces only. Specifically, parasitism networks have been studied in
+colder and drier climates; mutualism networks in wetter climates; predation
+networks display less of a bias.
 
-![List of networks across biomes](figures/figure_02.png){#fig:biomes}
+![List of networks across in the space of biomes as originally presented by @Whit62. Predation networks, *i.e.* food webs, seem to have the most global coverage; parasitism networks are restricted to low temperature and low precipitation biomes, congruent with the majority of them being in Western Europe.](figures/figure_02.png){#fig:biomes}
 
 ## Mutualistic networks are biased towards more unique environments
 
