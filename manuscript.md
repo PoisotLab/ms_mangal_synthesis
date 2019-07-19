@@ -62,19 +62,19 @@ in the study of ecological networks.
 
 ## Network coverage is accelerating but spatially biased
 
-![Cumulative number of ecological networks available in `mangal.io` as a function of the date of collection.](figures/figure_01_a.png){#fig:temporal}
+![Cumulative number of ecological networks available in `mangal.io` as a function of the date of collection. About 1000 unique networks have been collected between 1987 and 2017, a rate of just over 30 networks a year.](figures/figure_01_a.png){#fig:temporal}
 
 The earliest recorded ecological networks date back to the late nineteenth
-century, with a strong acceleration in the rate of collection around the 1980s
-[+@fig:temporal]. Although the volume of available networks has increased
+century, with a strong increase in the rate of collection around the 1980s
+(+@fig:temporal). Although the volume of available networks has increased
 over time, the sampling of these networks in space has been uneven. In
-+@fig:spatial, we show that globally, network collection is biased towards
-the Northern hemisphere, and than different types of interactions have been
-sampled in different places. As such, it is very difficult to find a spatial
-area of sufficiently large size in which we have networks of predation,
-parasitism, and mutualism. The inter-tropical zone is particularly data-poor,
-either because data producers from the global South correctly perceive
-massive re-use of their data by Western scientists as a form of scientific
++@fig:spatial, we show that globally, network collection is biased towards the
+Northern hemisphere, and than different types of interactions have been sampled
+in different places. As such, it is very difficult to find a spatial area of
+sufficiently large size in which we have networks of predation, parasitism,
+and mutualism. The inter-tropical zone is particularly data-poor, either
+because data producers from the global South correctly perceive massive
+re-use of their data by Western world scientists as a form of scientific
 neo-colonialism [as advanced by @MautParr13], thereby providing a powerful
 incentive *against* their publication, or because ecological networks are
 subject to the same data deficit that is affecting all fields on ecology
@@ -109,6 +109,22 @@ Climate analogue
 
 
 # Conclusions
+
+This means that we have surprisingly little information on ecological networks
+dating before the acceleration of the climate crisis, and therefore lack a
+robust baseline. @DalsTroj13 provide strong evidence that the extant shape
+of ecological networks emerged in part in response to historical trends in
+climate change; in this perspective, the lack of reference data before the
+acceleration of the effects of climate change is of particular concern,
+as we may be deriving intuitions on ecological networks structure and
+assembly rule from networks that are in the midst of important ecological
+disturbances. Although there are some research on the response of co-occurrence
+and indirect interactions to climate change [@ArauRoze11; @LosaScho17],
+these are a far cry from actual direct interactions; similarly, the data
+on "paleo-foodwebs", *i.e.* from deep evolutionary time [@MuscPrab18;
+@YeakPire14; @NenzMont14] represent the effect of more progressive change,
+and may not adequately inform us about the future of ecological networks
+under sever climate change.
 
 ## reducing uncertainty through 'analogues'
 
