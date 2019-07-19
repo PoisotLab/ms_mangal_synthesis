@@ -138,8 +138,9 @@ that they have been sampled in more original environments.
 
 Climate analogue 
 
-![tk](figures/figure_03_b.png){#fig:analog}
-
+![mutualism](figures/envirodistance_mutualism.png){#fig:mutu}
+![parasitism](figures/envirodistance_parasitism.png){#fig:para}
+![predation](figures/envirodistance_predation.png){#fig:pred}
 
 # Conclusions
 
