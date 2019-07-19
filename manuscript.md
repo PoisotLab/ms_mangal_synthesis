@@ -30,22 +30,19 @@ later task of inferring interactions is particularly important, knowing that
 ecological networks are difficult to adequately sample in nature [@Jord16;
 @BanaCatt04; @ChacVazq12; @GibsKnot11].
 
-The common goal to these efforts is to facilitate the prediction of
-network structure, both extant [@PoisGrav16; **MARINE FOODWEB**] and
-future [@AlboVele14], and to appraise its possible variation in response to
-changes. All of these developments also share the need to be supported by state
-of the art data management: novel quantitative tools demand a higher volume of
-network data; novel collection techniques demand powerful data repositories;
-novel inference tools demand easier integration between different types of
-data, including but not limited to interactions, species traits, taxonomy,
-occurrences, and local bioclimatic conditions.
-
-@PoisBais16 -- overview of original DB + updates, **TODO** map of networks + networks over time
-
-* New data
-- number and amount of new information
-* web API for better data access, and two packages (one in Julia, the other in R) for accessing these data.
-* Mangal in its current form offers open network data that is ready to support synthesis at many scales.
+The common goal to these efforts is to facilitate the prediction of network
+structure, particularly over space, both extant [@PoisGrav16; @GravBais18;
+**MARINE FOODWEB**] and future [@AlboVele14], and to appraise its possible
+variation in response to environmental changes. All of these developments
+share the need to be supported by state of the art data management: novel
+quantitative tools demand a higher volume of network data; novel collection
+techniques demand powerful data repositories; novel inference tools demand
+easier integration between different types of data, including but not limited
+to interactions, species traits, taxonomy, occurrences, and local bioclimatic
+conditions. In short, advancing the science of ecological networks requires
+not only to increase the volume of available data, but to pair it with
+ecologically relevant metadata, in a way that facilitates programmatic
+interaction so that they can be consumed by data analysis pipelines.
 
 @BorrMood14 identified network ecology as one of the fastest growing sub-field in the ecological sciences.
 
@@ -61,6 +58,23 @@ in the study of ecological networks.
     - sampling effort
 
 **Main question**, is the data fit for purpose, what can we do and cannot do with it?
+
+@PoisBais16 introduced `mangal.io` as a first step in this direction; in
+the years since the tool was originally published, we continued development
+of the data representation, amount and richness of metadata, and digitized
+and standardized as much ecological data as we could find. The second major
+release of this database contains over 1300 networks, 120000 interactions
+across close to 7000 taxa, and represents what is to our best knowledge the
+most complete collection of species interactions available. We seek to assess
+the fitness for purpose of ecological networks at the global scale to support
+synthesis research at large scales. Based on temporal and spatial biases in
+the description of some types of interactions, we conclude that while there
+is an increasing amount of available data, most of the planet's surface is
+poorly described. In particular, Africa, South America, and most of Asia have
+very sparse coverage. This suggests that the accuracy of synthesis efforts on
+the worldwide structure or properties of ecological networks will have very
+low predictive values within these areas, and reinforces the need to digitize
+available information, but also prioritize sampling towards these locations.
 
 # Global trends in ecological networks description
 
