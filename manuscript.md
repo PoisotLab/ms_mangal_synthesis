@@ -13,11 +13,12 @@ sufficient [@ThomGonz17], and that it needs to be supplemented by additional
 data on species properties, climate, and climate projection.
 
 This renewed interest in ecological networks has prompted several
-methodological efforts. First, an expansion of the analytical tools to
-study ecological networks and their variation in space (**REFS**). Second,
-improvements in large-scale data-collection, through increased adoption
-of molecular biology tools (**REFS**) and crowd-sourcing of data collection
-(**REFS**). Finally, a surge in the development of tools that allow to *infer*
+methodological efforts. First, an expansion of the analytical tools to study
+ecological networks and their variation in space [@PoisCana12; @PoisStou15;
+@PoisGuev17]. Second, improvements in large-scale data-collection,
+through increased adoption of molecular biology tools [@EitzAbre19;
+@EvanKits16]  and crowd-sourcing of data collection [@BahlLand16; @RoyBaxt16;
+@PocoRoy15]. Finally, a surge in the development of tools that allow to *infer*
 species interaction [@MoraMati15] based on limited but complementary data
 on existing network properties [@StocPois17], species traits [@GravPois13;
 @DesjLaig17; @BrouGrav17; @BartGrav16], and environmental conditions
