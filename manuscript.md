@@ -121,7 +121,16 @@ networks display less of a bias.
 
 ![List of networks across in the space of biomes as originally presented by @Whit62. Predation networks, *i.e.* food webs, seem to have the most global coverage; parasitism networks are restricted to low temperature and low precipitation biomes, congruent with the majority of them being in Western Europe.](figures/figure_02.png){#fig:biomes}
 
-## Mutualistic networks are biased towards more unique environments
+Scaling up this analysis to the 19 BioClim variables in @FickHijm17, we
+extracted the position of every network in the bioclimatic space, conducted
+a principal component analysis on the scaled bioclimatic variables, and
+measured their distance to the centre of this space ($\mathbf{0}$). This
+is essentially a measurement of the "rarity" of the bioclimatic conditions
+in which any networks were sampled, with larger values indicating more
+unique combinations (the distance was ranged to $]0;1]$ for the sake of
+interpretation). As shown in +@fig:ecc, mutualistic interactions tend to
+have values that are higher than both parasitism and predation, suggesting
+that they have been sampled in more original environments.
 
 ![tk](figures/figure_05_b.png){#fig:ecc}
 
