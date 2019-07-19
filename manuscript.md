@@ -110,7 +110,9 @@ Climate analogue
 
 # Conclusions
 
-This means that we have surprisingly little information on ecological networks
+Perhaps unsurprisingly, most of our knowledge on ecological networks is
+derived from data that were collected after the 1990s (+@fig:temporal). This
+means that we have worryingly little information on ecological networks
 dating before the acceleration of the climate crisis, and therefore lack a
 robust baseline. @DalsTroj13 provide strong evidence that the extant shape
 of ecological networks emerged in part in response to historical trends in
@@ -124,7 +126,21 @@ these are a far cry from actual direct interactions; similarly, the data
 on "paleo-foodwebs", *i.e.* from deep evolutionary time [@MuscPrab18;
 @YeakPire14; @NenzMont14] represent the effect of more progressive change,
 and may not adequately inform us about the future of ecological networks
-under sever climate change.
+under severe climate change.
+
+Possibly more concerning is the fact that the spatial distribution
+of sampled networks shows a clear bias towards the Western world,
+specifically the Atlantic coast of the USA and Canada, and Western Europe
+(+@fig:spatial). While this can to some degree be circumvented by working on
+the networks sampled in places that are close analogues to regions without
+direct information (almost all of Africa, most of South America, a large part
+of Asia), @fig:analog suggests that this approach will rapidly be limited:
+the diversity of bioclimatic combinations on Earth leaves us with some areas
+lacking suitable analogues. These regions are expected to bear the worse of
+the socio-economical (*e.g.* Indonesia) or ecological (*e.g.* polar regions)
+consequences of climate change. All things considered, our current knowledge
+about the structure of ecological networks at the global scale leaves us
+under-prepared to predict their response to a warming world.
 
 ## reducing uncertainty through 'analogues'
 
