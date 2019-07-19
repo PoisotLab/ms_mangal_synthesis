@@ -110,6 +110,18 @@ Climate analogue
 
 # Conclusions
 
+## Data quality: sampling effort and taxonomy
+
+Sampling effort and taxonomic detail are two very challenging but important part of any ecological dataset. The datasets in Mangal represent some of the most detailed studies of ecological networks available.
+* measures of network structure may be particularly sensitive to the amount of sampling effort
+* repeat sampling may be necessary to capture a "saturation" of interactions.
+* we present some visualization of the sampling coverage of Mangal [tk]
+* High taxonomic resolution is difficult to achieve in ecology, especially depending on the sampling method used (e.g. gut contents vs observations). We present a breakdown of the taxonomic resolution of Mangal.
+* Ecological networks occur in various kinds, but they are not all equally well sampled. We present a breakdown of the number of parasitic, mutualistic and predator-prey networks sampled in Mangal
+<!-- perhaps this could be a 3-panel figure -->
+
+## Can we predict the future of ecological networks under climate change?
+
 Perhaps unsurprisingly, most of our knowledge on ecological networks is
 derived from data that were collected after the 1990s (+@fig:temporal). This
 means that we have worryingly little information on ecological networks
@@ -142,41 +154,14 @@ consequences of climate change. All things considered, our current knowledge
 about the structure of ecological networks at the global scale leaves us
 under-prepared to predict their response to a warming world.
 
-## reducing uncertainty through 'analogues'
+## What purpose are global ecological network data fit for?
 
-When we lack direct observation of a community, often we must resort to the
-use of 'analog' communities -- that is, communities which are similar in
-space or environment which have been sampled.
-
-* Communities may be similar in at least two ways -- close in space, or close in climate
-* similarity may result in some (?) similarity in network structure, even if species different.
-* Always some uncertainty in such comparisons
-* reflects the need for more data gathering, can be used to target efforts
-
-
-## Future of network ecology
-
-
-Use this spatial gaps for sampling recommendations
-
-## more complete analyses
-We have only shown some high-level summaries of the data here; many possibilities remain.
-
-## more data collection
-We have demonstrated the considerable coverage of Mangal; however, our summary also highlights important data-collection needs. In particular, we need better information about (mutualists, desert food webs?)
+This begs the question of *what* can be achieved with our current knowledge
+of ecological networks. **TK**
 
 ## Active development and data contribution
 This is an open-source project: all data and all code supporting this are available on the Mangal project GitHub organization. Our hope is that the success of this project will encourage similar efforts within other parts of the ecological community.
 In addition, we hope that this project will encourage the recognition of the contribution that software creators make to ecological research.
 
-## Data quality: sampling effort and taxonomy
-
-Sampling effort and taxonomic detail are two very challenging but important part of any ecological dataset. The datasets in Mangal represent some of the most detailed studies of ecological networks available.
-* measures of network structure may be particularly sensitive to the amount of sampling effort
-* repeat sampling may be necessary to capture a "saturation" of interactions.
-* we present some visualization of the sampling coverage of Mangal [tk]
-* High taxonomic resolution is difficult to achieve in ecology, especially depending on the sampling method used (e.g. gut contents vs observations). We present a breakdown of the taxonomic resolution of Mangal.
-* Ecological networks occur in various kinds, but they are not all equally well sampled. We present a breakdown of the number of parasitic, mutualistic and predator-prey networks sampled in Mangal
-<!-- perhaps this could be a 3-panel figure -->
 
 # References
