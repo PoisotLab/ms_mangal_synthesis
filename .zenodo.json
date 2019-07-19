@@ -1,6 +1,7 @@
 {
   "title": "Environmental biases in the study of ecological networks at the planetary scale",
-  "upload_type": "preprint",
+  "upload_type": "publication",
+  "publication_type": "preprint",
   "access_right": "open",
   "license": "CC-BY",
   "language": "en",
@@ -31,5 +32,6 @@
     }
   ],
   "description": "TK",
-  "keywords": ["ecological networks", "macroecology", "ecological synthesis"]
+  "keywords": ["ecological networks", "macroecology", "ecological synthesis"],
+  "notes": "https://github.com/PoisotLab/ms_mangal_synthesis"
 }
