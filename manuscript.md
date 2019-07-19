@@ -80,7 +80,7 @@ available information, but also prioritize sampling towards these locations.
 
 ## Network coverage is accelerating but spatially biased
 
-![Cumulative number of ecological networks available in `mangal.io` as a function of the date of collection. About 1000 unique networks have been collected between 1987 and 2017, a rate of just over 30 networks a year.](figures/figure_01_a.png){#fig:temporal}
+![Cumulative number of ecological networks available in `mangal.io` as a function of the date of collection. About 1000 unique networks have been collected between 1987 and 2017, a rate of just over 30 networks a year. This temporal increase proceeds at different rates for diferent types of networks; while the description of food webs is more or less constant, the global acceleration in the dataset is due to increased interest in host-parasite interactions starting in the late 1970s, while mutualistic networks mostly started being recorded in the early 2000s.](figures/figure_01_a.png){#fig:temporal}
 
 The earliest recorded ecological networks date back to the late nineteenth
 century, with a strong increase in the rate of collection around the 1980s
@@ -115,15 +115,15 @@ in wetter climates; predation networks display less of a bias.
 
 ![List of networks across biomes](figures/figure_02.png){#fig:biomes}
 
+## Mutualistic networks are biased towards more unique environments
+
+![tk](figures/figure_05_b.png){#fig:ecc}
+
 ## Some locations on Earth have no climate analogue
 
 Climate analogue 
 
 ![tk](figures/figure_03_b.png){#fig:analog}
-
-## Mutualistic networks are biased towards more unique environments
-
-![tk](figures/figure_05_b.png){#fig:ecc}
 
 
 # Conclusions
