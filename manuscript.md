@@ -3,63 +3,45 @@
 Ecological networks are a useful way to think about ecological systems
 in which species or organisms interact [@HeleGarc14; @DelmBess18;
 @PoisStou16], and recently there has been an explosion of interest in their
-dynamics across large temporal scales [@BaisGrav19; @TyliMorr17], especially
-alongside environmental gradients [@PellAlbo17; @TrojOles16]. As ecosystems
-and climates are changing rapidly, ecologists realized that networks are at
-risk or unravelling, being invaded by exotic species that can destabilize
-them [@MagrHolz17; @StroLero14], or adopt entirely novel configurations
-[@HuiRich19; @GuidBart19]. Simulation studies seem to suggest that knowing
+dynamics across large temporal scales [@BaisGrav19; @TyliMorr17], and especially
+along environmental gradients [@PellAlbo17; @TrojOles16]. As ecosystems
+and climates are changing rapidly, networks are at
+risk of unravelling: for example by invasion of destabilizing exotic species
+them [@MagrHolz17; @StroLero14], or by a "rewiring" of interactions among existing species
+[@HuiRich19; @GuidBart19]. Simulation studies suggest that knowing
 the shape of the extant network is not sufficient [@ThomGonz17], and that it
-needs to be supplemented by additional data on species properties, climate,
+needs to be supplemented by additional data on the species in the food web, climate,
 and climate projection.
 
 This renewed interest in ecological networks has prompted several
 methodological efforts. First, an expansion of the analytical tools to study
 ecological networks and their variation in space [@PoisCana12; @PoisStou15;
-@PoisGuev17]. Second, improvements in large-scale data-collection,
+@PoisGuev17]. Second, an improvement in large-scale data-collection,
 through increased adoption of molecular biology tools [@EitzAbre19;
 @EvanKits16]  and crowd-sourcing of data collection [@BahlLand16; @RoyBaxt16;
-@PocoRoy15]. Finally, a surge in the development of tools that allow to *infer*
-species interaction [@MoraMati15] based on limited but complementary data
+@PocoRoy15]. Finally, a surge in the development of tools that allow us to *infer*
+species interactions [@MoraMati15] based on limited but complementary data
 on existing network properties [@StocPois17], species traits [@GravPois13;
 @DesjLaig17; @BrouGrav17; @BartGrav16], and environmental conditions
-[@GravBais18]. These approaches tend to perform well in data-poor environments
+[@GravBais18]. These latter approaches tend to perform well in data-poor environments
 [@BeauDesj16], and can be combined through ensemble modeling or model
-averaging to generate possibly more robust predictions [@PomeThom18]. The
-later task of inferring interactions is particularly important, knowing that
+averaging to generate more robust predictions [@PomeThom18]. The task of inferring interactions is particularly important becuase
 ecological networks are difficult to adequately sample in nature [@Jord16;
-@BanaCatt04; @ChacVazq12; @GibsKnot11].
+@BanaCatt04; @ChacVazq12; @GibsKnot11]. The common goal to these efforts is to facilitate the prediction of network
+structure, particularly over space [@PoisGrav16; @GravBais18;
+**MARINE FOODWEB**] and into the future [@AlboVele14], and to appraise the response of that structure to possible environmental changes.
 
-The common goal to these efforts is to facilitate the prediction of network
-structure, particularly over space, both extant [@PoisGrav16; @GravBais18;
-**MARINE FOODWEB**] and future [@AlboVele14], and to appraise its possible
-variation in response to environmental changes. All of these developments
-share the need to be supported by state of the art data management: novel
+These disparate methodological efforts share another important trait: their continued success depends on state-of-the art data management. Novel
 quantitative tools demand a higher volume of network data; novel collection
 techniques demand powerful data repositories; novel inference tools demand
 easier integration between different types of data, including but not limited
 to interactions, species traits, taxonomy, occurrences, and local bioclimatic
-conditions. In short, advancing the science of ecological networks requires
-not only to increase the volume of available data, but to pair it with
-ecologically relevant metadata, in a way that facilitates programmatic
-interaction so that they can be consumed by data analysis pipelines.
+conditions. In short, advancing the science of ecological networks requires us
+not only to increase the volume of available data, but to pair these data with
+ecologically relevant metadata. Such data should also be made available in a way that facilitates programmatic
+interaction so that they can be used by reproducible data analysis pipelines.
 
-@BorrMood14 identified network ecology as one of the fastest growing sub-field in the ecological sciences.
-
-Synthesizing ecological data presents important challenges and also some
-exciting opportunities. Mangal is well suited to offer such opportunities
-in the study of ecological networks.
-
-* A major challenge to ecological synthesis is generalizing from samples to the behaviour of ecological systems
-* two obstacles to such generalizing in ecological systems: data coverage and data quality
-  - data coverage: are data collected from every relevant system?
-  - data quality: are data fit-for-purpose? Two particular aspects of quality
-    - taxonomic resolution
-    - sampling effort
-
-**Main question**, is the data fit for purpose, what can we do and cannot do with it?
-
-@PoisBais16 introduced `mangal.io` as a first step in this direction; in
+@PoisBais16 introduced `mangal.io` as a first step in this direction. In
 the years since the tool was originally published, we continued development
 of the data representation, amount and richness of metadata, and digitized
 and standardized as much ecological data as we could find. The second major
@@ -67,7 +49,7 @@ release of this database contains over 1300 networks, 120000 interactions
 across close to 7000 taxa, and represents what is to our best knowledge the
 most complete collection of species interactions available. We seek to assess
 the fitness for purpose of ecological networks at the global scale to support
-synthesis research at large scales. Based on temporal and spatial biases in
+synthesis research. Based on temporal and spatial biases in
 the description of some types of interactions, we conclude that while there
 is an increasing amount of available data, most of the planet's surface is
 poorly described. In particular, Africa, South America, and most of Asia have
@@ -75,6 +57,23 @@ very sparse coverage. This suggests that the accuracy of synthesis efforts on
 the worldwide structure or properties of ecological networks will have very
 low predictive values within these areas, and reinforces the need to digitize
 available information, but also prioritize sampling towards these locations.
+
+<!-- @BorrMood14 identified network ecology as one of the fastest growing sub-field in the ecological sciences. -->
+
+**Main question**
+Here we address the question of what we can and cannot do with this large store of ecological network data.
+
+* A major challenge to ecological synthesis is generalizing from samples to the behaviour of ecological systems
+* two obstacles to such generalizing in ecological systems: data coverage and data quality
+  - data coverage: are data collected from every relevant system?
+  - data quality: are data fit-for-purpose? Two particular aspects of quality
+    - taxonomic resolution
+    - sampling effort
+  Synthesizing ecological data presents important challenges and also some
+  exciting opportunities. Mangal is well suited to offer such opportunities
+  in the study of ecological networks.
+
+
 
 # Global trends in ecological networks description
 
@@ -136,7 +135,7 @@ that they have been sampled in more original environments.
 
 ## Some locations on Earth have no climate analogue
 
-Climate analogue 
+Climate analogue
 
 ![mutualism](figures/envirodistance_mutualism.png){#fig:mutu}
 ![parasitism](figures/envirodistance_parasitism.png){#fig:para}
@@ -160,39 +159,37 @@ Sampling effort and taxonomic detail are two very challenging but important part
 
 Perhaps unsurprisingly, most of our knowledge on ecological networks is
 derived from data that were collected after the 1990s (+@fig:temporal). This
-means that we have worryingly little information on ecological networks
-dating before the acceleration of the climate crisis, and therefore lack a
+means that we have worryingly little information on ecological networks before the acceleration of the climate crisis, and therefore lack a
 robust baseline. @DalsTroj13 provide strong evidence that the extant shape
 of ecological networks emerged in part in response to historical trends in
-climate change; in this perspective, the lack of reference data before the
+climate change.  The lack of reference data before the
 acceleration of the effects of climate change is of particular concern,
-as we may be deriving intuitions on ecological networks structure and
-assembly rule from networks that are in the midst of important ecological
-disturbances. Although there are some research on the response of co-occurrence
+as we may be deriving intuitions on ecological network structure and
+assembly rules from networks that are in the midst of important ecological
+disturbances. Although there is some research on the response of co-occurrence
 and indirect interactions to climate change [@ArauRoze11; @LosaScho17],
 these are a far cry from actual direct interactions; similarly, the data
 on "paleo-foodwebs", *i.e.* from deep evolutionary time [@MuscPrab18;
 @YeakPire14; @NenzMont14] represent the effect of more progressive change,
 and may not adequately inform us about the future of ecological networks
 under severe climate change.
+However, though we lack baselines against which to measure the present, as a community we are in a position to provide one for the future.
+Climate change will continue to have important impacts on species distributions and interactions for at least the next century [tk].
+The Mangal database provides a structure to organize and share network data, creating a baseline for future attempts to monitor and adapt to biodiversity change.
 
-@GianCost17 we already know that CC will disrupt services provided by species
-interactions + accelerate the mismatch @DamiToug19 -- what about climatic
-debt with a very large number of species as in @Devivan12 ?
+<!-- @GianCost17 we already know that CC will disrupt services provided by species interactions + accelerate the mismatch @DamiToug19 -- what about climatic debt with a very large number of species as in @Devivan12 ? -->
 
 Possibly more concerning is the fact that the spatial distribution
 of sampled networks shows a clear bias towards the Western world,
-specifically the Atlantic coast of the USA and Canada, and Western Europe
-(+@fig:spatial). While this can to some degree be circumvented by working on
-the networks sampled in places that are close analogues to regions without
-direct information (almost all of Africa, most of South America, a large part
-of Asia), @fig:analog suggests that this approach will rapidly be limited:
-the diversity of bioclimatic combinations on Earth leaves us with some areas
-lacking suitable analogues. These regions are expected to bear the worse of
+specifically Western Europe and the Atlantic coasts of the USA and Canada
+(+@fig:spatial).
+This problem can be somewhat circumvented by working on networks sampled in places that are close analogues of those without
+direct information (almost all of Africa, most of South America, a large part of Asia).
+However, @fig:analog suggests that this approach will rapidly be limited: the diversity of bioclimatic combinations on Earth leaves us with some areas
+lacking suitable analogues. These regions are expected to bear the worst of
 the socio-economical (*e.g.* Indonesia) or ecological (*e.g.* polar regions)
-consequences of climate change. All things considered, our current knowledge
-about the structure of ecological networks at the global scale leaves us
-under-prepared to predict their response to a warming world.
+consequences of climate change [tk].
+All things considered, our current knowledge about the structure of ecological networks at the global scale leaves us under-prepared to predict their response to a warming world.
 
 ## What purpose are global ecological network data fit for?
 
@@ -200,7 +197,8 @@ This begs the question of *what* can be achieved with our current knowledge
 of ecological networks. **TK**
 
 ## Active development and data contribution
-This is an open-source project: all data and all code supporting this are available on the Mangal project GitHub organization. Our hope is that the success of this project will encourage similar efforts within other parts of the ecological community.
+This is an open-source project: all data and all code supporting this are available on the Mangal project GitHub organization.
+Our hope is that the success of this project will encourage similar efforts within other parts of the ecological community.
 In addition, we hope that this project will encourage the recognition of the contribution that software creators make to ecological research.
 
 
