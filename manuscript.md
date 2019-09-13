@@ -25,7 +25,7 @@ on existing network properties [@StocPois17], species traits [@GravPois13;
 @DesjLaig17; @BrouGrav17; @BartGrav16], and environmental conditions
 [@GravBais18]. These latter approaches tend to perform well in data-poor environments
 [@BeauDesj16], and can be combined through ensemble modeling or model
-averaging to generate more robust predictions [@PomeThom18]. The task of inferring interactions is particularly important becuase
+averaging to generate more robust predictions [@PomeThom18]. The task of inferring interactions is particularly important because
 ecological networks are difficult to adequately sample in nature [@Jord16;
 @BanaCatt04; @ChacVazq12; @GibsKnot11]. The common goal to these efforts is to facilitate the prediction of network
 structure, particularly over space [@PoisGrav16; @GravBais18;
@@ -107,13 +107,12 @@ for ecological interactions.
 @Whit62 suggested that natural communities can be partitioned across
 biomes, largely defined as a function of their relative precipitation and
 temperature. For all networks for which the latitude and longitude was known,
-we extracted the value of the first (average temperature) and twelfth (annual
-precipitation) from the WorldClim 2 data [@FickHijm17]. This allows situating
-every network on the map of biomes according to @Whit62 (note that because
+we extracted the value temperature (BioClim1, yearly average) and
+precipitation (BioClim12, total annual) from the WorldClim 2 data [@FickHijm17]. Using these we can plot every network on the map of biomes drawn by @Whit62 (note that because
 the frontiers between biomes are not based on any empirical or systematic
 process, they have been omitted from this analysis). In +@fig:biomes,
-we show that even though networks, overall, capture the diversity of the
-precipitation/temperature climate well, types of networks have been studied
+we show that even though networks capture the overall diversity of
+precipitation and temperature, types of networks have been studied
 in sub-spaces only. Specifically, parasitism networks have been studied in
 colder and drier climates; mutualism networks in wetter climates; predation
 networks display less of a bias.
@@ -124,12 +123,12 @@ Scaling up this analysis to the 19 BioClim variables in @FickHijm17, we
 extracted the position of every network in the bioclimatic space, conducted
 a principal component analysis on the scaled bioclimatic variables, and
 measured their distance to the centre of this space ($\mathbf{0}$). This
-is essentially a measurement of the "rarity" of the bioclimatic conditions
+is a measurement of the "rarity" of the bioclimatic conditions
 in which any networks were sampled, with larger values indicating more
 unique combinations (the distance was ranged to $]0;1]$ for the sake of
 interpretation). As shown in +@fig:ecc, mutualistic interactions tend to
 have values that are higher than both parasitism and predation, suggesting
-that they have been sampled in more original environments.
+that they have been sampled in more unique environments.
 
 ![tk](figures/figure_05_b.png){#fig:ecc}
 
