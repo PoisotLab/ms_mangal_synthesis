@@ -192,6 +192,11 @@ Authors could then extend their analyses by including a comparison to analogous
 data made public in Mangal.
 After publication of the research paper, the original data could themselves be
 uploaded to Mangal.
+This enables the reproducibility of this particular published paper.
+Even more powerfully, it allows us to build a future of dynamic ecological
+analyses, wherein analyses are automatically re-done as more data get added.
+This would allow a sort of continuous assessment of proposed ecological
+relationships in network structure.
 This cycle of data discovery and reuse is an example of the Data Life Cycle (as
 discussed by DataOne, [tk]) and represents one way to practice ecological
 synthesis.
