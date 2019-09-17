@@ -29,16 +29,19 @@ averaging to generate more robust predictions [@PomeThom18]. The task of inferri
 ecological networks are difficult to adequately sample in nature [@Jord16;
 @BanaCatt04; @ChacVazq12; @GibsKnot11]. The common goal to these efforts is to facilitate the prediction of network
 structure, particularly over space [@PoisGrav16; @GravBais18;
-**MARINE FOODWEB**] and into the future [@AlboVele14], and to appraise the response of that structure to possible environmental changes.
+ (tk) Albouy et al Nat Ecol Evol 2018 ] and into the future [@AlboVele14], and to appraise the response of that structure to possible environmental changes.
 
-These disparate methodological efforts share another important trait: their continued success depends on state-of-the art data management. Novel
-quantitative tools demand a higher volume of network data; novel collection
-techniques demand powerful data repositories; novel inference tools demand
-easier integration between different types of data, including but not limited
-to interactions, species traits, taxonomy, occurrences, and local bioclimatic
-conditions. In short, advancing the science of ecological networks requires us
-not only to increase the volume of available data, but to pair these data with
-ecologically relevant metadata. Such data should also be made available in a way that facilitates programmatic
+These disparate methodological efforts share another important trait: their
+continued success depends on state-of-the art data management.
+Novel quantitative tools demand a higher volume of network data; novel
+collection techniques demand powerful data repositories; novel inference tools
+demand easier integration between different types of data, including but not
+limited to: interactions, species traits, taxonomy, occurrences, and local
+bioclimatic conditions.
+In short, advancing the science of ecological networks requires us not only to
+increase the volume of available data, but to pair these data with ecologically
+relevant metadata.
+Such data should also be made available in a way that facilitates programmatic
 interaction so that they can be used by reproducible data analysis pipelines.
 
 @PoisBais16 introduced `mangal.io` as a first step in this direction. In
@@ -47,33 +50,19 @@ of the data representation, amount and richness of metadata, and digitized
 and standardized as much ecological data as we could find. The second major
 release of this database contains over 1300 networks, 120000 interactions
 across close to 7000 taxa, and represents what is to our best knowledge the
-most complete collection of species interactions available. We seek to assess
-the fitness for purpose of ecological networks at the global scale to support
-synthesis research. Based on temporal and spatial biases in
-the description of some types of interactions, we conclude that while there
-is an increasing amount of available data, most of the planet's surface is
-poorly described. In particular, Africa, South America, and most of Asia have
-very sparse coverage. This suggests that the accuracy of synthesis efforts on
-the worldwide structure or properties of ecological networks will have very
-low predictive values within these areas, and reinforces the need to digitize
-available information, but also prioritize sampling towards these locations.
+most complete collection of species interactions available.
 
-<!-- @BorrMood14 identified network ecology as one of the fastest growing sub-field in the ecological sciences. -->
-
-**Main question**
-Here we address the question of what we can and cannot do with this large store of ecological network data.
-
-* A major challenge to ecological synthesis is generalizing from samples to the behaviour of ecological systems
-* two obstacles to such generalizing in ecological systems: data coverage and data quality
-  - data coverage: are data collected from every relevant system?
-  - data quality: are data fit-for-purpose? Two particular aspects of quality
-    - taxonomic resolution
-    - sampling effort
-  Synthesizing ecological data presents important challenges and also some
-  exciting opportunities. Mangal is well suited to offer such opportunities
-  in the study of ecological networks.
-
-
+Here we ask if the current mangal database is fit for the purpose of
+global-scale synthesis research into ecological networks.
+We conclude that interactions over most of the planet's surface are poorly
+described, despite an increasing amount of available data, due to temporal and
+spatial biases in data collection.
+In particular, Africa, South America, and most of Asia have very sparse
+coverage.
+This suggests that synthesis efforts on the worldwide structure or properties of
+ecological networks will be weaker within these areas.
+To improve this situation, we should  digitize available network information and
+prioritize sampling towards data-poor locations.
 
 # Global trends in ecological networks description
 
@@ -142,18 +131,6 @@ Climate analogue
 
 # Conclusions
 
-## Data quality: sampling effort and taxonomy
-
-@Jord16a -- importance of taxonomic resolution
-
-Sampling effort and taxonomic detail are two very challenging but important part of any ecological dataset. The datasets in Mangal represent some of the most detailed studies of ecological networks available.
-* measures of network structure may be particularly sensitive to the amount of sampling effort
-* repeat sampling may be necessary to capture a "saturation" of interactions.
-* we present some visualization of the sampling coverage of Mangal [tk]
-* High taxonomic resolution is difficult to achieve in ecology, especially depending on the sampling method used (e.g. gut contents vs observations). We present a breakdown of the taxonomic resolution of Mangal.
-* Ecological networks occur in various kinds, but they are not all equally well sampled. We present a breakdown of the number of parasitic, mutualistic and predator-prey networks sampled in Mangal
-<!-- perhaps this could be a 3-panel figure -->
-
 ## Can we predict the future of ecological networks under climate change?
 
 Perhaps unsurprisingly, most of our knowledge on ecological networks is
@@ -190,15 +167,38 @@ the socio-economical (*e.g.* Indonesia) or ecological (*e.g.* polar regions)
 consequences of climate change [tk].
 All things considered, our current knowledge about the structure of ecological networks at the global scale leaves us under-prepared to predict their response to a warming world.
 
-## What purpose are global ecological network data fit for?
+## For what purpose are global ecological network data fit?
 
-This begs the question of *what* can be achieved with our current knowledge
-of ecological networks. **TK**
+What can we achieve with our current knowledge of ecological networks?
+The overview presented here shows a large and detailed dataset, compiled from
+almost every major biome on earth.
+It also displays our failure as a community to include some of the most threatened and
+valuable habitats in our work.
+Gaps in any dataset create uncertainty when making predictions or suggesting causal relationships.
+This uncertainty must be measured by users of these data, especially when
+predicting over the "gaps" in space or climate that we have identified.
+In this paper we are not making any explicit recommendations for synthesis workflows.
+Rather we this needs to be a collective process, a collaboration between data
+collectors (who understand the deficiencies of these data) and data analysts
+(who understand the needs and assumptions of network methods).
+
+One possible avenue for synthesis work, including the contribution of new data
+to Mangal, is the use of these published data to supplement and extend existing
+ecological network data.
+This "semi-private" ecological synthesis could begin with new data collected by
+authors -- for example, a host-parasite network of lake fish in Africa, or a
+pollination network of hummingbirds in Brazil.
+Authors could then extend their analyses by including a comparison to analogous
+data made public in Mangal.
+After publication of the research paper, the original data could themselves be
+uploaded to Mangal.
+This cycle of data discovery and reuse is an example of the Data Life Cycle (as
+discussed by DataOne, [tk]) and represents one way to practice ecological
+synthesis.
 
 ## Active development and data contribution
 This is an open-source project: all data and all code supporting this are available on the Mangal project GitHub organization.
 Our hope is that the success of this project will encourage similar efforts within other parts of the ecological community.
 In addition, we hope that this project will encourage the recognition of the contribution that software creators make to ecological research.
-
 
 # References
