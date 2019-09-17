@@ -25,4 +25,4 @@ deploy:
   keep_history: true
   github_token: $GITHUB_TOKEN
   on:
-     all_branches: true
+     branch: master
