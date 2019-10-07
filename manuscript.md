@@ -192,9 +192,10 @@ level of species and their interactions, but at that of the community.
 structural backbone, which is in part due to strong evolutionary constraints on
 the establishment of species interactions [@DallStou15]; in other words, most
 networks are expected to be variations on a shared theme, and this facilitates
-the task of predicting the overarching structure greatly. 
-
-@DallPois17
+the task of predicting the overarching structure greatly. Finally, this approach
+to prediction which neglects the composition of networks is justified by the
+fact that even in the presence of strong compositional turnover, network
+structure tends to be maintained at very large spatial scales [@DallPois17].
 
 ## Active development and data contribution
 
