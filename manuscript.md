@@ -152,8 +152,6 @@ distributions and interactions for at least the next century [tk]. The Mangal
 database provides a structure to organize and share network data, creating a
 baseline for future attempts to monitor and adapt to biodiversity change.
 
-<!-- @GianCost17 we already know that CC will disrupt services provided by species interactions + accelerate the mismatch @DamiToug19 -- what about climatic debt with a very large number of species as in @Devivan12 ? -->
-
 Possibly more concerning is the fact that the spatial distribution of sampled
 networks shows a clear bias towards the Western world, specifically Western
 Europe and the Atlantic coasts of the USA and Canada (+@fig:spatial). This
@@ -164,9 +162,13 @@ suggests that this approach will rapidly be limited: the diversity of
 bioclimatic combinations on Earth leaves us with some areas lacking suitable
 analogues. These regions are expected to bear the worst of the socio-economical
 (*e.g.* Indonesia) or ecological (*e.g.* polar regions) consequences of climate
-change [tk]. All things considered, our current knowledge about the structure of
+change. All things considered, our current knowledge about the structure of
 ecological networks at the global scale leaves us under-prepared to predict
-their response to a warming world.
+their response to a warming world. From the limited available evidence, we can
+assume that ecoservices supported by species interactions will be disrupted
+[@GianCost17], in part because the mismatch between interacting species will
+increase [@DamiToug19] alongside the climatic debt accumulated within
+interactions [@Devivan12].
 
 ## For what purpose are global ecological network data fit?
 
@@ -183,6 +185,23 @@ collaboration between data collectors (who understand the deficiencies of these
 data) and data analysts (who understand the needs and assumptions of network
 methods).
 
+
+@MoraGrav18
+
+@DallStou15
+
+@DallPois17
+
+## Active development and data contribution
+
+This is an open-source project: all data and all code supporting this are
+available on the Mangal project GitHub organization. Our hope is that the
+success of this project will encourage similar efforts within other parts of the
+ecological community. In addition, we hope that this project will encourage the
+recognition of the contribution that software creators make to ecological
+research.
+
+
 One possible avenue for synthesis work, including the contribution of new data
 to Mangal, is the use of these published data to supplement and extend existing
 ecological network data. This "semi-private" ecological synthesis could begin
@@ -197,14 +216,5 @@ re-done as more data get added. This would allow a sort of continuous assessment
 of proposed ecological relationships in network structure. This cycle of data
 discovery and reuse is an example of the Data Life Cycle (as discussed by
 DataOne, [tk]) and represents one way to practice ecological synthesis.
-
-## Active development and data contribution
-
-This is an open-source project: all data and all code supporting this are
-available on the Mangal project GitHub organization. Our hope is that the
-success of this project will encourage similar efforts within other parts of the
-ecological community. In addition, we hope that this project will encourage the
-recognition of the contribution that software creators make to ecological
-research.
 
 # References
