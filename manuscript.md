@@ -185,10 +185,14 @@ collaboration between data collectors (who understand the deficiencies of these
 data) and data analysts (who understand the needs and assumptions of network
 methods).
 
-
-@MoraGrav18
-
-@DallStou15
+One line of research that we feel can confidently be pursued lies in
+extrapolating the structure of ecological networks over gradients, not at the
+level of species and their interactions, but at that of the community.
+@MoraGrav18 revealed that all food webs more or less build upon the same
+structural backbone, which is in part due to strong evolutionary constraints on
+the establishment of species interactions [@DallStou15]; in other words, most
+networks are expected to be variations on a shared theme, and this facilitates
+the task of predicting the overarching structure greatly. 
 
 @DallPois17
 
