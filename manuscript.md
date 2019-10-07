@@ -13,23 +13,25 @@ the shape of the extant network is not sufficient [@ThomGonz17], and that it
 needs to be supplemented by additional data on the species in the food web, climate,
 and climate projection.
 
-This renewed interest in ecological networks has prompted several
-methodological efforts. First, an expansion of the analytical tools to study
-ecological networks and their variation in space [@PoisCana12; @PoisStou15;
-@PoisGuev17]. Second, an improvement in large-scale data-collection,
-through increased adoption of molecular biology tools [@EitzAbre19;
-@EvanKits16]  and crowd-sourcing of data collection [@BahlLand16; @RoyBaxt16;
-@PocoRoy15]. Finally, a surge in the development of tools that allow us to *infer*
-species interactions [@MoraMati15] based on limited but complementary data
-on existing network properties [@StocPois17], species traits [@GravPois13;
-@DesjLaig17; @BrouGrav17; @BartGrav16], and environmental conditions
-[@GravBais18]. These latter approaches tend to perform well in data-poor environments
-[@BeauDesj16], and can be combined through ensemble modeling or model
-averaging to generate more robust predictions [@PomeThom18]. The task of inferring interactions is particularly important because
-ecological networks are difficult to adequately sample in nature [@Jord16;
-@BanaCatt04; @ChacVazq12; @GibsKnot11]. The common goal to these efforts is to facilitate the prediction of network
-structure, particularly over space [@PoisGrav16; @GravBais18;
- (tk) Albouy et al Nat Ecol Evol 2018 ] and into the future [@AlboVele14], and to appraise the response of that structure to possible environmental changes.
+This renewed interest in ecological networks has prompted several methodological
+efforts. First, an expansion of the analytical tools to study ecological
+networks and their variation in space [@PoisCana12; @PoisStou15; @PoisGuev17].
+Second, an improvement in large-scale data-collection, through increased
+adoption of molecular biology tools [@EitzAbre19; @EvanKits16]  and
+crowd-sourcing of data collection [@BahlLand16; @RoyBaxt16; @PocoRoy15].
+Finally, a surge in the development of tools that allow us to *infer* species
+interactions [@MoraMati15] based on limited but complementary data on existing
+network properties [@StocPois17], species traits [@GravPois13; @DesjLaig17;
+@BrouGrav17; @BartGrav16], and environmental conditions [@GravBais18]. These
+latter approaches tend to perform well in data-poor environments [@BeauDesj16],
+and can be combined through ensemble modeling or model averaging to generate
+more robust predictions [@PomeThom18]. The task of inferring interactions is
+particularly important because ecological networks are difficult to adequately
+sample in nature [@Jord16; @BanaCatt04; @ChacVazq12; @GibsKnot11]. The common
+goal to these efforts is to facilitate the prediction of network structure,
+particularly over space [@PoisGrav16; @GravBais18; @AlboArch19] and into the
+future [@AlboVele14], and to appraise the response of that structure to possible
+environmental changes.
 
 These disparate methodological efforts share another important trait: their
 continued success depends on state-of-the art data management.
