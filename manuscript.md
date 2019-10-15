@@ -92,6 +92,7 @@ argue is provided by `mangal.io` for ecological interactions.
 ## Different interaction types have been studied in different biomes
 
 <!-- TD: yikes. I can try to get the LNHM data per country formatted according to the mangal.io data requirements, but those also suffer from the sampling biases described. This would help the host-parasite networks look a bit better represented spatially, but the actual diversity of species and interactions is going to subjet to sampling effort (e.g., for some reason, we don't seem to have a good idea of host-helminth parasite relationships in North Korea). -->
+
 <!-- TD: in the analysis above, does this incorporate the density of the environmental space? I'm thinking that if the center of this environmental space is defined by the outer bounds, we could actually be misidentifying the center if a combination of environmental conditions is super common, but not in the center as determined by the extrema. This may just stem from my lack of understanding though. The mutualistic network bias could be a result of lots of plant-pollinator studies being conducted in tropical environments, right? -->
 
 @Whit62 suggested that natural communities can be partitioned across biomes,
@@ -127,7 +128,20 @@ environments.
 
 ## Some locations on Earth have no climate analogue
 
-Climate analogue
+In figures **TODO**, we represent the environmental distance between every pixel
+covered by *BioClim* data, and the three networks that were sampled in the
+closest environmental conditions. In short, higher distances correspond to
+pixels on Earth for which no climate analogue network exist, whereas the darker
+areas are well described. It should be noted that the three type of interactions
+studied here (mutualism, parasitism, predation) have regions with no analogues
+in different locations. In short, it is not that we are systematically excluding
+some areas, but rather than some type of interactions are more studied in
+specific environments. This shows how the lack of global coverage identified in
++@fig:biomes, for example, can cascade up to the global scale. These maps serve
+as an interesting measure of the extent to which spatial predictions can be
+trusted:  any extrapolation of network structure in an area devoid of analogues
+should be taken with much greater caution than an extrapolation in an area with
+many similar networks.
 
 ![mutualism](figures/envirodistance_mutualism.png){#fig:mutu}
 ![parasitism](figures/envirodistance_parasitism.png){#fig:para}
