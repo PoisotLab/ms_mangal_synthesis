@@ -1,5 +1,6 @@
 # Introduction
 
+
 Ecological networks are a useful way to think about ecological systems in which
 species or organisms interact [@HeleGarc14; @DelmBess18; @PoisStou16], and
 recently there has been an explosion of interest in their dynamics across large
@@ -52,6 +53,8 @@ of this database contains over 1300 networks, 120000 interactions across close
 to 7000 taxa, and represents what is to our best knowledge the most complete
 collection of species interactions available.
 
+<!-- TD: The final sentence is a strong statement. I don't disagree, but damn. I think I'm perhaps more on the side of "well this is what we have, let's try to correct for inherent biases and explore general relationships". Perhaps a few sentences could be included about using with this approach with the idea of a dynamic analysis, where analyses are automatically re-done as more data get added, allowing a sort of continuous assessment of proposed ecological relationships? -->
+
 Here we ask if the current mangal database is fit for the purpose of
 global-scale synthesis research into ecological networks. We conclude that
 interactions over most of the planet's surface are poorly described, despite an
@@ -88,7 +91,11 @@ argue is provided by `mangal.io` for ecological interactions.
 
 ![Each point on the map corresponds to a network with parasitic, mutualistic, and predatory interactions. It is noteworty that the spatial coverage of these types of interactions is uneven; the Americas have almost no parasitic network, for example. Some places have barely been studied at all, including Africa and Eastern Asia. This concentration of networks around rich countries speaks to an inadequate coverage of the diversity of landscapes on Earth.](figures/figure_01_c.png){#fig:spatial}
 
+
 ## Different interaction types have been studied in different biomes
+
+<!-- TD: yikes. I can try to get the LNHM data per country formatted according to the mangal.io data requirements, but those also suffer from the sampling biases described. This would help the host-parasite networks look a bit better represented spatially, but the actual diversity of species and interactions is going to subjet to sampling effort (e.g., for some reason, we don't seem to have a good idea of host-helminth parasite relationships in North Korea). -->
+<!-- TD: in the analysis above, does this incorporate the density of the environmental space? I'm thinking that if the center of this environmental space is defined by the outer bounds, we could actually be misidentifying the center if a combination of environmental conditions is super common, but not in the center as determined by the extrema. This may just stem from my lack of understanding though. The mutualistic network bias could be a result of lots of plant-pollinator studies being conducted in tropical environments, right? -->
 
 @Whit62 suggested that natural communities can be partitioned across biomes,
 largely defined as a function of their relative precipitation and temperature.
@@ -118,6 +125,9 @@ environments.
 
 ![tk](figures/figure_05_b.png){#fig:ecc}
 
+<!-- TD: above you discuss visualizing the distribution of networks in bioclimatic space defined by the 19 bioclim variables, but the above figure is just across annual averages in temperature and precipitation. Why show the networks in this low env dimensional space when the focus should(?) be on the higher dimensional climate discussed more below? -->
+
+
 ## Some locations on Earth have no climate analogue
 
 Climate analogue
@@ -125,6 +135,10 @@ Climate analogue
 ![mutualism](figures/envirodistance_mutualism.png){#fig:mutu}
 ![parasitism](figures/envirodistance_parasitism.png){#fig:para}
 ![predation](figures/envirodistance_predation.png){#fig:pred}
+
+
+<!-- TD: What are the implications of this? Here, we assume that the composition of communities and interactions are determined by climatic constraints (right?). The intended message is that networks vary in climatic space (i.e., there is differential sampling of networks across environmental gradients). This differs as a function of network type. This gets at sampling effort, but not taxonomic bias (unless taxonomic bias is only to say that networks of different types are typically studied in different places within that climatic space). -->
+
 
 # Conclusions
 
@@ -221,5 +235,12 @@ re-done as more data get added. This would allow a sort of continuous assessment
 of proposed ecological relationships in network structure. This cycle of data
 discovery and reuse is an example of the Data Life Cycle (as discussed by
 DataOne, [tk]) and represents one way to practice ecological synthesis.
+
+<!-- TD: This could be a call to incorporate community level data into the network data. That is, a good measure of sampling bias might be the fraction of diversity represented in the sampled interaction network which is recorded in larger databases like GBIF (which of course have NO BIASES WHATSOEVER). The idea being that a poorly sampled network will also have a poor representation of a single trophic level compared to our existing knowledge of what's there. -->
+
+<!-- TD: worth discussing that baseline estimates may vary in their sampling effort or taxonomic resolution? The issue then could be not that we don't have information from the past, but that this information is simply less well-sampled/resolved relative to more current data on species interactions. It seems odd not to discuss niche limitations somewhere in the intro or here. Predicting the effect of climate change on ecological networks can be done at multiple levels. If I want to forecast the potential change in some high-level network property like connectance, I may be successful. If I wanted to predict how community composition and interactions between partners will change, that is a way tougher ask. I'd need information on what species can handle climatically, and how their interactions are mediated by climate (assuming non-neutral interactions...the presence of both species does not mean that they interact) -->
+
+<!-- TD: there could be an emphasis here on the development of tools to gauge sampling effort, or to account for variable sampling effort at network level. To draw an analogue, we cannot assume that species diversity at a single trophic level is well-sampled across large spatial or environmental gradients, so this is a general problem requiring a general solution. And it's not like it has stopped people (myself included) from examining large-scale relationships in parasite diversity, network structure, etc. This seems like an overly general question, where the question almost begs a negative response (i.e., global network data is garbage and we can't learn anything from it due to sampling biases and variable taxonomic resolution) -->
+
 
 # References
