@@ -1,6 +1,5 @@
 # Introduction
 
-
 Ecological networks are a useful way to think about ecological systems in which
 species or organisms interact [@HeleGarc14; @DelmBess18; @PoisStou16], and
 recently there has been an explosion of interest in their dynamics across large
@@ -52,8 +51,6 @@ standardized as much ecological data as we could find. The second major release
 of this database contains over 1300 networks, 120000 interactions across close
 to 7000 taxa, and represents what is to our best knowledge the most complete
 collection of species interactions available.
-
-<!-- TD: The final sentence is a strong statement. I don't disagree, but damn. I think I'm perhaps more on the side of "well this is what we have, let's try to correct for inherent biases and explore general relationships". Perhaps a few sentences could be included about using with this approach with the idea of a dynamic analysis, where analyses are automatically re-done as more data get added, allowing a sort of continuous assessment of proposed ecological relationships? -->
 
 Here we ask if the current mangal database is fit for the purpose of
 global-scale synthesis research into ecological networks. We conclude that
@@ -211,15 +208,25 @@ to prediction which neglects the composition of networks is justified by the
 fact that even in the presence of strong compositional turnover, network
 structure tends to be maintained at very large spatial scales [@DallPois17].
 
+Finally, it must be noted that as the amount of empirical evidence grows, so too
+should our understanding of existing relationships between network properties,
+networks properties and space, and the interpretation to be drawn from them. In
+this perspective, the idea of continuously updated analyses is very promising.
+Following the template laid out by **Ethan et al CI for data**, it is feasible
+to update a series of canonical analyses any time the database grows, in order
+to produce living, automated synthesis of ecological networks knowledge. To this
+end, the mangal database has been integrated with `EcologicalNetworks.jl`
+**ref**, which allows the development of flexible networks analysis pipelines.
+
 ## Active development and data contribution
 
-This is an open-source project: all data and all code supporting this are
-available on the Mangal project GitHub organization. Our hope is that the
-success of this project will encourage similar efforts within other parts of the
-ecological community. In addition, we hope that this project will encourage the
-recognition of the contribution that software creators make to ecological
-research.
-
+This is an open-source project: all data and all code supporting this manuscript
+are available on the Mangal project GitHub organization, and the figures
+presented in this manuscript are themselves packaged as a self-contained
+analysis which can be run at any time.. Our hope is that the success of this
+project will encourage similar efforts within other parts of the ecological
+community. In addition, we hope that this project will encourage the recognition
+of the contribution that software creators make to ecological research.
 
 One possible avenue for synthesis work, including the contribution of new data
 to Mangal, is the use of these published data to supplement and extend existing
@@ -237,8 +244,6 @@ discovery and reuse is an example of the Data Life Cycle (as discussed by
 DataOne, [tk]) and represents one way to practice ecological synthesis.
 
 <!-- TD: This could be a call to incorporate community level data into the network data. That is, a good measure of sampling bias might be the fraction of diversity represented in the sampled interaction network which is recorded in larger databases like GBIF (which of course have NO BIASES WHATSOEVER). The idea being that a poorly sampled network will also have a poor representation of a single trophic level compared to our existing knowledge of what's there. -->
-
-<!-- TD: worth discussing that baseline estimates may vary in their sampling effort or taxonomic resolution? The issue then could be not that we don't have information from the past, but that this information is simply less well-sampled/resolved relative to more current data on species interactions. It seems odd not to discuss niche limitations somewhere in the intro or here. Predicting the effect of climate change on ecological networks can be done at multiple levels. If I want to forecast the potential change in some high-level network property like connectance, I may be successful. If I wanted to predict how community composition and interactions between partners will change, that is a way tougher ask. I'd need information on what species can handle climatically, and how their interactions are mediated by climate (assuming non-neutral interactions...the presence of both species does not mean that they interact) -->
 
 <!-- TD: there could be an emphasis here on the development of tools to gauge sampling effort, or to account for variable sampling effort at network level. To draw an analogue, we cannot assume that species diversity at a single trophic level is well-sampled across large spatial or environmental gradients, so this is a general problem requiring a general solution. And it's not like it has stopped people (myself included) from examining large-scale relationships in parasite diversity, network structure, etc. This seems like an overly general question, where the question almost begs a negative response (i.e., global network data is garbage and we can't learn anything from it due to sampling biases and variable taxonomic resolution) -->
 
