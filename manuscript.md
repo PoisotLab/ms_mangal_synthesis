@@ -5,16 +5,18 @@ species or organisms interact [@HeleGarc14; @DelmBess18; @PoisStou16], and
 recently there has been an explosion of interest in their dynamics across large
 temporal scales [@BaisGrav19; @TyliMorr17], and especially along environmental
 gradients [@PellAlbo17; @TrojOles16]. As ecosystems and climates are changing
-rapidly, networks are at risk of unravelling: for example by invasion of
-destabilizing exotic species them [@MagrHolz17; @StroLero14], or by a "rewiring"
-of interactions among existing species [@HuiRich19; @GuidBart19]. Simulation
-studies suggest that knowing the shape of the extant network is not sufficient
-[@ThomGonz17], and that it needs to be supplemented by additional data on the
-species in the food web, climate, and climate projection.
+rapidly, networks are at risk of unravelling and disassembly: for example by
+invasion of destabilizing exotic species them [@MagrHolz17; @StroLero14], or by
+a "rewiring" of interactions among existing species [@HuiRich19; @GuidBart19;
+@BartMcCa19]. Simulation studies suggest that knowing the structure of the
+extant network is not sufficient [@ThomGonz17], and that it needs to be
+supplemented by additional data on the species in the food web, climate, and
+climate projection.
 
 This renewed interest in ecological networks has prompted several methodological
-efforts. First, an expansion of the analytical tools to study ecological
-networks and their variation in space [@PoisCana12; @PoisStou15; @PoisGuev17].
+efforts. First, an expansion of the analytical tools to study spatial, temporal,
+and spatio-temporal variation of ecological networks in space and in
+relationship to environmental gradients [@PoisCana12; @PoisStou15; @PoisGuev17].
 Second, an improvement in large-scale data-collection, through increased
 adoption of molecular biology tools [@EitzAbre19; @EvanKits16]  and
 crowd-sourcing of data collection [@BahlLand16; @RoyBaxt16; @PocoRoy15].
@@ -29,8 +31,8 @@ particularly important because ecological networks are difficult to adequately
 sample in nature [@Jord16; @BanaCatt04; @ChacVazq12; @GibsKnot11]. The common
 goal to these efforts is to facilitate the prediction of network structure,
 particularly over space [@PoisGrav16; @GravBais18; @AlboArch19] and into the
-future [@AlboVele14], and to appraise the response of that structure to possible
-environmental changes.
+future [@AlboVele14], in order to appraise the response of that structure to
+possible environmental changes.
 
 These disparate methodological efforts share another important trait: their
 continued success depends on state-of-the art data management. Novel
@@ -173,7 +175,7 @@ may not adequately inform us about the future of ecological networks under
 severe climate change. However, though we lack baselines against which to
 measure the present, as a community we are in a position to provide one for the
 future. Climate change will continue to have important impacts on species
-distributions and interactions for at least the next century [tk]. The Mangal
+distributions and interactions for at least the next century. The Mangal
 database provides a structure to organize and share network data, creating a
 baseline for future attempts to monitor and adapt to biodiversity change.
 
@@ -213,7 +215,7 @@ methods).
 One line of research that we feel can confidently be pursued lies in
 extrapolating the structure of ecological networks over gradients, not at the
 level of species and their interactions, but at that of the community.
-@MoraGrav18 revealed that all food webs more or less build upon the same
+@MoraGrav18 revealed that all food webs are more or less built upon the same
 structural backbone, which is in part due to strong evolutionary constraints on
 the establishment of species interactions [@DallStou15]; in other words, most
 networks are expected to be variations on a shared theme, and this facilitates
@@ -226,18 +228,21 @@ Finally, it must be noted that as the amount of empirical evidence grows, so too
 should our understanding of existing relationships between network properties,
 networks properties and space, and the interpretation to be drawn from them. In
 this perspective, the idea of continuously updated analyses is very promising.
-Following the template laid out by **Ethan et al CI for data**, it is feasible
+Following the template laid out by @WhiteYenn19 and @YennChris19, it is feasible
 to update a series of canonical analyses any time the database grows, in order
 to produce living, automated synthesis of ecological networks knowledge. To this
 end, the mangal database has been integrated with `EcologicalNetworks.jl`
-**ref**, which allows the development of flexible networks analysis pipelines.
+[@PoisBeli19], which allows the development of flexible networks analysis
+pipelines. One immediate target would be to borrow the methodology from
+@CarlPhil19, and provide estimate of the sampling effort required to accurately
+describe combinations of interaction types and bioclimatic conditions.
 
 ## Active development and data contribution
 
 This is an open-source project: all data and all code supporting this manuscript
 are available on the Mangal project GitHub organization, and the figures
 presented in this manuscript are themselves packaged as a self-contained
-analysis which can be run at any time.. Our hope is that the success of this
+analysis which can be run at any time. Our hope is that the success of this
 project will encourage similar efforts within other parts of the ecological
 community. In addition, we hope that this project will encourage the recognition
 of the contribution that software creators make to ecological research.
@@ -254,8 +259,8 @@ this particular published paper. Even more powerfully, it allows us to build a
 future of dynamic ecological analyses, wherein analyses are automatically
 re-done as more data get added. This would allow a sort of continuous assessment
 of proposed ecological relationships in network structure. This cycle of data
-discovery and reuse is an example of the Data Life Cycle (as discussed by
-DataOne, [tk]) and represents one way to practice ecological synthesis.
+discovery and reuse is an example of the Data Life Cycle [@Mich15] and
+represents one way to practice ecological synthesis.
 
 <!-- TD: This could be a call to incorporate community level data into the network data. That is, a good measure of sampling bias might be the fraction of diversity represented in the sampled interaction network which is recorded in larger databases like GBIF (which of course have NO BIASES WHATSOEVER). The idea being that a poorly sampled network will also have a poor representation of a single trophic level compared to our existing knowledge of what's there. -->
 
