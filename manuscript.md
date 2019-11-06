@@ -120,7 +120,7 @@ mutualistic interactions tend to have values that are higher than both
 parasitism and predation, suggesting that they have been sampled in more unique
 environments.
 
-![tk](figures/figure_05_b.png){#fig:ecc}
+![Distance to the centroid (in the scaled climatic space) for each network, as a function of the type of interaction. Larger values indicate that the network is far from its centroid, and therefore represents sampling in a more "unique" location. Mutualistic interactions have been, on average, studied in more diverse locations that parasitism or predatory networks.](figures/figure_05_b.png){#fig:ecc}
 
 ## Some locations on Earth have no climate analogue
 
