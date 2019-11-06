@@ -5,8 +5,8 @@ species or organisms interact [@HeleGarc14; @DelmBess18; @PoisStou16], and
 recently there has been an explosion of interest in their dynamics across large
 temporal scales [@BaisGrav19; @TyliMorr17], and especially along environmental
 gradients [@PellAlbo17; @TrojOles16]. As ecosystems and climates are changing
-rapidly, networks are at risk of unravelling and disassembly: for example by
-invasion of destabilizing exotic species them [@MagrHolz17; @StroLero14], or by
+rapidly, networks are at risk of unraveling and disassembly: for example by
+invasion of destabilizing exotic species [@MagrHolz17; @StroLero14], or by
 a "rewiring" of interactions among existing species [@HuiRich19; @GuidBart19;
 @BartMcCa19]. Simulation studies suggest that knowing the structure of the
 extant network is not sufficient [@ThomGonz17], and that it needs to be
@@ -55,21 +55,21 @@ of this database contains over 1300 networks, 120000 interactions across close
 to 7000 taxa, and represents what is to our best knowledge the most complete
 collection of species interactions available.
 
-Here we ask if the current mangal database is fit for the purpose of
+Here we ask if the current Mangal database is fit for the purpose of
 global-scale synthesis research into ecological networks. We conclude that
 interactions over most of the planet's surface are poorly described, despite an
 increasing amount of available data, due to temporal and spatial biases in data
 collection. In particular, Africa, South America, and most of Asia have very
 sparse coverage. This suggests that synthesis efforts on the worldwide structure
 or properties of ecological networks will be weaker within these areas. To
-improve this situation, we should  digitize available network information and
+improve this situation, we should digitize available network information and
 prioritize sampling towards data-poor locations.
 
 # Global trends in ecological networks description
 
 ## Network coverage is accelerating but spatially biased
 
-![Cumulative number of ecological networks available in `mangal.io` as a function of the date of collection. About 1000 unique networks have been collected between 1987 and 2017, a rate of just over 30 networks a year. This temporal increase proceeds at different rates for diferent types of networks; while the description of food webs is more or less constant, the global acceleration in the dataset is due to increased interest in host-parasite interactions starting in the late 1970s, while mutualistic networks mostly started being recorded in the early 2000s.](figures/figure_01_a.png){#fig:temporal}
+![Cumulative number of ecological networks available in `mangal.io` as a function of the date of collection. About 1000 unique networks have been collected between 1987 and 2017, a rate of just over 30 networks a year. This temporal increase proceeds at different rates for different types of networks; while the description of food webs is more or less constant, the global acceleration in the dataset is due to increased interest in host-parasite interactions starting in the late 1970s, while mutualistic networks mostly started being recorded in the early 2000s.](figures/figure_01_a.png){#fig:temporal}
 
 The earliest recorded ecological networks date back to the late nineteenth
 century, with a strong increase in the rate of collection around the 1980s
@@ -89,7 +89,7 @@ identified almost ten years ago, improved data deposition requires an
 infrastructure to ensure they can be repurposed for future research, which we
 argue is provided by `mangal.io` for ecological interactions.
 
-![Each point on the map corresponds to a network with parasitic, mutualistic, and predatory interactions. It is noteworty that the spatial coverage of these types of interactions is uneven; the Americas have almost no parasitic network, for example. Some places have barely been studied at all, including Africa and Eastern Asia. This concentration of networks around rich countries speaks to an inadequate coverage of the diversity of landscapes on Earth.](figures/figure_01_c.png){#fig:spatial}
+![Each point on the map corresponds to a network with parasitic, mutualistic, and predatory interactions. It is noteworthy that the spatial coverage of these types of interactions is uneven; the Americas have almost no parasitic network, for example. Some places have barely been studied at all, including Africa and Eastern Asia. This concentration of networks around rich countries speaks to an inadequate coverage of the diversity of landscapes on Earth.](figures/figure_01_c.png){#fig:spatial}
 
 
 ## Different interaction types have been studied in different biomes
@@ -98,7 +98,7 @@ argue is provided by `mangal.io` for ecological interactions.
 largely defined as a function of their relative precipitation and temperature.
 For all networks for which the latitude and longitude was known, we extracted
 the value temperature (BioClim1, yearly average) and precipitation (BioClim12,
-total annual) from the WorldClim 2 data [@FickHijm17]. Using these we can plot
+total annual) from the WorldClim 2 data [@FickHijm17]. Using these, we can plot
 every network on the map of biomes drawn by @Whit62 (note that because the
 frontiers between biomes are not based on any empirical or systematic process,
 they have been omitted from this analysis). In +@fig:biomes, we show that even
@@ -125,7 +125,7 @@ environments.
 ## Some locations on Earth have no climate analogue
 
 In figures @fig:envspace, we represent the environmental distance between every
-pixel covered by *BioClim* data, and the three networks that were sampled in the
+pixel covered by BioClim data, and the three networks that were sampled in the
 closest environmental conditions (this amounts to a $k$ nearest neighbors with
 $k = 3$). In short, higher distances correspond to pixels on Earth for which no
 climate analogue network exists, whereas the darker areas are well described. It
@@ -139,7 +139,7 @@ of the extent to which spatial predictions can be trusted: any extrapolation of
 network structure in an area devoid of analogues should be taken with much
 greater caution than an extrapolation in an area with many similar networks.
 
-![Environmental distance for every terrestrial pixel to its three closest networks. Areas of more saturated coloration are further away from any sampled network, and can therefoer not be well predicted based on existing empirical data.](figures/enviromap.png){#fig:envspace}
+![Environmental distance for every terrestrial pixel to its three closest networks. Areas of more saturated coloration are further away from any sampled network, and can therefore not be well predicted based on existing empirical data.](figures/enviromap.png){#fig:envspace}
 
 # Conclusions
 
@@ -153,7 +153,7 @@ any dataset create uncertainty when making predictions or suggesting causal
 relationships. This uncertainty must be measured by users of these data,
 especially when predicting over the "gaps" in space or climate that we have
 identified. In this paper we are not making any explicit recommendations for
-synthesis workflows. Rather we this needs to be a collective process, a
+synthesis workflows. Rather this needs to be a collective process, a
 collaboration between data collectors (who understand the deficiencies of these
 data) and data analysts (who understand the needs and assumptions of network
 methods).
@@ -178,7 +178,7 @@ from data that were collected after the 1990s (+@fig:temporal). This means that
 we have worryingly little information on ecological networks before the
 acceleration of the climate crisis, and therefore lack a robust baseline.
 @DalsTroj13 provide strong evidence that the extant shape of ecological networks
-emerged in part in response to historical trends in climate change.  The lack of
+emerged in part in response to historical trends in climate change. The lack of
 reference data before the acceleration of the effects of climate change is of
 particular concern, as we may be deriving intuitions on ecological network
 structure and assembly rules from networks that are in the midst of important
@@ -200,7 +200,7 @@ networks shows a clear bias towards the Western world, specifically Western
 Europe and the Atlantic coasts of the USA and Canada (+@fig:spatial). This
 problem can be somewhat circumvented by working on networks sampled in places
 that are close analogues of those without direct information (almost all of
-Africa, most of South America, a large part of Asia). However, @fig:analog
+Africa, most of South America, a large part of Asia). However, +@fig:analog
 suggests that this approach will rapidly be limited: the diversity of
 bioclimatic combinations on Earth leaves us with some areas lacking suitable
 analogues. These regions are expected to bear the worst of the socio-economical
@@ -239,13 +239,12 @@ discovery and reuse is an example of the Data Life Cycle [@Mich15] and
 represents one way to practice ecological synthesis.
 
 Finally, it must be noted that as the amount of empirical evidence grows, so too
-should our understanding of existing relationships between network properties,
-networks properties and space, and the interpretation to be drawn from them. In
+should our understanding of existing relationships between networks properties and space, and the interpretation to be drawn from them. In
 this perspective, the idea of continuously updated analyses is very promising.
 Following the template laid out by @WhitYenn19 and @YennChri19, it is feasible
 to update a series of canonical analyses any time the database grows, in order
 to produce living, automated synthesis of ecological networks knowledge. To this
-end, the mangal database has been integrated with `EcologicalNetworks.jl`
+end, the Mangal database has been integrated with `EcologicalNetworks.jl`
 [@PoisBeli19], which allows the development of flexible networks analysis
 pipelines. One immediate target would be to borrow the methodology from
 @CarlPhil19, and provide estimate of the sampling effort required to accurately
