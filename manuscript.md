@@ -35,16 +35,17 @@ future [@AlboVele14], in order to appraise the response of that structure to
 possible environmental changes.
 
 These disparate methodological efforts share another important trait: their
-continued success depends on state-of-the art data management. Novel
-quantitative tools demand a higher volume of network data; novel collection
-techniques demand powerful data repositories; novel inference tools demand
-easier integration between different types of data, including but not limited
-to: interactions, species traits, taxonomy, occurrences, and local bioclimatic
-conditions. In short, advancing the science of ecological networks requires us
-not only to increase the volume of available data, but to pair these data with
-ecologically relevant metadata. Such data should also be made available in a way
-that facilitates programmatic interaction so that they can be used by
-reproducible data analysis pipelines.
+continued success depends on state-of-the art data management, but also on the
+availability of data that are representative to the area we pretend to model.
+Novel quantitative tools demand a higher volume of network data; novel
+collection techniques demand powerful data repositories; novel inference tools
+demand easier integration between different types of data, including but not
+limited to: interactions, species traits, taxonomy, occurrences, and local
+bioclimatic conditions. In short, advancing the science of ecological networks
+requires us not only to increase the volume of available data, but to pair these
+data with ecologically relevant metadata. Such data should also be made
+available in a way that facilitates programmatic interaction so that they can be
+used by reproducible data analysis pipelines.
 
 @PoisBais16 introduced `mangal.io` as a first step in this direction. In the
 years since the tool was originally published, we continued development of the
@@ -155,6 +156,34 @@ many similar networks.
 
 # Conclusions
 
+## For what purpose are global ecological network data fit?
+
+What can we achieve with our current knowledge of ecological networks? The
+overview presented here shows a large and detailed dataset, compiled from almost
+every major biome on earth. It also displays our failure as a community to
+include some of the most threatened and valuable habitats in our work. Gaps in
+any dataset create uncertainty when making predictions or suggesting causal
+relationships. This uncertainty must be measured by users of these data,
+especially when predicting over the "gaps" in space or climate that we have
+identified. In this paper we are not making any explicit recommendations for
+synthesis workflows. Rather we this needs to be a collective process, a
+collaboration between data collectors (who understand the deficiencies of these
+data) and data analysts (who understand the needs and assumptions of network
+methods).
+
+One line of research that we feel can confidently be pursued lies in
+extrapolating the structure of ecological networks over gradients, not at the
+level of species and their interactions, but at that of the community.
+@MoraGrav18 revealed that all food webs are more or less built upon the same
+structural backbone, which is in part due to strong evolutionary constraints on
+the establishment of species interactions [@DallStou15]; in other words, most
+networks are expected to be variations on a shared theme, and this facilitates
+the task of predicting the overarching structure greatly. Finally, this approach
+to prediction which neglects the composition of networks is justified by the
+fact that even in the presence of strong compositional turnover, network
+structure tends to be maintained at very large spatial scales [@DallPois17].
+
+
 ## Can we predict the future of ecological networks under climate change?
 
 Perhaps unsurprisingly, most of our knowledge on ecological networks is derived
@@ -197,46 +226,6 @@ assume that ecoservices supported by species interactions will be disrupted
 increase [@DamiToug19] alongside the climatic debt accumulated within
 interactions [@Devivan12].
 
-## For what purpose are global ecological network data fit?
-
-What can we achieve with our current knowledge of ecological networks? The
-overview presented here shows a large and detailed dataset, compiled from almost
-every major biome on earth. It also displays our failure as a community to
-include some of the most threatened and valuable habitats in our work. Gaps in
-any dataset create uncertainty when making predictions or suggesting causal
-relationships. This uncertainty must be measured by users of these data,
-especially when predicting over the "gaps" in space or climate that we have
-identified. In this paper we are not making any explicit recommendations for
-synthesis workflows. Rather we this needs to be a collective process, a
-collaboration between data collectors (who understand the deficiencies of these
-data) and data analysts (who understand the needs and assumptions of network
-methods).
-
-One line of research that we feel can confidently be pursued lies in
-extrapolating the structure of ecological networks over gradients, not at the
-level of species and their interactions, but at that of the community.
-@MoraGrav18 revealed that all food webs are more or less built upon the same
-structural backbone, which is in part due to strong evolutionary constraints on
-the establishment of species interactions [@DallStou15]; in other words, most
-networks are expected to be variations on a shared theme, and this facilitates
-the task of predicting the overarching structure greatly. Finally, this approach
-to prediction which neglects the composition of networks is justified by the
-fact that even in the presence of strong compositional turnover, network
-structure tends to be maintained at very large spatial scales [@DallPois17].
-
-Finally, it must be noted that as the amount of empirical evidence grows, so too
-should our understanding of existing relationships between network properties,
-networks properties and space, and the interpretation to be drawn from them. In
-this perspective, the idea of continuously updated analyses is very promising.
-Following the template laid out by @WhiteYenn19 and @YennChris19, it is feasible
-to update a series of canonical analyses any time the database grows, in order
-to produce living, automated synthesis of ecological networks knowledge. To this
-end, the mangal database has been integrated with `EcologicalNetworks.jl`
-[@PoisBeli19], which allows the development of flexible networks analysis
-pipelines. One immediate target would be to borrow the methodology from
-@CarlPhil19, and provide estimate of the sampling effort required to accurately
-describe combinations of interaction types and bioclimatic conditions.
-
 ## Active development and data contribution
 
 This is an open-source project: all data and all code supporting this manuscript
@@ -261,6 +250,19 @@ re-done as more data get added. This would allow a sort of continuous assessment
 of proposed ecological relationships in network structure. This cycle of data
 discovery and reuse is an example of the Data Life Cycle [@Mich15] and
 represents one way to practice ecological synthesis.
+
+Finally, it must be noted that as the amount of empirical evidence grows, so too
+should our understanding of existing relationships between network properties,
+networks properties and space, and the interpretation to be drawn from them. In
+this perspective, the idea of continuously updated analyses is very promising.
+Following the template laid out by @WhiteYenn19 and @YennChris19, it is feasible
+to update a series of canonical analyses any time the database grows, in order
+to produce living, automated synthesis of ecological networks knowledge. To this
+end, the mangal database has been integrated with `EcologicalNetworks.jl`
+[@PoisBeli19], which allows the development of flexible networks analysis
+pipelines. One immediate target would be to borrow the methodology from
+@CarlPhil19, and provide estimate of the sampling effort required to accurately
+describe combinations of interaction types and bioclimatic conditions.
 
 <!-- TD: This could be a call to incorporate community level data into the network data. That is, a good measure of sampling bias might be the fraction of diversity represented in the sampled interaction network which is recorded in larger databases like GBIF (which of course have NO BIASES WHATSOEVER). The idea being that a poorly sampled network will also have a poor representation of a single trophic level compared to our existing knowledge of what's there. -->
 
