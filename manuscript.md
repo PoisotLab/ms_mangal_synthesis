@@ -255,7 +255,7 @@ Finally, it must be noted that as the amount of empirical evidence grows, so too
 should our understanding of existing relationships between network properties,
 networks properties and space, and the interpretation to be drawn from them. In
 this perspective, the idea of continuously updated analyses is very promising.
-Following the template laid out by @WhiteYenn19 and @YennChris19, it is feasible
+Following the template laid out by @WhitYenn19 and @YennChri19, it is feasible
 to update a series of canonical analyses any time the database grows, in order
 to produce living, automated synthesis of ecological networks knowledge. To this
 end, the mangal database has been integrated with `EcologicalNetworks.jl`
