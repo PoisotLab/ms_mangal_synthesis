@@ -139,7 +139,7 @@ of the extent to which spatial predictions can be trusted: any extrapolation of
 network structure in an area devoid of analogues should be taken with much
 greater caution than an extrapolation in an area with many similar networks.
 
-![Environmental distance for every terrestrial pixel to its three closest networks. Areas of more saturated coloration are further away from any sampled network, and can therefoer not be well predicted based on existing empirical data.](figures/enviromap.png){#fig:envspace}
+![Environmental distance for every terrestrial pixel to its three closest networks. Areas of more saturated coloration are further away from any sampled network, and can therefore not be well predicted based on existing empirical data.](figures/enviromap.png){#fig:envspace}
 
 # Conclusions
 
