@@ -124,25 +124,22 @@ environments.
 
 ## Some locations on Earth have no climate analogue
 
-In figures **TODO**, we represent the environmental distance between every pixel
-covered by *BioClim* data, and the three networks that were sampled in the
-closest environmental conditions. In short, higher distances correspond to
-pixels on Earth for which no climate analogue network exist, whereas the darker
-areas are well described. It should be noted that the three type of interactions
-studied here (mutualism, parasitism, predation) have regions with no analogues
-in different locations. In short, it is not that we are systematically excluding
-some areas, but rather than some type of interactions are more studied in
-specific environments. This shows how the lack of global coverage identified in
-+@fig:biomes, for example, can cascade up to the global scale. These maps serve
-as an interesting measure of the extent to which spatial predictions can be
-trusted:  any extrapolation of network structure in an area devoid of analogues
-should be taken with much greater caution than an extrapolation in an area with
-many similar networks.
+In figures @fig:envspace, we represent the environmental distance between every
+pixel covered by *BioClim* data, and the three networks that were sampled in the
+closest environmental conditions (this amounts to a $k$ nearest neighbors with
+$k = 3$). In short, higher distances correspond to pixels on Earth for which no
+climate analogue network exists, whereas the darker areas are well described. It
+should be noted that the three types of interactions studied here (mutualism,
+parasitism, predation) have regions with no analogues in different locations. In
+short, it is not that we are systematically excluding some areas, but rather
+than some type of interactions are more studied in specific environments. This
+shows how the lack of global coverage identified in +@fig:biomes, for example,
+can cascade up to the global scale. These maps serve as an interesting measure
+of the extent to which spatial predictions can be trusted: any extrapolation of
+network structure in an area devoid of analogues should be taken with much
+greater caution than an extrapolation in an area with many similar networks.
 
-![mutualism](figures/envirodistance_mutualism.png){#fig:mutu}
-![parasitism](figures/envirodistance_parasitism.png){#fig:para}
-![predation](figures/envirodistance_predation.png){#fig:pred}
-
+![Environmental distance for every terrestrial pixel to its three closest networks. Areas of more saturated coloration are further away from any sampled network, and can therefoer not be well predicted based on existing empirical data.](figures/enviromap.png){#fig:envspace}
 
 # Conclusions
 
