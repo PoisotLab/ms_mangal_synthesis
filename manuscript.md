@@ -139,7 +139,7 @@ of the extent to which spatial predictions can be trusted: any extrapolation of
 network structure in an area devoid of analogues should be taken with much
 greater caution than an extrapolation in an area with many similar networks.
 
-![Environmental distance for every terrestrial pixel to its three closest networks. Areas of more saturated coloration are further away from any sampled network, and can therefore not be well predicted based on existing empirical data.](figures/combined_envirodist_maps.png){#fig:envspace}
+![Environmental distance for every terrestrial pixel to its three closest networks. Areas of more yellow coloration are further away from any sampled network, and can therefore not be well predicted based on existing empirical data. Areas with a dark blue coloration have more analogues. The distance is expressed in arbitrary units.](figures/combined_envirodist_maps.png){#fig:envspace}
 
 # Conclusions
 
@@ -200,7 +200,7 @@ networks shows a clear bias towards the Western world, specifically Western
 Europe and the Atlantic coasts of the USA and Canada (+@fig:spatial). This
 problem can be somewhat circumvented by working on networks sampled in places
 that are close analogues of those without direct information (almost all of
-Africa, most of South America, a large part of Asia). However, @fig:analog
+Africa, most of South America, a large part of Asia). However, @fig:envspace
 suggests that this approach will rapidly be limited: the diversity of
 bioclimatic combinations on Earth leaves us with some areas lacking suitable
 analogues. These regions are expected to bear the worst of the socio-economical
