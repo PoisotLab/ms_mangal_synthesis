@@ -5,13 +5,13 @@ species or organisms interact [@HeleGarc14; @DelmBess18; @PoisStou16], and
 recently there has been an explosion of interest in their dynamics across large
 temporal scales [@BaisGrav19; @TyliMorr17], and especially along environmental
 gradients [@PellAlbo17; @TrojOles16]. As ecosystems and climates are changing
-rapidly, networks are at risk of unravelling and disassembly: for example by
-invasion of destabilizing exotic species them [@MagrHolz17; @StroLero14], or by
-a "rewiring" of interactions among existing species [@HuiRich19; @GuidBart19;
-@BartMcCa19]. Simulation studies suggest that knowing the structure of the
-extant network is not sufficient [@ThomGonz17], and that it needs to be
-supplemented by additional data on the species in the food web, climate, and
-climate projection.
+rapidly, networks are at risk of undergoing rapid and catastrophic changes to
+their structure: for example by invasion leading to a destabilizing
+[@MagrHolz17; @StroLero14], or by a "rewiring" of interactions among existing
+species [@HuiRich19; @GuidBart19; @BartMcCa19]. Simulation studies suggest that
+knowing the structure of the extant network is not sufficient [@ThomGonz17], and
+that it needs to be supplemented by additional data on the species in the food
+web, climate, and climate projection.
 
 This renewed interest in ecological networks has prompted several methodological
 efforts. First, an expansion of the analytical tools to study spatial, temporal,
@@ -69,7 +69,7 @@ prioritize sampling towards data-poor locations.
 
 ## Network coverage is accelerating but spatially biased
 
-![Cumulative number of ecological networks available in `mangal.io` as a function of the date of collection. About 1000 unique networks have been collected between 1987 and 2017, a rate of just over 30 networks a year. This temporal increase proceeds at different rates for diferent types of networks; while the description of food webs is more or less constant, the global acceleration in the dataset is due to increased interest in host-parasite interactions starting in the late 1970s, while mutualistic networks mostly started being recorded in the early 2000s.](figures/figure_01_a.png){#fig:temporal}
+![Cumulative number of ecological networks available in `mangal.io` as a function of the date of collection. About 1000 unique networks have been collected between 1987 and 2017, a rate of just over 30 networks a year. This temporal increase proceeds at different rates for diferent types of networks; while the description of food webs is more or less constant, the global acceleration in the dataset is due to increased interest in host-parasite interactions starting in the late 1970s, while mutualistic networks mostly started being recorded in the early 2000s.](figures/network_growth_over_time.png){#fig:temporal}
 
 The earliest recorded ecological networks date back to the late nineteenth
 century, with a strong increase in the rate of collection around the 1980s
@@ -89,7 +89,7 @@ identified almost ten years ago, improved data deposition requires an
 infrastructure to ensure they can be repurposed for future research, which we
 argue is provided by `mangal.io` for ecological interactions.
 
-![Each point on the map corresponds to a network with parasitic, mutualistic, and predatory interactions. It is noteworty that the spatial coverage of these types of interactions is uneven; the Americas have almost no parasitic network, for example. Some places have barely been studied at all, including Africa and Eastern Asia. This concentration of networks around rich countries speaks to an inadequate coverage of the diversity of landscapes on Earth.](figures/figure_01_c.png){#fig:spatial}
+![Each point on the map corresponds to a network with parasitic, mutualistic, and predatory interactions. It is noteworthy that the spatial coverage of these types of interactions is uneven; the Americas have almost no parasitic network, for example. Some places have barely been studied at all, including Africa and Eastern Asia. This concentration of networks around rich countries speaks to an inadequate coverage of the diversity of landscapes on Earth.](figures/map_networks_type.png){#fig:spatial}
 
 
 ## Different interaction types have been studied in different biomes
@@ -107,7 +107,7 @@ types of networks have been studied in sub-spaces only. Specifically, parasitism
 networks have been studied in colder and drier climates; mutualism networks in
 wetter climates; predation networks display less of a bias.
 
-![List of networks across in the space of biomes as originally presented by @Whit62. Predation networks, *i.e.* food webs, seem to have the most global coverage; parasitism networks are restricted to low temperature and low precipitation biomes, congruent with the majority of them being in Western Europe.](figures/figure_02.png){#fig:biomes}
+![List of networks across in the space of biomes as originally presented by @Whit62. Predation networks, *i.e.* food webs, seem to have the most global coverage; parasitism networks are restricted to low temperature and low precipitation biomes, congruent with the majority of them being in Western Europe.](figures/networks_by_biomes.png){#fig:biomes}
 
 Scaling up this analysis to the 19 BioClim variables in @FickHijm17, we
 extracted the position of every network in the bioclimatic space, conducted a
@@ -120,7 +120,7 @@ mutualistic interactions tend to have values that are higher than both
 parasitism and predation, suggesting that they have been sampled in more unique
 environments.
 
-![Distance to the centroid (in the scaled climatic space) for each network, as a function of the type of interaction. Larger values indicate that the network is far from its centroid, and therefore represents sampling in a more "unique" location. Mutualistic interactions have been, on average, studied in more diverse locations that parasitism or predatory networks.](figures/figure_05_b.png){#fig:ecc}
+![Distance to the centroid (in the scaled climatic space) for each network, as a function of the type of interaction. Larger values indicate that the network is far from its centroid, and therefore represents sampling in a more "unique" location. Mutualistic interactions have been, on average, studied in more diverse locations that parasitism or predatory networks.](figures/distance_to_centroid.png){#fig:ecc}
 
 ## Some locations on Earth have no climate analogue
 
@@ -139,7 +139,7 @@ of the extent to which spatial predictions can be trusted: any extrapolation of
 network structure in an area devoid of analogues should be taken with much
 greater caution than an extrapolation in an area with many similar networks.
 
-![Environmental distance for every terrestrial pixel to its three closest networks. Areas of more saturated coloration are further away from any sampled network, and can therefore not be well predicted based on existing empirical data.](figures/enviromap.png){#fig:envspace}
+![Environmental distance for every terrestrial pixel to its three closest networks. Areas of more saturated coloration are further away from any sampled network, and can therefore not be well predicted based on existing empirical data.](figures/combined_envirodist_maps.png){#fig:envspace}
 
 # Conclusions
 
