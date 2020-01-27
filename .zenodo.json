@@ -17,48 +17,56 @@
       "affiliation": "Université de Sherbrooke",
       "familyname": "Bergeron",
       "givennames": "Gabriel",
+      "email": "Gabriel.Bergeron3@USherbrooke.ca",
       "orcid": "0000-0002-5956-069X"
     },
     {
       "affiliation": "University of Guelph",
       "familyname": "Cazelles",
       "givennames": "Kevin",
+      "email": "kcazelle@uoguelph.ca",
       "orcid": "0000-0001-6619-9874"
     },
     {
       "affiliation": "Louisiana State University",
       "familyname": "Dallas",
       "givennames": "Tad",
+      "email": "tadallas@lsu.edu",
       "orcid": "0000-0003-3328-9958"
     },
     {
       "affiliation": "Université de Sherbrooke",
       "familyname": "Gravel",
       "givennames": "Dominique",
+      "email": "Dominique.Gravel@USherbrooke.ca",
       "orcid": "0000-0002-4498-7076"
     },
     {
       "affiliation": "Université de Montréal",
       "familyname": "MacDonald",
       "givennames": "Andrew",
+      "email": "andrew.macdonald@umontreal.ca",
       "orcid": "0000-0003-1162-169X"
     },
     {
        "affiliation": "Université de Sherbrooke",
        "familyname": "Mercier",
        "givennames": "Benjamin",
+       "email": "Benjamin.B.Mercier@USherbrooke.ca",
        "orcid": "0000-0002-4104-9463"
     },
     {
       "affiliation": "Université de Sherbrooke",
       "familyname": "Violet",
       "givennames": "Clément",
+      "email": "Clement.Violet@etudiant.univ-brest.fr",
       "orcid": "0000-0001-6217-5891"
     },
     {
       "affiliation": "Université de Sherbrooke",
       "familyname": "Vissault",
       "givennames": "Steve",
+      "email": "Steve.Vissault@USherbrooke.ca",
       "orcid": "0000-0002-0866-4376"
     }
   ],
