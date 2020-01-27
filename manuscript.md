@@ -255,4 +255,13 @@ pipelines. One immediate target would be to borrow the methodology from
 @CarlPhil19, and provide estimate of the sampling effort required to accurately
 describe combinations of interaction types and bioclimatic conditions.
 
+**Data and code availability:**   
+
+All code is available openly at
+`https://github.com/PoisotLab/MangalSamplingStatus`, and the data can be
+retrieved from `mangal.io` and the BioClim database using the specified files.
+In addition, weekly updated pages presenting the analyses reported in this
+manuscript, including the data files, are available at
+`https://poisotlab.github.io/MangalSamplingStatus/`.
+
 # References
