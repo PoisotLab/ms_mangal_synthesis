@@ -155,10 +155,10 @@ any dataset create uncertainty when making predictions or suggesting causal
 relationships. This uncertainty must be measured by users of these data,
 especially when predicting over the "gaps" in space or climate that we have
 identified. In this paper we are not making any explicit recommendations for
-synthesis workflows. Rather we this needs to be a collective process, a
-collaboration between data collectors (who understand the deficiencies of these
-data) and data analysts (who understand the needs and assumptions of network
-methods).
+synthesis workflows. Rather we argue that this needs to be a collective process,
+a collaboration between data collectors (who understand the deficiencies of
+these data) and data analysts (who understand the needs and assumptions of
+network methods).
 
 One line of research that we feel can confidently be pursued lies in
 extrapolating the structure of ecological networks over gradients, not at the
