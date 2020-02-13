@@ -1,11 +1,9 @@
 {
   "title": "Environmental biases in the study of ecological networks at the planetary scale",
-  "upload_type": "publication",
-  "publication_type": "preprint",
   "access_right": "open",
   "license": "CC-BY",
   "language": "en",
-  "creators": [
+  "authors": [
     {
       "affiliation": "Université de Montréal",
       "familyname": "Poisot",
@@ -70,7 +68,6 @@
       "orcid": "0000-0002-0866-4376"
     }
   ],
-  "description": "Ecological networks are increasingly studied at large spatial scales, expanding their focus from a conceptual tool for community ecology into one that also adresses questions in biogeography and macroecology. This effort is supported by increased access to standardized information on ecological networks, in the form of openly accessible databases. Yet, there has been no systematic evaluation of the fitness for purpose of these data to explore synthesis questions at very large spatial scales. In particular, because the sampling of ecological networks is a difficult task, they are likely to not have a good representation of the diversity of Earth's bioclimatic conditions, likely to be spatially aggregated, and therefore unlikely to achieve broad representativeness. In this paper, we analyze over 1300 ecological networks in the mangal.io database, and discuss their coverage of biomes, and the geographic areas in which there is a deficit of data on ecological networks. Taken together, our results suggest that while some information about the global structure of ecological networks is available, it remains fragmented over space, with further differences by types of ecological interactions. This causes great concerns both for our ability to transfer knowledge from one region to the next, but also to forecast the structural change in networks under climate change.",
-  "keywords": ["ecological networks", "macroecology", "ecological synthesis"],
-  "notes": "https://github.com/PoisotLab/ms_mangal_synthesis"
+  "abstract": "Ecological networks are increasingly studied at large spatial scales, expanding their focus from a conceptual tool for community ecology into one that also adresses questions in biogeography and macroecology. This effort is supported by increased access to standardized information on ecological networks, in the form of openly accessible databases. Yet, there has been no systematic evaluation of the fitness for purpose of these data to explore synthesis questions at very large spatial scales. In particular, because the sampling of ecological networks is a difficult task, they are likely to not have a good representation of the diversity of Earth's bioclimatic conditions, likely to be spatially aggregated, and therefore unlikely to achieve broad representativeness. In this paper, we analyze over 1300 ecological networks in the mangal.io database, and discuss their coverage of biomes, and the geographic areas in which there is a deficit of data on ecological networks. Taken together, our results suggest that while some information about the global structure of ecological networks is available, it remains fragmented over space, with further differences by types of ecological interactions. This causes great concerns both for our ability to transfer knowledge from one region to the next, but also to forecast the structural change in networks under climate change.",
+  "keywords": ["ecological networks", "macroecology", "ecological synthesis"]
 }
