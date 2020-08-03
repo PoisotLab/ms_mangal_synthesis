@@ -5,6 +5,12 @@ have assessed the manuscript thoroughly. On the basis of these reports I am
 pleased to recommend a full revision of the manuscript, paying particular
 attention to the important criticisms about:
 
+> We would like to start by expressing our gratitude for the decision, and to
+thank both reviewers for their constructive feedback that greatly improved the
+manuscript. We have provided a point by point response to the points raised by
+both reviewers below (some queries have been very lightly edited for clarity),
+and will provide more detailed answers to the two following points.
+
 1. The rationale and justification for using network databases for forecasting
 network structure across space, time and taxonomy.
 
@@ -28,9 +34,14 @@ I have some comments that I think might help to improve some aspects of the
 manuscript. Below I provide the detailed comments, which should be taken just
 as mere suggestions as most of them may just be a matter of personal taste.
 
-### Conceptual suggestions (in order of relevance):
+> We thank the reviewer for their kind words. Although phrased as "matters of
+personal taste", a large number of comments resulted in strong improvements
+of the manuscripts, and we will detail both our initial thinking, as well
+as how we addressed them.
 
-1) I missed a discussion on the now rich literature dealing with changes in
+### Conceptual suggestions
+
+I missed a discussion on the now rich literature dealing with changes in
 interaction network patterns across large geographic areas (e.g. Schleuning et
 al. 2014. Ecology letters. 17, 454-463; Martín González et al. 2015. Global
 Ecology and Biogeography. 24, 1212-1224; Zanata et al. 2017. Journal of
@@ -41,12 +52,19 @@ I think the manuscript would benefit from a discussion about these papers,
 making clear the differences with the novel perspectives the authors want
 to bring up in the present study.
 
-2) I would also contextualise the study within the current literature about
+> This is an excellent suggestion - we have added a paragraph to the
+introduction, that highlight these studies, and explain that they can be
+easily automated using a database with a standard format.
+
+I would also contextualise the study within the current literature about
 biodiversity data deficiencies, paying special attention to the so-called
 Eltonian shortfall (Hortal et al. 2015. Annual Review of Ecology, Evolution,
 and Systematics. 46, 523-549.).
 
-3) I think the idea of “…extrapolating the network structure over
+> We have added a discussion of this article at the end of the first paragraph
+of the discussion.
+
+I think the idea of “…extrapolating the network structure over
 gradients,…” may be controversial or at least ambiguous. If “gradients”
 just refers to abiotic environmental gradients, then, there are several
 evidence pointing to other factors as determinants of network structure,
@@ -58,19 +76,31 @@ biotic, sampling and so on gradients I would explicitly specify it to avoid
 ambiguities, perhaps explaining also that teasing apart the effects of abiotic,
 biotic and sampling factors would even require a much larger amount of data.
 
-4) Throughout the full text and especially in the discussion, it is stated
+> We agree with the reviewer that the initial phrasing was ambiguous,
+precisely because we were attempting to capture the multiple definitions of
+"gradients" listed here. We have expanded this paragraph to clarify it.
+
+Throughout the full text and especially in the discussion, it is stated
 the importance of predicting network structure and anticipating climate
 change. Yet, little attention is paid in explaining the importance of
 network structure itself. I guess a casual reader could be interested in
 knowing why network structure is important and thus, I would dedicate few
-lines describing it. 5) In the title I would say “Geographical biases”
-rather than “Environmental biases”. “Geographical” is more general
-than environmental, as it includes likely historical and evolutionary biases
-beyond the proved climatic ones. Moreover, and somehow connecting to the
-point 3), I think these potential historical and evolutionary biases would
-also deserve a mention.
+lines describing it.
 
-6) At some points I feel the Mangal database was perhaps too advertised. I
+> We thank the reviewer for pointing out a significant oversight in the
+manuscript - we have added this information to the first paragraph of the
+introduction.
+
+In the title I would say “Geographical biases” rather than “Environmental
+biases”. “Geographical” is more general than environmental, as
+it includes likely historical and evolutionary biases beyond the proved
+climatic ones. Moreover, and somehow connecting to the point 3), I think these
+potential historical and evolutionary biases would also deserve a mention.
+
+> This is an interesting point, and we have changed the title to be broader
+about the type of biases we can discuss.
+
+At some points I feel the Mangal database was perhaps too advertised. I
 think lines 41-46 make clear enough the authors’ point about the fit of
 the database to the propose of the manuscript. Yet, information regarding
 this database is again provided in lines 68-69, lines 103-104, lines 137-138,
@@ -81,9 +111,16 @@ extent away from the main topic described in the title and abstract. This
 suggestion is of course a matter of “feelings” and it is completely up
 to the authors to follow it.
 
+> Part of this manuscript is to describe the changes made to the initial
+database since its original publication in 2014. For this reason, we feel
+like it is important to weave the description of the database in the text
+itself. This might, in fact, become more apparent in the revision, as we have
+expanded on some of the database technical features that were not mentioned
+in the original submission.
+
 ### Methodological suggestions:
 
-1) While I like the Fig. 2, this data might be also presented as maps of
+While I like the Fig. 2, this data might be also presented as maps of
 interaction network richness. That is, by discretising the geographical
 space into cells and counting the number of networks within each cell it
 would be possible to easily visualize where there are large accumulations
@@ -91,8 +128,8 @@ of interaction networks and where they are lacking. Moreover, this would
 also allow some coarse but informative calculations on, for instance, the
 proportion of Earth surface lacking information.
 
-2) Same as for the geographical space, the climatic space of Fig. 3
-could be discretised (see e.g. Broennimann et al. 2012. Global ecology and
+Same as for the geographical space, the climatic space of Fig. 3 could
+be discretised (see e.g. Broennimann et al. 2012. Global ecology and
 biogeography. 21, 481-497) which would also facilitate the visualization of the
 space covered by the different networks and the calculation of completeness
 measures (e.g. by comparing the distribution of the climatic conditions of
@@ -149,25 +186,29 @@ been compiled by researchers across many regions of the globe. Within the
 database networks are constructed from presence and sometimes abundance of
 different types of taxa, with different taxonomic resolution, using different
 sampling methods, collected at different time periods (Figure 1: 1897-2017,
-majority 1987-2017). To highlight spatial knowledge gaps, he authors map
-geographic proximately of networks in nearby environmental space (Figure 5).
-However, I would not expect that patterns in interactions among amphibians
-sampled in 1970 could be used to forecast changes among a spider predation
-network sampled in 1995, and so I would need clarification about the nature
-of forecasting that can be made by knowing that the two predation networks
-are sampled in nearby environmental space. Additionally, there seem to be
-several aquatic (lake, stream, marine) food webs in the mangal database.
-I am not sure how/whether they are considered in the reported comparisons of
-environmental conditions based on average annual temperature and precipitation.
-The authors state that they have confidence that it will be possible to
-extrapolate network structure across ecological gradients (line 112-114),
-yet they do not state how many comparable communities across of what types
-of spatial gradients are in their database. The authors state that lack
-of reference data limits ability to predict future of ecological networks
-under climate change. Given that networks are not static in time, it would
-be helpful to know how many time series of comparable networks there are in
-their database. How well would a single static network serve as a baseline for
-change if it does not capture natural variability of the focal study system?
+majority 1987-2017).
+
+To highlight spatial knowledge gaps, the authors map geographic proximately
+of networks in nearby environmental space (Figure 5).  However, I would not
+expect that patterns in interactions among amphibians sampled in 1970 could
+be used to forecast changes among a spider predation network sampled in 1995,
+and so I would need clarification about the nature of forecasting that can
+be made by knowing that the two predation networks are sampled in nearby
+environmental space. Additionally, there seem to be several aquatic (lake,
+stream, marine) food webs in the mangal database.  I am not sure how/whether
+they are considered in the reported comparisons of environmental conditions
+based on average annual temperature and precipitation.  The authors state
+that they have confidence that it will be possible to extrapolate network
+structure across ecological gradients (line 112-114), yet they do not state
+how many comparable communities across of what types of spatial gradients
+are in their database.
+
+The authors state that lack of reference data limits ability to predict
+future of ecological networks under climate change. Given that networks
+are not static in time, it would be helpful to know how many time series
+of comparable networks there are in their database. How well would a single
+static network serve as a baseline for change if it does not capture natural
+variability of the focal study system?
 
 Second, I am concerned about strong self-selection bias in the literature
 cited. At least 26 of the 63 citations are references to papers led or
@@ -178,10 +219,12 @@ papers (co) written by the first author alone. Cameron et al 2019 present
 a very similar paper, although it is limited only to predation). Given the
 similarity between the two manuscripts, the results of Cameron et al’s paper
 should be highlighted much earlier with much more than a passing citation
-(currently line 146-148). Such strong focus on the authors own research seems
-to come at the expense of considering progress (or limitations to progress)
-that could be that could be made by considering/comparing/integrating with
-other approaches and databases that are targeting similar goals with somewhat
+(currently line 146-148).
+
+Such strong focus on the authors own research seems to come at the
+expense of considering progress (or limitations to progress) that could
+be that could be made by considering/comparing/integrating with other
+approaches and databases that are targeting similar goals with somewhat
 different approaches. For example, the Global Biotic Interaction database
 is linked to Encyclopedia of Life. The GlobAL daTabasE of traits and food
 Web Architecture (GATEWAy) data base has some inclusion criteria of species

@@ -1,16 +1,23 @@
 Ecological networks are a useful representation of ecological systems in which
-species or organisms interact [@HeleGarc14; @DelmBess18; @PoisStou16], and there
-has been a recent explosion of interest in their dynamics across large temporal
-scales [@BaisGrav19; @TyliMorr17], and along environmental gradients
-[@PellAlbo17; @TrojOles16]. As ecosystems are changing rapidly, networks are at
-risk of undergoing rapid and catastrophic changes to their structure: for
-example by invasion leading to a collapse [@MagrHolz17; @StroLero14], or by a
-"rewiring" of interactions among existing species [@HuiRich19; @GuidBart19;
-@BartMcCa19]. Simulation studies suggest that knowing the structure of the
-extant network, *i.e.* being able to map all interactions between species, is
-not sufficient [@ThomGonz17] to predict the effects of external changes; indeed,
-data on the species occurrences and traits, as well as local extant and
-projected climate, are also required.
+species or organisms interact [@HeleGarc14; @DelmBess18; @PoisStou16].
+
+**TODO** update this sentence to make sure we explain _why_ networks are
+important
+
+As such, there has been a recent explosion of interest in their dynamics across
+large temporal scales [@BaisGrav19; @TyliMorr17], and along environmental
+gradients [@PellAlbo17; @TrojOles16]. As ecosystems are changing rapidly,
+networks are at risk of undergoing rapid and catastrophic changes to their
+structure: for example by invasion leading to a collapse [@MagrHolz17;
+@StroLero14], or by a "rewiring" of interactions among existing species
+[@HuiRich19; @GuidBart19; @BartMcCa19]. Simulation studies suggest that
+knowing the structure of the extant network, *i.e.* being able to map all
+interactions between species, is not sufficient [@ThomGonz17] to predict
+the effects of external changes; indeed, data on the species occurrences
+and traits, as well as local extant and projected climate, are also required.
+
+**TODO** discuss Hortal et al. 2015. Annual Review of Ecology, Evolution,
+and Systematics. 46, 523-549 on the Eltonian shortfall
 
 This change in scope, from describing ecological networks as local, static
 objects, to dynamical ones that vary across space and time, has prompted several
@@ -35,25 +42,30 @@ over space [@PoisGrav16; @GravBais18; @AlboArch19] and into the future
 [@AlboVele14], to appraise the response of that structure to possible
 environmental changes.
 
-These disparate methodological efforts share another important trait: their
-continued success depends both on state-of-the-art data management, and on the
-availability of data that are representative of the area we seek to model. Novel
-quantitative tools demand a higher volume of network data; novel collection
-techniques demand powerful data repositories; novel inference tools demand
-easier integration between different types of data, including but not limited
-to: interactions, species traits, taxonomy, occurrences, and local bioclimatic
-conditions. In short, advancing the science of ecological networks requires us
-not only to increase the volume of available data, but also to pair these data
-with ecologically relevant metadata. Such data should also be made available in
-a way that facilitates programmatic interaction so that they can be used by
-reproducible data analysis pipelines. @PoisBais16 introduced `mangal.io` as the
-first step in this direction. In the years since the tool was originally
-published, we continued the development of data representation, amount and
-richness of metadata, and digitized and standardized as much biotic interactions
-data as we could find. The second major release of this database contains over
-1300 networks, 120000 interactions across close to 7000 taxa, and represents
-what is to our best knowledge the most complete collection of species
-interactions available.
+These disparate methodological efforts share another important trait:
+their continued success depends both on state-of-the-art data management,
+and on the availability of data that are representative of the area we seek
+to model. Novel quantitative tools demand a higher volume of network data;
+novel collection techniques demand powerful data repositories; novel inference
+tools demand easier integration between different types of data, including
+but not limited to: interactions, species traits, taxonomy, occurrences, and
+local bioclimatic conditions. In short, advancing the science of ecological
+networks requires us not only to increase the volume of available data, but
+also to pair these data with ecologically relevant metadata. Such data should
+also be made available in a way that facilitates programmatic interaction so
+that they can be used by reproducible data analysis pipelines. @PoisBais16
+introduced `mangal.io` as the first step in this direction. In the years
+since the tool was originally published, we continued the development
+of data representation, amount and richness of metadata, and digitized
+and standardized as much biotic interactions data as we could find. The
+second major release of this database contains over 1300 networks, 120000
+interactions across close to 7000 taxa, and represents what is to our best
+knowledge the most complete collection of species interactions available.
+
+**TODO** include a discussion of e.g. Schleuning et al. 2014. Ecology
+letters. 17, 454-463; Martín González et al. 2015. Global Ecology and
+Biogeography. 24, 1212-1224; Zanata et al. 2017. Journal of Biogeography. 44,
+1891-1910 and explain what `mangal` can bring to this line of reearch.
 
 Here we ask if the current mangal database is fit for global-scale synthesis
 research into ecological networks. We conclude that interactions over most of
@@ -170,6 +182,11 @@ to prediction which neglects the composition of networks is justified by the
 observation that network structure tends to be maintained at very large spatial
 scales even in the presence of strong compositional turnover, [@DallPois17].
 
+**TODO** update the § and discuss
+- e.g. Chagnon et al 2016. Oecologia. 180, 181-191
+- e.g. Guimaraes Jr et al. 2007. Current Biology. 17, 1797-1803
+- e.g. Gibson et al. 2011. Oikos. 120, 822-831
+
 ## Can we predict the future of ecological networks under climate change?
 
 Perhaps unsurprisingly, most of our knowledge on ecological networks is derived
@@ -251,6 +268,8 @@ which allows the development of flexible network analysis pipelines. One
 immediate target would be to borrow the methodology from @CarlPhil19, and
 provide an estimate of the sampling effort required to accurately describe
 combinations of interaction types and bioclimatic conditions.
+
+**TODO** focus on older data as well as some taxa that are under-represented
 
 **Data and code availability:**   
 
