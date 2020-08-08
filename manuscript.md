@@ -3,23 +3,20 @@ in which species or organisms interact [@HelGarJor14; @DelBesBri18a]. In
 addition to using the established mathematical framework of graph theory
 to describe the structure of species interactions, network ecology has
 related the structural and ecological properties of networks [@ProProPhi05;
-@Pou10]. Networks often allow to link disconnected scales in ecology, and in
-particular are powerful tools to link populations to ecosystem properties
-[@Lor10; @JorBas13]. Recently, the interest in the dynamics of ecological
-networks across large temporal scales [@BaisGrav19; @TyliMorr17], and
-along environmental gradients [@PellAlbo17; @TrojOles16], has increased. As
-ecosystems are changing rapidly, networks are at risk of undergoing rapid and
-catastrophic changes to their structure: for example by invasion leading to
-a collapse [@MagrHolz17; @StroLero14], or by a "rewiring" of interactions
-among existing species [@HuiRich19; @GuidBart19; @BartMcCa19]. Simulation
-studies suggest that knowing the structure of the extant network, *i.e.*
-being able to map all interactions between species, is not sufficient
-[@ThomGonz17] to predict the effects of external changes; indeed, data on
-the species occurrences and traits, as well as local extant and projected
-climate, are also required.
-
-**TODO** discuss Hortal et al. 2015. Annual Review of Ecology, Evolution,
-and Systematics. 46, 523-549 on the Eltonian shortfall
+@Pou10]. Networks often allow to link disconnected scales in ecology, and
+in particular are powerful tools to bridge data on populations to ecosystem
+properties [@Lor10; @JorBas13; @GonGerSri20]. Recently, the interest in the
+dynamics of ecological networks across large temporal scales [@BaiGraCir19a;
+@TylMor17], and along environmental gradients [@PelAlbBas17; @TroOle16],
+has increased. As ecosystems are changing rapidly, networks are at risk of
+undergoing rapid and catastrophic changes to their structure: for example
+by invasion leading to a collapse [@MagHolBar17; @StrLer14], or by a
+"rewiring" of interactions among existing species [@HuiRic19; @GuiBarBye19;
+@BarMcCBie19]. Simulation studies suggest that knowing the structure of the
+extant network, *i.e.* being able to map all interactions between species,
+is not sufficient [@ThoGon17] to predict the effects of external changes;
+indeed, data on the species occurrences and traits, as well as local extant
+and projected climate, are also required.
 
 This change in scope, from describing ecological networks as local, static
 objects, to dynamical ones that vary across space and time, has prompted several
@@ -277,6 +274,9 @@ Finally, it must be noted that as the amount of empirical evidence grows,
 so too should our understanding of existing relationships between network
 properties, networks properties and space, and the interpretation to be
 drawn from them.
+
+@HordeDin15 - interactions are a core component of biodiversity and the
+shortfall must be addressed
 
 **Data and code availability:**   
 
