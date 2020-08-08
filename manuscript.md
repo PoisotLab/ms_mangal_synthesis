@@ -1,20 +1,22 @@
-Ecological networks are a useful representation of ecological systems in which
-species or organisms interact [@HeleGarc14; @DelmBess18; @PoisStou16].
-
-**TODO** update this sentence to make sure we explain _why_ networks are
-important
-
-As such, there has been a recent explosion of interest in their dynamics across
-large temporal scales [@BaisGrav19; @TyliMorr17], and along environmental
-gradients [@PellAlbo17; @TrojOles16]. As ecosystems are changing rapidly,
-networks are at risk of undergoing rapid and catastrophic changes to their
-structure: for example by invasion leading to a collapse [@MagrHolz17;
-@StroLero14], or by a "rewiring" of interactions among existing species
-[@HuiRich19; @GuidBart19; @BartMcCa19]. Simulation studies suggest that
-knowing the structure of the extant network, *i.e.* being able to map all
-interactions between species, is not sufficient [@ThomGonz17] to predict
-the effects of external changes; indeed, data on the species occurrences
-and traits, as well as local extant and projected climate, are also required.
+Ecological networks are a useful representation of ecological systems
+in which species or organisms interact [@HelGarJor14; @DelBesBri18a]. In
+addition to using the established mathematical framework of graph theory
+to describe the structure of species interactions, network ecology has
+related the structural and ecological properties of networks [@ProProPhi05;
+@Pou10]. Networks often allow to link disconnected scales in ecology, and in
+particular are powerful tools to link populations to ecosystem properties
+[@Lor10; @JorBas13]. Recently, the interest in the dynamics of ecological
+networks across large temporal scales [@BaisGrav19; @TyliMorr17], and
+along environmental gradients [@PellAlbo17; @TrojOles16], has increased. As
+ecosystems are changing rapidly, networks are at risk of undergoing rapid and
+catastrophic changes to their structure: for example by invasion leading to
+a collapse [@MagrHolz17; @StroLero14], or by a "rewiring" of interactions
+among existing species [@HuiRich19; @GuidBart19; @BartMcCa19]. Simulation
+studies suggest that knowing the structure of the extant network, *i.e.*
+being able to map all interactions between species, is not sufficient
+[@ThomGonz17] to predict the effects of external changes; indeed, data on
+the species occurrences and traits, as well as local extant and projected
+climate, are also required.
 
 **TODO** discuss Hortal et al. 2015. Annual Review of Ecology, Evolution,
 and Systematics. 46, 523-549 on the Eltonian shortfall
