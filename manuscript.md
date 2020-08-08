@@ -1,42 +1,43 @@
-Ecological networks are a useful representation of ecological systems
-in which species or organisms interact [@HelGarJor14; @DelBesBri18a]. In
-addition to using the established mathematical framework of graph theory
-to describe the structure of species interactions, network ecology has
-related the structural and ecological properties of networks [@ProProPhi05;
-@Pou10]. Networks often allow to link disconnected scales in ecology, and
-in particular are powerful tools to bridge data on populations to ecosystem
-properties [@Lor10; @JorBas13; @GonGerSri20]. Recently, the interest in the
-dynamics of ecological networks across large temporal scales [@BaiGraCir19a;
-@TylMor17], and along environmental gradients [@PelAlbBas17; @TroOle16],
-has increased. As ecosystems are changing rapidly, networks are at risk of
-undergoing rapid and catastrophic changes to their structure: for example
-by invasion leading to a collapse [@MagHolBar17; @StrLer14], or by a
-"rewiring" of interactions among existing species [@HuiRic19; @GuiBarBye19;
-@BarMcCBie19]. Simulation studies suggest that knowing the structure of the
-extant network, *i.e.* being able to map all interactions between species,
-is not sufficient [@ThoGon17] to predict the effects of external changes;
-indeed, data on the species occurrences and traits, as well as local extant
-and projected climate, are also required.
+Ecological networks are a useful representation of ecological systems in which
+species or organisms interact [@heleno14ecological; @delmas18analysing]. In
+addition to using the established mathematical framework of graph theory to
+describe the structure of species interactions, network ecology has related
+the structural and ecological properties of networks [@proulx05network;
+@poulin10network]. Networks often allow to link disconnected scales in
+ecology, and in particular are powerful tools to bridge data on populations
+to ecosystem properties [@loreau10populations; @jordano13mutualistic;
+@gonzalez20scalingup]. Recently, the interest in the dynamics of ecological
+networks across large temporal scales [@BaiGraCir19a; @TylMor17], and along
+environmental gradients [@PelAlbBas17; @TroOle16], has increased. As ecosystems
+are changing rapidly, networks are at risk of undergoing rapid and catastrophic
+changes to their structure: for example by invasion leading to a collapse
+[@MagHolBar17; @StrLer14], or by a "rewiring" of interactions among existing
+species [@HuiRic19; @GuiBarBye19; @BarMcCBie19]. Simulation studies suggest
+that knowing the structure of the extant network, *i.e.* being able to map
+all interactions between species, is not sufficient [@ThoGon17] to predict
+the effects of external changes; indeed, data on the species occurrences
+and traits, as well as local extant and projected climate, are also required.
 
 This change in scope, from describing ecological networks as local, static
-objects, to dynamical ones that vary across space and time, has prompted several
-methodological efforts. First, tools to study spatial, temporal, and
-spatio-temporal variation of ecological networks in relationship to
+objects, to dynamical ones that vary across space and time, has prompted
+several methodological efforts. First, tools to study spatial, temporal,
+and spatio-temporal variation of ecological networks in relationship to
 environmental gradients have been developed and continuously expanded
-[@PoisCana12; @PoisStou15; @PoisGuev17]. Second, there has been an improvement
-in large-scale data-collection, through increased adoption of molecular biology
-tools [@EitzAbre19; @EvanKits16; @MakiComp19]  and crowd-sourcing of data
-collection [@BahlLand16; @RoyBaxt16; @PocoRoy15]. Finally, there has been a
-surge in the development of tools allowing to *infer* species interactions
-[@MoraMati15; @DallPark17] based on limited but complementary data on network
-properties [@StocPois17], species traits [@GravPois13; @DesjLaig17; @BrouGrav17;
-@BartGrav16], and environmental conditions [@GravBais18]. These latter
-approaches tend to perform well in data-poor environments [@BeauDesj16], and can
-be combined through ensemble modeling or model averaging to generate more robust
-predictions [@PomeThom18]. The task of inferring interactions is particularly
-important because ecological networks are difficult to adequately sample in
-nature [@Jord16; @BanaCatt04; @ChacVazq12; @GibsKnot11]. The common goal to
-these efforts is to facilitate the prediction of network structure, particularly
+[@PoiCanMou12b; @PoiStoGra15a; @PoiGueFor17a]. Second, there has been an
+improvement in large-scale data-collection, through increased adoption
+of molecular biology tools [@EitAbrGra19; @EvaKitLun16; @MakComBai19a]
+and crowd-sourcing of data collection [@BahlLand16; @RoyBaxt16;
+@PocoRoy15]. Finally, there has been a surge in the development of tools
+allowing to *infer* species interactions [@MoraMati15; @DallPark17] based
+on limited but complementary data on network properties [@StocPois17],
+species traits [@GravPois13; @DesjLaig17; @BrouGrav17; @BartGrav16], and
+environmental conditions [@GravBais18]. These latter approaches tend to perform
+well in data-poor environments [@BeauDesj16], and can be combined through
+ensemble modeling or model averaging to generate more robust predictions
+[@PomeThom18]. The task of inferring interactions is particularly important
+because ecological networks are difficult to adequately sample in nature
+[@Jord16; @BanaCatt04; @ChacVazq12; @GibsKnot11]. The common goal to these
+efforts is to facilitate the prediction of network structure, particularly
 over space [@PoisGrav16; @GravBais18; @AlboArch19] and into the future
 [@AlboVele14], to appraise the response of that structure to possible
 environmental changes.
