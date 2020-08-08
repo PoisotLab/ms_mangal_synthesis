@@ -187,6 +187,8 @@ scales even in the presence of strong compositional turnover, [@DallPois17].
 - e.g. Guimaraes Jr et al. 2007. Current Biology. 17, 1797-1803
 - e.g. Gibson et al. 2011. Oikos. 120, 822-831
 
+**TODO** focus on older data as well as some taxa that are under-represented
+
 ## Can we predict the future of ecological networks under climate change?
 
 Perhaps unsurprisingly, most of our knowledge on ecological networks is derived
@@ -256,20 +258,23 @@ proposed ecological relationships in network structure. This cycle of data
 discovery and reuse is an example of the Data Life Cycle [@Mich15] and
 represents one way to practice ecological synthesis.
 
-Finally, it must be noted that as the amount of empirical evidence grows, so too
-should our understanding of existing relationships between network properties,
-networks properties and space, and the interpretation to be drawn from them. In
-this perspective, the idea of continuously updated analyses is very promising.
-Following the template laid out by @WhitYenn19 and @YennChri19, it is feasible
-to update a series of canonical analyses any time the database grows, to produce
-a living, automated synthesis of ecological networks knowledge. To this end, the
-mangal database has been integrated with `EcologicalNetworks.jl` [@PoisBeli19],
+The idea of continuously updated analyses is very promising.  Following the
+template laid out by @WhitYenn19 and @YennChri19, it is feasible to update a
+series of canonical analyses any time the database grows, to produce a living,
+automated synthesis of ecological networks knowledge. To this end, the mangal
+database has been integrated with `EcologicalNetworks.jl` [@PoisBeli19],
 which allows the development of flexible network analysis pipelines. One
 immediate target would be to borrow the methodology from @CarlPhil19, and
 provide an estimate of the sampling effort required to accurately describe
 combinations of interaction types and bioclimatic conditions.
 
-**TODO** focus on older data as well as some taxa that are under-represented
+
+## What problems would more data solve?
+
+Finally, it must be noted that as the amount of empirical evidence grows,
+so too should our understanding of existing relationships between network
+properties, networks properties and space, and the interpretation to be
+drawn from them.
 
 **Data and code availability:**   
 
