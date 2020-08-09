@@ -270,27 +270,66 @@ immediate target would be to borrow the methodology from @CarlPhil19, and
 provide an estimate of the sampling effort required to accurately describe
 combinations of interaction types and bioclimatic conditions.
 
-
 ## What problems would more data solve?
 
-Finally, it must be noted that as the amount of empirical evidence grows,
-so too should our understanding of existing relationships between network
-properties, networks properties and space, and the interpretation to be
-drawn from them.
+As the amount of empirical evidence grows, so too should our understanding of
+existing relationships between network properties, networks properties and
+space, and the interpretation to be drawn from them. But what information
+would the structure of the food web from a pond bring to our understanding
+of the plant-pollinator interactions around it? Or to a food web in another
+pond a few kilometers from here? In short, will we get a lot more insights
+by accumulating data? Before answering this question (in the affirmative), it
+matters to recognize that, as @hortal15seven pointed out, biotic interactions
+are a core part of biodiversity; the Eltonian shortfall, manifested in our
+lack of widespread data about them, in as much of an impediment to our mission
+as ecologists as the absence of data on phylogeny or species occurrence would
+be. As a conclusion to this article, we would like to frame the aggregation
+of data on species interaction networks in standardized databases as both
+a requirement justified by fundamental science, and as an opportunity to
+conduct novel experiments on the prediction of ecological networks.
 
-@moralescastilla15inferring
+First, we *require* to collect data on species interactions following their
+measurement *in situ* because there is mounting evidence that they cannot
+reliably be inferred from observing the two species in co-occurrence; this has
+been shown through experimental and modeling approaches [@barner18fundamental;
+@thurman19testing]. A recent synthesis by @blanchet20cooccurrence also reveals
+how the assumption that co-occurrence will inform our knowledge of species
+interactions as wholly unsupported by the corpus of ecological theories. With
+the mounting amount of information on species distribution, and initiatives
+like GBIF storing over a billion record of occurrences, inferring interactions
+this ways was tempting; sadly, it appears unfeasible, leaving the curation
+of interaction data as the justifiable decision moving forward.
 
-@HordeDin15 - interactions are a core component of biodiversity and the
-shortfall must be addressed
+Second, we *should* collect data on species interactions following their
+measurement *in situ*, because this will enable the development of new
+generation of general models. Initial guidelines by @moralescastilla15inferring
+have led to an increase in the development and application of forecasting
+methods (reviewed in the introduction of this manuscript), and it is now clear
+that coupling data on species interaction, occurrences, traits, phylogeny,
+is going to lead to powerful predictive models of community structure. While
+knowing the structure of the food web of two ponds a few kilometers apart is
+not going to qualitatively change our understanding of food webs as a whole,
+the accumulation of data about different interactions in multiple environments
+will allow us to hunt for generalities, and identify rules that govern the
+assemblage of ecological networks. More importantly, by accumulating more
+data, we will increase the overlap between different databases (phylogeny,
+genetics, occurrences, functional traits), which will contribute to the
+unification of our knowledge of biodiversity [**TREE PAPER**].
 
-- @barner18fundamental
-- @thurman19testing
-- @blanchet20cooccurrence
-- we cannot infer interactions from co-occurrence, so we need data on interactions for themselves
+Perhaps one of the most striking demonstration of the promises of data
+and model integration is a recent contribution by @becker20predicting:
+by collating data on host-virus associations (interactions, phylogeny,
+host and viral traits), and feeding them to an ensemble of network models,
+they predicted novel wildlife hosts of $\beta$-coronaviruses; this work
+would gain from being streamlined by both (i) establishing and using a
+standardized database for species interactions with contextual metadata, and
+(ii) ensuring the compatibility of this database with other sources, through
+the use of established species identifiers. The `mangal` data specification
+(and database) solves both issues, and we are confident that through sustained
+data deposition, it will contribute to our ability to predict the structure
+of ecological networks.
 
-@becker20predicting - solution is multiple models and multiple data sources, require integration
-
-**Data and code availability:**   
+**Data and code availability:**
 
 All code is available openly at
 `https://github.com/PoisotLab/MangalSamplingStatus`, and the data can be
@@ -300,3 +339,4 @@ including the data files, are available at
 `https://poisotlab.github.io/MangalSamplingStatus/`.
 
 # References
+
