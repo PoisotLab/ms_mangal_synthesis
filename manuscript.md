@@ -91,7 +91,7 @@ information and prioritize sampling towards data-poor locations.
 
 # Global trends in ecological networks description
 
-## Network coverage is accelerating but spatially biased
+## Network coverage is accelerating but spatially aggregated
 
 ![Cumulative number of ecological networks available in `mangal.io` as a function of the date of collection. About 1000 unique networks have been collected between 1987 and 2017, a rate of just over 30 networks a year. This temporal increase proceeds at different rates for different types of networks; while the description of food webs is more or less constant, the global acceleration in the dataset is due to increased interest in host-parasite interactions starting in the late 1970s, while mutualistic networks mostly started being recorded in the early 2000s.](figures/network_growth_over_time.png){#fig:temporal}
 
@@ -116,6 +116,20 @@ for ecological interactions.
 
 ![Each point on the map corresponds to a network with parasitic, mutualistic, and predatory interactions. It is noteworthy that the spatial coverage of these types of interactions is uneven; the Americas have almost no parasitic network, for example. Some places have barely been studied at all, including Africa and Eastern Asia. This concentration of networks around rich countries speaks to inadequate coverage of the diversity of landscapes on Earth.](figures/map_networks_type.png){#fig:spatial}
 
+## Network size does not increase over time
+
+In +@fig:size, we report the changes in the number of nodes in ecological
+networks over time - interestingly, even though the field of network
+ecology itself is growing [@borrett14rise], the overwhelming majority of
+networks collected to date remain under a hundred species. This is most
+likely explained, not by the fact that ecological networks are necessarily
+small, but by the immense effort required to assemble these datasets
+[@jordano16sampling]. Indeed, @jordano16chasing emphasizes that the correct
+empirical description of ecological networks requires extensive field work
+in addition to a profound knowledge of the system's natural history. These
+multiple constraints contribute to keeping network size small.
+
+![Bins of network size (as measured by the number of nodes) through time. Although the rythm of network collection has intensified, most networks that have been archived remain relatively small, most often having fewer than 100 species.](figures/properties_over_time.png){#fig:size}
 
 ## Different interaction types have been studied in different biomes
 
@@ -133,20 +147,21 @@ of networks have been studied in sub-spaces only. Specifically, parasitism
 networks have been studied in colder and drier climates; mutualism networks
 in wetter climates; predation networks display less of a bias.
 
-![List of networks across in the space of biomes as originally presented by @Whit62. Predation networks, *i.e.* food webs, seem to have the most global coverage; parasitism networks are restricted to low temperature and low precipitation biomes, congruent with the majority of them being in Western Europe.](figures/networks_by_biomes.png){#fig:biomes}
+![List of networks across in the space of biomes as originally presented by @Whit62. Predation networks, *i.e.* food webs, seem to have the most global coverage; parasitism networks are restricted to low temperature and low precipitation biomes, congruent with the majority of them being in Western Europe. Shading in the background of the figure represents the relative abundance of the different precipitation/temperature combinations on Earth, above -60 degrees of latitude.](figures/networks_by_biomes.png){#fig:biomes}
 
-Scaling up this analysis to the 19 BioClim variables in @fick17worldclim, we
+To scale this analysis up to the 19 BioClim variables in @fick17worldclim, we
 extracted the position of every network in the bioclimatic space, conducted
 a principal component analysis on the scaled bioclimatic variables, and
-measured their distance to the center of this space ($\mathbf{0}$). This
-is a measurement of the "rarity" of the bioclimatic conditions in which any
-networks were sampled, with larger values indicating more unique combinations
-(the distance was ranged to $]0;1]$ for the sake of interpretation). As
+projected the sampling locations in the resulting subspace formed by the
+first two principal components, as presented in +@fig:pca. This ordination
+has a number of interesting properties. First, the
+
+{==TK==}(the distance was ranged to $]0;1]$ for the sake of interpretation). As
 shown in +@fig:ecc, mutualistic interactions tend to have values that are
 higher than both parasitism and predation, suggesting that they have been
 sampled in more unique environments.
 
-![Distance to the centroid (in the scaled climatic space) for each network, as a function of the type of interaction. Larger values indicate that the network is far from its centroid, and therefore represents sampling in a more "unique" location. Mutualistic interactions have been, on average, studied in more diverse locations that parasitism or predatory networks.](figures/distance_to_centroid.png){#fig:ecc}
+![Distance to the centroid (in the scaled climatic space) for each network, as a function of the type of interaction. Larger values indicate that the network is far from its centroid, and therefore represents sampling in a more "unique" location. Mutualistic interactions have been, on average, studied in more diverse locations that parasitism or predatory networks.](figures/networks_pca.png){#fig:pca}
 
 ## Some locations on Earth have no climate analog
 
@@ -191,11 +206,12 @@ the level of species and their interactions, but at that of the community.
 upon the same structural backbone, which is in part due to strong
 evolutionary constraints on the establishment of species interactions
 [@dallariva15exploring]; in other words, most networks are expected to be
-variations on a shared theme, and this facilitates the task of predicting
-the overarching structure greatly. Finally, this approach to prediction
-which neglects the composition of networks is justified by the observation
-that network structure tends to be maintained at very large spatial scales
-even in the presence of strong compositional turnover [@dallas17compositional].
+variations on a shared theme, and this facilitates the task of predicting the
+overarching structure greatly. Finally, this approach to prediction which
+neglects the composition of networks is justified by the observation that
+network structure tends to be maintained at very large spatial scales even
+in the presence of strong compositional turnover [@dallas17compositional;
+@kemp17invariant].
 
 **TODO** update the § and discuss
 - e.g. Chagnon et al 2016. Oecologia. 180, 181-191
