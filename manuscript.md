@@ -25,23 +25,26 @@ objects, to dynamical ones that vary across space and time, has prompted
 several methodological efforts. First, tools to study spatial, temporal,
 and spatio-temporal variation of ecological networks in relationship to
 environmental gradients have been developed and continuously expanded
-[@poisot12dissimilarity; @poisot15species; @poisot17hosts]. Second, there
-has been an improvement in large-scale data-collection, through increased
-adoption of molecular biology tools [@eitzinger19assessing; @evans16merging;
-@makiola19key] and crowd-sourcing of data collection [@bahlai16predicting;
-@roy16focal; @pocock15biological]. Finally, there has been a surge in the
-development of tools allowing to *infer* species interactions [@MoraMati15;
-@DallPark17] based on limited but complementary data on network properties
-[@StocPois17], species traits [@GravPois13; @DesjLaig17; @BrouGrav17;
-@BartGrav16], and environmental conditions [@GravBais18]. These latter
-approaches tend to perform well in data-poor environments [@BeauDesj16],
-and can be combined through ensemble modeling or model averaging to generate
-more robust predictions [@PomeThom18]. The task of inferring interactions is
-particularly important because ecological networks are difficult to adequately
-sample in nature [@Jord16; @BanaCatt04; @ChacVazq12; @GibsKnot11]. The common
-goal to these efforts is to facilitate the prediction of network structure,
-particularly over space [@PoisGrav16; @GravBais18; @AlboArch19] and into the
-future [@AlboVele14], to appraise the response of that structure to possible
+[@poisot12dissimilarity; @poisot15species; @poisot17hosts]. Second,
+there has been an improvement in large-scale data-collection, through
+increased adoption of molecular biology tools [@eitzinger19assessing;
+@evans16merging; @makiola19key] and crowd-sourcing of data collection
+[@bahlai16predicting; @roy16focal; @pocock15biological]. Finally, there
+has been a surge in the development of tools allowing to *infer* species
+interactions [@moralescastilla15inferring; @dallas17predicting] based on
+limited but complementary data on network properties [@stock17linear],
+species traits [@gravel13inferring; @desjardinsproulx17ecological;
+@brousseau17traitmatching; @bartomeus16common], and environmental conditions
+[@gravel18bringing]. These latter approaches tend to perform well in
+data-poor environments [@beauchesne16thinking], and can be combined through
+ensemble modeling or model averaging to generate more robust predictions
+[@pomeranz18inferring]. The task of inferring interactions is particularly
+important because ecological networks are difficult to adequately sample in
+nature [@jordano16chasing; @jordano16sampling; @banasekrichter04sampling;
+@chacoff12evaluating; @gibson11sampling]. The common goal to these efforts
+is to facilitate the prediction of network structure, particularly over space
+[@poisot16synthetic; @gravel18bringing; @albouy19marine] and into the future
+[@albouy14projected], to appraise the response of that structure to possible
 environmental changes.
 
 These disparate methodological efforts share another important trait:
@@ -50,24 +53,29 @@ and on the availability of data that are representative of the area we seek
 to model. Novel quantitative tools demand a higher volume of network data;
 novel collection techniques demand powerful data repositories; novel inference
 tools demand easier integration between different types of data, including
-but not limited to: interactions, species traits, taxonomy, occurrences, and
-local bioclimatic conditions. In short, advancing the science of ecological
-networks requires us not only to increase the volume of available data, but
-also to pair these data with ecologically relevant metadata. Such data should
-also be made available in a way that facilitates programmatic interaction so
-that they can be used by reproducible data analysis pipelines. @PoisBais16
-introduced `mangal.io` as the first step in this direction. In the years
-since the tool was originally published, we continued the development
-of data representation, amount and richness of metadata, and digitized
-and standardized as much biotic interactions data as we could find. The
-second major release of this database contains over 1300 networks, 120000
-interactions across close to 7000 taxa, and represents what is to our best
-knowledge the most complete collection of species interactions available.
+but not limited to: interactions, species traits, taxonomy, occurrences,
+and local bioclimatic conditions. Macroecological studies of networks have
+demonstrated the importance of integrating network structure with past
+and current climate data [@dalsgaard13historical;@schleuning14ecological;
+@martingonzalez15macroecology], and that even when considering large scale
+gradients, similar types of interactions can behave in similar ways, in
+that they respond to the same drivers [@zanata17global]. That being said,
+network-based measures of community structure often brings complementary
+information when compared to other sources of data [like abundance;
+@dalsgaard17opposed].
 
-**TODO** include a discussion of e.g. Schleuning et al. 2014. Ecology
-letters. 17, 454-463; Martín González et al. 2015. Global Ecology and
-Biogeography. 24, 1212-1224; Zanata et al. 2017. Journal of Biogeography. 44,
-1891-1910 and explain what `mangal` can bring to this line of reearch.
+In short, advancing the science of ecological networks requires us not only
+to increase the volume of available data, but also to pair these data with
+ecologically relevant metadata. Such data should also be made available
+in a way that facilitates programmatic interaction so that they can be
+used by reproducible data analysis pipelines. @poisot16mangal introduced
+`mangal.io` as the first step in this direction. In the years since the tool
+was originally published, we continued the development of data representation,
+amount and richness of metadata, and digitized and standardized as much biotic
+interactions data as we could find. The second major release of this database
+contains over 1300 networks, 120000 interactions across close to 7000 taxa,
+and represents what is to our best knowledge the most complete collection
+of species interactions available.
 
 Here we ask if the current mangal database is fit for global-scale synthesis
 research into ecological networks. We conclude that interactions over most of
@@ -304,17 +312,19 @@ Second, we *should* collect data on species interactions following their
 measurement *in situ*, because this will enable the development of new
 generation of general models. Initial guidelines by @moralescastilla15inferring
 have led to an increase in the development and application of forecasting
-methods (reviewed in the introduction of this manuscript), and it is now clear
-that coupling data on species interaction, occurrences, traits, phylogeny,
-is going to lead to powerful predictive models of community structure. While
-knowing the structure of the food web of two ponds a few kilometers apart is
-not going to qualitatively change our understanding of food webs as a whole,
-the accumulation of data about different interactions in multiple environments
-will allow us to hunt for generalities, and identify rules that govern the
-assemblage of ecological networks. More importantly, by accumulating more
-data, we will increase the overlap between different databases (phylogeny,
-genetics, occurrences, functional traits), which will contribute to the
-unification of our knowledge of biodiversity [**TREE PAPER**].
+methods (reviewed in the introduction of this manuscript), and it is
+now clear that coupling data on species interaction, occurrences, traits
+[@schleuning20traitbased], phylogeny, is going to lead to powerful predictive
+models of community structure. While knowing the structure of the food web
+of two ponds a few kilometers apart is not going to qualitatively change
+our understanding of food webs as a whole, the accumulation of data about
+different interactions in multiple environments will allow us to hunt for
+generalities, and identify rules that govern the assemblage of ecological
+networks. More importantly, by accumulating more data, we will increase
+the overlap between different databases (phylogeny, genetics, occurrences,
+functional traits), which will contribute to the unification of our knowledge
+of biodiversity, a task which is currently hampered by disconnection between
+data [@poisot19ecological].
 
 Perhaps one of the most striking demonstration of the promises of data
 and model integration is a recent contribution by @becker20predicting:
