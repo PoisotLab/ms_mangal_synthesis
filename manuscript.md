@@ -226,27 +226,27 @@ in the presence of strong compositional turnover [@dallas17compositional;
 ## Can we predict the future of ecological networks under climate change?
 
 Perhaps unsurprisingly, most of our knowledge on ecological networks is derived
-from data that were collected after the 1990s (+@fig:temporal). This means
-that we have worryingly little information on ecological networks before the
+from data that were collected after the 1990s (+@fig:temporal). This means that
+we have worryingly little information on ecological networks before the
 acceleration of the climate crisis, and therefore lack a robust baseline.
-@dalsgaard13historical provide strong evidence that the extant shape of
-ecological networks emerged in part in response to historical trends in
-climate change.  The lack of reference data before the acceleration of the
-effects of climate change is of particular concern, as we may be deriving
-intuitions on ecological network structure and assembly rules from networks
-that are in the midst of important ecological disturbances. Although there is
-some research on the response of co-occurrence and indirect interactions to
-climate change [@ArauRoze11; @LosaScho17], these are a far cry from actual
-direct interactions; similarly, the data on "paleo-foodwebs", *i.e.* from
-deep evolutionary time [@MuscPrab18; @YeakPire14; @NenzMont14] represent the
-effect of more progressive change, and may not adequately inform us about the
-future of ecological networks under severe climate change. However, though we
-lack baselines against which to measure the present, as a community we are
-in a position to provide one for the future. Climate change will continue
-to have important impacts on species distributions and interactions for at
-least the next century. The Mangal database provides a structure to organize
-and share network data, creating a baseline for future attempts to monitor
-and adapt to biodiversity change.
+@Dalsgaard2013HisCli provide strong evidence that the extant shape of ecological
+networks emerged in part in response to historical trends in climate change. The
+lack of reference data before the acceleration of the effects of climate change
+is of particular concern, as we may be deriving intuitions on ecological network
+structure and assembly rules from networks that are in the midst of important
+ecological disturbances. Although there is some research on the response of
+co-occurrence and indirect interactions to climate change [@Araujo2011UsiSpe;
+@Losapio2017ResPla], these are a far cry from actual direct interactions;
+similarly, the data on "paleo-foodwebs", *i.e.* from deep evolutionary time
+[@Muscente2018QuaEco; @Yeakel2014ColEco; @Nenzen2014Imp850] represent the effect
+of more progressive change, and may not adequately inform us about the future of
+ecological networks under severe climate change. However, though we lack
+baselines against which to measure the present, as a community we are in a
+position to provide one for the future. Climate change will continue to have
+important impacts on species distributions and interactions for at least the
+next century. The Mangal database provides a structure to organize and share
+network data, creating a baseline for future attempts to monitor and adapt to
+biodiversity change.
 
 Possibly more concerning is the fact that the spatial distribution of sampled
 networks shows a clear bias towards the Western world, specifically Western
