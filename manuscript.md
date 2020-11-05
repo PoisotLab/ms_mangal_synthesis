@@ -165,6 +165,8 @@ sampled in more unique environments.
 
 ![Distance to the centroid (in the scaled climatic space) for each network, as a function of the type of interaction. Larger values indicate that the network is far from its centroid, and therefore represents sampling in a more "unique" location. Mutualistic interactions have been, on average, studied in more diverse locations that parasitism or predatory networks.](figures/networks_pca.png){#fig:pca}
 
+![Distance to the centroid (in the scaled climatic space) for each network, as a function of the type of interaction. Larger values indicate that the network is far from its centroid, and therefore represents sampling in a more "unique" location. Mutualistic interactions have been, on average, studied in more diverse locations that parasitism or predatory networks.](figures/distance_to_centroid.png){#fig:ecc}
+
 ## Some locations on Earth have no climate analog
 
 In figures @fig:envspace, we represent the environmental distance between every
