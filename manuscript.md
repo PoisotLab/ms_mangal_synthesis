@@ -50,38 +50,37 @@ facilitate the prediction of network structure, particularly over space
 [@Poisot2016SynDat; @Albouy2019MarFis] and into the future [@Albouy2014ProSpe],
 to appraise the response of that structure to possible environmental changes.
 
-These disparate methodological efforts share another important trait:
-their continued success depends both on state-of-the-art data management,
-and on the availability of data that are representative of the area we seek
-to model. Novel quantitative tools demand a higher volume of network data;
-novel collection techniques demand powerful data repositories; novel inference
-tools demand easier integration between different types of data, including
-but not limited to: interactions, species traits, taxonomy, occurrences,
-and local bioclimatic conditions. Macroecological studies of networks have
-demonstrated the importance of integrating network structure with past
-and current climate data [@dalsgaard13historical;@schleuning14ecological;
-@martingonzalez15macroecology], and that even when considering large scale
-gradients, similar types of interactions can behave in similar ways, in
-that they respond to the same drivers [@zanata17global]. That being said,
-network-based measures of community structure often brings complementary
-information when compared to other sources of data [like abundance;
-@dalsgaard17opposed].
+These disparate methodological efforts share another important trait: their
+continued success depends both on state-of-the-art data management, and on the
+availability of data that are representative of the area we seek to model. Novel
+quantitative tools demand a higher volume of network data; novel collection
+techniques demand powerful data repositories; novel inference tools demand
+easier integration between different types of data, including but not limited
+to: interactions, species traits, taxonomy, occurrences, and local bioclimatic
+conditions. Macroecological studies of networks have demonstrated the importance
+of integrating network structure with past and current climate data
+[@Dalsgaard2013HisCli;@Schleuning2014EcoHis; @Martin-Gonzalez2015MacPhy], and
+that even when considering large scale gradients, similar types of interactions
+can behave in similar ways, in that they respond to the same drivers
+[@Zanata2017GloPat]. That being said, network-based measures of community
+structure often brings complementary information when compared to other sources
+of data [like abundance; @Dalsgaard2017OppLat].
 
-In short, advancing the science of ecological networks requires us not only
-to increase the volume of available data, but also to pair these data with
-ecologically relevant metadata. Such data should also be made available
-in a way that facilitates programmatic interaction so that they can be
-used by reproducible data analysis pipelines. @poisot16mangal introduced
-`mangal.io` as the first step in this direction. In the years since the tool
-was originally published, we continued the development of data representation,
-amount and richness of metadata, and digitized and standardized as much biotic
-interactions data as we could find. The second major release of this database
-contains over 1300 networks, 120000 interactions across close to 7000 taxa,
-and represents what is to our best knowledge the most complete collection
-of species interactions available.
+In short, advancing the science of ecological networks requires us not only to
+increase the volume of available data, but also to pair these data with
+ecologically relevant metadata. Such data should also be made available in a way
+that facilitates programmatic interaction so that they can be used by
+reproducible data analysis pipelines. @Poisot2016ManMak introduced `mangal.io`
+as the first step in this direction. In the years since the tool was originally
+published, we continued the development of data representation, amount and
+richness of metadata, and digitized and standardized as much biotic interactions
+data as we could find. The second major release of this database contains over
+1300 networks, 120000 interactions across close to 7000 taxa, and represents
+what is to our best knowledge the most complete collection of species
+interactions available.
 
 Here we ask if the current mangal database is fit for global-scale synthesis
-research into ecological networks. A recent study by @cameron19uneven suggest
+research into ecological networks. A recent study by @Cameron2019UneGlo suggest
 that food webs are un-evenly documented globally, but focused on *metadata*
 as opposed to actual datasets. Here, we conclude that interactions over most
 of the planet's surface are poorly described, despite an increasing amount
