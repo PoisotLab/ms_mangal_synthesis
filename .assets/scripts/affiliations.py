@@ -2,29 +2,30 @@ import subprocess
 import json
 import os
 
-with open("metadata.json") as mdfile:
-    metadata = json.load(mdfile)
-
-# Get the affiliations orders
-affiliations = [c["affiliation"] for c in metadata["authors"]]
-affiliations = [i for sl in affiliations for i in sl]
-
-affiliations_data = {}
-counter = 1
-for affiliation in affiliations:
-    if not (affiliation in affiliations_data.values()):
-        affiliations_data[counter] = affiliation
-        counter += 1
-
-for author in metadata["authors"]:
-    auth_affil = [k for k,v in affiliations_data.items() if v in author["affiliation"]]
-    author["affiliations"] = auth_affil
-    author.pop("affiliation", None)
-
-metadata["affiliations"] = [{"index": k, "name": v} for k,v in affiliations_data.items()]
+with open("metadata.json") as jsfile:
+    metadata = json.load(jsfile)
 
 # Fields to remove
+creators = metadata["creators"]
+affiliation_to_number = {}
 
-with open("metadata.json", "w", encoding="utf-8") as outfile:
-    json.dump(metadata, outfile, sort_keys=True, indent=4, separators=(',', ': '), ensure_ascii=False)
+for creator in creators:
+    affiliations = creator["affiliations"]
+    for affiliation in affiliations:
+        if not (affiliation in affiliation_to_number.keys()):
+            affiliation_to_number[affiliation] = len(affiliation_to_number)+1
+
+for creator in creators:
+    creator["affilcode"] = [affiliation_to_number[affiliation]
+                            for affiliation in creator["affiliations"]]
+    creator.pop("affiliations", None)
+
+affiliations = {}
+affiliations["authors"] = creators
+affiliations["institutions"] = [{"id": v, "name": k} for k, v in sorted(
+    affiliation_to_number.items(), key=lambda item: item[1])]
+
+with open("affiliations.json", "w") as outfile:
+    json.dump(affiliations, outfile, sort_keys=False,
+              indent=4, separators=(',', ': '))
     outfile.write('\n')
