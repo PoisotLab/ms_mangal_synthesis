@@ -7,20 +7,20 @@ species or organisms interact [@Heleno2014EcoNet; @Delmas2018AnaEco]. In
 addition to using the established mathematical framework of graph theory to
 describe the structure of species interactions, network ecology has related the
 structural and ecological properties of networks [@Proulx2005NetThi;
-@Poulin2010NetAna]. Networks often allow to link disconnected scales in ecology,
-and in particular are powerful tools to bridge data on populations to ecosystem
-properties [@loreau10populations; @jordano13mutualistic; @gonzalez20scalingup].
-Recently, the interest in the dynamics of ecological networks across large
-temporal scales [@baiser19ecogeographical; @tylianakis17ecological], and along
-environmental gradients [@Welti2015StrTro; @Pellissier2017ComSpe;
-@Trojelsgaard2016EcoNet], has increased. As ecosystems are changing rapidly,
-networks are at risk of undergoing rapid and catastrophic changes to their
-structure: for example by invasion leading to a collapse
-[@magrach17plantpollinator; @strong14impact], or by a "rewiring" of interactions
-among existing species [@hui19how; @guiden19predator; @bartley19food].
+@Poulin2010NetAna]. Networks often allow to link disconnected scales in ecology
+[@Guimaraes2020StrEco], and in particular are powerful tools to bridge data on
+populations to ecosystem properties [@Loreau2010PopEco; @Jordano2013MutNet;
+@Gonzalez2020ScaBio]. Recently, the interest in the dynamics of ecological
+networks across large temporal scales [@Baiser2019EcoRul;
+@Tylianakis2017EcoNet], and along environmental gradients [@Welti2015StrTro;
+@Pellissier2017ComSpe; @Trojelsgaard2016EcoNet], has increased. As ecosystems
+are changing rapidly, networks are at risk of undergoing rapid and catastrophic
+changes to their structure: for example by invasion leading to a collapse
+[@Magrach2017PlaNet; @Strong2014ImpNon], or by a "rewiring" of interactions
+among existing species [@Hui2019HowInv; @Guiden2019PrePre; @Bartley2019FooWeb].
 Simulation studies suggest that knowing the structure of the extant network,
 *i.e.* being able to map all interactions between species, is not sufficient
-[@thompson17dispersal] to predict the effects of external changes; indeed, data
+[@Thompson2017DisGov] to predict the effects of external changes; indeed, data
 on the species occurrences and traits, as well as local extant and projected
 climate, are also required.
 
