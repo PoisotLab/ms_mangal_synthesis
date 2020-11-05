@@ -1,24 +1,28 @@
+---
+bibliography: [references.bib]
+---
+
 Ecological networks are a useful representation of ecological systems in which
-species or organisms interact [@heleno14ecological; @delmas18analysing]. In
+species or organisms interact [@Heleno2014EcoNet; @Delmas2018AnaEco]. In
 addition to using the established mathematical framework of graph theory to
-describe the structure of species interactions, network ecology has related
-the structural and ecological properties of networks [@proulx05network;
-@poulin10network]. Networks often allow to link disconnected scales in
-ecology, and in particular are powerful tools to bridge data on populations
-to ecosystem properties [@loreau10populations; @jordano13mutualistic;
-@gonzalez20scalingup]. Recently, the interest in the dynamics of ecological
-networks across large temporal scales [@baiser19ecogeographical;
-@tylianakis17ecological], and along environmental gradients
-[@pellissier17comparing; @trojelsgaard16ecological], has increased. As
-ecosystems are changing rapidly, networks are at risk of undergoing rapid and
-catastrophic changes to their structure: for example by invasion leading to
-a collapse [@magrach17plantpollinator; @strong14impact], or by a "rewiring"
-of interactions among existing species [@hui19how; @guiden19predator;
-@bartley19food]. Simulation studies suggest that knowing the structure
-of the extant network, *i.e.* being able to map all interactions between
-species, is not sufficient [@thompson17dispersal] to predict the effects
-of external changes; indeed, data on the species occurrences and traits,
-as well as local extant and projected climate, are also required.
+describe the structure of species interactions, network ecology has related the
+structural and ecological properties of networks [@Proulx2005NetThi;
+@Poulin2010NetAna]. Networks often allow to link disconnected scales in ecology,
+and in particular are powerful tools to bridge data on populations to ecosystem
+properties [@loreau10populations; @jordano13mutualistic; @gonzalez20scalingup].
+Recently, the interest in the dynamics of ecological networks across large
+temporal scales [@baiser19ecogeographical; @tylianakis17ecological], and along
+environmental gradients [@Welti2015StrTro; @Pellissier2017ComSpe;
+@Trojelsgaard2016EcoNet], has increased. As ecosystems are changing rapidly,
+networks are at risk of undergoing rapid and catastrophic changes to their
+structure: for example by invasion leading to a collapse
+[@magrach17plantpollinator; @strong14impact], or by a "rewiring" of interactions
+among existing species [@hui19how; @guiden19predator; @bartley19food].
+Simulation studies suggest that knowing the structure of the extant network,
+*i.e.* being able to map all interactions between species, is not sufficient
+[@thompson17dispersal] to predict the effects of external changes; indeed, data
+on the species occurrences and traits, as well as local extant and projected
+climate, are also required.
 
 This change in scope, from describing ecological networks as local, static
 objects, to dynamical ones that vary across space and time, has prompted
