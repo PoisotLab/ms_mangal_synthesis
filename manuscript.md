@@ -388,4 +388,3 @@ including the data files, are available at
 `https://poisotlab.github.io/MangalSamplingStatus/`.
 
 # References
-
