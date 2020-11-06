@@ -51,32 +51,34 @@ facilitate the prediction of network structure, particularly over space
 to appraise the response of that structure to possible environmental changes.
 
 These disparate methodological efforts share another important trait: their
-continued success depends both on state-of-the-art data management, and on the
-availability of data that are representative of the area we seek to model. Novel
-quantitative tools demand a higher volume of network data; novel collection
-techniques demand powerful data repositories; novel inference tools demand
-easier integration between different types of data, including but not limited
-to: interactions, species traits, taxonomy, occurrences, and local bioclimatic
-conditions. Macroecological studies of networks have demonstrated the importance
-of integrating network structure with past and current climate data
-[@Dalsgaard2013HisCli;@Schleuning2014EcoHis; @Martin-Gonzalez2015MacPhy], and
-that even when considering large scale gradients, similar types of interactions
-can behave in similar ways, in that they respond to the same drivers
-[@Zanata2017GloPat]. That being said, network-based measures of community
-structure often brings complementary information when compared to other sources
-of data [like abundance; @Dalsgaard2017OppLat].
+continued success at predicting network structure depends both on
+state-of-the-art data management, and on the availability of data that are
+representative of the area we seek to model. Novel quantitative tools demand a
+higher volume of network data; novel collection techniques demand powerful data
+repositories; novel inference tools demand easier integration between different
+types of data, including but not limited to: interactions, species traits,
+taxonomy, occurrences, and local bioclimatic conditions. Macroecological studies
+of networks have demonstrated the importance of integrating network structure
+with past and current climate data [@Dalsgaard2013HisCli;@Schleuning2014EcoHis;
+@Martin-Gonzalez2015MacPhy], and that even when considering large scale
+gradients, similar types of interactions can behave in similar ways, in that
+they respond to the same drivers [@Zanata2017GloPat]. That being said,
+network-based measures of community structure often brings complementary
+information when compared to other sources of data [like abundance;
+@Dalsgaard2017OppLat].
 
 In short, advancing the science of ecological networks requires us not only to
 increase the volume of available data, but also to pair these data with
 ecologically relevant metadata. Such data should also be made available in a way
-that facilitates programmatic interaction so that they can be used by
-reproducible data analysis pipelines. @Poisot2016ManMak introduced `mangal.io`
-as the first step in this direction. In the years since the tool was originally
-published, we continued the development of data representation, amount and
-richness of metadata, and digitized and standardized as much biotic interactions
-data as we could find. The second major release of this database contains over
-1300 networks, 120000 interactions across close to 7000 taxa, and represents
-what is to our best knowledge the most complete collection of species
+that facilitates programmatic interaction (*i.e.* where the data are processed
+automatically and without the need for manual curation) so that they can be used
+by reproducible data analysis pipelines. @Poisot2016ManMak introduced
+`mangal.io` as the first step in this direction. In the years since the tool was
+originally published, we continued the development of data representation,
+amount and richness of metadata, and digitized and standardized as much biotic
+interactions data as we could find. The second major release of this database
+contains over 1300 networks, 120000 interactions across close to 7000 taxa, and
+represents what is to our best knowledge the most complete collection of species
 interactions available.
 
 Here we ask if the current mangal database is fit for global-scale synthesis
@@ -141,15 +143,18 @@ data quality.
 across biomes, largely defined as a function of their relative precipitation and
 temperature.  For all networks for which the latitude and longitude were known,
 we extracted the value temperature (BioClim1, yearly average) and precipitation
-(BioClim12, total annual) from the WorldClim 2 data [@Fick2017Wor2N]. Using
-these we can plot every network on the map of biomes drawn by
-@Whittaker1962ClaNat (note that because the frontiers between biomes are not
-based on any empirical or systematic process, they have been omitted from this
-analysis). In @fig:biomes, we show that even though networks capture the overall
-diversity of precipitation and temperature, types of networks have been studied
-in sub-spaces only. Specifically, parasitism networks have been studied in
-colder and drier climates; mutualism networks in wetter climates; predation
-networks display less of a bias.
+(BioClim12, total annual) from the WorldClim 2 data at a resolution of 10 arc
+minutes [@Fick2017Wor2N]. Using these we can plot every network on the map of
+biomes drawn by @Whittaker1962ClaNat (note that because the frontiers between
+biomes are not based on any empirical or systematic process, they have been
+omitted from this analysis). In @fig:biomes, we show that even though networks
+capture the overall diversity of precipitation and temperature, types of
+networks have been studied in sub-sections of the biomes space only.
+Specifically, parasitism networks have been studied in colder and drier
+climates; mutualism networks in wetter climates; predation networks display less
+of a bias. Interestingly, some combinations of temperature and precipitation
+that are abundant on Earth (darker shading) are not represented in our network
+dataset, which suggests that we lack knolwedge of some widespread biomes.
 
 ![List of networks across in the space of biomes as originally presented by @Whittaker1962ClaNat. Predation networks, *i.e.* food webs, seem to have the most global coverage; parasitism networks are restricted to low temperature and low precipitation biomes, congruent with the majority of them being in Western Europe. Shading in the background of the figure represents the relative abundance of the different precipitation/temperature combinations on Earth, above -60 degrees of latitude.](figures/networks_by_biomes.png){#fig:biomes}
 
@@ -176,7 +181,7 @@ potential bias in that globally, as the growth of digitized ecological networks
 was largely driven by parasitic interactions [@fig:temporal], the environments
 in which they have been sampled have became over-represented.
 
-![Distance to the centroid (in the scaled climatic space) for each network, as a function of the type of interaction. Larger values indicate that the network is far from its centroid, and therefore represents sampling in a more "unique" location. Mutualistic interactions have been, on average, studied in more diverse locations that parasitism or predatory networks.](figures/distance_to_centroid.png){#fig:ecc}
+![Density of the distance to the centroid (in the scaled climatic space) for each network, by type of interaction. Larger values indicate that the network is far from its centroid, and therefore represents sampling in a more "unique" location. Mutualistic interactions have been, on average, studied in more diverse locations that parasitism or predatory networks.](figures/distance_to_centroid.png){#fig:ecc}
 
 ## Some locations on Earth have no climate analog
 
@@ -226,13 +231,6 @@ this approach to prediction which neglects the composition of networks is
 justified by the observation that network structure tends to be maintained at
 very large spatial scales even in the presence of strong compositional turnover
 [@Dallas2017ComTur; @Kemp2017InvAnt].
-
-**TODO** update the § and discuss
-- e.g. Chagnon et al 2016. Oecologia. 180, 181-191
-- e.g. Guimaraes Jr et al. 2007. Current Biology. 17, 1797-1803
-- e.g. Gibson et al. 2011. Oikos. 120, 822-831
-
-**TODO** focus on older data as well as some taxa that are under-represented
 
 ## Can we predict the future of ecological networks under climate change?
 
@@ -322,15 +320,15 @@ near-term forecasting of ecological network structure [@Dietze2018IteNea].
 ## What problems would more data solve?
 
 As the amount of empirical evidence grows, so too should our understanding of
-existing relationships between network properties, networks properties and
-space, and the interpretation to be drawn from them. But what information would
-the structure of the food web from a pond bring to our understanding of the
-plant-pollinator interactions around it? Or to a food web in another pond a few
-kilometers from here? In short, will we get a lot more insights by accumulating
-data? Before answering this question (in the affirmative), it matters to
-recognize that, as @Hortal2015SevSho pointed out, biotic interactions are a core
-part of biodiversity; the Eltonian shortfall, manifested in our lack of
-widespread data about them, in as much of an impediment to our mission as
+existing relationships between network properties, between networks properties
+and space, and the interpretation to be drawn from them. But what information
+would the structure of the food web from a pond bring to our understanding of
+the plant-pollinator interactions around it? Or to a food web in another pond a
+few kilometers from here? In short, will we get a lot more insights by
+accumulating data? Before answering this question (in the affirmative), it
+matters to recognize that, as @Hortal2015SevSho pointed out, biotic interactions
+are a core part of biodiversity; the Eltonian shortfall, manifested in our lack
+of widespread data about them, in as much of an impediment to our mission as
 ecologists as the absence of data on phylogeny or species occurrence would be.
 As a conclusion to this article, we would like to frame the aggregation of data
 on species interaction networks in standardized databases as both a requirement
@@ -364,17 +362,28 @@ models of community structure. While knowing the structure of the food web of
 two ponds a few kilometers apart is not going to qualitatively change our
 understanding of food webs as a whole, the accumulation of data about different
 interactions in multiple environments will allow us to hunt for generalities,
-and identify rules that govern the assemblage of ecological networks. More
-importantly, by accumulating more data, we will increase the overlap between
+and identify rules that govern the assemblage of ecological networks.
+
+Third, we should focus on digitizing, or collecting, time series of network
+structure. Networks are known to vary over short [@Trojelsgaard2016EcoNet], long
+[@Burkle2013PlaInt], and very long [@Nenzen2014Imp850] periods of time, and
+having the ability to track changes of a network through time will provide
+important answers as to the suitability of a single, discrete sampling timepoint
+to serve as a reference state for the history of the entire network. This is of
+particular relevance as we now have both population time-series for various
+community assemblages [@Dornelas2018BioDat], and the quantitative tools to
+analyse time-series of complex interactions [@Ovaskainen2017HowAre].
+
+In conclusion, by accumulating more data, we will increase the overlap between
 different databases (phylogeny, genetics, occurrences, functional traits), which
 will contribute to the unification of our knowledge of biodiversity, a task
-which is currently hampered by disconnection between data describing different
-aspects of community structure and composition [@Poisot2019EcoDat]. The work of
-predicting species interactions would be streamlined by both (i) establishing
-and using a standardized database for species interactions with contextual
-metadata, and (ii) ensuring the compatibility of this database with other
-sources, through the use of established species identifiers. The `mangal` data
-specification (and database) solves both issues, and we are confident that
+which is currently hampered by disconnectedness between data describing
+different aspects of community structure and composition [@Poisot2019EcoDat].
+The work of predicting species interactions would be streamlined by both (i)
+establishing and using a standardized database for species interactions with
+contextual metadata, and (ii) ensuring the compatibility of this database with
+other sources, through the use of established species identifiers. The `mangal`
+data specification (and database) solves both issues, and we are confident that
 through sustained data deposition, it will contribute to our ability to predict
 the structure of ecological networks.
 
