@@ -63,7 +63,7 @@ with past and current climate data [@Dalsgaard2013HisCli;@Schleuning2014EcoHis;
 @Martin-Gonzalez2015MacPhy], and that even when considering large scale
 gradients, similar types of interactions can behave in similar ways, in that
 they respond to the same drivers [@Zanata2017GloPat]. That being said,
-network-based measures of community structure often brings complementary
+network-based measures of community structure often bring complementary
 information when compared to other sources of data [like abundance;
 @Dalsgaard2017OppLat].
 
@@ -81,7 +81,7 @@ contains over 1300 networks, 120000 interactions across close to 7000 taxa, and
 represents what is to our best knowledge the most complete collection of species
 interactions available.
 
-Here we ask if the current mangal database is fit for global-scale synthesis
+Here we ask if the current Mangal database is fit for global-scale synthesis
 research into ecological networks. A recent study by @Cameron2019UneGlo suggest
 that food webs are un-evenly documented globally, but focused on *metadata*
 as opposed to actual datasets. Here, we conclude that interactions over most
@@ -307,7 +307,7 @@ The idea of continuously updated analyses is very promising. Following the
 template laid out by @White2019DevAut and @Yenni2019DevMod, it is feasible to
 update a series of canonical analyses any time the database grows, to produce a
 living, automated synthesis of ecological networks knowledge. To this end, the
-mangal database has been integrated with `EcologicalNetworks.jl`
+Mangal database has been integrated with `EcologicalNetworks.jl`
 [@Poisot2019EcoJl], which allows the development of flexible network analysis
 pipelines. One immediate target would be to borrow the methodology from
 @Carlson2019WhaWou, and provide an estimate of the sampling effort required to

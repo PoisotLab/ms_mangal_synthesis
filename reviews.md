@@ -285,7 +285,7 @@ be used to forecast changes among a spider predation network sampled in 1995,
 and so I would need clarification about the nature of forecasting that can
 be made by knowing that the two predation networks are sampled in nearby
 environmental space. Additionally, there seem to be several aquatic (lake,
-stream, marine) food webs in the mangal database.  I am not sure how/whether
+stream, marine) food webs in the Mangal database.  I am not sure how/whether
 they are considered in the reported comparisons of environmental conditions
 based on average annual temperature and precipitation.  The authors state
 that they have confidence that it will be possible to extrapolate network
@@ -351,7 +351,7 @@ perhaps in the second paragraph of this manuscript (line 13-31)
 
 > We do not think that discussing *all* biodiversity databases are within the
 > scope of this manuscript. Indeed, the abundant technical documentation for the
-> mangal database/data format shows how these initiatives are currently already
+> Mangal database/data format shows how these initiatives are currently already
 > integrated through our extensive specification of taxonomic identifiers. 
 
 ### Minor comments: 
