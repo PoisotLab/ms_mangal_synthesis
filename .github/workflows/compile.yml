@@ -51,13 +51,13 @@ jobs:
         run: pandoc manuscript.md -o dist/index.html -F pandoc-crossref --citeproc --bibliography=references.json --metadata-file=metadata.json --metadata-file=affiliations.json --metadata filename=${{ env.repo_name }} --template=.assets/templates/index.html
       - name: Build the tex files
         run: |
-          pandoc manuscript.md -s -o dist/${{ env.repo_name }}-copyedit.tex -F pandoc-crossref --citeproc --bibliography=references.json --metadata-file=metadata.json --metadata-file=affiliations.json --template=.assets/templates/copyedit.tex
-          pandoc manuscript.md -s -o dist/${{ env.repo_name }}-preprint.tex -F pandoc-crossref --citeproc --bibliography=references.json --metadata-file=metadata.json --metadata-file=affiliations.json --template=.assets/templates/preprint.tex
+          pandoc manuscript.md -s -o dist/${{ repo_name }}-copyedit.tex -F pandoc-crossref --citeproc --bibliography=references.json --metadata-file=metadata.json --metadata-file=affiliations.json --template=.assets/templates/copyedit.tex
+          pandoc manuscript.md -s -o dist/${{ repo_name }}-preprint.tex -F pandoc-crossref --citeproc --bibliography=references.json --metadata-file=metadata.json --metadata-file=affiliations.json --template=.assets/templates/preprint.tex
       - name: Save artifacts
         if: always()
         uses: actions/upload-artifact@master
         with:
-          name: ${{ env.repo_name }}
+          name: ${{ repo_name }}
           path: dist
   build:
     name: Build the PDFs
@@ -109,6 +109,8 @@ jobs:
           echo ::set-env name=repo_name::$(echo ${{ github.repository }} | cut -d/ -f2)
       - name: Download dist folder
         uses: actions/download-artifact@v2
+        env:
+          ACTIONS_ALLOW_UNSECURE_COMMANDS: 'true'
         with:
           name: ${{ env.repo_name }}
           path: dist
