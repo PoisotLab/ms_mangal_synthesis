@@ -57,6 +57,7 @@ jobs:
         if: always()
         uses: actions/upload-artifact@master
         with:
+          name: ${{ env.repo_name }}
           path: dist
   build:
     name: Build the PDFs
@@ -75,6 +76,7 @@ jobs:
       - name: Download dist folder
         uses: actions/download-artifact@v2
         with:
+          name: ${{ env.repo_name }}
           path: dist
       - name: Build the preprint pdf file
         uses: xu-cheng/latex-action@master
@@ -92,6 +94,7 @@ jobs:
         if: always()
         uses: actions/upload-artifact@master
         with:
+          name: ${{ env.repo_name }}
           path: dist
   deploy:
     name: Deploy to gh-pages
@@ -107,6 +110,7 @@ jobs:
       - name: Download dist folder
         uses: actions/download-artifact@v2
         with:
+          name: ${{ env.repo_name }}
           path: dist
       - name: "GitHub Pages deployment"
         if: always()
