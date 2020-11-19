@@ -53,6 +53,7 @@ jobs:
         if: always()
         uses: actions/upload-artifact@master
         with:
+          name: "manuscript"
           path: dist
   build:
     name: Build the PDFs
@@ -67,6 +68,7 @@ jobs:
       - name: Download dist folder
         uses: actions/download-artifact@v2
         with:
+          name: "manuscript"
           path: dist
       - name: Build the preprint pdf file
         uses: xu-cheng/latex-action@master
@@ -84,6 +86,7 @@ jobs:
         if: always()
         uses: actions/upload-artifact@master
         with:
+          name: "manuscript"
           path: dist
   deploy:
     name: Deploy to gh-pages
@@ -95,6 +98,7 @@ jobs:
       - name: Download dist folder
         uses: actions/download-artifact@v2
         with:
+          name: "manuscript"
           path: dist
       - name: "GitHub Pages deployment"
         if: always()
