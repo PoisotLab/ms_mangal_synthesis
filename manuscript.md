@@ -208,7 +208,7 @@ caution than an extrapolation in an area with many similar networks.
 
 What can we achieve with our current knowledge of ecological networks? The
 overview presented here shows a large and detailed dataset, compiled from almost
-every major biome on earth. It also displays our failure as a community to
+every major biome on Earth. It also displays our failure as a community to
 include some of the most threatened and valuable habitats in our work. Gaps in
 any dataset create uncertainty when making predictions or suggesting causal
 relationships. This uncertainty must be measured by users of these data,
@@ -222,15 +222,22 @@ methods).
 One line of research that we feel can confidently be pursued lies in
 extrapolating the structure of ecological networks over gradients, not at the
 level of species and their interactions, but at that of the community.
-@Mora2018IdeCom revealed that all food webs are more or less built upon the same
-structural backbone, which is in part due to strong evolutionary constraints on
-the establishment of species interactions [@DallaRiva2015ExpEvo]; in other
-words, most networks are expected to be variations on a shared theme, and this
+@Mora2018IdeCom revealed that all food webs are built upon the same structural
+backbone, which is in part due to strong evolutionary constraints on the
+establishment of species interactions [@DallaRiva2015ExpEvo]; in other words,
+most networks are expected to be variations on a shared theme, and this
 facilitates the task of predicting the overarching structure greatly. Finally,
 this approach to prediction which neglects the composition of networks is
 justified by the observation that network structure tends to be maintained at
 very large spatial scales even in the presence of strong compositional turnover
-[@Dallas2017ComTur; @Kemp2017InvAnt].
+[@Dallas2017ComTur; @Kemp2017InvAnt]. In short, the invariance of some network
+properties allows examining how "ecological networks" changes, as abstract
+objects, over time and space. One thing that the current state of the data does
+not always allow is to examine how a specific group of species (*i.e.* when
+taxonomic turnover becomes important) would react, in its interactions, to
+environmental gradients. This is an important research question, and we think
+that spatially replicated sampling of networks in the future would help with
+generating adequate data to address it in a synthetic way.
 
 ## Can we predict the future of ecological networks under climate change?
 
@@ -372,7 +379,9 @@ important answers as to the suitability of a single, discrete sampling timepoint
 to serve as a reference state for the history of the entire network. This is of
 particular relevance as we now have both population time-series for various
 community assemblages [@Dornelas2018BioDat], and the quantitative tools to
-analyse time-series of complex interactions [@Ovaskainen2017HowAre].
+analyse time-series of complex interactions [@Ovaskainen2017HowAre]. As of now,
+very few networks are *proper* temporal re-sampling of a single site, and this
+limits our ability to understand how networks change in nature.
 
 In conclusion, by accumulating more data, we will increase the overlap between
 different databases (phylogeny, genetics, occurrences, functional traits), which
