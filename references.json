@@ -1,0 +1,5301 @@
+[
+    {
+        "DOI": "10.1111/gcb.12467",
+        "author": [
+            {
+                "family": "Albouy",
+                "given": "Camille"
+            },
+            {
+                "family": "Velez",
+                "given": "Laure"
+            },
+            {
+                "family": "Coll",
+                "given": "Marta"
+            },
+            {
+                "family": "Colloca",
+                "given": "Francesco"
+            },
+            {
+                "family": "Loc\u2019h",
+                "given": "Fran\u00e7ois Le"
+            },
+            {
+                "family": "Mouillot",
+                "given": "David"
+            },
+            {
+                "family": "Gravel",
+                "given": "Dominique"
+            }
+        ],
+        "container-title": "Global Change Biology",
+        "id": "Albouy2014ProSpe",
+        "issue": "3",
+        "issued": {
+            "date-parts": [
+                [
+                    2014
+                ]
+            ]
+        },
+        "page": "730-741",
+        "title": "From projected species distribution to food-web structure under climate change",
+        "type": "article-journal",
+        "volume": "20"
+    },
+    {
+        "DOI": "10.1038/s41559-019-0950-y",
+        "author": [
+            {
+                "family": "Albouy",
+                "given": "Camille"
+            },
+            {
+                "family": "Archambault",
+                "given": "Philippe"
+            },
+            {
+                "family": "Appeltans",
+                "given": "Ward"
+            },
+            {
+                "family": "Ara\u00fajo",
+                "given": "Miguel B."
+            },
+            {
+                "family": "Beauchesne",
+                "given": "David"
+            },
+            {
+                "family": "Cazelles",
+                "given": "Kevin"
+            },
+            {
+                "family": "Cirtwill",
+                "given": "Alyssa R."
+            },
+            {
+                "family": "Fortin",
+                "given": "Marie-Jos\u00e9e"
+            },
+            {
+                "family": "Galiana",
+                "given": "Nuria"
+            },
+            {
+                "family": "Leroux",
+                "given": "Shawn J."
+            },
+            {
+                "family": "Pellissier",
+                "given": "Lo\u00efc"
+            },
+            {
+                "family": "Poisot",
+                "given": "Timoth\u00e9e"
+            },
+            {
+                "family": "Stouffer",
+                "given": "Daniel B."
+            },
+            {
+                "family": "Wood",
+                "given": "Spencer A."
+            },
+            {
+                "family": "Gravel",
+                "given": "Dominique"
+            }
+        ],
+        "container-title": "Nature Ecology & Evolution",
+        "id": "Albouy2019MarFis",
+        "issue": "8",
+        "issued": {
+            "date-parts": [
+                [
+                    2019
+                ]
+            ]
+        },
+        "page": "1153-1161",
+        "title": "The marine fish food web is globally connected",
+        "type": "article-journal",
+        "volume": "3"
+    },
+    {
+        "DOI": "10.1111/j.1600-0587.2011.06919.x",
+        "author": [
+            {
+                "family": "Ara\u00fajo",
+                "given": "Miguel B."
+            },
+            {
+                "family": "Rozenfeld",
+                "given": "Alejandro"
+            },
+            {
+                "family": "Rahbek",
+                "given": "Carsten"
+            },
+            {
+                "family": "Marquet",
+                "given": "Pablo A."
+            }
+        ],
+        "container-title": "Ecography",
+        "id": "Araujo2011UsiSpe",
+        "issue": "6",
+        "issued": {
+            "date-parts": [
+                [
+                    2011
+                ]
+            ]
+        },
+        "other-ids": "arau11usc",
+        "page": "897-908",
+        "title": "Using species co-occurrence networks to assess the impacts of climate change",
+        "type": "article-journal",
+        "volume": "34"
+    },
+    {
+        "DOI": "10.1098/rsos.150677",
+        "author": [
+            {
+                "family": "Bahlai",
+                "given": "Christie A."
+            },
+            {
+                "family": "Landis",
+                "given": "Douglas A."
+            }
+        ],
+        "container-title": "Royal Society Open Science",
+        "id": "Bahlai2016PrePla",
+        "issue": "6",
+        "issued": {
+            "date-parts": [
+                [
+                    2016
+                ]
+            ]
+        },
+        "page": "150677",
+        "title": "Predicting plant attractiveness to pollinators with passive crowdsourcing",
+        "type": "article-journal",
+        "volume": "3"
+    },
+    {
+        "DOI": "10.1111/geb.12925",
+        "author": [
+            {
+                "family": "Baiser",
+                "given": "Benjamin"
+            },
+            {
+                "family": "Gravel",
+                "given": "Dominique"
+            },
+            {
+                "family": "Cirtwill",
+                "given": "Alyssa R."
+            },
+            {
+                "family": "Dunne",
+                "given": "Jennifer A."
+            },
+            {
+                "family": "Fahimipour",
+                "given": "Ashkaan K."
+            },
+            {
+                "family": "Gilarranz",
+                "given": "Luis J."
+            },
+            {
+                "family": "Grochow",
+                "given": "Joshua A."
+            },
+            {
+                "family": "Li",
+                "given": "Daijiang"
+            },
+            {
+                "family": "Martinez",
+                "given": "Neo D."
+            },
+            {
+                "family": "McGrew",
+                "given": "Alicia"
+            },
+            {
+                "family": "Poisot",
+                "given": "Timoth\u00e9e"
+            },
+            {
+                "family": "Romanuk",
+                "given": "Tamara N."
+            },
+            {
+                "family": "Stouffer",
+                "given": "Daniel B."
+            },
+            {
+                "family": "Trotta",
+                "given": "Lauren B."
+            },
+            {
+                "family": "Valdovinos",
+                "given": "Fernanda S."
+            },
+            {
+                "family": "Williams",
+                "given": "Richard J."
+            },
+            {
+                "family": "Wood",
+                "given": "Spencer A."
+            },
+            {
+                "family": "Yeakel",
+                "given": "Justin D."
+            }
+        ],
+        "container-title": "Global Ecology and Biogeography",
+        "id": "Baiser2019EcoRul",
+        "issue": "0",
+        "issued": {
+            "date-parts": [
+                [
+                    2019
+                ]
+            ]
+        },
+        "title": "Ecogeographical rules and the macroecology of food webs",
+        "type": "article-journal",
+        "volume": "0"
+    },
+    {
+        "author": [
+            {
+                "family": "Bana\u0161ek-Richter",
+                "given": "Carolin"
+            },
+            {
+                "family": "Cattin",
+                "given": "Marie-France"
+            },
+            {
+                "family": "Bersier",
+                "given": "Louis-F\u00e9lix"
+            }
+        ],
+        "container-title": "J. Theor. Biol.",
+        "id": "Banasek-Richter2004SamEff",
+        "issue": "1",
+        "issued": {
+            "date-parts": [
+                [
+                    2004
+                ]
+            ]
+        },
+        "page": "23-32",
+        "title": "Sampling effects and the robustness of quantitative and qualitative food-web descriptors",
+        "type": "article-journal",
+        "volume": "226"
+    },
+    {
+        "DOI": "10.1002/ecy.2133",
+        "author": [
+            {
+                "family": "Barner",
+                "given": "Allison K."
+            },
+            {
+                "family": "Coblentz",
+                "given": "Kyle E."
+            },
+            {
+                "family": "Hacker",
+                "given": "Sally D."
+            },
+            {
+                "family": "Menge",
+                "given": "Bruce A."
+            }
+        ],
+        "container-title": "Ecology",
+        "id": "Barner2018FunCon",
+        "issued": {
+            "date-parts": [
+                [
+                    2018
+                ]
+            ]
+        },
+        "page": "n/a-n/a",
+        "title": "Fundamental contradictions among observational and experimental estimates of non-trophic species interactions",
+        "type": "article-journal"
+    },
+    {
+        "DOI": "10.1038/s41559-018-0772-3",
+        "author": [
+            {
+                "family": "Bartley",
+                "given": "Timothy J."
+            },
+            {
+                "family": "McCann",
+                "given": "Kevin S."
+            },
+            {
+                "family": "Bieg",
+                "given": "Carling"
+            },
+            {
+                "family": "Cazelles",
+                "given": "Kevin"
+            },
+            {
+                "family": "Granados",
+                "given": "Monica"
+            },
+            {
+                "family": "Guzzo",
+                "given": "Matthew M."
+            },
+            {
+                "family": "MacDougall",
+                "given": "Andrew S."
+            },
+            {
+                "family": "Tunney",
+                "given": "Tyler D."
+            },
+            {
+                "family": "McMeans",
+                "given": "Bailey C."
+            }
+        ],
+        "container-title": "Nature Ecology & Evolution",
+        "id": "Bartley2019FooWeb",
+        "issue": "3",
+        "issued": {
+            "date-parts": [
+                [
+                    2019
+                ]
+            ]
+        },
+        "other-ids": "bartleyFoodWebRewiring2019",
+        "page": "345-354",
+        "title": "Food web rewiring in a changing world",
+        "type": "article-journal",
+        "volume": "3"
+    },
+    {
+        "author": [
+            {
+                "family": "Bartomeus",
+                "given": "Ignasi"
+            },
+            {
+                "family": "Gravel",
+                "given": "Dominique"
+            },
+            {
+                "family": "Tylianakis",
+                "given": "Jason M."
+            },
+            {
+                "family": "Aizen",
+                "given": "Marcelo A."
+            },
+            {
+                "family": "Dickie",
+                "given": "Ian A."
+            },
+            {
+                "family": "Bernard-Verdier",
+                "given": "Maud"
+            }
+        ],
+        "container-title": "Functional Ecology",
+        "id": "Bartomeus2016ComFra",
+        "issue": "12",
+        "issued": {
+            "date-parts": [
+                [
+                    2016
+                ]
+            ]
+        },
+        "other-ids": "BartGrav16,Bartomeus2016ComFraa",
+        "page": "1894-1903",
+        "title": "A common framework for identifying linkage rules across different types of interactions",
+        "type": "article-journal",
+        "volume": "30"
+    },
+    {
+        "author": [
+            {
+                "family": "Beauchesne",
+                "given": "David"
+            },
+            {
+                "literal": "Desjardins-Proulx"
+            },
+            {
+                "family": "Archambault",
+                "given": "Philippe"
+            },
+            {
+                "family": "Gravel",
+                "given": "Dominique"
+            }
+        ],
+        "container-title": "Vie et milieu-life and enVironment",
+        "id": "Beauchesne2016ThiOut",
+        "issue": "3-4",
+        "issued": {
+            "date-parts": [
+                [
+                    2016
+                ]
+            ]
+        },
+        "page": "333-342",
+        "title": "Thinking Outside the Boxpredicting Biotic Interactions in Data-poor Environments",
+        "type": "article-journal",
+        "volume": "66"
+    },
+    {
+        "DOI": "10.1101/2020.05.22.111344",
+        "author": [
+            {
+                "family": "Becker",
+                "given": "Daniel J."
+            },
+            {
+                "family": "Albery",
+                "given": "Gregory F."
+            },
+            {
+                "family": "Sjodin",
+                "given": "Anna R."
+            },
+            {
+                "family": "Poisot",
+                "given": "Timoth\u00e9e"
+            },
+            {
+                "family": "Dallas",
+                "given": "Tad A."
+            },
+            {
+                "family": "Eskew",
+                "given": "Evan A."
+            },
+            {
+                "family": "Farrell",
+                "given": "Maxwell J."
+            },
+            {
+                "family": "Guth",
+                "given": "Sarah"
+            },
+            {
+                "family": "Han",
+                "given": "Barbara A."
+            },
+            {
+                "family": "Simmons",
+                "given": "Nancy B."
+            },
+            {
+                "family": "Carlson",
+                "given": "Colin J."
+            }
+        ],
+        "chapter-number": "New Results",
+        "container-title": "bioRxiv",
+        "id": "Becker2020PreWil",
+        "issued": {
+            "date-parts": [
+                [
+                    2020
+                ]
+            ]
+        },
+        "page": "2020.05.22.111344",
+        "publisher": "Cold Spring Harbor Laboratory",
+        "title": "Predicting wildlife hosts of betacoronaviruses for SARS-CoV-2 sampling prioritization",
+        "type": "article-journal"
+    },
+    {
+        "DOI": "10.1073/pnas.94.4.1247",
+        "author": [
+            {
+                "family": "Bersier",
+                "given": "Louis-F\u00e9lix"
+            },
+            {
+                "family": "Sugihara",
+                "given": "George"
+            }
+        ],
+        "container-title": "Proceedings of the National Academy of Sciences",
+        "id": "Bersier1997ScaReg",
+        "issue": "4",
+        "issued": {
+            "date-parts": [
+                [
+                    1997
+                ]
+            ]
+        },
+        "page": "1247-1251",
+        "title": "Scaling regions for food web properties",
+        "type": "article-journal",
+        "volume": "94"
+    },
+    {
+        "author": [
+            {
+                "family": "Blanchet",
+                "given": "F. Guillaume"
+            },
+            {
+                "family": "Cazelles",
+                "given": "Kevin"
+            },
+            {
+                "family": "Gravel",
+                "given": "Dominique"
+            }
+        ],
+        "container-title": "Ecology Letters",
+        "id": "Blanchet2020CooNot",
+        "issued": {
+            "date-parts": [
+                [
+                    2020
+                ]
+            ]
+        },
+        "publisher": "Wiley Online Library",
+        "title": "Co-occurrence is not evidence of ecological interactions",
+        "type": "article-journal"
+    },
+    {
+        "DOI": "10.1016/j.ecolmodel.2014.02.019",
+        "author": [
+            {
+                "family": "Borrett",
+                "given": "Stuart R."
+            },
+            {
+                "family": "Moody",
+                "given": "James"
+            },
+            {
+                "family": "Edelmann",
+                "given": "Achim"
+            }
+        ],
+        "container-title": "Ecological Modelling",
+        "id": "Borrett2014RisNet",
+        "issued": {
+            "date-parts": [
+                [
+                    2014
+                ]
+            ]
+        },
+        "page": "111-127",
+        "title": "The rise of Network Ecology: Maps of the topic diversity and scientific collaboration",
+        "type": "article-journal",
+        "volume": "293"
+    },
+    {
+        "DOI": "10.1038/nature02297",
+        "author": [
+            {
+                "family": "Brose",
+                "given": "Ulrich"
+            },
+            {
+                "family": "Ostling",
+                "given": "Annette"
+            },
+            {
+                "family": "Harrison",
+                "given": "Kateri"
+            },
+            {
+                "family": "Martinez",
+                "given": "Neo D."
+            }
+        ],
+        "container-title": "Nature",
+        "id": "Brose2004UniSpa",
+        "issue": "6979",
+        "issued": {
+            "date-parts": [
+                [
+                    2004
+                ]
+            ]
+        },
+        "page": "167-171",
+        "title": "Unified spatial scaling of species and their trophic interactions",
+        "type": "article-journal",
+        "volume": "428"
+    },
+    {
+        "DOI": "10.1111/1365-2435.12943",
+        "author": [
+            {
+                "family": "Brousseau",
+                "given": "Pierre-Marc"
+            },
+            {
+                "family": "Gravel",
+                "given": "Dominique"
+            },
+            {
+                "family": "Tanya Handa",
+                "given": "I."
+            }
+        ],
+        "container-title": "Functional Ecology",
+        "id": "Brousseau2017TraPhy",
+        "issued": {
+            "date-parts": [
+                [
+                    2017
+                ]
+            ]
+        },
+        "title": "Trait-matching and phylogeny as predictors of predator-prey interactions involving ground beetles",
+        "type": "article-journal"
+    },
+    {
+        "DOI": "10.1111/j.1744-7429.2010.00652.x",
+        "author": [
+            {
+                "family": "Bruna",
+                "given": "Emilio M."
+            }
+        ],
+        "container-title": "Biotropica",
+        "id": "Bruna2010SciJou",
+        "issue": "4",
+        "issued": {
+            "date-parts": [
+                [
+                    2010
+                ]
+            ]
+        },
+        "page": "399-401",
+        "title": "Scientific Journals can Advance Tropical Biology and Conservation by Requiring Data Archiving",
+        "type": "article-journal",
+        "volume": "42"
+    },
+    {
+        "DOI": "10.1126/science.1232728",
+        "author": [
+            {
+                "family": "Burkle",
+                "given": "L. A."
+            },
+            {
+                "family": "Marlin",
+                "given": "J. C."
+            },
+            {
+                "family": "Knight",
+                "given": "T. M."
+            }
+        ],
+        "container-title": "Science",
+        "id": "Burkle2013PlaInt",
+        "issue": "6127",
+        "issued": {
+            "date-parts": [
+                [
+                    2013
+                ]
+            ]
+        },
+        "page": "1611-1615",
+        "title": "Plant-Pollinator Interactions over 120 Years: Loss of Species, Co-Occurrence, and Function",
+        "type": "article-journal",
+        "volume": "339"
+    },
+    {
+        "DOI": "10.1002/ecs2.2645",
+        "author": [
+            {
+                "family": "Cameron",
+                "given": "Erin K."
+            },
+            {
+                "family": "Sundqvist",
+                "given": "Maja K."
+            },
+            {
+                "family": "Keith",
+                "given": "Sally A."
+            },
+            {
+                "family": "CaraDonna",
+                "given": "Paul J."
+            },
+            {
+                "family": "Mousing",
+                "given": "Erik A."
+            },
+            {
+                "family": "Nilsson",
+                "given": "Karin A."
+            },
+            {
+                "family": "Metcalfe",
+                "given": "Daniel B."
+            },
+            {
+                "family": "Classen",
+                "given": "Aim\u00e9e T."
+            }
+        ],
+        "container-title": "Ecosphere",
+        "id": "Cameron2019UneGlo",
+        "issue": "3",
+        "issued": {
+            "date-parts": [
+                [
+                    2019
+                ]
+            ]
+        },
+        "page": "e02645",
+        "title": "Uneven global distribution of food web studies under climate change",
+        "type": "article-journal",
+        "volume": "10"
+    },
+    {
+        "DOI": "10.1101/815902",
+        "author": [
+            {
+                "family": "Carlson",
+                "given": "Colin J."
+            },
+            {
+                "family": "Phillips",
+                "given": "Anna J."
+            },
+            {
+                "family": "Dallas",
+                "given": "Tad A."
+            },
+            {
+                "family": "Alexander",
+                "given": "Laura W."
+            },
+            {
+                "family": "Bansal",
+                "given": "Shweta"
+            }
+        ],
+        "container-title": "bioRxiv",
+        "id": "Carlson2019WhaWou",
+        "issued": {
+            "date-parts": [
+                [
+                    2019
+                ]
+            ]
+        },
+        "other-ids": "CarlPhil19a",
+        "page": "815902",
+        "title": "What would it take to describe the global diversity of parasites?",
+        "type": "article-journal"
+    },
+    {
+        "DOI": "10.1111/j.1365-2656.2011.01883.x",
+        "author": [
+            {
+                "family": "Chacoff",
+                "given": "Natacha P."
+            },
+            {
+                "family": "V\u00e1zquez",
+                "given": "Diego P."
+            },
+            {
+                "family": "Lom\u00e1scolo",
+                "given": "Silvia B."
+            },
+            {
+                "family": "Stevani",
+                "given": "Erica L"
+            },
+            {
+                "family": "Dorado",
+                "given": "Jimena"
+            },
+            {
+                "family": "Padr\u00f3n",
+                "given": "Benigno"
+            }
+        ],
+        "container-title": "J. Anim. Ecol.",
+        "id": "Chacoff2012EvaSam",
+        "issued": {
+            "date-parts": [
+                [
+                    2012
+                ]
+            ]
+        },
+        "page": "190-200",
+        "title": "Evaluating sampling completeness in a desert plant-pollinator network",
+        "type": "article-journal",
+        "volume": "81"
+    },
+    {
+        "DOI": "10.1177/194008290800100202",
+        "author": [
+            {
+                "family": "Collen",
+                "given": "Ben"
+            },
+            {
+                "family": "Ram",
+                "given": "Mala"
+            },
+            {
+                "family": "Zamin",
+                "given": "Tara"
+            },
+            {
+                "family": "McRae",
+                "given": "Louise"
+            }
+        ],
+        "container-title": "Tropical Conservation Science",
+        "id": "Collen2008TroBio",
+        "issue": "2",
+        "issued": {
+            "date-parts": [
+                [
+                    2008
+                ]
+            ]
+        },
+        "page": "75-88",
+        "title": "The Tropical Biodiversity Data Gap: Addressing Disparity in Global Monitoring",
+        "type": "article-journal",
+        "volume": "1"
+    },
+    {
+        "DOI": "10.1111/oik.02305",
+        "author": [
+            {
+                "family": "Dalla Riva",
+                "given": "Giulio V."
+            },
+            {
+                "family": "Stouffer",
+                "given": "Daniel B."
+            }
+        ],
+        "container-title": "Oikos",
+        "id": "DallaRiva2015ExpEvo",
+        "issue": "4",
+        "issued": {
+            "date-parts": [
+                [
+                    2015
+                ]
+            ]
+        },
+        "page": "446-456",
+        "title": "Exploring the evolutionary signature of food webs\u2019 backbones using functional traits",
+        "type": "article-journal",
+        "volume": "125"
+    },
+    {
+        "DOI": "10.1111/ecog.03514",
+        "author": [
+            {
+                "family": "Dallas",
+                "given": "Tad"
+            },
+            {
+                "family": "Poisot",
+                "given": "Timoth\u00e9e"
+            }
+        ],
+        "container-title": "Ecography",
+        "id": "Dallas2017ComTur",
+        "issued": {
+            "date-parts": [
+                [
+                    2017
+                ]
+            ]
+        },
+        "page": "n/a-n/a",
+        "title": "Compositional turnover in host and parasite communities does not change network structure",
+        "type": "article-journal"
+    },
+    {
+        "DOI": "10.1371/journal.pcbi.1005557",
+        "author": [
+            {
+                "family": "Dallas",
+                "given": "Tad"
+            },
+            {
+                "family": "Park",
+                "given": "Andrew W."
+            },
+            {
+                "family": "Drake",
+                "given": "John M."
+            }
+        ],
+        "container-title": "PLOS Computational Biology",
+        "id": "Dallas2017PreCry",
+        "issue": "5",
+        "issued": {
+            "date-parts": [
+                [
+                    2017
+                ]
+            ]
+        },
+        "page": "e1005557",
+        "title": "Predicting cryptic links in host-parasite networks",
+        "type": "article-journal",
+        "volume": "13"
+    },
+    {
+        "DOI": "10.1111/j.1600-0587.2013.00201.x",
+        "author": [
+            {
+                "family": "Dalsgaard",
+                "given": "Bo"
+            },
+            {
+                "family": "Tr\u00f8jelsgaard",
+                "given": "Kristian"
+            },
+            {
+                "family": "Mart\u00edn Gonz\u00e1lez",
+                "given": "Ana M."
+            },
+            {
+                "family": "Nogu\u00e9s-Bravo",
+                "given": "David"
+            },
+            {
+                "family": "Ollerton",
+                "given": "Jeff"
+            },
+            {
+                "family": "Petanidou",
+                "given": "Theodora"
+            },
+            {
+                "family": "Sandel",
+                "given": "Brody"
+            },
+            {
+                "family": "Schleuning",
+                "given": "Matthias"
+            },
+            {
+                "family": "Wang",
+                "given": "Zhiheng"
+            },
+            {
+                "family": "Rahbek",
+                "given": "Carsten"
+            },
+            {
+                "family": "Sutherland",
+                "given": "William J."
+            },
+            {
+                "family": "Svenning",
+                "given": "Jens-Christian"
+            },
+            {
+                "family": "Olesen",
+                "given": "Jens M."
+            }
+        ],
+        "container-title": "Ecography",
+        "id": "Dalsgaard2013HisCli",
+        "issue": "12",
+        "issued": {
+            "date-parts": [
+                [
+                    2013
+                ]
+            ]
+        },
+        "other-ids": "dals13hci",
+        "page": "1331-1340",
+        "title": "Historical climate-change influences modularity and nestedness of pollination networks",
+        "type": "article-journal",
+        "volume": "36"
+    },
+    {
+        "DOI": "10.1111/ecog.02604",
+        "author": [
+            {
+                "family": "Dalsgaard",
+                "given": "Bo"
+            },
+            {
+                "family": "Schleuning",
+                "given": "Matthias"
+            },
+            {
+                "family": "Maruyama",
+                "given": "Pietro K."
+            },
+            {
+                "family": "Dehling",
+                "given": "D. Matthias"
+            },
+            {
+                "family": "Sonne",
+                "given": "Jesper"
+            },
+            {
+                "family": "Vizentin-Bugoni",
+                "given": "Jeferson"
+            },
+            {
+                "family": "Zanata",
+                "given": "Thais B."
+            },
+            {
+                "family": "Fjelds\u00e5",
+                "given": "Jon"
+            },
+            {
+                "family": "B\u00f6hning-Gaese",
+                "given": "Katrin"
+            },
+            {
+                "family": "Rahbek",
+                "given": "Carsten"
+            }
+        ],
+        "container-title": "Ecography",
+        "id": "Dalsgaard2017OppLat",
+        "issued": {
+            "date-parts": [
+                [
+                    2017
+                ]
+            ]
+        },
+        "page": "n/a-n/a",
+        "title": "Opposed latitudinal patterns of network-derived and dietary specialization in avian plant-frugivore interaction systems",
+        "type": "article-journal"
+    },
+    {
+        "DOI": "10.1016/j.cois.2019.07.002",
+        "author": [
+            {
+                "family": "Damien",
+                "given": "Maxime"
+            },
+            {
+                "family": "Tougeron",
+                "given": "K\u00e9vin"
+            }
+        ],
+        "container-title": "Current Opinion in Insect Science",
+        "id": "Damien2019PrePhe",
+        "issued": {
+            "date-parts": [
+                [
+                    2019
+                ]
+            ]
+        },
+        "title": "Prey-predator phenological mismatch under climate change",
+        "type": "article-journal"
+    },
+    {
+        "DOI": "10.1111/brv.12433",
+        "author": [
+            {
+                "family": "Delmas",
+                "given": "Eva"
+            },
+            {
+                "family": "Besson",
+                "given": "Mathilde"
+            },
+            {
+                "family": "Brice",
+                "given": "Marie-H\u00e9l\u00e8ne"
+            },
+            {
+                "family": "Burkle",
+                "given": "Laura A."
+            },
+            {
+                "family": "Dalla Riva",
+                "given": "Giulio V."
+            },
+            {
+                "family": "Fortin",
+                "given": "Marie-Jos\u00e9e"
+            },
+            {
+                "family": "Gravel",
+                "given": "Dominique"
+            },
+            {
+                "family": "Guimar\u00e3es",
+                "given": "Paulo R."
+            },
+            {
+                "family": "Hembry",
+                "given": "David H."
+            },
+            {
+                "family": "Newman",
+                "given": "Erica A."
+            },
+            {
+                "family": "Olesen",
+                "given": "Jens M."
+            },
+            {
+                "family": "Pires",
+                "given": "Mathias M."
+            },
+            {
+                "family": "Yeakel",
+                "given": "Justin D."
+            },
+            {
+                "family": "Poisot",
+                "given": "Timoth\u00e9e"
+            }
+        ],
+        "container-title": "Biological Reviews",
+        "id": "Delmas2018AnaEco",
+        "issued": {
+            "date-parts": [
+                [
+                    2018
+                ]
+            ]
+        },
+        "page": "112540",
+        "title": "Analysing ecological networks of species interactions",
+        "type": "article-journal"
+    },
+    {
+        "DOI": "10.7717/peerj.3644",
+        "author": [
+            {
+                "family": "Desjardins-Proulx",
+                "given": "Philippe"
+            },
+            {
+                "family": "Laigle",
+                "given": "Idaline"
+            },
+            {
+                "family": "Poisot",
+                "given": "Timoth\u00e9e"
+            },
+            {
+                "family": "Gravel",
+                "given": "Dominique"
+            }
+        ],
+        "container-title": "PeerJ",
+        "id": "Desjardins-Proulx2017EcoInt",
+        "issue": "e3644",
+        "issued": {
+            "date-parts": [
+                [
+                    2017
+                ]
+            ]
+        },
+        "title": "Ecological interactions and the Netflix problem",
+        "type": "article-journal",
+        "volume": "5"
+    },
+    {
+        "DOI": "10.1038/nclimate1347",
+        "author": [
+            {
+                "family": "Devictor",
+                "given": "Vincent"
+            },
+            {
+                "family": "Swaay",
+                "given": "Chris",
+                "non-dropping-particle": "van"
+            },
+            {
+                "family": "Brereton",
+                "given": "Tom"
+            },
+            {
+                "family": "Brotons",
+                "given": "Llu\u00eds"
+            },
+            {
+                "family": "Chamberlain",
+                "given": "Dan"
+            },
+            {
+                "family": "Heli\u00f6l\u00e4",
+                "given": "Janne"
+            },
+            {
+                "family": "Herrando",
+                "given": "Sergi"
+            },
+            {
+                "family": "Julliard",
+                "given": "Romain"
+            },
+            {
+                "family": "Kuussaari",
+                "given": "Mikko"
+            },
+            {
+                "family": "Lindstr\u00f6m",
+                "given": "\u00c5ke"
+            },
+            {
+                "family": "Reif",
+                "given": "Ji\u0159\u00ed"
+            },
+            {
+                "family": "Roy",
+                "given": "David B."
+            },
+            {
+                "family": "Schweiger",
+                "given": "Oliver"
+            },
+            {
+                "family": "Settele",
+                "given": "Josef"
+            },
+            {
+                "family": "Stefanescu",
+                "given": "Constant\u00ed"
+            },
+            {
+                "family": "Van Strien",
+                "given": "Arco"
+            },
+            {
+                "family": "Van Turnhout",
+                "given": "Chris"
+            },
+            {
+                "family": "Vermouzek",
+                "given": "Zden\u011bk"
+            },
+            {
+                "family": "WallisDeVries",
+                "given": "Michiel"
+            },
+            {
+                "family": "Wynhoff",
+                "given": "Irma"
+            },
+            {
+                "family": "Jiguet",
+                "given": "Fr\u00e9d\u00e9ric"
+            }
+        ],
+        "container-title": "Nature Climate Change",
+        "id": "Devictor2012DifCli",
+        "issue": "2",
+        "issued": {
+            "date-parts": [
+                [
+                    2012
+                ]
+            ]
+        },
+        "page": "121-124",
+        "title": "Differences in the climatic debts of birds and butterflies at a continental scale",
+        "type": "article-journal",
+        "volume": "2"
+    },
+    {
+        "DOI": "10.1073/pnas.1710231115",
+        "author": [
+            {
+                "family": "Dietze",
+                "given": "Michael C."
+            },
+            {
+                "family": "Fox",
+                "given": "Andrew"
+            },
+            {
+                "family": "Beck-Johnson",
+                "given": "Lindsay M."
+            },
+            {
+                "family": "Betancourt",
+                "given": "Julio L."
+            },
+            {
+                "family": "Hooten",
+                "given": "Mevin B."
+            },
+            {
+                "family": "Jarnevich",
+                "given": "Catherine S."
+            },
+            {
+                "family": "Keitt",
+                "given": "Timothy H."
+            },
+            {
+                "family": "Kenney",
+                "given": "Melissa A."
+            },
+            {
+                "family": "Laney",
+                "given": "Christine M."
+            },
+            {
+                "family": "Larsen",
+                "given": "Laurel G."
+            },
+            {
+                "family": "Loescher",
+                "given": "Henry W."
+            },
+            {
+                "family": "Lunch",
+                "given": "Claire K."
+            },
+            {
+                "family": "Pijanowski",
+                "given": "Bryan C."
+            },
+            {
+                "family": "Randerson",
+                "given": "James T."
+            },
+            {
+                "family": "Read",
+                "given": "Emily K."
+            },
+            {
+                "family": "Tredennick",
+                "given": "Andrew T."
+            },
+            {
+                "family": "Vargas",
+                "given": "Rodrigo"
+            },
+            {
+                "family": "Weathers",
+                "given": "Kathleen C."
+            },
+            {
+                "family": "White",
+                "given": "Ethan P."
+            }
+        ],
+        "container-title": "Proceedings of the National Academy of Sciences",
+        "id": "Dietze2018IteNea",
+        "issued": {
+            "date-parts": [
+                [
+                    2018
+                ]
+            ]
+        },
+        "page": "201710231",
+        "title": "Iterative near-term ecological forecasting: Needs, opportunities, and challenges",
+        "type": "article-journal"
+    },
+    {
+        "DOI": "10.1111/geb.12729",
+        "author": [
+            {
+                "family": "Dornelas",
+                "given": "Maria"
+            },
+            {
+                "family": "Ant\u00e3o",
+                "given": "Laura H."
+            },
+            {
+                "family": "Moyes",
+                "given": "Faye"
+            },
+            {
+                "family": "Bates",
+                "given": "Amanda E."
+            },
+            {
+                "family": "Magurran",
+                "given": "Anne E."
+            },
+            {
+                "family": "Adam",
+                "given": "Du\u0161an"
+            },
+            {
+                "family": "Akhmetzhanova",
+                "given": "Asem A."
+            },
+            {
+                "family": "Appeltans",
+                "given": "Ward"
+            },
+            {
+                "family": "Arcos",
+                "given": "Jos\u00e9 Manuel"
+            },
+            {
+                "family": "Arnold",
+                "given": "Haley"
+            },
+            {
+                "family": "Ayyappan",
+                "given": "Narayanan"
+            },
+            {
+                "family": "Badihi",
+                "given": "Gal"
+            },
+            {
+                "family": "Baird",
+                "given": "Andrew H."
+            },
+            {
+                "family": "Barbosa",
+                "given": "Miguel"
+            },
+            {
+                "family": "Barreto",
+                "given": "Tiago Egydio"
+            },
+            {
+                "family": "B\u00e4ssler",
+                "given": "Claus"
+            },
+            {
+                "family": "Bellgrove",
+                "given": "Alecia"
+            },
+            {
+                "family": "Belmaker",
+                "given": "Jonathan"
+            },
+            {
+                "family": "Benedetti-Cecchi",
+                "given": "Lisandro"
+            },
+            {
+                "family": "Bett",
+                "given": "Brian J."
+            },
+            {
+                "family": "Bjorkman",
+                "given": "Anne D."
+            },
+            {
+                "family": "B\u0142a\u017cewicz",
+                "given": "Magdalena"
+            },
+            {
+                "family": "Blowes",
+                "given": "Shane A."
+            },
+            {
+                "family": "Bloch",
+                "given": "Christopher P."
+            },
+            {
+                "family": "Bonebrake",
+                "given": "Timothy C."
+            },
+            {
+                "family": "Boyd",
+                "given": "Susan"
+            },
+            {
+                "family": "Bradford",
+                "given": "Matt"
+            },
+            {
+                "family": "Brooks",
+                "given": "Andrew J."
+            },
+            {
+                "family": "Brown",
+                "given": "James H."
+            },
+            {
+                "family": "Bruelheide",
+                "given": "Helge"
+            },
+            {
+                "family": "Budy",
+                "given": "Phaedra"
+            },
+            {
+                "family": "Carvalho",
+                "given": "Fernando"
+            },
+            {
+                "family": "Casta\u00f1eda-Moya",
+                "given": "Edward"
+            },
+            {
+                "family": "Chen",
+                "given": "Chaolun Allen"
+            },
+            {
+                "family": "Chamblee",
+                "given": "John F."
+            },
+            {
+                "family": "Chase",
+                "given": "Tory J."
+            },
+            {
+                "family": "Collier",
+                "given": "Laura Siegwart"
+            },
+            {
+                "family": "Collinge",
+                "given": "Sharon K."
+            },
+            {
+                "family": "Condit",
+                "given": "Richard"
+            },
+            {
+                "family": "Cooper",
+                "given": "Elisabeth J."
+            },
+            {
+                "family": "Cornelissen",
+                "given": "J. Hans C."
+            },
+            {
+                "family": "Cotano",
+                "given": "Unai"
+            },
+            {
+                "family": "Crow",
+                "given": "Shannan Kyle"
+            },
+            {
+                "family": "Damasceno",
+                "given": "Gabriella"
+            },
+            {
+                "family": "Davies",
+                "given": "Claire H."
+            },
+            {
+                "family": "Davis",
+                "given": "Robert A."
+            },
+            {
+                "family": "Day",
+                "given": "Frank P."
+            },
+            {
+                "family": "Degraer",
+                "given": "Steven"
+            },
+            {
+                "family": "Doherty",
+                "given": "Tim S."
+            },
+            {
+                "family": "Dunn",
+                "given": "Timothy E."
+            },
+            {
+                "family": "Durigan",
+                "given": "Giselda"
+            },
+            {
+                "family": "Duffy",
+                "given": "J. Emmett"
+            },
+            {
+                "family": "Edelist",
+                "given": "Dor"
+            },
+            {
+                "family": "Edgar",
+                "given": "Graham J."
+            },
+            {
+                "family": "Elahi",
+                "given": "Robin"
+            },
+            {
+                "family": "Elmendorf",
+                "given": "Sarah C."
+            },
+            {
+                "family": "Enemar",
+                "given": "Anders"
+            },
+            {
+                "family": "Ernest",
+                "given": "S. K. Morgan"
+            },
+            {
+                "family": "Escribano",
+                "given": "Rub\u00e9n"
+            },
+            {
+                "family": "Estiarte",
+                "given": "Marc"
+            },
+            {
+                "family": "Evans",
+                "given": "Brian S."
+            },
+            {
+                "family": "Fan",
+                "given": "Tung-Yung"
+            },
+            {
+                "family": "Farah",
+                "given": "Fabiano Turini"
+            },
+            {
+                "family": "Fernandes",
+                "given": "Luiz Loureiro"
+            },
+            {
+                "family": "Farneda",
+                "given": "F\u00e1bio Z."
+            },
+            {
+                "family": "Fidelis",
+                "given": "Alessandra"
+            },
+            {
+                "family": "Fitt",
+                "given": "Robert"
+            },
+            {
+                "family": "Fosaa",
+                "given": "Anna Maria"
+            },
+            {
+                "family": "Franco",
+                "given": "Geraldo Antonio Daher Correa"
+            },
+            {
+                "family": "Frank",
+                "given": "Grace E."
+            },
+            {
+                "family": "Fraser",
+                "given": "William R."
+            },
+            {
+                "family": "Garc\u00eda",
+                "given": "Hernando"
+            },
+            {
+                "family": "Gatti",
+                "given": "Roberto Cazzolla"
+            },
+            {
+                "family": "Givan",
+                "given": "Or"
+            },
+            {
+                "family": "Gorgone-Barbosa",
+                "given": "Elizabeth"
+            },
+            {
+                "family": "Gould",
+                "given": "William A."
+            },
+            {
+                "family": "Gries",
+                "given": "Corinna"
+            },
+            {
+                "family": "Grossman",
+                "given": "Gary D."
+            },
+            {
+                "family": "Gutierr\u00e9z",
+                "given": "Julio R."
+            },
+            {
+                "family": "Hale",
+                "given": "Stephen"
+            },
+            {
+                "family": "Harmon",
+                "given": "Mark E."
+            },
+            {
+                "family": "Harte",
+                "given": "John"
+            },
+            {
+                "family": "Haskins",
+                "given": "Gary"
+            },
+            {
+                "family": "Henshaw",
+                "given": "Donald L."
+            },
+            {
+                "family": "Hermanutz",
+                "given": "Luise"
+            },
+            {
+                "family": "Hidalgo",
+                "given": "Pamela"
+            },
+            {
+                "family": "Higuchi",
+                "given": "Pedro"
+            },
+            {
+                "family": "Hoey",
+                "given": "Andrew"
+            },
+            {
+                "family": "Hoey",
+                "given": "Gert Van"
+            },
+            {
+                "family": "Hofgaard",
+                "given": "Annika"
+            },
+            {
+                "family": "Holeck",
+                "given": "Kristen"
+            },
+            {
+                "family": "Hollister",
+                "given": "Robert D."
+            },
+            {
+                "family": "Holmes",
+                "given": "Richard"
+            },
+            {
+                "family": "Hoogenboom",
+                "given": "Mia"
+            },
+            {
+                "family": "Hsieh",
+                "given": "Chih-hao"
+            },
+            {
+                "family": "Hubbell",
+                "given": "Stephen P."
+            },
+            {
+                "family": "Huettmann",
+                "given": "Falk"
+            },
+            {
+                "family": "Huffard",
+                "given": "Christine L."
+            },
+            {
+                "family": "Hurlbert",
+                "given": "Allen H."
+            },
+            {
+                "family": "Ivanauskas",
+                "given": "Nat\u00e1lia Macedo"
+            },
+            {
+                "family": "Jan\u00edk",
+                "given": "David"
+            },
+            {
+                "family": "Jandt",
+                "given": "Ute"
+            },
+            {
+                "family": "Ja\u017cd\u017cewska",
+                "given": "Anna"
+            },
+            {
+                "family": "Johannessen",
+                "given": "Tore"
+            },
+            {
+                "family": "Johnstone",
+                "given": "Jill"
+            },
+            {
+                "family": "Jones",
+                "given": "Julia"
+            },
+            {
+                "family": "Jones",
+                "given": "Faith A. M."
+            },
+            {
+                "family": "Kang",
+                "given": "Jungwon"
+            },
+            {
+                "family": "Kartawijaya",
+                "given": "Tasrif"
+            },
+            {
+                "family": "Keeley",
+                "given": "Erin C."
+            },
+            {
+                "family": "Kelt",
+                "given": "Douglas A."
+            },
+            {
+                "family": "Kinnear",
+                "given": "Rebecca"
+            },
+            {
+                "family": "Klanderud",
+                "given": "Kari"
+            },
+            {
+                "family": "Knutsen",
+                "given": "Halvor"
+            },
+            {
+                "family": "Koenig",
+                "given": "Christopher C."
+            },
+            {
+                "family": "Kortz",
+                "given": "Alessandra R."
+            },
+            {
+                "family": "Kr\u00e1l",
+                "given": "Kamil"
+            },
+            {
+                "family": "Kuhnz",
+                "given": "Linda A."
+            },
+            {
+                "family": "Kuo",
+                "given": "Chao-Yang"
+            },
+            {
+                "family": "Kushner",
+                "given": "David J."
+            },
+            {
+                "family": "Laguionie-Marchais",
+                "given": "Claire"
+            },
+            {
+                "family": "Lancaster",
+                "given": "Lesley T."
+            },
+            {
+                "family": "Lee",
+                "given": "Cheol Min"
+            },
+            {
+                "family": "Lefcheck",
+                "given": "Jonathan S."
+            },
+            {
+                "family": "L\u00e9vesque",
+                "given": "Esther"
+            },
+            {
+                "family": "Lightfoot",
+                "given": "David"
+            },
+            {
+                "family": "Lloret",
+                "given": "Francisco"
+            },
+            {
+                "family": "Lloyd",
+                "given": "John D."
+            },
+            {
+                "family": "L\u00f3pez-Baucells",
+                "given": "Adri\u00e0"
+            },
+            {
+                "family": "Louzao",
+                "given": "Maite"
+            },
+            {
+                "family": "Madin",
+                "given": "Joshua S."
+            },
+            {
+                "family": "Magn\u00fasson",
+                "given": "Borg\u00f3r"
+            },
+            {
+                "family": "Malamud",
+                "given": "Shahar"
+            },
+            {
+                "family": "Matthews",
+                "given": "Iain"
+            },
+            {
+                "family": "McFarland",
+                "given": "Kent P."
+            },
+            {
+                "family": "McGill",
+                "given": "Brian"
+            },
+            {
+                "family": "McKnight",
+                "given": "Diane"
+            },
+            {
+                "family": "McLarney",
+                "given": "William O."
+            },
+            {
+                "family": "Meador",
+                "given": "Jason"
+            },
+            {
+                "family": "Meserve",
+                "given": "Peter L."
+            },
+            {
+                "family": "Metcalfe",
+                "given": "Daniel J."
+            },
+            {
+                "family": "Meyer",
+                "given": "Christoph F. J."
+            },
+            {
+                "family": "Michelsen",
+                "given": "Anders"
+            },
+            {
+                "family": "Milchakova",
+                "given": "Nataliya"
+            },
+            {
+                "family": "Moens",
+                "given": "Tom"
+            },
+            {
+                "family": "Moland",
+                "given": "Even"
+            },
+            {
+                "family": "Moore",
+                "given": "Jon"
+            },
+            {
+                "family": "Moreira",
+                "given": "Carolina Mathias"
+            },
+            {
+                "family": "M\u00fcller",
+                "given": "J\u00f6rg"
+            },
+            {
+                "family": "Murphy",
+                "given": "Grace"
+            },
+            {
+                "family": "Myers-Smith",
+                "given": "Isla H."
+            },
+            {
+                "family": "Myster",
+                "given": "Randall W."
+            },
+            {
+                "family": "Naumov",
+                "given": "Andrew"
+            },
+            {
+                "family": "Neat",
+                "given": "Francis"
+            },
+            {
+                "family": "Nelson",
+                "given": "James A."
+            },
+            {
+                "family": "Nelson",
+                "given": "Michael Paul"
+            },
+            {
+                "family": "Newton",
+                "given": "Stephen F."
+            },
+            {
+                "family": "Norden",
+                "given": "Natalia"
+            },
+            {
+                "family": "Oliver",
+                "given": "Jeffrey C."
+            },
+            {
+                "family": "Olsen",
+                "given": "Esben M."
+            },
+            {
+                "family": "Onipchenko",
+                "given": "Vladimir G."
+            },
+            {
+                "family": "Pabis",
+                "given": "Krzysztof"
+            },
+            {
+                "family": "Pabst",
+                "given": "Robert J."
+            },
+            {
+                "family": "Paquette",
+                "given": "Alain"
+            },
+            {
+                "family": "Pardede",
+                "given": "Sinta"
+            },
+            {
+                "family": "Paterson",
+                "given": "David M."
+            },
+            {
+                "family": "P\u00e9lissier",
+                "given": "Rapha\u00ebl"
+            },
+            {
+                "family": "Pe\u00f1uelas",
+                "given": "Josep"
+            },
+            {
+                "family": "P\u00e9rez-Matus",
+                "given": "Alejandro"
+            },
+            {
+                "family": "Pizarro",
+                "given": "Oscar"
+            },
+            {
+                "family": "Pomati",
+                "given": "Francesco"
+            },
+            {
+                "family": "Post",
+                "given": "Eric"
+            },
+            {
+                "family": "Prins",
+                "given": "Herbert H. T."
+            },
+            {
+                "family": "Priscu",
+                "given": "John C."
+            },
+            {
+                "family": "Provoost",
+                "given": "Pieter"
+            },
+            {
+                "family": "Prudic",
+                "given": "Kathleen L."
+            },
+            {
+                "family": "Pulliainen",
+                "given": "Erkki"
+            },
+            {
+                "family": "Ramesh",
+                "given": "B. R."
+            },
+            {
+                "family": "Ramos",
+                "given": "Olivia Mendivil"
+            },
+            {
+                "family": "Rassweiler",
+                "given": "Andrew"
+            },
+            {
+                "family": "Rebelo",
+                "given": "Jose Eduardo"
+            },
+            {
+                "family": "Reed",
+                "given": "Daniel C."
+            },
+            {
+                "family": "Reich",
+                "given": "Peter B."
+            },
+            {
+                "family": "Remillard",
+                "given": "Suzanne M."
+            },
+            {
+                "family": "Richardson",
+                "given": "Anthony J."
+            },
+            {
+                "family": "Richardson",
+                "given": "J. Paul"
+            },
+            {
+                "dropping-particle": "van",
+                "family": "Rijn",
+                "given": "Itai"
+            },
+            {
+                "family": "Rocha",
+                "given": "Ricardo"
+            },
+            {
+                "family": "Rivera-Monroy",
+                "given": "Victor H."
+            },
+            {
+                "family": "Rixen",
+                "given": "Christian"
+            },
+            {
+                "family": "Robinson",
+                "given": "Kevin P."
+            },
+            {
+                "family": "Rodrigues",
+                "given": "Ricardo Ribeiro"
+            },
+            {
+                "family": "Rossa-Feres",
+                "given": "Denise de Cerqueira"
+            },
+            {
+                "family": "Rudstam",
+                "given": "Lars"
+            },
+            {
+                "family": "Ruhl",
+                "given": "Henry"
+            },
+            {
+                "family": "Ruz",
+                "given": "Catalina S."
+            },
+            {
+                "family": "Sampaio",
+                "given": "Erica M."
+            },
+            {
+                "family": "Rybicki",
+                "given": "Nancy"
+            },
+            {
+                "family": "Rypel",
+                "given": "Andrew"
+            },
+            {
+                "family": "Sal",
+                "given": "Sofia"
+            },
+            {
+                "family": "Salgado",
+                "given": "Beatriz"
+            },
+            {
+                "family": "Santos",
+                "given": "Flavio A. M."
+            },
+            {
+                "family": "Savassi-Coutinho",
+                "given": "Ana Paula"
+            },
+            {
+                "family": "Scanga",
+                "given": "Sara"
+            },
+            {
+                "family": "Schmidt",
+                "given": "Jochen"
+            },
+            {
+                "family": "Schooley",
+                "given": "Robert"
+            },
+            {
+                "family": "Setiawan",
+                "given": "Fakhrizal"
+            },
+            {
+                "family": "Shao",
+                "given": "Kwang-Tsao"
+            },
+            {
+                "family": "Shaver",
+                "given": "Gaius R."
+            },
+            {
+                "family": "Sherman",
+                "given": "Sally"
+            },
+            {
+                "family": "Sherry",
+                "given": "Thomas W."
+            },
+            {
+                "family": "Sici\u0144ski",
+                "given": "Jacek"
+            },
+            {
+                "family": "Sievers",
+                "given": "Caya"
+            },
+            {
+                "dropping-particle": "da",
+                "family": "Silva",
+                "given": "Ana Carolina"
+            },
+            {
+                "dropping-particle": "da",
+                "family": "Silva",
+                "given": "Fernando Rodrigues"
+            },
+            {
+                "family": "Silveira",
+                "given": "Fabio L."
+            },
+            {
+                "family": "Slingsby",
+                "given": "Jasper"
+            },
+            {
+                "family": "Smart",
+                "given": "Tracey"
+            },
+            {
+                "family": "Snell",
+                "given": "Sara J."
+            },
+            {
+                "family": "Soudzilovskaia",
+                "given": "Nadejda A."
+            },
+            {
+                "family": "Souza",
+                "given": "Gabriel B. G."
+            },
+            {
+                "family": "Souza",
+                "given": "Flaviana Maluf"
+            },
+            {
+                "family": "Souza",
+                "given": "Vin\u00edcius Castro"
+            },
+            {
+                "family": "Stallings",
+                "given": "Christopher D."
+            },
+            {
+                "family": "Stanforth",
+                "given": "Rowan"
+            },
+            {
+                "family": "Stanley",
+                "given": "Emily H."
+            },
+            {
+                "family": "Sterza",
+                "given": "Jos\u00e9 Mauro"
+            },
+            {
+                "family": "Stevens",
+                "given": "Maarten"
+            },
+            {
+                "family": "Stuart-Smith",
+                "given": "Rick"
+            },
+            {
+                "family": "Suarez",
+                "given": "Yzel Rondon"
+            },
+            {
+                "family": "Supp",
+                "given": "Sarah"
+            },
+            {
+                "family": "Tamashiro",
+                "given": "Jorge Yoshio"
+            },
+            {
+                "family": "Tarigan",
+                "given": "Sukmaraharja"
+            },
+            {
+                "family": "Thiede",
+                "given": "Gary P."
+            },
+            {
+                "family": "Thorn",
+                "given": "Simon"
+            },
+            {
+                "family": "Tolvanen",
+                "given": "Anne"
+            },
+            {
+                "family": "Toniato",
+                "given": "Maria Teresa Zugliani"
+            },
+            {
+                "family": "Totland",
+                "given": "\u00d8rjan"
+            },
+            {
+                "family": "Twilley",
+                "given": "Robert R."
+            },
+            {
+                "family": "Vaitkus",
+                "given": "Gediminas"
+            },
+            {
+                "family": "Valdivia",
+                "given": "Nelson"
+            },
+            {
+                "family": "Vallejo",
+                "given": "Martha Isabel"
+            },
+            {
+                "family": "Valone",
+                "given": "Thomas J."
+            },
+            {
+                "family": "Colen",
+                "given": "Carl Van"
+            },
+            {
+                "family": "Vanaverbeke",
+                "given": "Jan"
+            },
+            {
+                "family": "Venturoli",
+                "given": "Fabio"
+            },
+            {
+                "family": "Verheye",
+                "given": "Hans M."
+            },
+            {
+                "family": "Vianna",
+                "given": "Marcelo"
+            },
+            {
+                "family": "Vieira",
+                "given": "Rui P."
+            },
+            {
+                "family": "Vr\u0161ka",
+                "given": "Tom\u00e1\u0161"
+            },
+            {
+                "family": "Vu",
+                "given": "Con Quang"
+            },
+            {
+                "family": "Vu",
+                "given": "Lien Van"
+            },
+            {
+                "family": "Waide",
+                "given": "Robert B."
+            },
+            {
+                "family": "Waldock",
+                "given": "Conor"
+            },
+            {
+                "family": "Watts",
+                "given": "Dave"
+            },
+            {
+                "family": "Webb",
+                "given": "Sara"
+            },
+            {
+                "family": "Weso\u0142owski",
+                "given": "Tomasz"
+            },
+            {
+                "family": "White",
+                "given": "Ethan P."
+            },
+            {
+                "family": "Widdicombe",
+                "given": "Claire E."
+            },
+            {
+                "family": "Wilgers",
+                "given": "Dustin"
+            },
+            {
+                "family": "Williams",
+                "given": "Richard"
+            },
+            {
+                "family": "Williams",
+                "given": "Stefan B."
+            },
+            {
+                "family": "Williamson",
+                "given": "Mark"
+            },
+            {
+                "family": "Willig",
+                "given": "Michael R."
+            },
+            {
+                "family": "Willis",
+                "given": "Trevor J."
+            },
+            {
+                "family": "Wipf",
+                "given": "Sonja"
+            },
+            {
+                "family": "Woods",
+                "given": "Kerry D."
+            },
+            {
+                "family": "Woehler",
+                "given": "Eric J."
+            },
+            {
+                "family": "Zawada",
+                "given": "Kyle"
+            },
+            {
+                "family": "Zettler",
+                "given": "Michael L."
+            }
+        ],
+        "container-title": "Global Ecology and Biogeography",
+        "id": "Dornelas2018BioDat",
+        "issue": "7",
+        "issued": {
+            "date-parts": [
+                [
+                    2018
+                ]
+            ]
+        },
+        "page": "760-786",
+        "title": "BioTIME: A database of biodiversity time series for the Anthropocene",
+        "type": "article-journal",
+        "volume": "27"
+    },
+    {
+        "DOI": "10.1111/mec.14872",
+        "author": [
+            {
+                "family": "Eitzinger",
+                "given": "Bernhard"
+            },
+            {
+                "family": "Abrego",
+                "given": "Nerea"
+            },
+            {
+                "family": "Gravel",
+                "given": "Dominique"
+            },
+            {
+                "family": "Huotari",
+                "given": "Tea"
+            },
+            {
+                "family": "Vesterinen",
+                "given": "Eero J."
+            },
+            {
+                "family": "Roslin",
+                "given": "Tomas"
+            }
+        ],
+        "container-title": "Molecular Ecology",
+        "id": "Eitzinger2019AssCha",
+        "issue": "2",
+        "issued": {
+            "date-parts": [
+                [
+                    2019
+                ]
+            ]
+        },
+        "page": "266-280",
+        "title": "Assessing changes in arthropod predatorprey interactions through DNA-based gut content analysisvariable environment, stable diet",
+        "type": "article-journal",
+        "volume": "28"
+    },
+    {
+        "DOI": "10.1111/1365-2435.12659",
+        "author": [
+            {
+                "family": "Evans",
+                "given": "Darren M."
+            },
+            {
+                "family": "Kitson",
+                "given": "James J. N."
+            },
+            {
+                "family": "Lunt",
+                "given": "David H."
+            },
+            {
+                "family": "Straw",
+                "given": "Nigel A."
+            },
+            {
+                "family": "Pocock",
+                "given": "Michael J. O."
+            }
+        ],
+        "container-title": "Functional Ecology",
+        "editor": [
+            {
+                "family": "Poisot",
+                "given": "Timoth\u00e9e"
+            }
+        ],
+        "id": "Evans2016MerDna",
+        "issue": "12",
+        "issued": {
+            "date-parts": [
+                [
+                    2016
+                ]
+            ]
+        },
+        "other-ids": "EvanKits16",
+        "page": "1904-1916",
+        "title": "Merging DNA metabarcoding and ecological network analysis to understand and build resilient terrestrial ecosystems",
+        "type": "article-journal",
+        "volume": "30"
+    },
+    {
+        "DOI": "10.1002/joc.5086",
+        "author": [
+            {
+                "family": "Fick",
+                "given": "Stephen E."
+            },
+            {
+                "family": "Hijmans",
+                "given": "Robert J."
+            }
+        ],
+        "container-title": "International Journal of Climatology",
+        "id": "Fick2017Wor2N",
+        "issued": {
+            "date-parts": [
+                [
+                    2017
+                ]
+            ]
+        },
+        "page": "n/a-n/a",
+        "title": "WorldClim 2: New 1-km spatial resolution climate surfaces for global land areas",
+        "type": "article-journal"
+    },
+    {
+        "DOI": "10.1371/journal.pone.0182274",
+        "author": [
+            {
+                "family": "Giannini",
+                "given": "Tereza Cristina"
+            },
+            {
+                "family": "Costa",
+                "given": "Wilian Fran\u00e7a"
+            },
+            {
+                "family": "Cordeiro",
+                "given": "Guaraci Duran"
+            },
+            {
+                "family": "Imperatriz-Fonseca",
+                "given": "Vera Lucia"
+            },
+            {
+                "family": "Saraiva",
+                "given": "Antonio Mauro"
+            },
+            {
+                "family": "Biesmeijer",
+                "given": "Jacobus"
+            },
+            {
+                "family": "Garibaldi",
+                "given": "Lucas Alejandro"
+            }
+        ],
+        "container-title": "PLOS ONE",
+        "id": "Giannini2017ProCli",
+        "issue": "8",
+        "issued": {
+            "date-parts": [
+                [
+                    2017
+                ]
+            ]
+        },
+        "page": "e0182274",
+        "title": "Projected climate change threatens pollinators and crop production in Brazil",
+        "type": "article-journal",
+        "volume": "12"
+    },
+    {
+        "DOI": "10.1111/j.1600-0706.2010.18927.x",
+        "author": [
+            {
+                "family": "Gibson",
+                "given": "Rachel H."
+            },
+            {
+                "family": "Knott",
+                "given": "Ben"
+            },
+            {
+                "family": "Eberlein",
+                "given": "Tim"
+            },
+            {
+                "family": "Memmott",
+                "given": "Jane"
+            }
+        ],
+        "container-title": "Oikos",
+        "id": "Gibson2011SamMet",
+        "issue": "6",
+        "issued": {
+            "date-parts": [
+                [
+                    2011
+                ]
+            ]
+        },
+        "page": "822-831",
+        "title": "Sampling method influences the structure of plantpollinator networks",
+        "type": "article-journal",
+        "volume": "120"
+    },
+    {
+        "DOI": "10.1111/ele.13456",
+        "author": [
+            {
+                "family": "Gonzalez",
+                "given": "Andrew"
+            },
+            {
+                "family": "Germain",
+                "given": "Rachel M."
+            },
+            {
+                "family": "Srivastava",
+                "given": "Diane S."
+            },
+            {
+                "family": "Filotas",
+                "given": "Elise"
+            },
+            {
+                "family": "Dee",
+                "given": "Laura E."
+            },
+            {
+                "family": "Gravel",
+                "given": "Dominique"
+            },
+            {
+                "family": "Thompson",
+                "given": "Patrick L."
+            },
+            {
+                "family": "Isbell",
+                "given": "Forest"
+            },
+            {
+                "family": "Wang",
+                "given": "Shaopeng"
+            },
+            {
+                "family": "K\u00e9fi",
+                "given": "Sonia"
+            },
+            {
+                "family": "Montoya",
+                "given": "Jose"
+            },
+            {
+                "family": "Zelnik",
+                "given": "Yuval R."
+            },
+            {
+                "family": "Loreau",
+                "given": "Michel"
+            }
+        ],
+        "container-title": "Ecology Letters",
+        "id": "Gonzalez2020ScaBio",
+        "issue": "4",
+        "issued": {
+            "date-parts": [
+                [
+                    2020
+                ]
+            ]
+        },
+        "page": "757-776",
+        "title": "Scaling-up biodiversity-ecosystem functioning research",
+        "type": "article-journal",
+        "volume": "23"
+    },
+    {
+        "DOI": "10.1111/2041-210X.12103",
+        "author": [
+            {
+                "family": "Gravel",
+                "given": "Dominique"
+            },
+            {
+                "family": "Poisot",
+                "given": "Timoth\u00e9e"
+            },
+            {
+                "family": "Albouy",
+                "given": "Camille"
+            },
+            {
+                "family": "Velez",
+                "given": "Laure"
+            },
+            {
+                "family": "Mouillot",
+                "given": "David"
+            }
+        ],
+        "container-title": "Methods in Ecology and Evolution",
+        "editor": [
+            {
+                "family": "Freckleton",
+                "given": "Robert"
+            }
+        ],
+        "id": "Gravel2013InfFoo",
+        "issue": "11",
+        "issued": {
+            "date-parts": [
+                [
+                    2013
+                ]
+            ]
+        },
+        "page": "1083-1090",
+        "title": "Inferring food web structure from predator-prey body size relationships",
+        "type": "article-journal",
+        "volume": "4"
+    },
+    {
+        "DOI": "10.1111/ecog.04006",
+        "author": [
+            {
+                "family": "Gravel",
+                "given": "Dominique"
+            },
+            {
+                "family": "Baiser",
+                "given": "Benjamin"
+            },
+            {
+                "family": "Dunne",
+                "given": "Jennifer A."
+            },
+            {
+                "family": "Kopelke",
+                "given": "Jens-Peter"
+            },
+            {
+                "family": "Martinez",
+                "given": "Neo D."
+            },
+            {
+                "family": "Nyman",
+                "given": "Tommi"
+            },
+            {
+                "family": "Poisot",
+                "given": "Timoth\u00e9e"
+            },
+            {
+                "family": "Stouffer",
+                "given": "Daniel B."
+            },
+            {
+                "family": "Tylianakis",
+                "given": "Jason M."
+            },
+            {
+                "family": "Wood",
+                "given": "Spencer A."
+            },
+            {
+                "family": "Roslin",
+                "given": "Tomas"
+            }
+        ],
+        "container-title": "Ecography",
+        "id": "Gravel2018BriElt",
+        "issue": "0",
+        "issued": {
+            "date-parts": [
+                [
+                    2018
+                ]
+            ]
+        },
+        "title": "Bringing Elton and Grinnell together: A quantitative framework to represent the biogeography of ecological interaction networks",
+        "type": "article-journal",
+        "volume": "0"
+    },
+    {
+        "DOI": "10.1016/j.tree.2019.02.017",
+        "author": [
+            {
+                "family": "Guiden",
+                "given": "Peter W."
+            },
+            {
+                "family": "Bartel",
+                "given": "Savannah L."
+            },
+            {
+                "family": "Byer",
+                "given": "Nathan W."
+            },
+            {
+                "family": "Shipley",
+                "given": "Amy A."
+            },
+            {
+                "family": "Orrock",
+                "given": "John L."
+            }
+        ],
+        "container-title": "Trends in Ecology & Evolution",
+        "id": "Guiden2019PrePre",
+        "issue": "0",
+        "issued": {
+            "date-parts": [
+                [
+                    2019
+                ]
+            ]
+        },
+        "title": "PredatorPrey Interactions in the Anthropocene: Reconciling Multiple Aspects of Novelty",
+        "type": "article-journal",
+        "volume": "0"
+    },
+    {
+        "DOI": "10.1146/annurev-ecolsys-012220-120819",
+        "author": [
+            {
+                "family": "Guimar\u00e3es",
+                "given": "Paulo R."
+            }
+        ],
+        "container-title": "Annual Review of Ecology, Evolution, and Systematics",
+        "id": "Guimaraes2020StrEco",
+        "issue": "1",
+        "issued": {
+            "date-parts": [
+                [
+                    2020
+                ]
+            ]
+        },
+        "page": "433-460",
+        "title": "The Structure of Ecological Networks Across Levels of Organization",
+        "type": "article-journal",
+        "volume": "51"
+    },
+    {
+        "DOI": "10.1098/rsbl.2013.1000",
+        "PMCID": "PMC3917341",
+        "author": [
+            {
+                "family": "Heleno",
+                "given": "Ruben"
+            },
+            {
+                "family": "Garcia",
+                "given": "Cristina"
+            },
+            {
+                "family": "Jordano",
+                "given": "Pedro"
+            },
+            {
+                "family": "Traveset",
+                "given": "Anna"
+            },
+            {
+                "family": "G\u00f3mez",
+                "given": "Jos\u00e9 Maria"
+            },
+            {
+                "family": "Bl\u00fcthgen",
+                "given": "Nico"
+            },
+            {
+                "family": "Memmott",
+                "given": "Jane"
+            },
+            {
+                "family": "Moora",
+                "given": "Mari"
+            },
+            {
+                "family": "Cerdeira",
+                "given": "Jorge"
+            },
+            {
+                "family": "Rodr\u00edguez-Echeverr\u00eda",
+                "given": "Susana"
+            },
+            {
+                "family": "Freitas",
+                "given": "Helena"
+            },
+            {
+                "family": "Olesen",
+                "given": "Jens M."
+            }
+        ],
+        "container-title": "Biology Letters",
+        "id": "Heleno2014EcoNet",
+        "issue": "1",
+        "issued": {
+            "date-parts": [
+                [
+                    2014
+                ]
+            ]
+        },
+        "title": "Ecological networks: Delving into the architecture of biodiversity",
+        "type": "article-journal",
+        "volume": "10"
+    },
+    {
+        "DOI": "10.1146/annurev-ecolsys-112414-054400",
+        "author": [
+            {
+                "family": "Hortal",
+                "given": "Joaqu\u00edn"
+            },
+            {
+                "family": "Bello",
+                "given": "Francesco",
+                "non-dropping-particle": "de"
+            },
+            {
+                "family": "Diniz-Filho",
+                "given": "Jos\u00e9 Alexandre F."
+            },
+            {
+                "family": "Lewinsohn",
+                "given": "Thomas M."
+            },
+            {
+                "family": "Lobo",
+                "given": "Jorge M."
+            },
+            {
+                "family": "Ladle",
+                "given": "Richard J."
+            }
+        ],
+        "container-title": "Annual Review of Ecology, Evolution, and Systematics",
+        "id": "Hortal2015SevSho",
+        "issue": "1",
+        "issued": {
+            "date-parts": [
+                [
+                    2015
+                ]
+            ]
+        },
+        "page": "523-549",
+        "title": "Seven Shortfalls that Beset Large-Scale Knowledge of Biodiversity",
+        "type": "article-journal",
+        "volume": "46"
+    },
+    {
+        "DOI": "10.1016/j.tree.2018.11.003",
+        "author": [
+            {
+                "family": "Hui",
+                "given": "Cang"
+            },
+            {
+                "family": "Richardson",
+                "given": "David M."
+            }
+        ],
+        "container-title": "Trends in Ecology & Evolution",
+        "id": "Hui2019HowInv",
+        "issue": "2",
+        "issued": {
+            "date-parts": [
+                [
+                    2019
+                ]
+            ]
+        },
+        "page": "121-131",
+        "title": "How to Invade an Ecological Network",
+        "type": "article-journal",
+        "volume": "34"
+    },
+    {
+        "author": [
+            {
+                "family": "Jordano",
+                "given": "Pedro"
+            },
+            {
+                "family": "Bascompte",
+                "given": "Jordi"
+            }
+        ],
+        "id": "Jordano2013MutNet",
+        "issued": {
+            "date-parts": [
+                [
+                    2013
+                ]
+            ]
+        },
+        "publisher": "Princeton Univ Press",
+        "title": "Mutualistic Networks",
+        "type": "book"
+    },
+    {
+        "DOI": "10.1371/journal.pbio.1002559",
+        "author": [
+            {
+                "family": "Jordano",
+                "given": "Pedro"
+            }
+        ],
+        "container-title": "PLOS Biol",
+        "id": "Jordano2016ChaEco",
+        "issue": "9",
+        "issued": {
+            "date-parts": [
+                [
+                    2016
+                ]
+            ]
+        },
+        "page": "e1002559",
+        "title": "Chasing Ecological Interactions",
+        "type": "article-journal",
+        "volume": "14"
+    },
+    {
+        "DOI": "10.1111/1365-2435.12763",
+        "author": [
+            {
+                "family": "Jordano",
+                "given": "Pedro"
+            }
+        ],
+        "container-title": "Functional Ecology",
+        "editor": [
+            {
+                "family": "Stouffer",
+                "given": "Daniel"
+            }
+        ],
+        "id": "Jordano2016SamNet",
+        "issue": "12",
+        "issued": {
+            "date-parts": [
+                [
+                    2016
+                ]
+            ]
+        },
+        "other-ids": "Jord16a",
+        "page": "1883-1893",
+        "title": "Sampling networks of ecological interactions",
+        "type": "article-journal",
+        "volume": "30"
+    },
+    {
+        "DOI": "10.1111/ecog.02150",
+        "author": [
+            {
+                "family": "Kemp",
+                "given": "Jurene E."
+            },
+            {
+                "family": "Evans",
+                "given": "Darren M."
+            },
+            {
+                "family": "Augustyn",
+                "given": "Willem J."
+            },
+            {
+                "family": "Ellis",
+                "given": "Allan G."
+            }
+        ],
+        "container-title": "Ecography",
+        "id": "Kemp2017InvAnt",
+        "issued": {
+            "date-parts": [
+                [
+                    2017
+                ]
+            ]
+        },
+        "other-ids": "KempEvan17",
+        "page": "n/a-n/a",
+        "title": "Invariant antagonistic network structure despite high spatial and temporal turnover of interactions",
+        "type": "article-journal"
+    },
+    {
+        "author": [
+            {
+                "family": "Loreau",
+                "given": "Michel"
+            }
+        ],
+        "collection-title": "Monographs in population biology",
+        "id": "Loreau2010PopEco",
+        "issued": {
+            "date-parts": [
+                [
+                    2010
+                ]
+            ]
+        },
+        "publisher": "Princeton University Press",
+        "title": "From Populations to Ecosystems",
+        "type": "book"
+    },
+    {
+        "DOI": "10.1111/1365-2435.12839",
+        "author": [
+            {
+                "family": "Losapio",
+                "given": "Gianalberto"
+            },
+            {
+                "family": "Sch\u00f6b",
+                "given": "Christian"
+            }
+        ],
+        "container-title": "Functional Ecology",
+        "id": "Losapio2017ResPla",
+        "issue": "5",
+        "issued": {
+            "date-parts": [
+                [
+                    2017
+                ]
+            ]
+        },
+        "page": "1145-1152",
+        "title": "Resistance of plantplant networks to biodiversity loss and secondary extinctions following simulated environmental changes",
+        "type": "article-journal",
+        "volume": "31"
+    },
+    {
+        "DOI": "10.1016/j.patter.2020.100079",
+        "author": [
+            {
+                "family": "MacDonald",
+                "given": "Arthur Andrew Meahan"
+            },
+            {
+                "family": "Banville",
+                "given": "Francis"
+            },
+            {
+                "family": "Poisot",
+                "given": "Timoth\u00e9e"
+            }
+        ],
+        "container-title": "Patterns",
+        "id": "MacDonald2020RevLin",
+        "issue": "0",
+        "issued": {
+            "date-parts": [
+                [
+                    2020
+                ]
+            ]
+        },
+        "publisher": "Elsevier",
+        "title": "Revisiting the Links-Species Scaling Relationship in Food Webs",
+        "type": "article-journal",
+        "volume": "0"
+    },
+    {
+        "DOI": "10.1111/ecog.02847",
+        "author": [
+            {
+                "family": "Magrach",
+                "given": "Ainhoa"
+            },
+            {
+                "family": "Holzschuh",
+                "given": "Andrea"
+            },
+            {
+                "family": "Bartomeus",
+                "given": "Ignasi"
+            },
+            {
+                "family": "Riedinger",
+                "given": "Verena"
+            },
+            {
+                "family": "Roberts",
+                "given": "Stuart P. M."
+            },
+            {
+                "family": "Rundl\u00f6f",
+                "given": "Maj"
+            },
+            {
+                "family": "Vuji\u0107",
+                "given": "Ante"
+            },
+            {
+                "family": "Wickens",
+                "given": "Jennifer B."
+            },
+            {
+                "family": "Wickens",
+                "given": "Victoria J."
+            },
+            {
+                "family": "Bommarco",
+                "given": "Riccardo"
+            },
+            {
+                "family": "Gonz\u00e1lez-Varo",
+                "given": "Juan P."
+            },
+            {
+                "family": "Potts",
+                "given": "Simon G."
+            },
+            {
+                "family": "Smith",
+                "given": "Henrik G."
+            },
+            {
+                "family": "Steffan-Dewenter",
+                "given": "Ingolf"
+            },
+            {
+                "family": "Vil\u00e0",
+                "given": "Montserrat"
+            }
+        ],
+        "container-title": "Ecography",
+        "id": "Magrach2017PlaNet",
+        "issued": {
+            "date-parts": [
+                [
+                    2017
+                ]
+            ]
+        },
+        "page": "n/a-n/a",
+        "title": "Plant-pollinator networks in semi-natural grasslands are resistant to the loss of pollinators during blooming of mass-flowering crops",
+        "type": "article-journal"
+    },
+    {
+        "DOI": "10.3389/fenvs.2019.00197",
+        "author": [
+            {
+                "family": "Makiola",
+                "given": "Andreas"
+            },
+            {
+                "family": "Compson",
+                "given": "Zacchaeus Greg"
+            },
+            {
+                "family": "Baird",
+                "given": "Donald"
+            },
+            {
+                "family": "Barnes",
+                "given": "Matthew A."
+            },
+            {
+                "family": "Boerlijst",
+                "given": "Sam Philip"
+            },
+            {
+                "family": "Bouchez",
+                "given": "Agn\u00e8s"
+            },
+            {
+                "family": "Brennan",
+                "given": "Georgina"
+            },
+            {
+                "family": "Bush",
+                "given": "Alex"
+            },
+            {
+                "family": "Canard",
+                "given": "Elsa"
+            },
+            {
+                "family": "Cordier",
+                "given": "Tristan"
+            },
+            {
+                "family": "Creer",
+                "given": "Simon"
+            },
+            {
+                "family": "Curry",
+                "given": "Allen"
+            },
+            {
+                "family": "David",
+                "given": "Patrice"
+            },
+            {
+                "family": "Dumbrell",
+                "given": "Alex"
+            },
+            {
+                "family": "Gravel",
+                "given": "Dominique"
+            },
+            {
+                "family": "Hajibabaei",
+                "given": "Mehrdad"
+            },
+            {
+                "family": "Hayden",
+                "given": "Brian"
+            },
+            {
+                "family": "Hoorn",
+                "given": "Berry",
+                "non-dropping-particle": "van der"
+            },
+            {
+                "family": "Jarne",
+                "given": "Philippe"
+            },
+            {
+                "family": "Jones",
+                "given": "Iwan"
+            },
+            {
+                "family": "Karimi",
+                "given": "Battle"
+            },
+            {
+                "family": "Keck",
+                "given": "Francois"
+            },
+            {
+                "family": "Kelly",
+                "given": "Martyn"
+            },
+            {
+                "family": "Knot",
+                "given": "Ineke"
+            },
+            {
+                "family": "Krol",
+                "given": "Louie"
+            },
+            {
+                "family": "Massol",
+                "given": "Francois"
+            },
+            {
+                "family": "Monk",
+                "given": "Wendy"
+            },
+            {
+                "family": "Murphy",
+                "given": "Kevin"
+            },
+            {
+                "family": "Pawlowski",
+                "given": "Jan"
+            },
+            {
+                "family": "Poisot",
+                "given": "Timoth\u00e9e"
+            },
+            {
+                "family": "Porter",
+                "given": "Teresita"
+            },
+            {
+                "family": "Randall",
+                "given": "Kate"
+            },
+            {
+                "family": "Ransome",
+                "given": "Emma"
+            },
+            {
+                "family": "Ravign\u00e9",
+                "given": "Virginie"
+            },
+            {
+                "family": "Raybould",
+                "given": "Alan"
+            },
+            {
+                "family": "Robin",
+                "given": "Stephane"
+            },
+            {
+                "family": "Schrama",
+                "given": "Maarten"
+            },
+            {
+                "family": "Schatz",
+                "given": "Bertrand"
+            },
+            {
+                "family": "Tamaddoni-Nezhad",
+                "given": "Alireza"
+            },
+            {
+                "family": "Trimbos",
+                "given": "Krijn Baptist"
+            },
+            {
+                "family": "Vacher",
+                "given": "Corinne"
+            },
+            {
+                "family": "Vasselon",
+                "given": "Valentin"
+            },
+            {
+                "family": "Wood",
+                "given": "Susie Amy"
+            },
+            {
+                "family": "Woodward",
+                "given": "Guy"
+            },
+            {
+                "family": "Bohan",
+                "given": "David Andrew"
+            }
+        ],
+        "container-title": "Frontiers in Environmental Science",
+        "id": "Makiola2019KeyQue",
+        "issued": {
+            "date-parts": [
+                [
+                    2019
+                ]
+            ]
+        },
+        "title": "Key questions for next-generation biomonitoring",
+        "type": "article-journal",
+        "volume": "7"
+    },
+    {
+        "DOI": "10.1111/geb.12355",
+        "author": [
+            {
+                "family": "Mart\u00edn-Gonz\u00e1lez",
+                "given": "Ana M."
+            },
+            {
+                "family": "Dalsgaard",
+                "given": "Bo"
+            },
+            {
+                "family": "Nogu\u00e9s-Bravo",
+                "given": "David"
+            },
+            {
+                "family": "Graham",
+                "given": "Catherine H."
+            },
+            {
+                "family": "Schleuning",
+                "given": "Matthias"
+            },
+            {
+                "family": "Maruyama",
+                "given": "Pietro K."
+            },
+            {
+                "family": "Abrahamczyk",
+                "given": "Stefan"
+            },
+            {
+                "family": "Alarc\u00f3n",
+                "given": "Ruben"
+            },
+            {
+                "family": "Araujo",
+                "given": "Andr\u00e9a C."
+            },
+            {
+                "family": "Ara\u00fajo",
+                "given": "Francielle P."
+            },
+            {
+                "dropping-particle": "de",
+                "family": "Azevedo",
+                "given": "Severino Mendes"
+            },
+            {
+                "family": "Baquero",
+                "given": "Andrea C."
+            },
+            {
+                "family": "Cotton",
+                "given": "Peter A."
+            },
+            {
+                "family": "Ingversen",
+                "given": "Tanja Toftemark"
+            },
+            {
+                "family": "Kohler",
+                "given": "Glauco"
+            },
+            {
+                "family": "Lara",
+                "given": "Carlos"
+            },
+            {
+                "family": "Las-Casas",
+                "given": "Flor Maria Guedes"
+            },
+            {
+                "family": "Machado",
+                "given": "Adriana O."
+            },
+            {
+                "family": "Machado",
+                "given": "Caio Graco"
+            },
+            {
+                "family": "Maglianesi",
+                "given": "Mar\u00eda Alejandra"
+            },
+            {
+                "family": "McGuire",
+                "given": "Jimmy A."
+            },
+            {
+                "family": "Moura",
+                "given": "Alan Cerqueira"
+            },
+            {
+                "family": "Oliveira",
+                "given": "Genilda M."
+            },
+            {
+                "family": "Oliveira",
+                "given": "Paulo E."
+            },
+            {
+                "family": "Ornelas",
+                "given": "Juan Francisco"
+            },
+            {
+                "family": "Rodrigues",
+                "given": "Licl\u00e9ia da Cruz"
+            },
+            {
+                "family": "Rosero-Lasprilla",
+                "given": "Liliana"
+            },
+            {
+                "family": "Rui",
+                "given": "Ana M."
+            },
+            {
+                "family": "Sazima",
+                "given": "Marlies"
+            },
+            {
+                "family": "Timmermann",
+                "given": "Allan"
+            },
+            {
+                "family": "Varassin",
+                "given": "Isabela Galarda"
+            },
+            {
+                "family": "Vizentin-Bugoni",
+                "given": "Jeferson"
+            },
+            {
+                "family": "Wang",
+                "given": "Zhiheng"
+            },
+            {
+                "family": "Watts",
+                "given": "Stella"
+            },
+            {
+                "family": "Rahbek",
+                "given": "Carsten"
+            },
+            {
+                "family": "Martinez",
+                "given": "Neo D."
+            }
+        ],
+        "container-title": "Global Ecology and Biogeography",
+        "id": "Martin-Gonzalez2015MacPhy",
+        "issue": "11",
+        "issued": {
+            "date-parts": [
+                [
+                    2015
+                ]
+            ]
+        },
+        "page": "1212-1224",
+        "title": "The macroecology of phylogenetically structured hummingbirdplant networks",
+        "type": "article-journal",
+        "volume": "24"
+    },
+    {
+        "DOI": "10.1080/02691728.2012.760663",
+        "author": [
+            {
+                "family": "Mauthner",
+                "given": "Natasha Susan"
+            },
+            {
+                "family": "Parry",
+                "given": "Odette"
+            }
+        ],
+        "container-title": "Social Epistemology",
+        "id": "Mauthner2013OpeAcc",
+        "issue": "1",
+        "issued": {
+            "date-parts": [
+                [
+                    2013
+                ]
+            ]
+        },
+        "page": "47-67",
+        "title": "Open Access Digital Data Sharing: Principles, Policies and Practices",
+        "type": "article-journal",
+        "volume": "27"
+    },
+    {
+        "DOI": "10.1371/journal.pcbi.1004525",
+        "author": [
+            {
+                "family": "Michener",
+                "given": "William K."
+            }
+        ],
+        "container-title": "PLOS Comput Biol",
+        "id": "Michener2015TenSim",
+        "issue": "10",
+        "issued": {
+            "date-parts": [
+                [
+                    2015
+                ]
+            ]
+        },
+        "page": "e1004525",
+        "title": "Ten Simple Rules for Creating a Good Data Management Plan",
+        "type": "article-journal",
+        "volume": "11"
+    },
+    {
+        "DOI": "10.1038/s41467-018-05056-0",
+        "author": [
+            {
+                "family": "Mora",
+                "given": "Bernat Bramon"
+            },
+            {
+                "family": "Gravel",
+                "given": "Dominique"
+            },
+            {
+                "family": "Gilarranz",
+                "given": "Luis J."
+            },
+            {
+                "family": "Poisot",
+                "given": "Timoth\u00e9e"
+            },
+            {
+                "family": "Stouffer",
+                "given": "Daniel B."
+            }
+        ],
+        "container-title": "Nature Communications",
+        "id": "Mora2018IdeCom",
+        "issue": "1",
+        "issued": {
+            "date-parts": [
+                [
+                    2018
+                ]
+            ]
+        },
+        "page": "2603",
+        "title": "Identifying a common backbone of interactions underlying food webs from different ecosystems",
+        "type": "article-journal",
+        "volume": "9"
+    },
+    {
+        "DOI": "10.1016/j.tree.2015.03.014",
+        "author": [
+            {
+                "family": "Morales-Castilla",
+                "given": "Ignacio"
+            },
+            {
+                "family": "Matias",
+                "given": "Miguel G."
+            },
+            {
+                "family": "Gravel",
+                "given": "Dominique"
+            },
+            {
+                "family": "Ara\u00fajo",
+                "given": "Miguel B."
+            }
+        ],
+        "container-title": "Trends in Ecology & Evolution",
+        "id": "Morales-Castilla2015InfBio",
+        "issue": "6",
+        "issued": {
+            "date-parts": [
+                [
+                    2015
+                ]
+            ]
+        },
+        "other-ids": "mora15ibi",
+        "page": "347-356",
+        "title": "Inferring biotic interactions from proxies",
+        "type": "article-journal",
+        "volume": "30"
+    },
+    {
+        "DOI": "10.1073/pnas.1719976115",
+        "author": [
+            {
+                "family": "Muscente",
+                "given": "A. D."
+            },
+            {
+                "family": "Prabhu",
+                "given": "Anirudh"
+            },
+            {
+                "family": "Zhong",
+                "given": "Hao"
+            },
+            {
+                "family": "Eleish",
+                "given": "Ahmed"
+            },
+            {
+                "family": "Meyer",
+                "given": "Michael B."
+            },
+            {
+                "family": "Fox",
+                "given": "Peter"
+            },
+            {
+                "family": "Hazen",
+                "given": "Robert M."
+            },
+            {
+                "family": "Knoll",
+                "given": "Andrew H."
+            }
+        ],
+        "container-title": "Proceedings of the National Academy of Sciences",
+        "id": "Muscente2018QuaEco",
+        "issued": {
+            "date-parts": [
+                [
+                    2018
+                ]
+            ]
+        },
+        "page": "201719976",
+        "title": "Quantifying ecological impacts of mass extinctions with network analysis of fossil communities",
+        "type": "article-journal"
+    },
+    {
+        "DOI": "10.1371/journal.pone.0106651",
+        "author": [
+            {
+                "family": "Nenz\u00e9n",
+                "given": "Hedvig K."
+            },
+            {
+                "family": "Montoya",
+                "given": "Daniel"
+            },
+            {
+                "family": "Varela",
+                "given": "Sara"
+            }
+        ],
+        "container-title": "PLOS ONE",
+        "id": "Nenzen2014Imp850",
+        "issue": "9",
+        "issued": {
+            "date-parts": [
+                [
+                    2014
+                ]
+            ]
+        },
+        "page": "e106651",
+        "title": "The Impact of 850,000 Years of Climate Changes on the Structure and Dynamics of Mammal Food Webs",
+        "type": "article-journal",
+        "volume": "9"
+    },
+    {
+        "DOI": "10.1098/rspb.2017.0768",
+        "author": [
+            {
+                "family": "Ovaskainen",
+                "given": "Otso"
+            },
+            {
+                "family": "Tikhonov",
+                "given": "Gleb"
+            },
+            {
+                "family": "Dunson",
+                "given": "David"
+            },
+            {
+                "family": "Gr\u00f8tan",
+                "given": "Vidar"
+            },
+            {
+                "family": "Engen",
+                "given": "Steinar"
+            },
+            {
+                "family": "S\u00e6ther",
+                "given": "Bernt-Erik"
+            },
+            {
+                "family": "Abrego",
+                "given": "Nerea"
+            }
+        ],
+        "container-title": "Proc. R. Soc. B",
+        "id": "Ovaskainen2017HowAre",
+        "issue": "1855",
+        "issued": {
+            "date-parts": [
+                [
+                    2017
+                ]
+            ]
+        },
+        "page": "20170768",
+        "title": "How are species interactions structured in species-rich communities? A new method for analysing time-series data",
+        "type": "article-journal",
+        "volume": "284"
+    },
+    {
+        "DOI": "10.1111/brv.12366",
+        "author": [
+            {
+                "family": "Pellissier",
+                "given": "Lo\u00efc"
+            },
+            {
+                "family": "Albouy",
+                "given": "Camille"
+            },
+            {
+                "family": "Bascompte",
+                "given": "Jordi"
+            },
+            {
+                "family": "Farwig",
+                "given": "Nina"
+            },
+            {
+                "family": "Graham",
+                "given": "Catherine"
+            },
+            {
+                "family": "Loreau",
+                "given": "Michel"
+            },
+            {
+                "family": "Maglianesi",
+                "given": "Maria Alejandra"
+            },
+            {
+                "family": "Meli\u00e1n",
+                "given": "Carlos J."
+            },
+            {
+                "family": "Pitteloud",
+                "given": "Camille"
+            },
+            {
+                "family": "Roslin",
+                "given": "Tomas"
+            },
+            {
+                "family": "Rohr",
+                "given": "Rudolf"
+            },
+            {
+                "family": "Saavedra",
+                "given": "Serguei"
+            },
+            {
+                "family": "Thuiller",
+                "given": "Wilfried"
+            },
+            {
+                "family": "Woodward",
+                "given": "Guy"
+            },
+            {
+                "family": "Zimmermann",
+                "given": "Niklaus E."
+            },
+            {
+                "family": "Gravel",
+                "given": "Dominique"
+            }
+        ],
+        "container-title": "Biological Reviews of the Cambridge Philosophical Society",
+        "id": "Pellissier2017ComSpe",
+        "issued": {
+            "date-parts": [
+                [
+                    2017
+                ]
+            ]
+        },
+        "title": "Comparing species interaction networks along environmental gradients",
+        "type": "article-journal"
+    },
+    {
+        "DOI": "10.1111/bij.12548",
+        "author": [
+            {
+                "family": "Pocock",
+                "given": "Michael J. O."
+            },
+            {
+                "family": "Roy",
+                "given": "Helen E."
+            },
+            {
+                "family": "Preston",
+                "given": "Chris D."
+            },
+            {
+                "family": "Roy",
+                "given": "David B."
+            }
+        ],
+        "container-title": "Biological Journal of the Linnean Society",
+        "id": "Pocock2015BioRec",
+        "issue": "3",
+        "issued": {
+            "date-parts": [
+                [
+                    2015
+                ]
+            ]
+        },
+        "page": "475-493",
+        "title": "The Biological Records Centre: A pioneer of citizen science",
+        "type": "article-journal",
+        "volume": "115"
+    },
+    {
+        "DOI": "10.1111/ele.12002",
+        "author": [
+            {
+                "family": "Poisot",
+                "given": "Timoth\u00e9e"
+            },
+            {
+                "family": "Canard",
+                "given": "Elsa"
+            },
+            {
+                "family": "Mouillot",
+                "given": "David"
+            },
+            {
+                "family": "Mouquet",
+                "given": "Nicolas"
+            },
+            {
+                "family": "Gravel",
+                "given": "Dominique"
+            }
+        ],
+        "container-title": "Ecology Letters",
+        "id": "Poisot2012DisSpe",
+        "issue": "12",
+        "issued": {
+            "date-parts": [
+                [
+                    2012
+                ]
+            ]
+        },
+        "page": "1353-1361",
+        "title": "The dissimilarity of species interaction networks",
+        "type": "article-journal",
+        "volume": "15"
+    },
+    {
+        "DOI": "10.1111/oik.01719",
+        "author": [
+            {
+                "family": "Poisot",
+                "given": "Timoth\u00e9e"
+            },
+            {
+                "family": "Stouffer",
+                "given": "Daniel B."
+            },
+            {
+                "family": "Gravel",
+                "given": "Dominique"
+            }
+        ],
+        "container-title": "Oikos",
+        "id": "Poisot2015SpeWhy",
+        "issue": "3",
+        "issued": {
+            "date-parts": [
+                [
+                    2015
+                ]
+            ]
+        },
+        "other-ids": "PoisStou15",
+        "page": "243-251",
+        "title": "Beyond species: Why ecological interaction networks vary through space and time",
+        "type": "article-journal",
+        "volume": "124"
+    },
+    {
+        "DOI": "10.1111/1365-2435.12799",
+        "author": [
+            {
+                "family": "Poisot",
+                "given": "Timoth\u00e9e"
+            },
+            {
+                "family": "Stouffer",
+                "given": "Daniel B."
+            },
+            {
+                "family": "K\u00e9fi",
+                "given": "Sonia"
+            }
+        ],
+        "container-title": "Functional Ecology",
+        "id": "Poisot2016DesUnd",
+        "issue": "12",
+        "issued": {
+            "date-parts": [
+                [
+                    2016
+                ]
+            ]
+        },
+        "other-ids": "PoisStou16",
+        "page": "1878-1882",
+        "title": "Describe, understand and predict: Why do we need networks in ecology?",
+        "type": "article-journal",
+        "volume": "30"
+    },
+    {
+        "DOI": "10.1111/ecog.00976",
+        "author": [
+            {
+                "family": "Poisot",
+                "given": "Timoth\u00e9e"
+            },
+            {
+                "family": "Baiser",
+                "given": "Benjamin"
+            },
+            {
+                "family": "Dunne",
+                "given": "Jennifer A."
+            },
+            {
+                "family": "K\u00e9fi",
+                "given": "Sonia"
+            },
+            {
+                "family": "Massol",
+                "given": "Fran\u00e7ois"
+            },
+            {
+                "family": "Mouquet",
+                "given": "Nicolas"
+            },
+            {
+                "family": "Romanuk",
+                "given": "Tamara N."
+            },
+            {
+                "family": "Stouffer",
+                "given": "Daniel B."
+            },
+            {
+                "family": "Wood",
+                "given": "Spencer A."
+            },
+            {
+                "family": "Gravel",
+                "given": "Dominique"
+            }
+        ],
+        "container-title": "Ecography",
+        "id": "Poisot2016ManMak",
+        "issue": "4",
+        "issued": {
+            "date-parts": [
+                [
+                    2016
+                ]
+            ]
+        },
+        "page": "384-390",
+        "title": "Mangal - making ecological network analysis simple",
+        "type": "article-journal",
+        "volume": "39"
+    },
+    {
+        "DOI": "10.1111/ecog.01941",
+        "author": [
+            {
+                "family": "Poisot",
+                "given": "Timoth\u00e9e"
+            },
+            {
+                "family": "Gravel",
+                "given": "Dominique"
+            },
+            {
+                "family": "Leroux",
+                "given": "Shawn"
+            },
+            {
+                "family": "Wood",
+                "given": "Spencer A."
+            },
+            {
+                "family": "Fortin",
+                "given": "Marie-Jos\u00e9e"
+            },
+            {
+                "family": "Baiser",
+                "given": "Benjamin"
+            },
+            {
+                "family": "Cirtwill",
+                "given": "Alyssa R."
+            },
+            {
+                "family": "Ara\u00fajo",
+                "given": "Miguel B."
+            },
+            {
+                "family": "Stouffer",
+                "given": "Daniel B."
+            }
+        ],
+        "container-title": "Ecography",
+        "id": "Poisot2016SynDat",
+        "issue": "4",
+        "issued": {
+            "date-parts": [
+                [
+                    2016
+                ]
+            ]
+        },
+        "page": "402-408",
+        "title": "Synthetic datasets and community tools for the rapid testing of ecological hypotheses",
+        "type": "article-journal",
+        "volume": "39"
+    },
+    {
+        "DOI": "10.1111/geb.12602",
+        "author": [
+            {
+                "family": "Poisot",
+                "given": "Timoth\u00e9e"
+            },
+            {
+                "family": "Gueveneux-Julien",
+                "given": "Cynthia"
+            },
+            {
+                "family": "Fortin",
+                "given": "Marie-Josee"
+            },
+            {
+                "family": "Gravel",
+                "given": "Dominique"
+            },
+            {
+                "family": "Legendre",
+                "given": "Pierre"
+            }
+        ],
+        "container-title": "Global Ecology and Biogeography",
+        "id": "Poisot2017HosPar",
+        "issued": {
+            "date-parts": [
+                [
+                    2017
+                ]
+            ]
+        },
+        "other-ids": "pois17hpt",
+        "page": "n/a-n/a",
+        "title": "Hosts, parasites and their interactions respond to different climatic variables",
+        "type": "article-journal"
+    },
+    {
+        "DOI": "10.1016/j.tree.2019.04.005",
+        "author": [
+            {
+                "family": "Poisot",
+                "given": "Timoth\u00e9e"
+            },
+            {
+                "family": "Bruneau",
+                "given": "Anne"
+            },
+            {
+                "family": "Gonzalez",
+                "given": "Andrew"
+            },
+            {
+                "family": "Gravel",
+                "given": "Dominique"
+            },
+            {
+                "family": "Peres-Neto",
+                "given": "Pedro"
+            }
+        ],
+        "container-title": "Trends in Ecology & Evolution",
+        "id": "Poisot2019EcoDat",
+        "issue": "0",
+        "issued": {
+            "date-parts": [
+                [
+                    2019
+                ]
+            ]
+        },
+        "title": "Ecological Data Should Not Be So Hard to Find and Reuse",
+        "type": "article-journal",
+        "volume": "0"
+    },
+    {
+        "DOI": "10.1111/ecog.04310",
+        "author": [
+            {
+                "family": "Poisot",
+                "given": "Timoth\u00e9e"
+            },
+            {
+                "family": "Belisle",
+                "given": "Zacharie"
+            },
+            {
+                "family": "Hoebeke",
+                "given": "Laura"
+            },
+            {
+                "family": "Stock",
+                "given": "Michiel"
+            },
+            {
+                "family": "Szefer",
+                "given": "Piotr"
+            }
+        ],
+        "container-title": "Ecography",
+        "id": "Poisot2019EcoJl",
+        "issued": {
+            "date-parts": [
+                [
+                    2019
+                ]
+            ]
+        },
+        "title": "EcologicalNetworks.jl - analysing ecological networks",
+        "type": "article-journal"
+    },
+    {
+        "DOI": "10.1111/2041-210X.13125",
+        "author": [
+            {
+                "family": "Pomeranz",
+                "given": "Justin PF"
+            },
+            {
+                "family": "Thompson",
+                "given": "Ross M."
+            },
+            {
+                "family": "Poisot",
+                "given": "Timoth\u00e9e"
+            },
+            {
+                "family": "Harding",
+                "given": "Jon S."
+            }
+        ],
+        "container-title": "Methods in Ecology and Evolution",
+        "id": "Pomeranz2018InfPre",
+        "issue": "ja",
+        "issued": {
+            "date-parts": [
+                [
+                    2018
+                ]
+            ]
+        },
+        "title": "Inferring predator-prey interactions in food webs",
+        "type": "article-journal",
+        "volume": "0"
+    },
+    {
+        "DOI": "10.1016/j.pt.2010.05.008",
+        "author": [
+            {
+                "family": "Poulin",
+                "given": "Robert"
+            }
+        ],
+        "container-title": "Trends in Parasitology",
+        "id": "Poulin2010NetAna",
+        "issue": "10",
+        "issued": {
+            "date-parts": [
+                [
+                    2010
+                ]
+            ]
+        },
+        "page": "492-498",
+        "title": "Network analysis shining light on parasite ecology and diversity",
+        "type": "article-journal",
+        "volume": "26"
+    },
+    {
+        "DOI": "10.1016/j.tree.2005.04.004",
+        "author": [
+            {
+                "family": "Proulx",
+                "given": "Stephen R."
+            },
+            {
+                "family": "Promislow",
+                "given": "Daniel E. L."
+            },
+            {
+                "family": "Phillips",
+                "given": "Patrick C."
+            }
+        ],
+        "container-title": "Trends in Ecology & Evolution",
+        "id": "Proulx2005NetThi",
+        "issue": "6",
+        "issued": {
+            "date-parts": [
+                [
+                    2005
+                ]
+            ]
+        },
+        "page": "345-353",
+        "title": "Network thinking in ecology and evolution",
+        "type": "article-journal",
+        "volume": "20"
+    },
+    {
+        "DOI": "10.1371/journal.pone.0150794",
+        "author": [
+            {
+                "family": "Roy",
+                "given": "Helen E."
+            },
+            {
+                "family": "Baxter",
+                "given": "Elizabeth"
+            },
+            {
+                "family": "Saunders",
+                "given": "Aoine"
+            },
+            {
+                "family": "Pocock",
+                "given": "Michael J. O."
+            }
+        ],
+        "container-title": "PLOS ONE",
+        "id": "Roy2016FocPla",
+        "issue": "3",
+        "issued": {
+            "date-parts": [
+                [
+                    2016
+                ]
+            ]
+        },
+        "page": "e0150794",
+        "title": "Focal Plant Observations as a Standardised Method for Pollinator Monitoring: Opportunities and Limitations for Mass Participation Citizen Science",
+        "type": "article-journal",
+        "volume": "11"
+    },
+    {
+        "DOI": "10.1111/ele.12245",
+        "author": [
+            {
+                "family": "Schleuning",
+                "given": "Matthias"
+            },
+            {
+                "family": "Ingmann",
+                "given": "Lili"
+            },
+            {
+                "family": "Strau\u00df",
+                "given": "Rouven"
+            },
+            {
+                "family": "Fritz",
+                "given": "Susanne A."
+            },
+            {
+                "family": "Dalsgaard",
+                "given": "Bo"
+            },
+            {
+                "family": "Dehling",
+                "given": "D. Matthias"
+            },
+            {
+                "family": "Plein",
+                "given": "Michaela"
+            },
+            {
+                "family": "Saavedra",
+                "given": "Francisco"
+            },
+            {
+                "family": "Sandel",
+                "given": "Brody"
+            },
+            {
+                "family": "Svenning",
+                "given": "Jens-Christian"
+            },
+            {
+                "family": "B\u00f6hning-Gaese",
+                "given": "Katrin"
+            },
+            {
+                "family": "Dormann",
+                "given": "Carsten F."
+            }
+        ],
+        "container-title": "Ecology Letters",
+        "id": "Schleuning2014EcoHis",
+        "issue": "4",
+        "issued": {
+            "date-parts": [
+                [
+                    2014
+                ]
+            ]
+        },
+        "page": "454-463",
+        "title": "Ecological, historical and evolutionary determinants of modularity in weighted seed-dispersal networks",
+        "type": "article-journal",
+        "volume": "17"
+    },
+    {
+        "DOI": "10.1016/j.tree.2019.12.010",
+        "author": [
+            {
+                "family": "Schleuning",
+                "given": "Matthias"
+            },
+            {
+                "family": "Neuschulz",
+                "given": "Eike Lena"
+            },
+            {
+                "family": "Albrecht",
+                "given": "J\u00f6rg"
+            },
+            {
+                "family": "Bender",
+                "given": "Irene M. A."
+            },
+            {
+                "family": "Bowler",
+                "given": "Diana E."
+            },
+            {
+                "family": "Dehling",
+                "given": "D. Matthias"
+            },
+            {
+                "family": "Fritz",
+                "given": "Susanne A."
+            },
+            {
+                "family": "Hof",
+                "given": "Christian"
+            },
+            {
+                "family": "Mueller",
+                "given": "Thomas"
+            },
+            {
+                "family": "Nowak",
+                "given": "Larissa"
+            },
+            {
+                "family": "Sorensen",
+                "given": "Marjorie C."
+            },
+            {
+                "family": "B\u00f6hning-Gaese",
+                "given": "Katrin"
+            },
+            {
+                "family": "Kissling",
+                "given": "W. Daniel"
+            }
+        ],
+        "container-title": "Trends in Ecology & Evolution",
+        "id": "Schleuning2020TraAss",
+        "issue": "4",
+        "issued": {
+            "date-parts": [
+                [
+                    2020
+                ]
+            ]
+        },
+        "page": "319-328",
+        "publisher": "Elsevier",
+        "title": "Trait-Based Assessments of Climate-Change Impacts on Interacting Species",
+        "type": "article-journal",
+        "volume": "35"
+    },
+    {
+        "DOI": "10.1038/srep45908",
+        "author": [
+            {
+                "family": "Stock",
+                "given": "Michiel"
+            },
+            {
+                "family": "Poisot",
+                "given": "Timoth\u00e9e"
+            },
+            {
+                "family": "Waegeman",
+                "given": "Willem"
+            },
+            {
+                "family": "Baets",
+                "given": "Bernard De"
+            }
+        ],
+        "container-title": "Scientific Reports",
+        "id": "Stock2017LinFil",
+        "issued": {
+            "date-parts": [
+                [
+                    2017
+                ]
+            ]
+        },
+        "page": "45908",
+        "title": "Linear filtering reveals false negatives in species interaction data",
+        "type": "article-journal",
+        "volume": "7"
+    },
+    {
+        "DOI": "10.1371/journal.pone.0106264",
+        "author": [
+            {
+                "family": "Strong",
+                "given": "Justin S."
+            },
+            {
+                "family": "Leroux",
+                "given": "Shawn J."
+            }
+        ],
+        "container-title": "PLOS ONE",
+        "id": "Strong2014ImpNon",
+        "issue": "8",
+        "issued": {
+            "date-parts": [
+                [
+                    2014
+                ]
+            ]
+        },
+        "page": "e106264",
+        "title": "Impact of Non-Native Terrestrial Mammals on the Structure of the Terrestrial Mammal Food Web of Newfoundland, Canada",
+        "type": "article-journal",
+        "volume": "9"
+    },
+    {
+        "DOI": "10.1038/s41559-017-0162",
+        "author": [
+            {
+                "family": "Thompson",
+                "given": "Patrick L."
+            },
+            {
+                "family": "Gonzalez",
+                "given": "Andrew"
+            }
+        ],
+        "container-title": "Nature Ecology & Evolution",
+        "id": "Thompson2017DisGov",
+        "issued": {
+            "date-parts": [
+                [
+                    2017
+                ]
+            ]
+        },
+        "page": "0162",
+        "title": "Dispersal governs the reorganization of ecological networks under environmental change",
+        "type": "article-journal",
+        "volume": "1"
+    },
+    {
+        "DOI": "10.1111/ecog.04360",
+        "author": [
+            {
+                "family": "Thurman",
+                "given": "Lindsey L."
+            },
+            {
+                "family": "Barner",
+                "given": "Allison K."
+            },
+            {
+                "family": "Garcia",
+                "given": "Tiffany S."
+            },
+            {
+                "family": "Chestnut",
+                "given": "Tara"
+            }
+        ],
+        "container-title": "Ecography",
+        "id": "Thurman2019TesLin",
+        "issue": "ja",
+        "issued": {
+            "date-parts": [
+                [
+                    2019
+                ]
+            ]
+        },
+        "title": "Testing the link between species interactions and co-occurrence in a trophic network",
+        "type": "article-journal",
+        "volume": "0"
+    },
+    {
+        "DOI": "10.1111/1365-2435.12710",
+        "author": [
+            {
+                "family": "Tr\u00f8jelsgaard",
+                "given": "Kristian"
+            },
+            {
+                "family": "Olesen",
+                "given": "Jens M."
+            }
+        ],
+        "container-title": "Functional Ecology",
+        "id": "Trojelsgaard2016EcoNet",
+        "issue": "12",
+        "issued": {
+            "date-parts": [
+                [
+                    2016
+                ]
+            ]
+        },
+        "page": "1926-1935",
+        "title": "Ecological networks in motion: Micro- and macroscopic variability across scales",
+        "type": "article-journal",
+        "volume": "30"
+    },
+    {
+        "DOI": "10.1146/annurev-ecolsys-110316-022821",
+        "author": [
+            {
+                "family": "Tylianakis",
+                "given": "Jason M."
+            },
+            {
+                "family": "Morris",
+                "given": "Rebecca J."
+            }
+        ],
+        "container-title": "Annual Review of Ecology, Evolution, and Systematics",
+        "id": "Tylianakis2017EcoNet",
+        "issue": "1",
+        "issued": {
+            "date-parts": [
+                [
+                    2017
+                ]
+            ]
+        },
+        "page": "25-48",
+        "title": "Ecological Networks Across Environmental Gradients",
+        "type": "article-journal",
+        "volume": "48"
+    },
+    {
+        "DOI": "10.1002/ece3.1371",
+        "PMCID": "PMC4314265",
+        "author": [
+            {
+                "family": "Welti",
+                "given": "Ellen A. R."
+            },
+            {
+                "family": "Joern",
+                "given": "Anthony"
+            }
+        ],
+        "container-title": "Ecology and Evolution",
+        "id": "Welti2015StrTro",
+        "issue": "2",
+        "issued": {
+            "date-parts": [
+                [
+                    2015
+                ]
+            ]
+        },
+        "page": "326-334",
+        "title": "Structure of trophic and mutualistic networks across broad environmental gradients",
+        "type": "article-journal",
+        "volume": "5"
+    },
+    {
+        "DOI": "10.1111/2041-210X.13104",
+        "author": [
+            {
+                "family": "White",
+                "given": "Ethan P."
+            },
+            {
+                "family": "Yenni",
+                "given": "Glenda M."
+            },
+            {
+                "family": "Taylor",
+                "given": "Shawn D."
+            },
+            {
+                "family": "Christensen",
+                "given": "Erica M."
+            },
+            {
+                "family": "Bledsoe",
+                "given": "Ellen K."
+            },
+            {
+                "family": "Simonis",
+                "given": "Juniper L."
+            },
+            {
+                "family": "Ernest",
+                "given": "S. K. Morgan"
+            }
+        ],
+        "container-title": "Methods in Ecology and Evolution",
+        "id": "White2019DevAut",
+        "issue": "3",
+        "issued": {
+            "date-parts": [
+                [
+                    2019
+                ]
+            ]
+        },
+        "page": "332-344",
+        "title": "Developing an automated iterative near-term forecasting system for an ecological study",
+        "type": "article-journal",
+        "volume": "10"
+    },
+    {
+        "author": [
+            {
+                "family": "Whittaker",
+                "given": "Robert H."
+            }
+        ],
+        "container-title": "Botanical Review",
+        "id": "Whittaker1962ClaNat",
+        "issue": "1",
+        "issued": {
+            "date-parts": [
+                [
+                    1962
+                ]
+            ]
+        },
+        "page": "1-239",
+        "title": "Classification of Natural Communities",
+        "type": "article-journal",
+        "volume": "28"
+    },
+    {
+        "DOI": "10.1073/pnas.1408471111",
+        "author": [
+            {
+                "family": "Yeakel",
+                "given": "Justin D."
+            },
+            {
+                "family": "Pires",
+                "given": "Mathias M."
+            },
+            {
+                "family": "Rudolf",
+                "given": "Lars"
+            },
+            {
+                "family": "Dominy",
+                "given": "Nathaniel J."
+            },
+            {
+                "family": "Koch",
+                "given": "Paul L."
+            },
+            {
+                "family": "Guimar\u00e3es",
+                "given": "Paulo R."
+            },
+            {
+                "family": "Gross",
+                "given": "Thilo"
+            }
+        ],
+        "container-title": "PNAS",
+        "id": "Yeakel2014ColEco",
+        "issue": "40",
+        "issued": {
+            "date-parts": [
+                [
+                    2014
+                ]
+            ]
+        },
+        "page": "14472-14477",
+        "title": "Collapse of an ecological network in Ancient Egypt",
+        "type": "article-journal",
+        "volume": "111"
+    },
+    {
+        "DOI": "10.1371/journal.pbio.3000125",
+        "author": [
+            {
+                "family": "Yenni",
+                "given": "Glenda M."
+            },
+            {
+                "family": "Christensen",
+                "given": "Erica M."
+            },
+            {
+                "family": "Bledsoe",
+                "given": "Ellen K."
+            },
+            {
+                "family": "Supp",
+                "given": "Sarah R."
+            },
+            {
+                "family": "Diaz",
+                "given": "Renata M."
+            },
+            {
+                "family": "White",
+                "given": "Ethan P."
+            },
+            {
+                "family": "Ernest",
+                "given": "S. K. Morgan"
+            }
+        ],
+        "container-title": "PLOS Biology",
+        "id": "Yenni2019DevMod",
+        "issue": "1",
+        "issued": {
+            "date-parts": [
+                [
+                    2019
+                ]
+            ]
+        },
+        "page": "e3000125",
+        "title": "Developing a modern data workflow for regularly updated data",
+        "type": "article-journal",
+        "volume": "17"
+    },
+    {
+        "DOI": "10.1111/jbi.13045",
+        "author": [
+            {
+                "family": "Zanata",
+                "given": "Thais B."
+            },
+            {
+                "family": "Dalsgaard",
+                "given": "Bo"
+            },
+            {
+                "family": "Passos",
+                "given": "Fernando C."
+            },
+            {
+                "family": "Cotton",
+                "given": "Peter A."
+            },
+            {
+                "family": "Roper",
+                "given": "James J."
+            },
+            {
+                "family": "Maruyama",
+                "given": "Pietro K."
+            },
+            {
+                "family": "Fischer",
+                "given": "Erich"
+            },
+            {
+                "family": "Schleuning",
+                "given": "Matthias"
+            },
+            {
+                "family": "Mart\u00edn Gonz\u00e1lez",
+                "given": "Ana M."
+            },
+            {
+                "family": "Vizentin-Bugoni",
+                "given": "Jeferson"
+            },
+            {
+                "family": "Franklin",
+                "given": "Donald C."
+            },
+            {
+                "family": "Abrahamczyk",
+                "given": "Stefan"
+            },
+            {
+                "family": "Al\u00e1rcon",
+                "given": "Ruben"
+            },
+            {
+                "family": "Araujo",
+                "given": "Andr\u00e9a C."
+            },
+            {
+                "family": "Ara\u00fajo",
+                "given": "Francielle P."
+            },
+            {
+                "dropping-particle": "de.",
+                "family": "Azevedo-Junior",
+                "given": "Severino M."
+            },
+            {
+                "family": "Baquero",
+                "given": "Andrea C."
+            },
+            {
+                "family": "B\u00f6hning-Gaese",
+                "given": "Katrin"
+            },
+            {
+                "family": "Carstensen",
+                "given": "Daniel W."
+            },
+            {
+                "family": "Chupil",
+                "given": "Henrique"
+            },
+            {
+                "family": "Coelho",
+                "given": "Aline G."
+            },
+            {
+                "family": "Faria",
+                "given": "Rog\u00e9rio R."
+            },
+            {
+                "family": "Ho\u0159\u00e1k",
+                "given": "David"
+            },
+            {
+                "family": "Ingversen",
+                "given": "Tanja T."
+            },
+            {
+                "family": "Jane\u010dek",
+                "given": "\u0160t\u011bp\u00e1n"
+            },
+            {
+                "family": "Kohler",
+                "given": "Glauco"
+            },
+            {
+                "family": "Lara",
+                "given": "Carlos"
+            },
+            {
+                "family": "Las-Casas",
+                "given": "Flor M. G."
+            },
+            {
+                "family": "Lopes",
+                "given": "Ariadna V."
+            },
+            {
+                "family": "Machado",
+                "given": "Adriana O."
+            },
+            {
+                "family": "Machado",
+                "given": "Caio G."
+            },
+            {
+                "family": "Machado",
+                "given": "Isabel C."
+            },
+            {
+                "family": "Maglianesi",
+                "given": "Mar\u00eda A."
+            },
+            {
+                "family": "Malucelli",
+                "given": "Tiago S."
+            },
+            {
+                "family": "Mohd-Azlan",
+                "given": "Jayasilan"
+            },
+            {
+                "family": "Moura",
+                "given": "Alan C."
+            },
+            {
+                "family": "Oliveira",
+                "given": "Genilda M."
+            },
+            {
+                "family": "Oliveira",
+                "given": "Paulo E."
+            },
+            {
+                "family": "Ornelas",
+                "given": "Juan Francisco"
+            },
+            {
+                "family": "Riegert",
+                "given": "Jan"
+            },
+            {
+                "family": "Rodrigues",
+                "given": "Licl\u00e9ia C."
+            },
+            {
+                "family": "Rosero-Lasprilla",
+                "given": "Liliana"
+            },
+            {
+                "family": "Rui",
+                "given": "Ana M."
+            },
+            {
+                "family": "Sazima",
+                "given": "Marlies"
+            },
+            {
+                "family": "Schmid",
+                "given": "Baptiste"
+            },
+            {
+                "family": "Sedl\u00e1\u010dek",
+                "given": "Ond\u0159ej"
+            },
+            {
+                "family": "Timmermann",
+                "given": "Allan"
+            },
+            {
+                "family": "Vollst\u00e4dt",
+                "given": "Maximilian G. R."
+            },
+            {
+                "family": "Wang",
+                "given": "Zhiheng"
+            },
+            {
+                "family": "Watts",
+                "given": "Stella"
+            },
+            {
+                "family": "Rahbek",
+                "given": "Carsten"
+            },
+            {
+                "family": "Varassin",
+                "given": "Isabela G."
+            }
+        ],
+        "container-title": "Journal of Biogeography",
+        "id": "Zanata2017GloPat",
+        "issue": "8",
+        "issued": {
+            "date-parts": [
+                [
+                    2017
+                ]
+            ]
+        },
+        "page": "1891-1910",
+        "title": "Global patterns of interaction specialization in birdflower networks",
+        "type": "article-journal",
+        "volume": "44"
+    }
+]

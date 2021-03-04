@@ -1,0 +1,100 @@
+\begin{figure}
+\hypertarget{fig:temporal}{%
+\centering
+\includegraphics{figures/network_growth_over_time.png}
+\caption{Cumulative number of ecological networks available in
+\texttt{mangal.io} as a function of the date of collection. About 1000
+unique networks have been collected between 1987 and 2017, a rate of
+just over 30 networks a year. This temporal increase proceeds at
+different rates for different types of networks; while the description
+of food webs is more or less constant, the global acceleration in the
+dataset is due to increased interest in host-parasite interactions
+starting in the late 1970s, while mutualistic networks mostly started
+being recorded in the early 2000s.}\label{fig:temporal}
+}
+\end{figure}
+\efloatseparator
+ 
+\begin{figure}
+\hypertarget{fig:spatial}{%
+\centering
+\includegraphics{figures/map_networks_type.png}
+\caption{Each point on the map corresponds to a network with parasitic,
+mutualistic, and predatory interactions. It is noteworthy that the
+spatial coverage of these types of interactions is uneven; the Americas
+have almost no recorded parasitic network, for example. Some places have
+barely been studied or digitized at all, including Africa and Eastern
+Asia. This concentration of networks around rich countries speaks to
+inadequate coverage of the diversity of landscapes on
+Earth.}\label{fig:spatial}
+}
+\end{figure}
+\efloatseparator
+ 
+\begin{figure}
+\hypertarget{fig:size}{%
+\centering
+\includegraphics{figures/properties_over_time.png}
+\caption{Bins of network size (as measured by the number of nodes)
+through time. Although the rythm of network collection has intensified,
+most networks that have been archived remain relatively small, most
+often having fewer than 100 species.}\label{fig:size}
+}
+\end{figure}
+\efloatseparator
+ 
+\begin{figure}
+\hypertarget{fig:biomes}{%
+\centering
+\includegraphics{figures/networks_by_biomes.png}
+\caption{List of networks across in the space of biomes as originally
+presented by Whittaker (1962). Predation networks, \emph{i.e.} food
+webs, seem to have the most global coverage; parasitism networks are
+restricted to low temperature and low precipitation biomes, congruent
+with the majority of them being in Western Europe. Shading in the
+background of the figure represents the relative abundance of the
+different precipitation/temperature combinations on Earth, above -60
+degrees of latitude.}\label{fig:biomes}
+}
+\end{figure}
+\efloatseparator
+ 
+\begin{figure}
+\hypertarget{fig:pca}{%
+\centering
+\includegraphics{figures/networks_pca.png}
+\caption{Position of the sampled networks on the first two principal
+components of the bioclimatic space, as per a principal component
+analysis performed and centered and reduced bioclim variables. The first
+two axes explain approx. 56\% and 23\% of the total
+variance.}\label{fig:pca}
+}
+\end{figure}
+\efloatseparator
+ 
+\begin{figure}
+\hypertarget{fig:ecc}{%
+\centering
+\includegraphics{figures/distance_to_centroid.png}
+\caption{Density of the distance to the centroid (in the scaled climatic
+space) for each network, by type of interaction. Larger values indicate
+that the network is far from its centroid, and therefore represents
+sampling in a more ``unique'' location. Mutualistic interactions have
+been, on average, studied in more diverse locations that parasitism or
+predatory networks.}\label{fig:ecc}
+}
+\end{figure}
+\efloatseparator
+ 
+\begin{figure}
+\hypertarget{fig:envspace}{%
+\centering
+\includegraphics{figures/combined_envirodist_maps.png}
+\caption{Environmental distance for every terrestrial pixel to its three
+closest networks. Areas of more yellow coloration are further away from
+any sampled network, and can therefore not be well predicted based on
+existing empirical data. Areas with a dark blue coloration have more
+analogs. The distance is expressed in arbitrary units and is
+relative.}\label{fig:envspace}
+}
+\end{figure}

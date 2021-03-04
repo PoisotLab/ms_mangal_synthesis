@@ -1,0 +1,587 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Global knowledge gaps in species interaction networks data</title>
+    <script src="https://hypothes.is/embed.js" async></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    integrity="sha256-l85OmPOjvil/SOvVt3HnSSjzF1TUMyT9eV0c2BzEGzU=" crossorigin="anonymous" />
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,400;0,500;1,400;1,500&display=swap');
+
+        :root {
+            --citation: #1976D2;
+            --structure: hsl(210, 61%, 43%);
+            
+            --light: #474747;
+            --pale: #a5a5a5;
+            --grey: #e0e0e0;
+            --nav: #fdfdfd;
+
+            --width: 820px;
+            --inner-space: 1.2em;
+        }
+
+        body {
+            font-family: "Roboto", sans-serif;
+            margin: 0 0;
+            padding: 0 0;
+        }
+
+        article > p {
+            line-height: 135%;
+        }
+        article > h1 {
+            padding-top: 3em;
+        }
+        a {
+            text-decoration: none;
+            color: #000;
+            border-bottom: 1px solid var(--structure);
+        }
+        a:hover {
+            font-weight: 500;
+        }
+        .citation {
+            color: var(--citation);
+        }
+        .container {
+            margin: 0em auto;
+            max-width: var(--width);
+            padding: var(--inner-space);
+        }
+        header > .container {
+            margin-top: 4em;
+        }
+        code, pre {
+            font-family: "Roboto Mono", monospace;
+        }
+        pre {
+            white-space: pre-wrap;
+        }
+        h1, h2, h3 {
+            color: var(--structure);
+            font-family: "Roboto Condensed", sans-serif;
+            font-weight: 400;
+        }
+        header {
+            font-family: "Roboto Condensed", sans-serif;
+            z-index: 5;
+            color: black;
+            margin-top: 4rem;
+        }
+        .header--title {
+            font-weight: 400;
+            font-size: 2rem;
+            margin-bottom: 1rem;
+        }
+        .header--authors > span {
+            color: var(--light);
+            font-weight: 400;
+        }
+        main {
+            padding-top: 8em !important;
+            padding-bottom: 8em !important;
+        }
+        footer {
+            background-color: var(--grey);
+            font-weight: 300;
+        }
+        .abstract {
+            color: var(--light);
+            margin-bottom: 5em;
+        }
+        figure {
+            max-width: 100%;
+            border: 1px solid var(--pale);
+            border-radius: 2px;
+            margin: 1em 0.5em;
+        }
+        figure > img {
+            max-width: 100%;
+            display: block;
+            margin: 0em auto;
+        }
+        figure > figcaption {
+            padding: var(--inner-space);
+        }
+        table {
+            width: 100%;
+            min-width: 100%;
+            border-collapse: collapse;
+        }
+        table > caption {
+            padding: var(--inner-space);
+        }
+        figcaption, caption {
+            color: var(--light);
+            font-weight: 300;
+        }
+        thead {
+            color: var(--structure);
+        }
+        td, th {
+            padding: 3px;
+        }
+        tr {
+            border-top: 1px solid var(--structure);
+            border-bottom: 1px solid var(--structure);
+        }
+        tbody > tr:nth-child(even) {background: var(--grey)};
+        tbody {
+            border-bottom: 1px solid var(--structure);
+        }
+        #refs {
+            font-size: 90%;
+            column-count: 2;
+        }
+        #refs > .csl-entry {
+            padding-bottom: 0.2em;
+            padding-top: 0.2em;
+        }
+        .hanging-indent > .csl-entry {
+            padding-left: 15px ;
+            text-indent: -15px ;
+        }    </style>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.10.0-rc.1/dist/katex.min.css"
+    integrity="sha384-D+9gmBxUQogRLqvARvNLmA9hS2x//eK1FhVb9PiU86gmcrBrJAQT8okdJ4LMp2uv" crossorigin="anonymous" />
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.10.0-rc.1/dist/katex.min.js"
+    integrity="sha384-483A6DwYfKeDa0Q52fJmxFXkcPCFfnXMoXblOkJ4JcA8zATN6Tm78UNL72AKk+0O"
+    crossorigin="anonymous"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.10.0-rc.1/dist/contrib/auto-render.min.js"
+    integrity="sha384-yACMu8JWxKzSp/C1YV86pzGiQ/l1YUfE8oPuahJQxzehAjEt2GiQuy/BIvl9KyeF"
+    crossorigin="anonymous"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            renderMathInElement(document.body, {
+                delimiters: [
+                { left: "$$", right: "$$", display: true },
+                { left: "$", right: "$", display: false }
+                ]
+            });
+        });
+    </script>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="header--title">Global knowledge gaps in species interaction networks data</div>
+            <div class="header--authors">
+                                <span class="header--author">
+                                        <a href="https://orcid.org/0000-0002-0735-5184" target="_blank">
+                        Timothée Poisot
+                    </a>
+                                                                <sup class="affilcode">1</sup>
+                                            <sup class="affilcode">2</sup>
+                                            <sup class="affilcode">‡</sup>
+                                    </span>
+                                <span class="header--author">
+                                        <a href="https://orcid.org/0000-0002-5956-069X" target="_blank">
+                        Gabriel Bergeron
+                    </a>
+                                                                <sup class="affilcode">3</sup>
+                                    </span>
+                                <span class="header--author">
+                                        <a href="https://orcid.org/0000-0001-6619-9874" target="_blank">
+                        Kevin Cazelles
+                    </a>
+                                                                <sup class="affilcode">4</sup>
+                                            <sup class="affilcode">2</sup>
+                                    </span>
+                                <span class="header--author">
+                                        <a href="https://orcid.org/0000-0003-3328-9958" target="_blank">
+                        Tad Dallas
+                    </a>
+                                                                <sup class="affilcode">5</sup>
+                                    </span>
+                                <span class="header--author">
+                                        <a href="https://orcid.org/0000-0002-4498-7076" target="_blank">
+                        Dominique Gravel
+                    </a>
+                                                                <sup class="affilcode">3</sup>
+                                            <sup class="affilcode">2</sup>
+                                    </span>
+                                <span class="header--author">
+                                        <a href="https://orcid.org/0000-0003-1162-169X" target="_blank">
+                        Andrew MacDonald
+                    </a>
+                                                                <sup class="affilcode">1</sup>
+                                            <sup class="affilcode">3</sup>
+                                    </span>
+                                <span class="header--author">
+                                        <a href="https://orcid.org/0000-0002-4104-9463" target="_blank">
+                        Benjamin Mercier
+                    </a>
+                                                                <sup class="affilcode">3</sup>
+                                    </span>
+                                <span class="header--author">
+                                        <a href="https://orcid.org/0000-0001-6217-5891" target="_blank">
+                        Clément Violet
+                    </a>
+                                                                <sup class="affilcode">3</sup>
+                                    </span>
+                                <span class="header--author">
+                                        <a href="https://orcid.org/0000-0002-0866-4376" target="_blank">
+                        Steve Vissault
+                    </a>
+                                                                <sup class="affilcode">3</sup>
+                                            <sup class="affilcode">1</sup>
+                                            <sup class="affilcode">2</sup>
+                                            <sup class="affilcode">‡</sup>
+                                    </span>
+                            </div>
+        </div>
+    </header>
+    
+    <main class="container">
+        <section class="abstract">
+            <b>Abstract:</b> Ecological networks are increasingly studied at large spatial scales, expanding their focus from a conceptual tool for community ecology into one that also adresses questions in biogeography and macroecology. This effort is supported by increased access to standardized information on ecological networks, in the form of openly accessible databases. Yet, there has been no systematic evaluation of the fitness for purpose of these data to explore synthesis questions at very large spatial scales. In particular, because the sampling of ecological networks is a difficult task, they are likely to not have a good representation of the diversity of Earth’s bioclimatic conditions, likely to be spatially aggregated, and therefore unlikely to achieve broad representativeness. In this paper, we analyze over 1300 ecological networks in the mangal.io database, and discuss their coverage of climates, and the geographic areas in which there is a deficit of data on ecological networks. Taken together, our results suggest that while some information about the global structure of ecological networks is available, it remains fragmented over space, with further differences by types of ecological interactions. This causes great concerns both for our ability to transfer knowledge from one region to the next, but also to forecast the structural change in networks under climate change.<br />
+            <div class="artifacts">
+                <a href="draft.pdf" title="Draft PDF" target="_blank">draft</a>
+                <a href="preprint.pdf" title="Preprint PDF" target="_blank">preprint</a>
+            </div>
+        </section>
+        
+        <article>
+            <p>Ecological networks are a useful representation of ecological systems in which species or organisms interact <span class="citation" data-cites="Heleno2014EcoNet Delmas2018AnaEco">(Heleno et al. 2014; Delmas et al. 2018)</span>. In addition to using the established mathematical framework of graph theory to describe the structure of species interactions, network ecology has related the structural and ecological properties of networks <span class="citation" data-cites="Proulx2005NetThi Poulin2010NetAna">(Proulx, Promislow, and Phillips 2005; Poulin 2010)</span>. Networks often allow to link disconnected scales in ecology <span class="citation" data-cites="Guimaraes2020StrEco">(Guimarães 2020)</span>, and in particular are powerful tools to bridge data on populations to ecosystem properties <span class="citation" data-cites="Loreau2010PopEco Jordano2013MutNet Gonzalez2020ScaBio">(Loreau 2010; Jordano and Bascompte 2013; Gonzalez et al. 2020)</span>. Recently, the interest in the dynamics of ecological networks across large temporal scales <span class="citation" data-cites="Baiser2019EcoRul Tylianakis2017EcoNet">(Baiser et al. 2019; Tylianakis and Morris 2017)</span>, and along environmental gradients <span class="citation" data-cites="Welti2015StrTro Pellissier2017ComSpe Trojelsgaard2016EcoNet">(Welti and Joern 2015; Pellissier et al. 2017; Trøjelsgaard and Olesen 2016)</span>, has increased. As ecosystems are changing rapidly, networks are at risk of undergoing rapid and catastrophic changes to their structure: for example by invasion leading to a collapse <span class="citation" data-cites="Magrach2017PlaNet Strong2014ImpNon">(Magrach et al. 2017; Strong and Leroux 2014)</span>, or by a “rewiring” of interactions among existing species <span class="citation" data-cites="Hui2019HowInv Guiden2019PrePre Bartley2019FooWeb">(Hui and Richardson 2019; Guiden et al. 2019; Bartley et al. 2019)</span>. Simulation studies suggest that knowing the structure of the extant network, <em>i.e.</em> being able to map all interactions between species, is not sufficient <span class="citation" data-cites="Thompson2017DisGov">(Thompson and Gonzalez 2017)</span> to predict the effects of external changes; indeed, data on the species occurrences and traits, as well as local extant and projected climate, are also required.</p>
+            <p>This change in scope, from describing ecological networks as local, static objects, to dynamical ones that vary across space and time, has prompted several methodological efforts. First, tools to study spatial, temporal, and spatio-temporal variation of ecological networks in relationship to environmental gradients have been developed and continuously expanded <span class="citation" data-cites="Poisot2012DisSpe Poisot2015SpeWhy Poisot2017HosPar">(Poisot et al. 2012, 2017; Poisot, Stouffer, and Gravel 2015)</span>. Second, there has been an improvement in large-scale data-collection, through increased adoption of molecular biology tools <span class="citation" data-cites="Eitzinger2019AssCha Evans2016MerDna Makiola2019KeyQue">(Eitzinger et al. 2019; Evans et al. 2016; Makiola et al. 2019)</span> and crowd-sourcing of data collection <span class="citation" data-cites="Bahlai2016PrePla Roy2016FocPla Pocock2015BioRec">(Bahlai and Landis 2016; Roy et al. 2016; Pocock et al. 2015)</span>. Finally, there has been a surge in the development of tools allowing to <em>infer</em> species interactions <span class="citation" data-cites="Morales-Castilla2015InfBio Dallas2017PreCry">(Morales-Castilla et al. 2015; Dallas, Park, and Drake 2017)</span> based on limited but complementary data on network properties <span class="citation" data-cites="Stock2017LinFil">(Stock et al. 2017)</span>, species traits <span class="citation" data-cites="Gravel2013InfFoo Desjardins-Proulx2017EcoInt Brousseau2017TraPhy Bartomeus2016ComFra">(Gravel et al. 2013; Desjardins-Proulx et al. 2017; Brousseau, Gravel, and Tanya Handa 2017; Bartomeus et al. 2016)</span>, and environmental conditions <span class="citation" data-cites="Gravel2018BriElt">(Gravel et al. 2018)</span>. These latter approaches tend to perform well in data-poor environments <span class="citation" data-cites="Beauchesne2016ThiOut">(Beauchesne et al. 2016)</span>, and can be combined through ensemble modeling or model averaging to generate more robust predictions <span class="citation" data-cites="Pomeranz2018InfPre Becker2020PreWil">(Pomeranz et al. 2018; Becker et al. 2020)</span>. The task of inferring interactions is particularly important because ecological networks are difficult to adequately sample in nature <span class="citation" data-cites="Jordano2016ChaEco Jordano2016SamNet Banasek-Richter2004SamEff Chacoff2012EvaSam Gibson2011SamMet">(Jordano 2016a, 2016b; Banašek-Richter, Cattin, and Bersier 2004; Chacoff et al. 2012; Gibson et al. 2011)</span>. The common goal to these efforts is to facilitate the prediction of network structure, particularly over space <span class="citation" data-cites="Poisot2016SynDat Albouy2019MarFis">(Poisot, Gravel, et al. 2016; Albouy et al. 2019)</span> and into the future <span class="citation" data-cites="Albouy2014ProSpe">(Albouy et al. 2014)</span>, to appraise the response of that structure to possible environmental changes.</p>
+            <p>These disparate methodological efforts share another important trait: their continued success at predicting network structure depends both on state-of-the-art data management, and on the availability of data that are representative of the area we seek to model. Novel quantitative tools demand a higher volume of network data; novel collection techniques demand powerful data repositories; novel inference tools demand easier integration between different types of data, including but not limited to: interactions, species traits, taxonomy, occurrences, and local bioclimatic conditions. Macroecological studies of networks have demonstrated the importance of integrating network structure with past and current climate data <span class="citation" data-cites="Dalsgaard2013HisCli Schleuning2014EcoHis Martin-Gonzalez2015MacPhy">(Dalsgaard et al. 2013; Schleuning et al. 2014; Martín-González et al. 2015)</span>, and that even when considering large scale gradients, similar types of interactions can behave in similar ways, in that they respond to the same drivers <span class="citation" data-cites="Zanata2017GloPat">(Zanata et al. 2017)</span>. That being said, network-based measures of community structure often bring complementary information when compared to other sources of data <span class="citation" data-cites="Dalsgaard2017OppLat">(like abundance; Dalsgaard et al. 2017)</span>.</p>
+            <p>In short, advancing the science of ecological networks requires us not only to increase the volume of available data, but also to pair these data with ecologically relevant metadata. Such data should also be made available in a way that facilitates programmatic interaction (<em>i.e.</em> where the data are processed automatically and without the need for manual curation) so that they can be used by reproducible data analysis pipelines. <span class="citation" data-cites="Poisot2016ManMak">Poisot, Baiser, et al. (2016)</span> introduced <code>mangal.io</code> as the first step in this direction. In the years since the tool was originally published, we continued the development of data representation, amount and richness of metadata, and digitized and standardized as much biotic interactions data as we could find. The second major release of this database contains over 1300 networks, 120000 interactions across close to 7000 taxa, and represents what is to our best knowledge the most complete collection of species interactions available.</p>
+            <p>Here we ask if the current Mangal database is fit for global-scale synthesis research into ecological networks. A recent study by <span class="citation" data-cites="Cameron2019UneGlo">Cameron et al. (2019)</span> suggest that food webs are un-evenly documented globally, but focused on <em>metadata</em> as opposed to actual datasets. Here, we conclude that interactions over most of the planet’s surface are poorly described, despite an increasing amount of available data, due to temporal and spatial biases in data collection and digitization. In particular, Africa, South America, and most of Asia have very sparse coverage. This suggests that synthesis efforts on the worldwide structure or properties of ecological networks will be weaker within these areas. To improve this situation, we should digitize available network information and prioritize sampling towards data-poor locations.</p>
+            <h1 id="global-trends-in-ecological-networks-description">Global trends in ecological networks description</h1>
+            <h2 id="network-coverage-is-accelerating-but-spatially-aggregated">Network coverage is accelerating but spatially aggregated</h2>
+            <figure>
+            <img src="figures/network_growth_over_time.png" id="fig:temporal" alt="Figure 1: Cumulative number of ecological networks available in mangal.io as a function of the date of collection. About 1000 unique networks have been collected between 1987 and 2017, a rate of just over 30 networks a year. This temporal increase proceeds at different rates for different types of networks; while the description of food webs is more or less constant, the global acceleration in the dataset is due to increased interest in host-parasite interactions starting in the late 1970s, while mutualistic networks mostly started being recorded in the early 2000s." /><figcaption aria-hidden="true">Figure 1: Cumulative number of ecological networks available in <code>mangal.io</code> as a function of the date of collection. About 1000 unique networks have been collected between 1987 and 2017, a rate of just over 30 networks a year. This temporal increase proceeds at different rates for different types of networks; while the description of food webs is more or less constant, the global acceleration in the dataset is due to increased interest in host-parasite interactions starting in the late 1970s, while mutualistic networks mostly started being recorded in the early 2000s.</figcaption>
+            </figure>
+            <p>The earliest recorded ecological networks date back to the late nineteenth century, with a strong increase in the rate of collection around the 1980s (fig. 1). Although the volume of available networks has increased over time, the sampling of these networks in space has been uneven. In fig. 2, we show that globally, network collection is biased towards the Northern hemisphere, and that different types of interactions have been sampled in different places. As such, it is very difficult to find a spatial area of sufficiently large size in which we have networks of predation, parasitism, and mutualism. The inter-tropical zone is particularly data-poor, either because data producers from the global South correctly perceive massive re-use of their data by Western world scientists as a form of scientific neo-colonialism <span class="citation" data-cites="Mauthner2013OpeAcc">(as advanced by Mauthner and Parry 2013)</span>, thereby providing a powerful incentive <em>against</em> their publication, or because ecological networks are subject to the same data deficit that is affecting all fields on ecology in the tropics <span class="citation" data-cites="Collen2008TroBio">(Collen et al. 2008)</span>. As <span class="citation" data-cites="Bruna2010SciJou">Bruna (2010)</span> identified almost ten years ago, improved data deposition requires an infrastructure to ensure they can be repurposed for future research, which we argue is provided by <code>mangal.io</code> for ecological interactions.</p>
+            <figure>
+            <img src="figures/map_networks_type.png" id="fig:spatial" alt="Figure 2: Each point on the map corresponds to a network with parasitic, mutualistic, and predatory interactions. It is noteworthy that the spatial coverage of these types of interactions is uneven; the Americas have almost no recorded parasitic network, for example. Some places have barely been studied or digitized at all, including Africa and Eastern Asia. This concentration of networks around rich countries speaks to inadequate coverage of the diversity of landscapes on Earth." /><figcaption aria-hidden="true">Figure 2: Each point on the map corresponds to a network with parasitic, mutualistic, and predatory interactions. It is noteworthy that the spatial coverage of these types of interactions is uneven; the Americas have almost no recorded parasitic network, for example. Some places have barely been studied or digitized at all, including Africa and Eastern Asia. This concentration of networks around rich countries speaks to inadequate coverage of the diversity of landscapes on Earth.</figcaption>
+            </figure>
+            <h2 id="network-size-did-not-increase-over-time">Network size did not increase over time</h2>
+            <p>In fig. 3, we report the changes in the number of nodes (usually species, sometimes functional or trophic groupings) in ecological networks over time - interestingly, even though the field of network ecology itself is growing <span class="citation" data-cites="Borrett2014RisNet">(Borrett, Moody, and Edelmann 2014)</span>, the overwhelming majority of networks collected to date remain under a hundred species. This is most likely explained, not by the fact that ecological networks are necessarily small, but by the immense effort required to assemble these datasets <span class="citation" data-cites="Jordano2016SamNet">(Jordano 2016b)</span>. Indeed, <span class="citation" data-cites="Jordano2016ChaEco">Jordano (2016a)</span> emphasizes that the correct empirical description of ecological networks requires extensive field work in addition to a profound knowledge of the natural history of the system. These multiple constraints contribute to keeping network size small, and might not be indicative of low data quality.</p>
+            <figure>
+            <img src="figures/properties_over_time.png" id="fig:size" alt="Figure 3: Bins of network size (as measured by the number of nodes) through time. Although the rythm of network collection has intensified, most networks that have been archived remain relatively small, most often having fewer than 100 species." /><figcaption aria-hidden="true">Figure 3: Bins of network size (as measured by the number of nodes) through time. Although the rythm of network collection has intensified, most networks that have been archived remain relatively small, most often having fewer than 100 species.</figcaption>
+            </figure>
+            <h2 id="different-interaction-types-have-been-studied-in-different-biomes">Different interaction types have been studied in different biomes</h2>
+            <p><span class="citation" data-cites="Whittaker1962ClaNat">Whittaker (1962)</span> suggested that natural communities can be partitioned across biomes, largely defined as a function of their relative precipitation and temperature. For all networks for which the latitude and longitude were known, we extracted the value temperature (BioClim1, yearly average) and precipitation (BioClim12, total annual) from the WorldClim 2 data at a resolution of 10 arc minutes <span class="citation" data-cites="Fick2017Wor2N">(Fick and Hijmans 2017)</span>. Using these we can plot every network on the map of biomes drawn by <span class="citation" data-cites="Whittaker1962ClaNat">Whittaker (1962)</span> (note that because the frontiers between biomes are not based on any empirical or systematic process, they have been omitted from this analysis). In fig. 4, we show that even though networks capture the overall diversity of precipitation and temperature, types of networks have been studied in sub-sections of the biomes space only. Specifically, parasitism networks have been studied in colder and drier climates; mutualism networks in wetter climates; predation networks display less of a bias. Interestingly, some combinations of temperature and precipitation that are abundant on Earth (darker shading) are not represented in our network dataset, which suggests that we lack knolwedge of some widespread biomes.</p>
+            <figure>
+            <img src="figures/networks_by_biomes.png" id="fig:biomes" alt="Figure 4: List of networks across in the space of biomes as originally presented by Whittaker (1962). Predation networks, i.e. food webs, seem to have the most global coverage; parasitism networks are restricted to low temperature and low precipitation biomes, congruent with the majority of them being in Western Europe. Shading in the background of the figure represents the relative abundance of the different precipitation/temperature combinations on Earth, above -60 degrees of latitude." /><figcaption aria-hidden="true">Figure 4: List of networks across in the space of biomes as originally presented by <span class="citation" data-cites="Whittaker1962ClaNat">Whittaker (1962)</span>. Predation networks, <em>i.e.</em> food webs, seem to have the most global coverage; parasitism networks are restricted to low temperature and low precipitation biomes, congruent with the majority of them being in Western Europe. Shading in the background of the figure represents the relative abundance of the different precipitation/temperature combinations on Earth, above -60 degrees of latitude.</figcaption>
+            </figure>
+            <p>To scale this analysis up to the 19 BioClim variables in <span class="citation" data-cites="Fick2017Wor2N">Fick and Hijmans (2017)</span>, we extracted the position of every network in the bioclimatic space, ranged them so that they have mean of 0 and unit variance, and conducted a principal component analysis on the scaled bioclimatic variables. In fig. 5, we projected the sampling locations in the resulting subspace formed by the first two principal components, which capture well over 75% of the total variance in the 19 bioclimatic variables. This ordination has a number of interesting properties. First, the different types of networks occupy different environmental combinations, which largely matches the results of fig. 4. Second, the space is more scarcely sampled by networks that contain either mostly predatore or mostly mutualistic interactions – although they do cover a larger part of the space, the distance between them is much greater than compared to parasitism.</p>
+            <figure>
+            <img src="figures/networks_pca.png" id="fig:pca" alt="Figure 5: Position of the sampled networks on the first two principal components of the bioclimatic space, as per a principal component analysis performed and centered and reduced bioclim variables. The first two axes explain approx. 56% and 23% of the total variance." /><figcaption aria-hidden="true">Figure 5: Position of the sampled networks on the first two principal components of the bioclimatic space, as per a principal component analysis performed and centered and reduced bioclim variables. The first two axes explain approx. 56% and 23% of the total variance.</figcaption>
+            </figure>
+            <p>In fig. 6, we measure the Euclidean distance to the centroid of the space for every network. Mutualistic interactions tend to have values that are higher than predation, which are themselves mostly higher than parasitism. This suggests a potential bias in that globally, as the growth of digitized ecological networks was largely driven by parasitic interactions fig. 1, the environments in which they have been sampled have became over-represented.</p>
+            <figure>
+            <img src="figures/distance_to_centroid.png" id="fig:ecc" alt="Figure 6: Density of the distance to the centroid (in the scaled climatic space) for each network, by type of interaction. Larger values indicate that the network is far from its centroid, and therefore represents sampling in a more “unique” location. Mutualistic interactions have been, on average, studied in more diverse locations that parasitism or predatory networks." /><figcaption aria-hidden="true">Figure 6: Density of the distance to the centroid (in the scaled climatic space) for each network, by type of interaction. Larger values indicate that the network is far from its centroid, and therefore represents sampling in a more “unique” location. Mutualistic interactions have been, on average, studied in more diverse locations that parasitism or predatory networks.</figcaption>
+            </figure>
+            <h2 id="some-locations-on-earth-have-no-climate-analog">Some locations on Earth have no climate analog</h2>
+            <p>In figures fig. 7, we represent the environmental distance between every pixel covered by <em>BioClim</em> data, and the three networks that were sampled in the closest environmental conditions (this amounts to a <span class="math inline"><em>k</em></span> nearest neighbors with <span class="math inline"><em>k</em> = 3</span>). In short, higher distances correspond to pixels on Earth for which no climate analog network exists, whereas the darker areas are well described. It should be noted that the three types of interactions studied here (mutualism, parasitism, predation) have regions with no analogs in different locations. In short, it is not that we are systematically excluding some areas, but rather than some type of interactions are more studied in specific environments. This shows how the lack of global coverage identified in fig. 4, for example, can cascade up to the global scale. These maps serve as an interesting measure of the extent to which spatial predictions can be trusted: any extrapolation of network structure in an area devoid of analogs should be taken with much greater caution than an extrapolation in an area with many similar networks.</p>
+            <figure>
+            <img src="figures/combined_envirodist_maps.png" id="fig:envspace" alt="Figure 7: Environmental distance for every terrestrial pixel to its three closest networks. Areas of more yellow coloration are further away from any sampled network, and can therefore not be well predicted based on existing empirical data. Areas with a dark blue coloration have more analogs. The distance is expressed in arbitrary units and is relative." /><figcaption aria-hidden="true">Figure 7: Environmental distance for every terrestrial pixel to its three closest networks. Areas of more yellow coloration are further away from any sampled network, and can therefore not be well predicted based on existing empirical data. Areas with a dark blue coloration have more analogs. The distance is expressed in arbitrary units and is relative.</figcaption>
+            </figure>
+            <h1 id="conclusions">Conclusions</h1>
+            <h2 id="for-what-purpose-are-global-ecological-network-data-fit">For what purpose are global ecological network data fit?</h2>
+            <p>What can we achieve with our current knowledge of ecological networks? The overview presented here shows a large and detailed dataset, compiled from almost every major biome on Earth. It also displays our failure as a community to include some of the most threatened and valuable habitats in our work. Gaps in any dataset create uncertainty when making predictions or suggesting causal relationships. This uncertainty must be measured by users of these data, especially when predicting over the “gaps” in space or climate that we have identified. We are not making any explicit recommendations for synthesis workflows. Rather we argue that this needs to be a collective process, a collaboration between data collectors (who understand the deficiencies of these data) and data analysts (who understand the needs and assumptions of network methods).</p>
+            <p>One line of research that we feel can confidently be pursued lies in extrapolating the structure of ecological networks over gradients, not at the level of species and their interactions, but at that of the community. <span class="citation" data-cites="Mora2018IdeCom">Mora et al. (2018)</span> revealed that all food webs are built upon the same structural backbone, which is in part due to strong evolutionary constraints on the establishment of species interactions <span class="citation" data-cites="DallaRiva2015ExpEvo">(Dalla Riva and Stouffer 2015)</span>; in other words, most networks are expected to be variations on a shared theme, and this facilitates the task of predicting the overarching structure greatly. Finally, this approach to prediction which neglects the composition of networks is justified by the observation that network structure tends to be maintained at very large spatial scales even in the presence of strong compositional turnover <span class="citation" data-cites="Dallas2017ComTur Kemp2017InvAnt">(Dallas and Poisot 2017; Kemp et al. 2017)</span>. In short, the invariance of some network properties allows examining how “ecological networks” changes, as abstract objects, over time and space. One thing that the current state of the data does not always allow is to examine how a specific group of species (<em>i.e.</em> when taxonomic turnover becomes important) would react, in its interactions, to environmental gradients. This is an important research question, and we think that spatially replicated sampling of networks in the future would help with generating adequate data to address it in a synthetic way.</p>
+            <h2 id="can-we-predict-the-future-of-ecological-networks-under-climate-change">Can we predict the future of ecological networks under climate change?</h2>
+            <p>Perhaps unsurprisingly, most of our knowledge on ecological networks is derived from data that were collected after the 1990s (fig. 1). This means that we have worryingly little information on ecological networks before the acceleration of the climate crisis, and therefore lack a robust baseline. <span class="citation" data-cites="Dalsgaard2013HisCli">Dalsgaard et al. (2013)</span> provide strong evidence that the extant shape of ecological networks emerged in part in response to historical trends in climate change. The lack of reference data before the acceleration of the effects of climate change is of particular concern, as we may be deriving intuitions on ecological network structure and assembly rules from networks that are in the midst of important ecological disturbances. Although there is some research on the response of co-occurrence and indirect interactions to climate change <span class="citation" data-cites="Araujo2011UsiSpe Losapio2017ResPla">(Araújo et al. 2011; Losapio and Schöb 2017)</span>, these are a far cry from actual direct interactions; similarly, the data on “paleo-foodwebs,” <em>i.e.</em> from deep evolutionary time <span class="citation" data-cites="Muscente2018QuaEco Yeakel2014ColEco Nenzen2014Imp850">(Muscente et al. 2018; Yeakel et al. 2014; Nenzén, Montoya, and Varela 2014)</span> represent the effect of more progressive change, and may not adequately inform us about the future of ecological networks under severe climate change. However, though we lack baselines against which to measure the present, as a community we are in a position to provide one for the future. Climate change will continue to have important impacts on species distributions and interactions for at least the next century. The Mangal database provides a structure to organize and share network data, creating a baseline for future attempts to monitor and adapt to biodiversity change.</p>
+            <p>Possibly more concerning is the fact that the spatial distribution of sampled networks shows a clear bias towards the Western world, specifically Western Europe and the Atlantic coasts of the USA and Canada (fig. 2). This problem can be somewhat circumvented by working on networks sampled in places that are close analogs of those without direct information (almost all of Africa, most of South America, a large part of Asia). However, fig. 7 suggests that this approach will rapidly be limited: the diversity of bioclimatic combinations on Earth leaves us with some areas lacking suitable analogs. These regions are expected to bear the worst of the socio-economical (<em>e.g.</em> Indonesia) or ecological (<em>e.g.</em> polar regions) consequences of climate change. <span class="citation" data-cites="Cameron2019UneGlo">Cameron et al. (2019)</span> reached a similar conclusion by focusing on food webs, and our analysis suggests that this worrying trend is, in fact, one that is shared by almost all types of interactions. All things considered, our current knowledge about the structure of ecological networks at the global scale leaves us under-prepared to predict their response to a warming world. From the limited available evidence, we can assume that ecosystem services supported by species interactions will be disrupted <span class="citation" data-cites="Giannini2017ProCli">(Giannini et al. 2017)</span>, in part because the mismatch between interacting species will increase <span class="citation" data-cites="Damien2019PrePhe">(Damien and Tougeron 2019)</span> alongside the climatic debt accumulated within interactions <span class="citation" data-cites="Devictor2012DifCli">(Devictor et al. 2012)</span>.</p>
+            <h2 id="active-development-and-data-contribution">Active development and data contribution</h2>
+            <p>This is an open-source project: all data and all code supporting this manuscript are available on the Mangal project GitHub organization, and the figures presented in this manuscript are themselves packaged as a self-contained analysis which can be run at any time. We hope that the success of this project will encourage similar efforts within other parts of the ecological community. Besides, we hope that this project will encourage the recognition of the contribution that software creators make to ecological research.</p>
+            <p>One possible avenue for synthesis work, including the contribution of new data to Mangal, is the use of these published data to supplement and extend existing ecological network data. This “semi-private” ecological synthesis could begin with new data collected by authors – for example, a host-parasite network of lake fish in Africa, or a pollination network of hummingbirds in Brazil. Authors could then extend their analyses by including a comparison to analogous data made public in Mangal. Upon the publication of the research paper, the original data could be uploaded to Mangal. This enables the reproducibility of this particular published paper. Even more powerfully, it allows us to build a future of dynamic ecological analyses, wherein analyses are automatically re-done as more data get added. This would allow a sort of continuous assessment of proposed ecological relationships in network structure. This cycle of data discovery and reuse is an example of the Data Life Cycle <span class="citation" data-cites="Michener2015TenSim">(Michener 2015)</span> and represents one way to practice ecological synthesis.</p>
+            <p>The idea of continuously updated analyses is very promising. Following the template laid out by <span class="citation" data-cites="White2019DevAut">White et al. (2019)</span> and <span class="citation" data-cites="Yenni2019DevMod">Yenni et al. (2019)</span>, it is feasible to update a series of canonical analyses any time the database grows, to produce a living, automated synthesis of ecological networks knowledge. To this end, the Mangal database has been integrated with <code>EcologicalNetworks.jl</code> <span class="citation" data-cites="Poisot2019EcoJl">(Poisot, Belisle, et al. 2019)</span>, which allows the development of flexible network analysis pipelines. One immediate target would be to borrow the methodology from <span class="citation" data-cites="Carlson2019WhaWou">Carlson et al. (2019)</span>, and provide an estimate of the sampling effort required to accurately describe combinations of interaction types and bioclimatic conditions at various places on Earth, to provide recommendations on sampling effort allocation. Tightening the integration between infrastructure, data, and models, contributes to building the capacity of our field to bring about iterative near-term forecasting of ecological network structure <span class="citation" data-cites="Dietze2018IteNea">(Dietze et al. 2018)</span>.</p>
+            <h2 id="what-problems-would-more-data-solve">What problems would more data solve?</h2>
+            <p>As the amount of empirical evidence grows, so too should our understanding of existing relationships between network properties, between networks properties and space, and the interpretation to be drawn from them. But what information would the structure of the food web from a pond bring to our understanding of the plant-pollinator interactions around it? Or to a food web in another pond a few kilometers from here? In short, will we get a lot more insights by accumulating data? Before answering this question (in the affirmative), it matters to recognize that, as <span class="citation" data-cites="Hortal2015SevSho">Hortal et al. (2015)</span> pointed out, biotic interactions are a core part of biodiversity; the Eltonian shortfall, manifested in our lack of widespread data about them, in as much of an impediment to our mission as ecologists as the absence of data on phylogeny or species occurrence would be. As a conclusion to this article, we would like to frame the aggregation of data on species interaction networks in standardized databases as both a requirement justified by fundamental science, and as an opportunity to conduct novel experiments on the prediction of ecological networks. In fact, re-analysis of the raw food web data contained in <code>mangal.io</code> recently allowed <span class="citation" data-cites="MacDonald2020RevLin">MacDonald, Banville, and Poisot (2020)</span> to develop a novel model of food web structure, which outperforms previous proposition for the relationship between species richness and link number.</p>
+            <p>First, we <em>require</em> to collect data on species interactions following their measurement <em>in situ</em> because there is mounting evidence that they cannot reliably be inferred from observing the two species in co-occurrence; this has been shown through experimental and modeling approaches <span class="citation" data-cites="Barner2018FunCon Thurman2019TesLin">(Barner et al. 2018; Thurman et al. 2019)</span>. A recent synthesis by <span class="citation" data-cites="Blanchet2020CooNot">Blanchet, Cazelles, and Gravel (2020)</span> also reveals how the assumption that co-occurrence will inform our knowledge of species interactions as wholly unsupported by the corpus of ecological theories. With the mounting amount of information on species distribution, and initiatives like GBIF storing over a billion record of occurrences, inferring interactions this ways was tempting; sadly, it appears unfeasible, leaving the curation of interaction data as the justifiable decision moving forward.</p>
+            <p>Second, we <em>should</em> collect data on species interactions following their measurement <em>in situ</em>, because this will enable the development of new generation of general models. Initial guidelines by <span class="citation" data-cites="Morales-Castilla2015InfBio">Morales-Castilla et al. (2015)</span> have led to an increase in the development and application of forecasting methods (reviewed in the introduction of this manuscript), and it is now clear that coupling data on species interaction, occurrences, traits <span class="citation" data-cites="Schleuning2020TraAss">(Schleuning et al. 2020)</span>, phylogeny, is going to lead to powerful predictive models of community structure. While knowing the structure of the food web of two ponds a few kilometers apart is not going to qualitatively change our understanding of food webs as a whole, the accumulation of data about different interactions in multiple environments will allow us to hunt for generalities, and identify rules that govern the assemblage of ecological networks.</p>
+            <p>Third, we should focus on digitizing, or collecting, time series of network structure. Networks are known to vary over short <span class="citation" data-cites="Trojelsgaard2016EcoNet">(Trøjelsgaard and Olesen 2016)</span>, long <span class="citation" data-cites="Burkle2013PlaInt">(Burkle, Marlin, and Knight 2013)</span>, and very long <span class="citation" data-cites="Nenzen2014Imp850">(Nenzén, Montoya, and Varela 2014)</span> periods of time, and having the ability to track changes of a network through time will provide important answers as to the suitability of a single, discrete sampling timepoint to serve as a reference state for the history of the entire network. This is of particular relevance as we now have both population time-series for various community assemblages <span class="citation" data-cites="Dornelas2018BioDat">(Dornelas et al. 2018)</span>, and the quantitative tools to analyse time-series of complex interactions <span class="citation" data-cites="Ovaskainen2017HowAre">(Ovaskainen et al. 2017)</span>. As of now, very few networks are <em>proper</em> temporal re-sampling of a single site, and this limits our ability to understand how networks change in nature.</p>
+            <p>In conclusion, by accumulating more data, we will increase the overlap between different databases (phylogeny, genetics, occurrences, functional traits), which will contribute to the unification of our knowledge of biodiversity, a task which is currently hampered by disconnectedness between data describing different aspects of community structure and composition <span class="citation" data-cites="Poisot2019EcoDat">(Poisot, Bruneau, et al. 2019)</span>. The work of predicting species interactions would be streamlined by both (i) establishing and using a standardized database for species interactions with contextual metadata, and (ii) ensuring the compatibility of this database with other sources, through the use of established species identifiers. The <code>mangal</code> data specification (and database) solves both issues, and we are confident that through sustained data deposition, it will contribute to our ability to predict the structure of ecological networks.</p>
+            <p><strong>Data and code availability:</strong></p>
+            <p>All code is available openly at <code>https://github.com/PoisotLab/MangalSamplingStatus</code>, and the data can be retrieved from <code>mangal.io</code> and the BioClim database using the specified files. Also, weekly updated pages presenting the analyses reported in this manuscript, including the data files, are available at <code>https://poisotlab.github.io/MangalSamplingStatus/</code>.</p>
+            <h1 class="unnumbered" id="references">References</h1>
+            <div id="refs" class="references csl-bib-body hanging-indent" role="doc-bibliography">
+            <div id="ref-Albouy2019MarFis" class="csl-entry" role="doc-biblioentry">
+            Albouy, Camille, Philippe Archambault, Ward Appeltans, Miguel B. Araújo, David Beauchesne, Kevin Cazelles, Alyssa R. Cirtwill, et al. 2019. <span>“The Marine Fish Food Web Is Globally Connected.”</span> <em>Nature Ecology &amp; Evolution</em> 3 (8): 1153–61. <a href="https://doi.org/10.1038/s41559-019-0950-y">https://doi.org/10.1038/s41559-019-0950-y</a>.
+            </div>
+            <div id="ref-Albouy2014ProSpe" class="csl-entry" role="doc-biblioentry">
+            Albouy, Camille, Laure Velez, Marta Coll, Francesco Colloca, François Le Loc’h, David Mouillot, and Dominique Gravel. 2014. <span>“From Projected Species Distribution to Food-Web Structure Under Climate Change.”</span> <em>Global Change Biology</em> 20 (3): 730–41. <a href="https://doi.org/10.1111/gcb.12467">https://doi.org/10.1111/gcb.12467</a>.
+            </div>
+            <div id="ref-Araujo2011UsiSpe" class="csl-entry" role="doc-biblioentry">
+            Araújo, Miguel B., Alejandro Rozenfeld, Carsten Rahbek, and Pablo A. Marquet. 2011. <span>“Using Species Co-Occurrence Networks to Assess the Impacts of Climate Change.”</span> <em>Ecography</em> 34 (6): 897–908. <a href="https://doi.org/10.1111/j.1600-0587.2011.06919.x">https://doi.org/10.1111/j.1600-0587.2011.06919.x</a>.
+            </div>
+            <div id="ref-Bahlai2016PrePla" class="csl-entry" role="doc-biblioentry">
+            Bahlai, Christie A., and Douglas A. Landis. 2016. <span>“Predicting Plant Attractiveness to Pollinators with Passive Crowdsourcing.”</span> <em>Royal Society Open Science</em> 3 (6): 150677. <a href="https://doi.org/10.1098/rsos.150677">https://doi.org/10.1098/rsos.150677</a>.
+            </div>
+            <div id="ref-Baiser2019EcoRul" class="csl-entry" role="doc-biblioentry">
+            Baiser, Benjamin, Dominique Gravel, Alyssa R. Cirtwill, Jennifer A. Dunne, Ashkaan K. Fahimipour, Luis J. Gilarranz, Joshua A. Grochow, et al. 2019. <span>“Ecogeographical Rules and the Macroecology of Food Webs.”</span> <em>Global Ecology and Biogeography</em> 0 (0). <a href="https://doi.org/10.1111/geb.12925">https://doi.org/10.1111/geb.12925</a>.
+            </div>
+            <div id="ref-Banasek-Richter2004SamEff" class="csl-entry" role="doc-biblioentry">
+            Banašek-Richter, Carolin, Marie-France Cattin, and Louis-Félix Bersier. 2004. <span>“Sampling Effects and the Robustness of Quantitative and Qualitative Food-Web Descriptors.”</span> <em>J. Theor. Biol.</em> 226 (1): 23–32.
+            </div>
+            <div id="ref-Barner2018FunCon" class="csl-entry" role="doc-biblioentry">
+            Barner, Allison K., Kyle E. Coblentz, Sally D. Hacker, and Bruce A. Menge. 2018. <span>“Fundamental Contradictions Among Observational and Experimental Estimates of Non-Trophic Species Interactions.”</span> <em>Ecology</em>, n/a–. <a href="https://doi.org/10.1002/ecy.2133">https://doi.org/10.1002/ecy.2133</a>.
+            </div>
+            <div id="ref-Bartley2019FooWeb" class="csl-entry" role="doc-biblioentry">
+            Bartley, Timothy J., Kevin S. McCann, Carling Bieg, Kevin Cazelles, Monica Granados, Matthew M. Guzzo, Andrew S. MacDougall, Tyler D. Tunney, and Bailey C. McMeans. 2019. <span>“Food Web Rewiring in a Changing World.”</span> <em>Nature Ecology &amp; Evolution</em> 3 (3): 345–54. <a href="https://doi.org/10.1038/s41559-018-0772-3">https://doi.org/10.1038/s41559-018-0772-3</a>.
+            </div>
+            <div id="ref-Bartomeus2016ComFra" class="csl-entry" role="doc-biblioentry">
+            Bartomeus, Ignasi, Dominique Gravel, Jason M. Tylianakis, Marcelo A. Aizen, Ian A. Dickie, and Maud Bernard-Verdier. 2016. <span>“A Common Framework for Identifying Linkage Rules Across Different Types of Interactions.”</span> <em>Functional Ecology</em> 30 (12): 1894–1903.
+            </div>
+            <div id="ref-Beauchesne2016ThiOut" class="csl-entry" role="doc-biblioentry">
+            Beauchesne, David, Desjardins-Proulx, Philippe Archambault, and Dominique Gravel. 2016. <span>“Thinking Outside the Boxpredicting Biotic Interactions in Data-Poor Environments.”</span> <em>Vie Et Milieu-Life and enVironment</em> 66 (3-4): 333–42.
+            </div>
+            <div id="ref-Becker2020PreWil" class="csl-entry" role="doc-biblioentry">
+            Becker, Daniel J., Gregory F. Albery, Anna R. Sjodin, Timothée Poisot, Tad A. Dallas, Evan A. Eskew, Maxwell J. Farrell, et al. 2020. <span>“Predicting Wildlife Hosts of Betacoronaviruses for SARS-CoV-2 Sampling Prioritization.”</span> <em>bioRxiv</em>, 2020.05.22.111344. <a href="https://doi.org/10.1101/2020.05.22.111344">https://doi.org/10.1101/2020.05.22.111344</a>.
+            </div>
+            <div id="ref-Blanchet2020CooNot" class="csl-entry" role="doc-biblioentry">
+            Blanchet, F. Guillaume, Kevin Cazelles, and Dominique Gravel. 2020. <span>“Co-Occurrence Is Not Evidence of Ecological Interactions.”</span> <em>Ecology Letters</em>.
+            </div>
+            <div id="ref-Borrett2014RisNet" class="csl-entry" role="doc-biblioentry">
+            Borrett, Stuart R., James Moody, and Achim Edelmann. 2014. <span>“The Rise of Network Ecology: Maps of the Topic Diversity and Scientific Collaboration.”</span> <em>Ecological Modelling</em> 293: 111–27. <a href="https://doi.org/10.1016/j.ecolmodel.2014.02.019">https://doi.org/10.1016/j.ecolmodel.2014.02.019</a>.
+            </div>
+            <div id="ref-Brousseau2017TraPhy" class="csl-entry" role="doc-biblioentry">
+            Brousseau, Pierre-Marc, Dominique Gravel, and I. Tanya Handa. 2017. <span>“Trait-Matching and Phylogeny as Predictors of Predator-Prey Interactions Involving Ground Beetles.”</span> <em>Functional Ecology</em>. <a href="https://doi.org/10.1111/1365-2435.12943">https://doi.org/10.1111/1365-2435.12943</a>.
+            </div>
+            <div id="ref-Bruna2010SciJou" class="csl-entry" role="doc-biblioentry">
+            Bruna, Emilio M. 2010. <span>“Scientific Journals Can Advance Tropical Biology and Conservation by Requiring Data Archiving.”</span> <em>Biotropica</em> 42 (4): 399–401. <a href="https://doi.org/10.1111/j.1744-7429.2010.00652.x">https://doi.org/10.1111/j.1744-7429.2010.00652.x</a>.
+            </div>
+            <div id="ref-Burkle2013PlaInt" class="csl-entry" role="doc-biblioentry">
+            Burkle, L. A., J. C. Marlin, and T. M. Knight. 2013. <span>“Plant-Pollinator Interactions over 120 Years: Loss of Species, Co-Occurrence, and Function.”</span> <em>Science</em> 339 (6127): 1611–15. <a href="https://doi.org/10.1126/science.1232728">https://doi.org/10.1126/science.1232728</a>.
+            </div>
+            <div id="ref-Cameron2019UneGlo" class="csl-entry" role="doc-biblioentry">
+            Cameron, Erin K., Maja K. Sundqvist, Sally A. Keith, Paul J. CaraDonna, Erik A. Mousing, Karin A. Nilsson, Daniel B. Metcalfe, and Aimée T. Classen. 2019. <span>“Uneven Global Distribution of Food Web Studies Under Climate Change.”</span> <em>Ecosphere</em> 10 (3): e02645. <a href="https://doi.org/10.1002/ecs2.2645">https://doi.org/10.1002/ecs2.2645</a>.
+            </div>
+            <div id="ref-Carlson2019WhaWou" class="csl-entry" role="doc-biblioentry">
+            Carlson, Colin J., Anna J. Phillips, Tad A. Dallas, Laura W. Alexander, and Shweta Bansal. 2019. <span>“What Would It Take to Describe the Global Diversity of Parasites?”</span> <em>bioRxiv</em>, 815902. <a href="https://doi.org/10.1101/815902">https://doi.org/10.1101/815902</a>.
+            </div>
+            <div id="ref-Chacoff2012EvaSam" class="csl-entry" role="doc-biblioentry">
+            Chacoff, Natacha P., Diego P. Vázquez, Silvia B. Lomáscolo, Erica L Stevani, Jimena Dorado, and Benigno Padrón. 2012. <span>“Evaluating Sampling Completeness in a Desert Plant-Pollinator Network.”</span> <em>J. Anim. Ecol.</em> 81: 190–200. <a href="https://doi.org/10.1111/j.1365-2656.2011.01883.x">https://doi.org/10.1111/j.1365-2656.2011.01883.x</a>.
+            </div>
+            <div id="ref-Collen2008TroBio" class="csl-entry" role="doc-biblioentry">
+            Collen, Ben, Mala Ram, Tara Zamin, and Louise McRae. 2008. <span>“The Tropical Biodiversity Data Gap: Addressing Disparity in Global Monitoring.”</span> <em>Tropical Conservation Science</em> 1 (2): 75–88. <a href="https://doi.org/10.1177/194008290800100202">https://doi.org/10.1177/194008290800100202</a>.
+            </div>
+            <div id="ref-DallaRiva2015ExpEvo" class="csl-entry" role="doc-biblioentry">
+            Dalla Riva, Giulio V., and Daniel B. Stouffer. 2015. <span>“Exploring the Evolutionary Signature of Food Webs’ Backbones Using Functional Traits.”</span> <em>Oikos</em> 125 (4): 446–56. <a href="https://doi.org/10.1111/oik.02305">https://doi.org/10.1111/oik.02305</a>.
+            </div>
+            <div id="ref-Dallas2017PreCry" class="csl-entry" role="doc-biblioentry">
+            Dallas, Tad, Andrew W. Park, and John M. Drake. 2017. <span>“Predicting Cryptic Links in Host-Parasite Networks.”</span> <em>PLOS Computational Biology</em> 13 (5): e1005557. <a href="https://doi.org/10.1371/journal.pcbi.1005557">https://doi.org/10.1371/journal.pcbi.1005557</a>.
+            </div>
+            <div id="ref-Dallas2017ComTur" class="csl-entry" role="doc-biblioentry">
+            Dallas, Tad, and Timothée Poisot. 2017. <span>“Compositional Turnover in Host and Parasite Communities Does Not Change Network Structure.”</span> <em>Ecography</em>, n/a–. <a href="https://doi.org/10.1111/ecog.03514">https://doi.org/10.1111/ecog.03514</a>.
+            </div>
+            <div id="ref-Dalsgaard2017OppLat" class="csl-entry" role="doc-biblioentry">
+            Dalsgaard, Bo, Matthias Schleuning, Pietro K. Maruyama, D. Matthias Dehling, Jesper Sonne, Jeferson Vizentin-Bugoni, Thais B. Zanata, Jon Fjeldså, Katrin Böhning-Gaese, and Carsten Rahbek. 2017. <span>“Opposed Latitudinal Patterns of Network-Derived and Dietary Specialization in Avian Plant-Frugivore Interaction Systems.”</span> <em>Ecography</em>, n/a–. <a href="https://doi.org/10.1111/ecog.02604">https://doi.org/10.1111/ecog.02604</a>.
+            </div>
+            <div id="ref-Dalsgaard2013HisCli" class="csl-entry" role="doc-biblioentry">
+            Dalsgaard, Bo, Kristian Trøjelsgaard, Ana M. Martín González, David Nogués-Bravo, Jeff Ollerton, Theodora Petanidou, Brody Sandel, et al. 2013. <span>“Historical Climate-Change Influences Modularity and Nestedness of Pollination Networks.”</span> <em>Ecography</em> 36 (12): 1331–40. <a href="https://doi.org/10.1111/j.1600-0587.2013.00201.x">https://doi.org/10.1111/j.1600-0587.2013.00201.x</a>.
+            </div>
+            <div id="ref-Damien2019PrePhe" class="csl-entry" role="doc-biblioentry">
+            Damien, Maxime, and Kévin Tougeron. 2019. <span>“Prey-Predator Phenological Mismatch Under Climate Change.”</span> <em>Current Opinion in Insect Science</em>. <a href="https://doi.org/10.1016/j.cois.2019.07.002">https://doi.org/10.1016/j.cois.2019.07.002</a>.
+            </div>
+            <div id="ref-Delmas2018AnaEco" class="csl-entry" role="doc-biblioentry">
+            Delmas, Eva, Mathilde Besson, Marie-Hélène Brice, Laura A. Burkle, Giulio V. Dalla Riva, Marie-Josée Fortin, Dominique Gravel, et al. 2018. <span>“Analysing Ecological Networks of Species Interactions.”</span> <em>Biological Reviews</em>, 112540. <a href="https://doi.org/10.1111/brv.12433">https://doi.org/10.1111/brv.12433</a>.
+            </div>
+            <div id="ref-Desjardins-Proulx2017EcoInt" class="csl-entry" role="doc-biblioentry">
+            Desjardins-Proulx, Philippe, Idaline Laigle, Timothée Poisot, and Dominique Gravel. 2017. <span>“Ecological Interactions and the Netflix Problem.”</span> <em>PeerJ</em> 5 (e3644). <a href="https://doi.org/10.7717/peerj.3644">https://doi.org/10.7717/peerj.3644</a>.
+            </div>
+            <div id="ref-Devictor2012DifCli" class="csl-entry" role="doc-biblioentry">
+            Devictor, Vincent, Chris van Swaay, Tom Brereton, Lluís Brotons, Dan Chamberlain, Janne Heliölä, Sergi Herrando, et al. 2012. <span>“Differences in the Climatic Debts of Birds and Butterflies at a Continental Scale.”</span> <em>Nature Climate Change</em> 2 (2): 121–24. <a href="https://doi.org/10.1038/nclimate1347">https://doi.org/10.1038/nclimate1347</a>.
+            </div>
+            <div id="ref-Dietze2018IteNea" class="csl-entry" role="doc-biblioentry">
+            Dietze, Michael C., Andrew Fox, Lindsay M. Beck-Johnson, Julio L. Betancourt, Mevin B. Hooten, Catherine S. Jarnevich, Timothy H. Keitt, et al. 2018. <span>“Iterative Near-Term Ecological Forecasting: Needs, Opportunities, and Challenges.”</span> <em>Proceedings of the National Academy of Sciences</em>, 201710231. <a href="https://doi.org/10.1073/pnas.1710231115">https://doi.org/10.1073/pnas.1710231115</a>.
+            </div>
+            <div id="ref-Dornelas2018BioDat" class="csl-entry" role="doc-biblioentry">
+            Dornelas, Maria, Laura H. Antão, Faye Moyes, Amanda E. Bates, Anne E. Magurran, Dušan Adam, Asem A. Akhmetzhanova, et al. 2018. <span>“BioTIME: A Database of Biodiversity Time Series for the Anthropocene.”</span> <em>Global Ecology and Biogeography</em> 27 (7): 760–86. <a href="https://doi.org/10.1111/geb.12729">https://doi.org/10.1111/geb.12729</a>.
+            </div>
+            <div id="ref-Eitzinger2019AssCha" class="csl-entry" role="doc-biblioentry">
+            Eitzinger, Bernhard, Nerea Abrego, Dominique Gravel, Tea Huotari, Eero J. Vesterinen, and Tomas Roslin. 2019. <span>“Assessing Changes in Arthropod Predatorprey Interactions Through DNA-Based Gut Content Analysisvariable Environment, Stable Diet.”</span> <em>Molecular Ecology</em> 28 (2): 266–80. <a href="https://doi.org/10.1111/mec.14872">https://doi.org/10.1111/mec.14872</a>.
+            </div>
+            <div id="ref-Evans2016MerDna" class="csl-entry" role="doc-biblioentry">
+            Evans, Darren M., James J. N. Kitson, David H. Lunt, Nigel A. Straw, and Michael J. O. Pocock. 2016. <span>“Merging DNA Metabarcoding and Ecological Network Analysis to Understand and Build Resilient Terrestrial Ecosystems.”</span> Edited by Timothée Poisot. <em>Functional Ecology</em> 30 (12): 1904–16. <a href="https://doi.org/10.1111/1365-2435.12659">https://doi.org/10.1111/1365-2435.12659</a>.
+            </div>
+            <div id="ref-Fick2017Wor2N" class="csl-entry" role="doc-biblioentry">
+            Fick, Stephen E., and Robert J. Hijmans. 2017. <span>“WorldClim 2: New 1-Km Spatial Resolution Climate Surfaces for Global Land Areas.”</span> <em>International Journal of Climatology</em>, n/a–. <a href="https://doi.org/10.1002/joc.5086">https://doi.org/10.1002/joc.5086</a>.
+            </div>
+            <div id="ref-Giannini2017ProCli" class="csl-entry" role="doc-biblioentry">
+            Giannini, Tereza Cristina, Wilian França Costa, Guaraci Duran Cordeiro, Vera Lucia Imperatriz-Fonseca, Antonio Mauro Saraiva, Jacobus Biesmeijer, and Lucas Alejandro Garibaldi. 2017. <span>“Projected Climate Change Threatens Pollinators and Crop Production in Brazil.”</span> <em>PLOS ONE</em> 12 (8): e0182274. <a href="https://doi.org/10.1371/journal.pone.0182274">https://doi.org/10.1371/journal.pone.0182274</a>.
+            </div>
+            <div id="ref-Gibson2011SamMet" class="csl-entry" role="doc-biblioentry">
+            Gibson, Rachel H., Ben Knott, Tim Eberlein, and Jane Memmott. 2011. <span>“Sampling Method Influences the Structure of Plantpollinator Networks.”</span> <em>Oikos</em> 120 (6): 822–31. <a href="https://doi.org/10.1111/j.1600-0706.2010.18927.x">https://doi.org/10.1111/j.1600-0706.2010.18927.x</a>.
+            </div>
+            <div id="ref-Gonzalez2020ScaBio" class="csl-entry" role="doc-biblioentry">
+            Gonzalez, Andrew, Rachel M. Germain, Diane S. Srivastava, Elise Filotas, Laura E. Dee, Dominique Gravel, Patrick L. Thompson, et al. 2020. <span>“Scaling-up Biodiversity-Ecosystem Functioning Research.”</span> <em>Ecology Letters</em> 23 (4): 757–76. <a href="https://doi.org/10.1111/ele.13456">https://doi.org/10.1111/ele.13456</a>.
+            </div>
+            <div id="ref-Gravel2018BriElt" class="csl-entry" role="doc-biblioentry">
+            Gravel, Dominique, Benjamin Baiser, Jennifer A. Dunne, Jens-Peter Kopelke, Neo D. Martinez, Tommi Nyman, Timothée Poisot, et al. 2018. <span>“Bringing Elton and Grinnell Together: A Quantitative Framework to Represent the Biogeography of Ecological Interaction Networks.”</span> <em>Ecography</em> 0 (0). <a href="https://doi.org/10.1111/ecog.04006">https://doi.org/10.1111/ecog.04006</a>.
+            </div>
+            <div id="ref-Gravel2013InfFoo" class="csl-entry" role="doc-biblioentry">
+            Gravel, Dominique, Timothée Poisot, Camille Albouy, Laure Velez, and David Mouillot. 2013. <span>“Inferring Food Web Structure from Predator-Prey Body Size Relationships.”</span> Edited by Robert Freckleton. <em>Methods in Ecology and Evolution</em> 4 (11): 1083–90. <a href="https://doi.org/10.1111/2041-210X.12103">https://doi.org/10.1111/2041-210X.12103</a>.
+            </div>
+            <div id="ref-Guiden2019PrePre" class="csl-entry" role="doc-biblioentry">
+            Guiden, Peter W., Savannah L. Bartel, Nathan W. Byer, Amy A. Shipley, and John L. Orrock. 2019. <span>“PredatorPrey Interactions in the Anthropocene: Reconciling Multiple Aspects of Novelty.”</span> <em>Trends in Ecology &amp; Evolution</em> 0 (0). <a href="https://doi.org/10.1016/j.tree.2019.02.017">https://doi.org/10.1016/j.tree.2019.02.017</a>.
+            </div>
+            <div id="ref-Guimaraes2020StrEco" class="csl-entry" role="doc-biblioentry">
+            Guimarães, Paulo R. 2020. <span>“The Structure of Ecological Networks Across Levels of Organization.”</span> <em>Annual Review of Ecology, Evolution, and Systematics</em> 51 (1): 433–60. <a href="https://doi.org/10.1146/annurev-ecolsys-012220-120819">https://doi.org/10.1146/annurev-ecolsys-012220-120819</a>.
+            </div>
+            <div id="ref-Heleno2014EcoNet" class="csl-entry" role="doc-biblioentry">
+            Heleno, Ruben, Cristina Garcia, Pedro Jordano, Anna Traveset, José Maria Gómez, Nico Blüthgen, Jane Memmott, et al. 2014. <span>“Ecological Networks: Delving into the Architecture of Biodiversity.”</span> <em>Biology Letters</em> 10 (1). <a href="https://doi.org/10.1098/rsbl.2013.1000">https://doi.org/10.1098/rsbl.2013.1000</a>.
+            </div>
+            <div id="ref-Hortal2015SevSho" class="csl-entry" role="doc-biblioentry">
+            Hortal, Joaquín, Francesco de Bello, José Alexandre F. Diniz-Filho, Thomas M. Lewinsohn, Jorge M. Lobo, and Richard J. Ladle. 2015. <span>“Seven Shortfalls That Beset Large-Scale Knowledge of Biodiversity.”</span> <em>Annual Review of Ecology, Evolution, and Systematics</em> 46 (1): 523–49. <a href="https://doi.org/10.1146/annurev-ecolsys-112414-054400">https://doi.org/10.1146/annurev-ecolsys-112414-054400</a>.
+            </div>
+            <div id="ref-Hui2019HowInv" class="csl-entry" role="doc-biblioentry">
+            Hui, Cang, and David M. Richardson. 2019. <span>“How to Invade an Ecological Network.”</span> <em>Trends in Ecology &amp; Evolution</em> 34 (2): 121–31. <a href="https://doi.org/10.1016/j.tree.2018.11.003">https://doi.org/10.1016/j.tree.2018.11.003</a>.
+            </div>
+            <div id="ref-Jordano2016ChaEco" class="csl-entry" role="doc-biblioentry">
+            Jordano, Pedro. 2016a. <span>“Chasing Ecological Interactions.”</span> <em>PLOS Biol</em> 14 (9): e1002559. <a href="https://doi.org/10.1371/journal.pbio.1002559">https://doi.org/10.1371/journal.pbio.1002559</a>.
+            </div>
+            <div id="ref-Jordano2016SamNet" class="csl-entry" role="doc-biblioentry">
+            ———. 2016b. <span>“Sampling Networks of Ecological Interactions.”</span> Edited by Daniel Stouffer. <em>Functional Ecology</em> 30 (12): 1883–93. <a href="https://doi.org/10.1111/1365-2435.12763">https://doi.org/10.1111/1365-2435.12763</a>.
+            </div>
+            <div id="ref-Jordano2013MutNet" class="csl-entry" role="doc-biblioentry">
+            Jordano, Pedro, and Jordi Bascompte. 2013. <em>Mutualistic Networks</em>. Princeton Univ Press.
+            </div>
+            <div id="ref-Kemp2017InvAnt" class="csl-entry" role="doc-biblioentry">
+            Kemp, Jurene E., Darren M. Evans, Willem J. Augustyn, and Allan G. Ellis. 2017. <span>“Invariant Antagonistic Network Structure Despite High Spatial and Temporal Turnover of Interactions.”</span> <em>Ecography</em>, n/a–. <a href="https://doi.org/10.1111/ecog.02150">https://doi.org/10.1111/ecog.02150</a>.
+            </div>
+            <div id="ref-Loreau2010PopEco" class="csl-entry" role="doc-biblioentry">
+            Loreau, Michel. 2010. <em>From Populations to Ecosystems</em>. Monographs in Population Biology. Princeton University Press.
+            </div>
+            <div id="ref-Losapio2017ResPla" class="csl-entry" role="doc-biblioentry">
+            Losapio, Gianalberto, and Christian Schöb. 2017. <span>“Resistance of Plantplant Networks to Biodiversity Loss and Secondary Extinctions Following Simulated Environmental Changes.”</span> <em>Functional Ecology</em> 31 (5): 1145–52. <a href="https://doi.org/10.1111/1365-2435.12839">https://doi.org/10.1111/1365-2435.12839</a>.
+            </div>
+            <div id="ref-MacDonald2020RevLin" class="csl-entry" role="doc-biblioentry">
+            MacDonald, Arthur Andrew Meahan, Francis Banville, and Timothée Poisot. 2020. <span>“Revisiting the Links-Species Scaling Relationship in Food Webs.”</span> <em>Patterns</em> 0 (0). <a href="https://doi.org/10.1016/j.patter.2020.100079">https://doi.org/10.1016/j.patter.2020.100079</a>.
+            </div>
+            <div id="ref-Magrach2017PlaNet" class="csl-entry" role="doc-biblioentry">
+            Magrach, Ainhoa, Andrea Holzschuh, Ignasi Bartomeus, Verena Riedinger, Stuart P. M. Roberts, Maj Rundlöf, Ante Vujić, et al. 2017. <span>“Plant-Pollinator Networks in Semi-Natural Grasslands Are Resistant to the Loss of Pollinators During Blooming of Mass-Flowering Crops.”</span> <em>Ecography</em>, n/a–. <a href="https://doi.org/10.1111/ecog.02847">https://doi.org/10.1111/ecog.02847</a>.
+            </div>
+            <div id="ref-Makiola2019KeyQue" class="csl-entry" role="doc-biblioentry">
+            Makiola, Andreas, Zacchaeus Greg Compson, Donald Baird, Matthew A. Barnes, Sam Philip Boerlijst, Agnès Bouchez, Georgina Brennan, et al. 2019. <span>“Key Questions for Next-Generation Biomonitoring.”</span> <em>Frontiers in Environmental Science</em> 7. <a href="https://doi.org/10.3389/fenvs.2019.00197">https://doi.org/10.3389/fenvs.2019.00197</a>.
+            </div>
+            <div id="ref-Martin-Gonzalez2015MacPhy" class="csl-entry" role="doc-biblioentry">
+            Martín-González, Ana M., Bo Dalsgaard, David Nogués-Bravo, Catherine H. Graham, Matthias Schleuning, Pietro K. Maruyama, Stefan Abrahamczyk, et al. 2015. <span>“The Macroecology of Phylogenetically Structured Hummingbirdplant Networks.”</span> <em>Global Ecology and Biogeography</em> 24 (11): 1212–24. <a href="https://doi.org/10.1111/geb.12355">https://doi.org/10.1111/geb.12355</a>.
+            </div>
+            <div id="ref-Mauthner2013OpeAcc" class="csl-entry" role="doc-biblioentry">
+            Mauthner, Natasha Susan, and Odette Parry. 2013. <span>“Open Access Digital Data Sharing: Principles, Policies and Practices.”</span> <em>Social Epistemology</em> 27 (1): 47–67. <a href="https://doi.org/10.1080/02691728.2012.760663">https://doi.org/10.1080/02691728.2012.760663</a>.
+            </div>
+            <div id="ref-Michener2015TenSim" class="csl-entry" role="doc-biblioentry">
+            Michener, William K. 2015. <span>“Ten Simple Rules for Creating a Good Data Management Plan.”</span> <em>PLOS Comput Biol</em> 11 (10): e1004525. <a href="https://doi.org/10.1371/journal.pcbi.1004525">https://doi.org/10.1371/journal.pcbi.1004525</a>.
+            </div>
+            <div id="ref-Mora2018IdeCom" class="csl-entry" role="doc-biblioentry">
+            Mora, Bernat Bramon, Dominique Gravel, Luis J. Gilarranz, Timothée Poisot, and Daniel B. Stouffer. 2018. <span>“Identifying a Common Backbone of Interactions Underlying Food Webs from Different Ecosystems.”</span> <em>Nature Communications</em> 9 (1): 2603. <a href="https://doi.org/10.1038/s41467-018-05056-0">https://doi.org/10.1038/s41467-018-05056-0</a>.
+            </div>
+            <div id="ref-Morales-Castilla2015InfBio" class="csl-entry" role="doc-biblioentry">
+            Morales-Castilla, Ignacio, Miguel G. Matias, Dominique Gravel, and Miguel B. Araújo. 2015. <span>“Inferring Biotic Interactions from Proxies.”</span> <em>Trends in Ecology &amp; Evolution</em> 30 (6): 347–56. <a href="https://doi.org/10.1016/j.tree.2015.03.014">https://doi.org/10.1016/j.tree.2015.03.014</a>.
+            </div>
+            <div id="ref-Muscente2018QuaEco" class="csl-entry" role="doc-biblioentry">
+            Muscente, A. D., Anirudh Prabhu, Hao Zhong, Ahmed Eleish, Michael B. Meyer, Peter Fox, Robert M. Hazen, and Andrew H. Knoll. 2018. <span>“Quantifying Ecological Impacts of Mass Extinctions with Network Analysis of Fossil Communities.”</span> <em>Proceedings of the National Academy of Sciences</em>, 201719976. <a href="https://doi.org/10.1073/pnas.1719976115">https://doi.org/10.1073/pnas.1719976115</a>.
+            </div>
+            <div id="ref-Nenzen2014Imp850" class="csl-entry" role="doc-biblioentry">
+            Nenzén, Hedvig K., Daniel Montoya, and Sara Varela. 2014. <span>“The Impact of 850,000 Years of Climate Changes on the Structure and Dynamics of Mammal Food Webs.”</span> <em>PLOS ONE</em> 9 (9): e106651. <a href="https://doi.org/10.1371/journal.pone.0106651">https://doi.org/10.1371/journal.pone.0106651</a>.
+            </div>
+            <div id="ref-Ovaskainen2017HowAre" class="csl-entry" role="doc-biblioentry">
+            Ovaskainen, Otso, Gleb Tikhonov, David Dunson, Vidar Grøtan, Steinar Engen, Bernt-Erik Sæther, and Nerea Abrego. 2017. <span>“How Are Species Interactions Structured in Species-Rich Communities? A New Method for Analysing Time-Series Data.”</span> <em>Proc. R. Soc. B</em> 284 (1855): 20170768. <a href="https://doi.org/10.1098/rspb.2017.0768">https://doi.org/10.1098/rspb.2017.0768</a>.
+            </div>
+            <div id="ref-Pellissier2017ComSpe" class="csl-entry" role="doc-biblioentry">
+            Pellissier, Loïc, Camille Albouy, Jordi Bascompte, Nina Farwig, Catherine Graham, Michel Loreau, Maria Alejandra Maglianesi, et al. 2017. <span>“Comparing Species Interaction Networks Along Environmental Gradients.”</span> <em>Biological Reviews of the Cambridge Philosophical Society</em>. <a href="https://doi.org/10.1111/brv.12366">https://doi.org/10.1111/brv.12366</a>.
+            </div>
+            <div id="ref-Pocock2015BioRec" class="csl-entry" role="doc-biblioentry">
+            Pocock, Michael J. O., Helen E. Roy, Chris D. Preston, and David B. Roy. 2015. <span>“The Biological Records Centre: A Pioneer of Citizen Science.”</span> <em>Biological Journal of the Linnean Society</em> 115 (3): 475–93. <a href="https://doi.org/10.1111/bij.12548">https://doi.org/10.1111/bij.12548</a>.
+            </div>
+            <div id="ref-Poisot2016ManMak" class="csl-entry" role="doc-biblioentry">
+            Poisot, Timothée, Benjamin Baiser, Jennifer A. Dunne, Sonia Kéfi, François Massol, Nicolas Mouquet, Tamara N. Romanuk, Daniel B. Stouffer, Spencer A. Wood, and Dominique Gravel. 2016. <span>“Mangal - Making Ecological Network Analysis Simple.”</span> <em>Ecography</em> 39 (4): 384–90. <a href="https://doi.org/10.1111/ecog.00976">https://doi.org/10.1111/ecog.00976</a>.
+            </div>
+            <div id="ref-Poisot2019EcoJl" class="csl-entry" role="doc-biblioentry">
+            Poisot, Timothée, Zacharie Belisle, Laura Hoebeke, Michiel Stock, and Piotr Szefer. 2019. <span>“EcologicalNetworks.jl - Analysing Ecological Networks.”</span> <em>Ecography</em>. <a href="https://doi.org/10.1111/ecog.04310">https://doi.org/10.1111/ecog.04310</a>.
+            </div>
+            <div id="ref-Poisot2019EcoDat" class="csl-entry" role="doc-biblioentry">
+            Poisot, Timothée, Anne Bruneau, Andrew Gonzalez, Dominique Gravel, and Pedro Peres-Neto. 2019. <span>“Ecological Data Should Not Be So Hard to Find and Reuse.”</span> <em>Trends in Ecology &amp; Evolution</em> 0 (0). <a href="https://doi.org/10.1016/j.tree.2019.04.005">https://doi.org/10.1016/j.tree.2019.04.005</a>.
+            </div>
+            <div id="ref-Poisot2012DisSpe" class="csl-entry" role="doc-biblioentry">
+            Poisot, Timothée, Elsa Canard, David Mouillot, Nicolas Mouquet, and Dominique Gravel. 2012. <span>“The Dissimilarity of Species Interaction Networks.”</span> <em>Ecology Letters</em> 15 (12): 1353–61. <a href="https://doi.org/10.1111/ele.12002">https://doi.org/10.1111/ele.12002</a>.
+            </div>
+            <div id="ref-Poisot2016SynDat" class="csl-entry" role="doc-biblioentry">
+            Poisot, Timothée, Dominique Gravel, Shawn Leroux, Spencer A. Wood, Marie-Josée Fortin, Benjamin Baiser, Alyssa R. Cirtwill, Miguel B. Araújo, and Daniel B. Stouffer. 2016. <span>“Synthetic Datasets and Community Tools for the Rapid Testing of Ecological Hypotheses.”</span> <em>Ecography</em> 39 (4): 402–8. <a href="https://doi.org/10.1111/ecog.01941">https://doi.org/10.1111/ecog.01941</a>.
+            </div>
+            <div id="ref-Poisot2017HosPar" class="csl-entry" role="doc-biblioentry">
+            Poisot, Timothée, Cynthia Gueveneux-Julien, Marie-Josee Fortin, Dominique Gravel, and Pierre Legendre. 2017. <span>“Hosts, Parasites and Their Interactions Respond to Different Climatic Variables.”</span> <em>Global Ecology and Biogeography</em>, n/a–. <a href="https://doi.org/10.1111/geb.12602">https://doi.org/10.1111/geb.12602</a>.
+            </div>
+            <div id="ref-Poisot2015SpeWhy" class="csl-entry" role="doc-biblioentry">
+            Poisot, Timothée, Daniel B. Stouffer, and Dominique Gravel. 2015. <span>“Beyond Species: Why Ecological Interaction Networks Vary Through Space and Time.”</span> <em>Oikos</em> 124 (3): 243–51. <a href="https://doi.org/10.1111/oik.01719">https://doi.org/10.1111/oik.01719</a>.
+            </div>
+            <div id="ref-Pomeranz2018InfPre" class="csl-entry" role="doc-biblioentry">
+            Pomeranz, Justin PF, Ross M. Thompson, Timothée Poisot, and Jon S. Harding. 2018. <span>“Inferring Predator-Prey Interactions in Food Webs.”</span> <em>Methods in Ecology and Evolution</em> 0 (ja). <a href="https://doi.org/10.1111/2041-210X.13125">https://doi.org/10.1111/2041-210X.13125</a>.
+            </div>
+            <div id="ref-Poulin2010NetAna" class="csl-entry" role="doc-biblioentry">
+            Poulin, Robert. 2010. <span>“Network Analysis Shining Light on Parasite Ecology and Diversity.”</span> <em>Trends in Parasitology</em> 26 (10): 492–98. <a href="https://doi.org/10.1016/j.pt.2010.05.008">https://doi.org/10.1016/j.pt.2010.05.008</a>.
+            </div>
+            <div id="ref-Proulx2005NetThi" class="csl-entry" role="doc-biblioentry">
+            Proulx, Stephen R., Daniel E. L. Promislow, and Patrick C. Phillips. 2005. <span>“Network Thinking in Ecology and Evolution.”</span> <em>Trends in Ecology &amp; Evolution</em> 20 (6): 345–53. <a href="https://doi.org/10.1016/j.tree.2005.04.004">https://doi.org/10.1016/j.tree.2005.04.004</a>.
+            </div>
+            <div id="ref-Roy2016FocPla" class="csl-entry" role="doc-biblioentry">
+            Roy, Helen E., Elizabeth Baxter, Aoine Saunders, and Michael J. O. Pocock. 2016. <span>“Focal Plant Observations as a Standardised Method for Pollinator Monitoring: Opportunities and Limitations for Mass Participation Citizen Science.”</span> <em>PLOS ONE</em> 11 (3): e0150794. <a href="https://doi.org/10.1371/journal.pone.0150794">https://doi.org/10.1371/journal.pone.0150794</a>.
+            </div>
+            <div id="ref-Schleuning2014EcoHis" class="csl-entry" role="doc-biblioentry">
+            Schleuning, Matthias, Lili Ingmann, Rouven Strauß, Susanne A. Fritz, Bo Dalsgaard, D. Matthias Dehling, Michaela Plein, et al. 2014. <span>“Ecological, Historical and Evolutionary Determinants of Modularity in Weighted Seed-Dispersal Networks.”</span> <em>Ecology Letters</em> 17 (4): 454–63. <a href="https://doi.org/10.1111/ele.12245">https://doi.org/10.1111/ele.12245</a>.
+            </div>
+            <div id="ref-Schleuning2020TraAss" class="csl-entry" role="doc-biblioentry">
+            Schleuning, Matthias, Eike Lena Neuschulz, Jörg Albrecht, Irene M. A. Bender, Diana E. Bowler, D. Matthias Dehling, Susanne A. Fritz, et al. 2020. <span>“Trait-Based Assessments of Climate-Change Impacts on Interacting Species.”</span> <em>Trends in Ecology &amp; Evolution</em> 35 (4): 319–28. <a href="https://doi.org/10.1016/j.tree.2019.12.010">https://doi.org/10.1016/j.tree.2019.12.010</a>.
+            </div>
+            <div id="ref-Stock2017LinFil" class="csl-entry" role="doc-biblioentry">
+            Stock, Michiel, Timothée Poisot, Willem Waegeman, and Bernard De Baets. 2017. <span>“Linear Filtering Reveals False Negatives in Species Interaction Data.”</span> <em>Scientific Reports</em> 7: 45908. <a href="https://doi.org/10.1038/srep45908">https://doi.org/10.1038/srep45908</a>.
+            </div>
+            <div id="ref-Strong2014ImpNon" class="csl-entry" role="doc-biblioentry">
+            Strong, Justin S., and Shawn J. Leroux. 2014. <span>“Impact of Non-Native Terrestrial Mammals on the Structure of the Terrestrial Mammal Food Web of Newfoundland, Canada.”</span> <em>PLOS ONE</em> 9 (8): e106264. <a href="https://doi.org/10.1371/journal.pone.0106264">https://doi.org/10.1371/journal.pone.0106264</a>.
+            </div>
+            <div id="ref-Thompson2017DisGov" class="csl-entry" role="doc-biblioentry">
+            Thompson, Patrick L., and Andrew Gonzalez. 2017. <span>“Dispersal Governs the Reorganization of Ecological Networks Under Environmental Change.”</span> <em>Nature Ecology &amp; Evolution</em> 1: 0162. <a href="https://doi.org/10.1038/s41559-017-0162">https://doi.org/10.1038/s41559-017-0162</a>.
+            </div>
+            <div id="ref-Thurman2019TesLin" class="csl-entry" role="doc-biblioentry">
+            Thurman, Lindsey L., Allison K. Barner, Tiffany S. Garcia, and Tara Chestnut. 2019. <span>“Testing the Link Between Species Interactions and Co-Occurrence in a Trophic Network.”</span> <em>Ecography</em> 0 (ja). <a href="https://doi.org/10.1111/ecog.04360">https://doi.org/10.1111/ecog.04360</a>.
+            </div>
+            <div id="ref-Trojelsgaard2016EcoNet" class="csl-entry" role="doc-biblioentry">
+            Trøjelsgaard, Kristian, and Jens M. Olesen. 2016. <span>“Ecological Networks in Motion: Micro- and Macroscopic Variability Across Scales.”</span> <em>Functional Ecology</em> 30 (12): 1926–35. <a href="https://doi.org/10.1111/1365-2435.12710">https://doi.org/10.1111/1365-2435.12710</a>.
+            </div>
+            <div id="ref-Tylianakis2017EcoNet" class="csl-entry" role="doc-biblioentry">
+            Tylianakis, Jason M., and Rebecca J. Morris. 2017. <span>“Ecological Networks Across Environmental Gradients.”</span> <em>Annual Review of Ecology, Evolution, and Systematics</em> 48 (1): 25–48. <a href="https://doi.org/10.1146/annurev-ecolsys-110316-022821">https://doi.org/10.1146/annurev-ecolsys-110316-022821</a>.
+            </div>
+            <div id="ref-Welti2015StrTro" class="csl-entry" role="doc-biblioentry">
+            Welti, Ellen A. R., and Anthony Joern. 2015. <span>“Structure of Trophic and Mutualistic Networks Across Broad Environmental Gradients.”</span> <em>Ecology and Evolution</em> 5 (2): 326–34. <a href="https://doi.org/10.1002/ece3.1371">https://doi.org/10.1002/ece3.1371</a>.
+            </div>
+            <div id="ref-White2019DevAut" class="csl-entry" role="doc-biblioentry">
+            White, Ethan P., Glenda M. Yenni, Shawn D. Taylor, Erica M. Christensen, Ellen K. Bledsoe, Juniper L. Simonis, and S. K. Morgan Ernest. 2019. <span>“Developing an Automated Iterative Near-Term Forecasting System for an Ecological Study.”</span> <em>Methods in Ecology and Evolution</em> 10 (3): 332–44. <a href="https://doi.org/10.1111/2041-210X.13104">https://doi.org/10.1111/2041-210X.13104</a>.
+            </div>
+            <div id="ref-Whittaker1962ClaNat" class="csl-entry" role="doc-biblioentry">
+            Whittaker, Robert H. 1962. <span>“Classification of Natural Communities.”</span> <em>Botanical Review</em> 28 (1): 1–239.
+            </div>
+            <div id="ref-Yeakel2014ColEco" class="csl-entry" role="doc-biblioentry">
+            Yeakel, Justin D., Mathias M. Pires, Lars Rudolf, Nathaniel J. Dominy, Paul L. Koch, Paulo R. Guimarães, and Thilo Gross. 2014. <span>“Collapse of an Ecological Network in Ancient Egypt.”</span> <em>PNAS</em> 111 (40): 14472–77. <a href="https://doi.org/10.1073/pnas.1408471111">https://doi.org/10.1073/pnas.1408471111</a>.
+            </div>
+            <div id="ref-Yenni2019DevMod" class="csl-entry" role="doc-biblioentry">
+            Yenni, Glenda M., Erica M. Christensen, Ellen K. Bledsoe, Sarah R. Supp, Renata M. Diaz, Ethan P. White, and S. K. Morgan Ernest. 2019. <span>“Developing a Modern Data Workflow for Regularly Updated Data.”</span> <em>PLOS Biology</em> 17 (1): e3000125. <a href="https://doi.org/10.1371/journal.pbio.3000125">https://doi.org/10.1371/journal.pbio.3000125</a>.
+            </div>
+            <div id="ref-Zanata2017GloPat" class="csl-entry" role="doc-biblioentry">
+            Zanata, Thais B., Bo Dalsgaard, Fernando C. Passos, Peter A. Cotton, James J. Roper, Pietro K. Maruyama, Erich Fischer, et al. 2017. <span>“Global Patterns of Interaction Specialization in Birdflower Networks.”</span> <em>Journal of Biogeography</em> 44 (8): 1891–1910. <a href="https://doi.org/10.1111/jbi.13045">https://doi.org/10.1111/jbi.13045</a>.
+            </div>
+            </div>
+        </article>
+    </main>
+
+    <footer>
+        <div class="container">
+            <h2>Affiliations</h2> 
+            <sup>1</sup>&nbsp;Université de Montréal; <sup>2</sup>&nbsp;Québec Centre for Biodiversity Sciences; <sup>3</sup>&nbsp;Université de Sherbrooke; <sup>4</sup>&nbsp;University of Guelph; <sup>5</sup>&nbsp;Louisiana State University
+            <br />
+            <sup>‡</sup>&nbsp;These authors contributed equally to the work
+        </div>
+    </footer>
+    
+</body>
+</html>
