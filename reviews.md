@@ -38,4 +38,7 @@ of the networks currently in their database reflect repeated sampling over time,
 relative to their call for resampling.
 
 > Very few of the networks are actual re-sampling, which we have now clarified
-> in the section "What problems would more data solve?".
+> in the section "What problems would more data solve?". If anything, we are
+> confident that this strengthens the call for increased curation and archival
+> of existing dataset, which would allow space-for-time substitutions in the
+> absence of resampled datasets.
